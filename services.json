@@ -1,0 +1,50 @@
+{
+  "rpc.dotters.network": {
+    "service_type": "rpc-endpoints",
+    "level_required": "3",
+    "endpoints": {
+      "westend": "wss://rpc.dotters.network/westend",
+      "kusama": "wss://rpc.dotters.network/kusama",
+      "polkadot": "wss://rpc.dotters.network/polkadot"
+    },
+    "members": ["stakeplus", "amforc", "helikon", "gatotech", "metaspan", "turboflakes"],
+  },
+  "sys.dotters.network": {
+    "service_type": "rpc-endpoints",
+    "level_required": "5",
+    "endpoints": {
+      "westmint": "wss://sys.dotters.network/westmint",
+      "collectives-westend": "wss://sys.dotters.network/collectives-westend",
+      "statemine": "wss://sys.dotters.network/statemine",
+      "encointer-kusama": "wss://sys.dotters.network/encointer-kusama",
+      "bridgehub-kusama": "wss://sys.dotters.network/bridgehub-kusama",
+      "statemint": "wss://sys.dotters.network/bridgehub-kusama",
+      "collectives-polkadot": "wss://sys.dotters.network/collectives-polkadot"
+    },
+    "members": ["stakeplus", "amforc", "helikon", "metaspan"],
+  },
+  "rpc.ibp.network": {
+    "service_type": "rpc-endpoints",
+    "level_required": "3",
+    "endpoints": {
+      "westend": "wss://rpc.ibp.network/westend",
+      "kusama": "wss://rpc.ibp.network/kusama",
+      "polkadot": "wss://rpc.ibp.network/polkadot"
+    },
+    "members": ["stakeplus", "amforc", "helikon", "gatotech", "metaspan", "turboflakes"],
+  },
+  "sys.ibp.network": {
+    "service_type": "rpc-endpoints",
+    "level_required": "5",
+    "endpoints": {
+      "westmint": "wss://sys.ibp.network/westmint",
+      "collectives-westend": "wss://sys.ibp.network/collectives-westend",
+      "statemine": "wss://sys.ibp.network/statemine",
+      "encointer-kusama": "wss://sys.ibp.network/encointer-kusama",
+      "bridgehub-kusama": "wss://sys.ibp.network/bridgehub-kusama",
+      "statemint": "wss://sys.ibp.network/bridgehub-kusama",
+      "collectives-polkadot": "wss://sys.ibp.network/collectives-polkadot"
+    },
+    "members": ["stakeplus", "amforc", "helikon", "metaspan"],
+  }
+}

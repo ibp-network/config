@@ -1,0 +1,334 @@
+{
+	"members": {
+		"stakeplus": {
+			"name": "Stake Plus",
+			"website": "https://stake.plus",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "7",
+			"level_timestamp": {
+				"0": "1672549200",
+				"1": "1672549200",
+				"2": "1672549200",
+				"3": "1672549200",
+				"4": "1672549200",
+				"5": "1672549200",
+				"6": "1672549200",
+				"7": "1672549200"
+			},
+			"services_address": "192.96.202.175",
+			"region": "north_america",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"amforc": {
+			"name": "Amforc",
+			"website": "https://amforc.com",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "7",
+			"level_timestamp": {
+				"0": "1672549200",
+				"1": "1672549200",
+				"2": "1672549200",
+				"3": "1672549200",
+				"4": "1672549200",
+				"5": "1672549200",
+				"6": "1672549200",
+				"7": "1672549200"
+			},
+			"services_address": "213.167.226.188",
+			"region": "europe",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"helikon": {
+			"name": "Helikon",
+			"website": "https://helikon.io",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "7",
+			"level_timestamp": {
+				"0": "1672549200",
+				"1": "1672549200",
+				"2": "1672549200",
+				"3": "1672549200",
+				"4": "1672549200",
+				"5": "1672549200",
+				"6": "1672549200",
+				"7": "1672549200"
+			},
+			"services_address": "82.222.18.146",
+			"region": "middle_east",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"crifferent": {
+			"name": "Crifferent",
+			"website": "https://crifferent.de",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "0",
+			"level_timestamp": {
+				"0": "1672549200",
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": "",
+				"7": ""
+			},
+			"services_address": "",
+			"region": "europe",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"gatotech": {
+			"name": "Gatotech",
+			"website": "https://gatotech.com",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "4",
+			"level_timestamp": {
+				"0": "1672549200",
+				"1": "1672549200",
+				"2": "1672549200",
+				"3": "1672549200",
+				"4": "1672549200",
+				"5": "",
+				"6": "",
+				"7": ""
+			},
+			"services_address": "190.124.251.100",
+			"region": "central_america",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"metaspan": {
+			"name": "Metaspan",
+			"website": "https://metaspan.io",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "7",
+			"level_timestamp": {
+				"0": "1672549200",
+				"1": "1672549200",
+				"2": "1672549200",
+				"3": "1672549200",
+				"4": "1672549200",
+				"5": "1672549200",
+				"6": "1672549200",
+				"7": "1672549200"
+			},
+			"services_address": "195.144.22.130",
+			"region": "europe",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"turboflakes": {
+			"name": "Turboflakes",
+			"website": "https://turboflakes.io",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "4",
+			"level_timestamp": {
+				"0": "1672549200",
+				"1": "1672549200",
+				"2": "1672549200",
+				"3": "1672549200",
+				"4": "1672549200",
+				"5": "",
+				"6": "",
+				"7": ""
+			},
+			"services_address": "188.93.234.134",
+			"region": "europe",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"rotko": {
+			"name": "Rotko Networks",
+			"website": "https://rotko.net",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "0",
+			"level_timestamp": {
+				"0": "1678165200",
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": "",
+				"7": ""
+			},
+			"services_address": "",
+			"region": "asia",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"polkadotters": {
+			"name": "Polkadotters",
+			"website": "",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "0",
+			"level_timestamp": {
+				"0": "1678165200",
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": "",
+				"7": ""
+			},
+			"services_address": "",
+			"region": "oceania",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		},
+		"dwellir": {
+			"name": "Dwellir",
+			"website": "https://dwellir.app",
+			"logo": "",
+			"membership": "professional",
+			"current_level": "0",
+			"level_timestamp": {
+				"0": "1678165200",
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": "",
+				"7": ""
+			},
+			"services_address": "",
+			"region": "africa",
+			"latitude": "",
+			"longitude": "",
+			"payments": {
+				"kusama": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "",
+					"payment_address": "",
+					"signature": ""
+				}
+			}
+		}
+	}
+}
