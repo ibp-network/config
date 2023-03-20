@@ -3,7 +3,7 @@
 		"stakeplus": {
 			"name": "Stake Plus",
 			"website": "https://stake.plus",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/stakeplus.png",
 			"membership": "professional",
 			"current_level": "7",
 			"level_timestamp": {
