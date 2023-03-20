@@ -18,18 +18,18 @@
 			},
 			"services_address": "192.96.202.175",
 			"region": "north_america",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "37.8225",
+			"longitude": "-94.7198",
 			"payments": {
 				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
+					"validator_address": "F8FswEGD1quEyNciuR9KwsragUmqnk7mFLqmAdRdnY9Sdwx",
+					"payment_address": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+					"signature": "0x52df0775a054197b56d1a6bdf1fdf2365b09f1b6dc784ab5118e36c2bfa7a23f02c782d3c24b3056b82e74cf5550db22d0d457d4dc7f249d5aac2526d7f76681"
 				},
 				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
+					"validator_address": "152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq",
+					"payment_address": "1EHRUR7YL8aeqeCT4LGFq9qrTpEiH1dCikh3n2j1CSbL2c8",
+					"signature": "0x6432c58975e69d5956e7baf0d3b0b5f3c21792138d60adc2b4e48e9420092d6b74743520ba93ca7b956e9446e8c68f7b9390b4ce6545a5790bed874e48e8f688"
 				}
 			}
 		},
@@ -51,8 +51,8 @@
 			},
 			"services_address": "213.167.226.188",
 			"region": "europe",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "47.1449",
+			"longitude": "8.1551",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
@@ -84,8 +84,8 @@
 			},
 			"services_address": "82.222.18.146",
 			"region": "middle_east",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "41.0551",
+			"longitude": "28.9347",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
@@ -150,8 +150,8 @@
 			},
 			"services_address": "190.124.251.100",
 			"region": "central_america",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "9.9333",
+			"longitude": "-84.0845",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
@@ -183,8 +183,8 @@
 			},
 			"services_address": "195.144.22.130",
 			"region": "europe",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "51.4964",
+			"longitude": "-0.1224",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
@@ -216,8 +216,8 @@
 			},
 			"services_address": "188.93.234.134",
 			"region": "europe",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "38.7057",
+			"longitude": "-9.1359",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
