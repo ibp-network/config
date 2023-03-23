@@ -19,8 +19,8 @@
 			},
 			"services_address": "192.96.202.175",
 			"region": "north_america",
-			"latitude": "37.8225",
-			"longitude": "-94.7198",
+			"latitude": "38.7777",
+			"longitude": "-77.5474",
 			"payments": {
 				"kusama": {
 					"validator_address": "F8FswEGD1quEyNciuR9KwsragUmqnk7mFLqmAdRdnY9Sdwx",
