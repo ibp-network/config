@@ -207,7 +207,7 @@
 		"turboflakes": {
 			"name": "Turboflakes",
 			"website": "https://turboflakes.io",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/turboflakes.png",
 			"membership": "professional",
 			"current_level": "4",
 			"active": "1",
