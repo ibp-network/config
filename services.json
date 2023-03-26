@@ -7,7 +7,14 @@
       "kusama": "wss://rpc.dotters.network/kusama",
       "polkadot": "wss://rpc.dotters.network/polkadot"
     },
-    "members": ["stakeplus", "amforc", "helikon", "gatotech", "metaspan", "turboflakes"],
+    "members": [
+      "stakeplus",
+      "amforc",
+      "helikon",
+      "gatotech",
+      "metaspan",
+      "turboflakes"
+    ],
   },
   "sys.dotters.network": {
     "service_type": "rpc-endpoints",
@@ -21,7 +28,13 @@
       "statemint": "wss://sys.dotters.network/bridgehub-kusama",
       "collectives-polkadot": "wss://sys.dotters.network/collectives-polkadot"
     },
-    "members": ["stakeplus", "amforc", "helikon", "metaspan"],
+    "members": [
+      "stakeplus",
+      "amforc",
+      "helikon",
+      "gatotech",
+      "metaspan"
+    ],
   },
   "rpc.ibp.network": {
     "service_type": "rpc-endpoints",
@@ -31,7 +44,14 @@
       "kusama": "wss://rpc.ibp.network/kusama",
       "polkadot": "wss://rpc.ibp.network/polkadot"
     },
-    "members": ["stakeplus", "amforc", "helikon", "gatotech", "metaspan", "turboflakes"],
+    "members": [
+      "stakeplus",
+      "amforc",
+      "helikon",
+      "gatotech",
+      "metaspan",
+      "turboflakes"
+    ],
   },
   "sys.ibp.network": {
     "service_type": "rpc-endpoints",
@@ -45,6 +65,12 @@
       "statemint": "wss://sys.ibp.network/bridgehub-kusama",
       "collectives-polkadot": "wss://sys.ibp.network/collectives-polkadot"
     },
-    "members": ["stakeplus", "amforc", "helikon", "metaspan"],
+    "members": [
+      "stakeplus",
+      "amforc",
+      "helikon",
+      "gatotech",
+      "metaspan"
+    ],
   }
 }
