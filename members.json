@@ -138,10 +138,10 @@
 		},
 		"gatotech": {
 			"name": "Gatotech",
-			"website": "https://gatotech.com",
-			"logo": "",
+			"website": "https://gatotech.uk",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/gatotech.png",
 			"membership": "professional",
-			"current_level": "4",
+			"current_level": "7",
 			"active": "1",
 			"level_timestamp": {
 				"0": "1672549200",
@@ -149,9 +149,9 @@
 				"2": "1672549200",
 				"3": "1672549200",
 				"4": "1672549200",
-				"5": "",
-				"6": "",
-				"7": ""
+				"5": "1672549200",
+				"6": "1672549200",
+				"7": "1672549200"
 			},
 			"services_address": "190.124.251.100",
 			"region": "central_america",
