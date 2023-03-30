@@ -14,7 +14,7 @@
       "gatotech",
       "metaspan",
       "turboflakes"
-    ],
+    ]
   },
   "sys.dotters.network": {
     "service_type": "rpc-endpoints",
@@ -34,7 +34,7 @@
       "helikon",
       "gatotech",
       "metaspan"
-    ],
+    ]
   },
   "rpc.ibp.network": {
     "service_type": "rpc-endpoints",
@@ -51,7 +51,7 @@
       "gatotech",
       "metaspan",
       "turboflakes"
-    ],
+    ]
   },
   "sys.ibp.network": {
     "service_type": "rpc-endpoints",
@@ -71,6 +71,6 @@
       "helikon",
       "gatotech",
       "metaspan"
-    ],
+    ]
   }
 }
