@@ -25,7 +25,7 @@
       "statemine": "wss://sys.dotters.network/statemine",
       "encointer-kusama": "wss://sys.dotters.network/encointer-kusama",
       "bridgehub-kusama": "wss://sys.dotters.network/bridgehub-kusama",
-      "statemint": "wss://sys.dotters.network/bridgehub-kusama",
+      "statemint": "wss://sys.dotters.network/statemint",
       "collectives-polkadot": "wss://sys.dotters.network/collectives-polkadot"
     },
     "members": [
@@ -62,7 +62,7 @@
       "statemine": "wss://sys.ibp.network/statemine",
       "encointer-kusama": "wss://sys.ibp.network/encointer-kusama",
       "bridgehub-kusama": "wss://sys.ibp.network/bridgehub-kusama",
-      "statemint": "wss://sys.ibp.network/bridgehub-kusama",
+      "statemint": "wss://sys.ibp.network/statemint",
       "collectives-polkadot": "wss://sys.ibp.network/collectives-polkadot"
     },
     "members": [
