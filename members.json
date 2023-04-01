@@ -18,6 +18,18 @@
 				"7": "1672549200"
 			},
 			"services_address": "192.96.202.175",
+			"endpoints": {
+				"westend": "wss://rpc.stake.plus/westend",
+				"kusama": "wss://rpc.stake.plus/kusama",
+				"polkadot": "wss://rpc.stake.plus/polkadot",
+				"westmint": "wss://sys.stake.plus/westmint",
+				"collectives-westend": "wss://sys.stake.plus/collectives-westend",
+				"statemine": "wss://sys.stake.plus/statemine",
+				"encointer-kusama": "wss://sys.stake.plus/encointer-kusama",
+				"bridgehub-kusama": "wss://sys.stake.plus/bridgehub-kusama",
+				"statemint": "wss://sys.stake.plus/bridgehub-kusama",
+				"collectives-polkadot": "wss://sys.stake.plus/collectives-polkadot"
+			},
 			"region": "north_america",
 			"latitude": "38.7777",
 			"longitude": "-77.5474",
@@ -188,6 +200,18 @@
 				"7": "1672549200"
 			},
 			"services_address": "195.144.22.130",
+			"endpoints": {
+				"westend": "wss://ibp-rpc.metaspan.io/westend",
+				"kusama": "wss://ibp-rpc.metaspan.io/kusama",
+				"polkadot": "wss://ibp-rpc.metaspan.io/polkadot",
+				"westmint": "wss://ibp-rpc.metaspan.io/westend-westmint",
+				"collectives-westend": "wss://ibp-rpc.metaspan.io/westend-collectives",
+				"statemine": "wss://ibp-rpc.metaspan.io/kusama-statemine",
+				"encointer-kusama": "wss://ibp-rpc.metaspan.io/kusama-encointer",
+				"bridgehub-kusama": "wss://ibp-rpc.metaspan.io/kusama-bridgehub",
+				"statemint": "wss://ibp-rpc.metaspan.io/polkadot-statemint",
+				"collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives"
+      },
 			"region": "europe",
 			"latitude": "51.4964",
 			"longitude": "-0.1224",
@@ -222,6 +246,18 @@
 				"7": ""
 			},
 			"services_address": "188.93.234.134",
+			"endpoints": {
+				"westend": "wss://rpc.turboflakes.io/westend",
+				"kusama": "wss://rpc.turboflakes.io/kusama",
+				"polkadot": "wss://rpc.turboflakes.io/polkadot",
+				"westmint": "wss://sys.turboflakes.io/westmint",
+				"collectives-westend": "wss://sys.turboflakes.io/collectives-westend",
+				"statemine": "wss://sys.turboflakes.io/statemine",
+				"encointer-kusama": "wss://sys.turboflakes.io/encointer-kusama",
+				"bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
+				"statemint": "wss://sys.turboflakes.io/bridgehub-kusama",
+				"collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot"
+      },
 			"region": "europe",
 			"latitude": "38.7057",
 			"longitude": "-9.1359",
