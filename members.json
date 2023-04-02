@@ -98,6 +98,18 @@
 				"7": "1672549200"
 			},
 			"services_address": "82.222.18.146",
+			"endpoints": {
+				"westend": "wss://rpc.helikon.io/westend",
+				"kusama": "wss://rpc.helikon.io/kusama",
+				"polkadot": "wss://rpc.helikon.io/polkadot",
+				"westmint": "wss://sys.helikon.io/westmint",
+				"collectives-westend": "wss://sys.helikon.io/collectives-westend",
+				"statemine": "wss://sys.helikon.io/statemine",
+				"encointer-kusama": "wss://sys.helikon.io/encointer-kusama",
+				"bridgehub-kusama": "wss://sys.helikon.io/bridgehub-kusama",
+				"statemint": "wss://sys.helikon.io/bridgehub-kusama",
+				"collectives-polkadot": "wss://sys.helikon.io/collectives-polkadot"
+			},
 			"region": "middle_east",
 			"latitude": "41.0551",
 			"longitude": "28.9347",
