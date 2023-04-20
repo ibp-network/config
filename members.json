@@ -385,8 +385,8 @@
 				"collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
       },
 			"region": "africa",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "6.4541",
+			"longitude": "3.3947",
 			"payments": {
 				"kusama": {
 					"validator_address": "DuLr6CeLXezrfumF6EkqLeAx9paMcADYU6zHpSZVB8gvjht",
