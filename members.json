@@ -356,34 +356,46 @@
 		},
 		"dwellir": {
 			"name": "Dwellir",
-			"website": "https://dwellir.app",
-			"logo": "",
+			"website": "https://dwellir.com",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dwellir.png",
 			"membership": "professional",
-			"current_level": "0",
-			"active": "0",
+			"current_level": "3",
+			"active": "1",
 			"level_timestamp": {
-				"0": "1678165200",
-				"1": "",
-				"2": "",
-				"3": "",
+				"0": "1681916382",
+				"1": "1681916382",
+				"2": "1681916382",
+				"3": "1681916382",
 				"4": "",
 				"5": "",
 				"6": "",
 				"7": ""
 			},
-			"services_address": "",
+			"services_address": "102.69.242.203",
+			"endpoints": {
+				"westend": "wss://westend-rpc-ng-1.dwellir.com",
+				"kusama": "wss://kusama-rpc-ng-1.dwellir.com",
+				"polkadot": "wss://polkadot-rpc-ng-1.dwellir.com",
+				"westmint": "wss://westmint-rpc-ng.dwellir.com",
+				"collectives-westend": "wss://westend-collectives-rpc-ng.dwellir.com",
+				"statemine": "wss://statemine-rpc-ng.dwellir.com",
+				"encointer-kusama": "wss://kusama-encointer-rpc-ng.dwellir.com",
+				"bridgehub-kusama": "wss://kusama-bridge-hub-rpc-ng.dwellir.com",
+				"statemint": "wss://statemint-rpc-ng.dwellir.com",
+				"collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
+      },
 			"region": "africa",
 			"latitude": "",
 			"longitude": "",
 			"payments": {
 				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
+					"validator_address": "DuLr6CeLXezrfumF6EkqLeAx9paMcADYU6zHpSZVB8gvjht",
+					"payment_address": "DuLr6CeLXezrfumF6EkqLeAx9paMcADYU6zHpSZVB8gvjht",
 					"signature": ""
 				},
 				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
+					"validator_address": "1MrurrNb4VTrRJUXT6fGxHFdmwwscqHZUFkMistMsP8k5Nk",
+					"payment_address": "1MrurrNb4VTrRJUXT6fGxHFdmwwscqHZUFkMistMsP8k5Nk",
 					"signature": ""
 				}
 			}
