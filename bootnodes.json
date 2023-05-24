@@ -54,7 +54,10 @@
         "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/30337/p2p/12D3KooWGNeQJ5rXnEJkVUuQqwHd8aV5GkTAheaRoCaK8ZwW94id",
         "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWGNeQJ5rXnEJkVUuQqwHd8aV5GkTAheaRoCaK8ZwW94id"
       ],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/kusama-bridge-hub-boot-ng.dwellir.com/tcp/30337/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5",
+        "/dns/kusama-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5"
+      ],
       "gatotech": [
         "/dns/boot-ksm-bridgehub-cr.gatotech.network/tcp/31327/p2p/12D3KooWFQFmg8UqAYLDNc2onySB6o5LLvpbx3eXZVqz9YFxAmXs",
         "/dns/boot-ksm-bridgehub-cr.gatotech.network/tcp/31427/ws/p2p/12D3KooWFQFmg8UqAYLDNc2onySB6o5LLvpbx3eXZVqz9YFxAmXs",
@@ -80,11 +83,21 @@
   },
   "bridge-hub-polkadot" : {
     "commandId": "parachain",
-    "members": {}
+    "members": {
+      "dwellir": [
+        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com/tcp/30339/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV",
+        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV"
+      ]
+    }
   },
   "bridge-hub-westend" : {
     "commandId": "parachain",
-    "members": {}
+    "members": {
+      "dwellir": [
+        "/dns/westend-bridge-hub-boot-ng.dwellir.com/tcp/30338/p2p/12D3KooWJWWRYTAwBLqYkh7iMBGDr5ouJ3MHj7M3fZ7zWS4zEk6F",
+        "/dns/westend-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWJWWRYTAwBLqYkh7iMBGDr5ouJ3MHj7M3fZ7zWS4zEk6F"
+      ]
+    }
   },
   "collectives-polkadot": {
     "commandId": "parachain",
@@ -93,7 +106,10 @@
         "/dns/collectives-polkadot.bootnode.amforc.com/tcp/30335/p2p/12D3KooWQeAjDnGkrPe5vtpfnB6ydZfWyMxyrXLkBFmA6o4k9aiU",
         "/dns/collectives-polkadot.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWQeAjDnGkrPe5vtpfnB6ydZfWyMxyrXLkBFmA6o4k9aiU"
       ],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/polkadot-collectives-boot-ng.dwellir.com/tcp/30341/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc",
+        "/dns/polkadot-collectives-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc"
+      ],
       "gatotech": [
         "/dns/boot-dot-collectives-cr.gatotech.network/tcp/31316/p2p/12D3KooWGZsa9tSeLQ1VeC996e1YsCPuyRYMipHQuXikPjcKcpVQ",
         "/dns/boot-dot-collectives-cr.gatotech.network/tcp/31416/ws/p2p/12D3KooWGZsa9tSeLQ1VeC996e1YsCPuyRYMipHQuXikPjcKcpVQ",
@@ -124,7 +140,10 @@
         "/dns/collectives-westend.bootnode.amforc.com/tcp/30340/p2p/12D3KooWERPzUhHau6o2XZRUi3tn7544rYiaHL418Nw5t8fYWP1F",
         "/dns/collectives-westend.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWERPzUhHau6o2XZRUi3tn7544rYiaHL418Nw5t8fYWP1F"
       ],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/westend-collectives-boot-ng.dwellir.com/tcp/30340/p2p/12D3KooWPFM93jgm4pgxx8PM8WJKAJF49qia8jRB95uciUQwYh7m",
+        "/dns/westend-collectives-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWPFM93jgm4pgxx8PM8WJKAJF49qia8jRB95uciUQwYh7m"
+      ],
       "gatotech": [
         "/dns/boot-wnd-collectives-cr.gatotech.network/tcp/31336/p2p/12D3KooWMedtdBGiSn7HLZusHwafXkZAdmWD18ciGQBfS4X1fv9K",
         "/dns/boot-wnd-collectives-cr.gatotech.network/tcp/31436/ws/p2p/12D3KooWMedtdBGiSn7HLZusHwafXkZAdmWD18ciGQBfS4X1fv9K",
@@ -155,7 +174,10 @@
         "/dns/statemine.bootnode.amforc.com/tcp/30336/p2p/12D3KooWHmSyrBWsc6fdpq8HtCFWasmLVLYGKWA2a78m4xAHKyBq",
         "/dns/statemine.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWHmSyrBWsc6fdpq8HtCFWasmLVLYGKWA2a78m4xAHKyBq"
       ],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/statemine-boot-ng.dwellir.com/tcp/30343/p2p/12D3KooWQNJKBaNfW6Nn7HZDi5pSSEFmHL2Qz7chr9RksQUDR1Wk",
+        "/dns/statemine-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWQNJKBaNfW6Nn7HZDi5pSSEFmHL2Qz7chr9RksQUDR1Wk"
+      ],
       "gatotech": [
         "/dns/boot-ksm-statemine-cr.gatotech.network/tcp/31325/p2p/12D3KooWRMUYeWMPkadDG8baX9j1e95fspfp8MhPGym5BQza7Fm5",
         "/dns/boot-ksm-statemine-cr.gatotech.network/tcp/31425/ws/p2p/12D3KooWRMUYeWMPkadDG8baX9j1e95fspfp8MhPGym5BQza7Fm5",
@@ -186,7 +208,10 @@
         "/dns/statemint.bootnode.amforc.com/tcp/30341/p2p/12D3KooWByohP9FXn7ao8syS167qJsbFdpa7fY2Y24xbKtt3r7Ls",
         "/dns/statemint.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWByohP9FXn7ao8syS167qJsbFdpa7fY2Y24xbKtt3r7Ls"
       ],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/statemint-boot-ng.dwellir.com/tcp/30344/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr",
+        "/dns/statemint-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr"
+      ],
       "gatotech": [
         "/dns/boot-dot-statemint-cr.gatotech.network/tcp/31315/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm",
         "/dns/boot-dot-statemint-cr.gatotech.network/tcp/31415/ws/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm",
@@ -217,7 +242,10 @@
         "/dns/westmint.bootnode.amforc.com/tcp/30339/p2p/12D3KooWNjKeaANaeZxBAPctmx8jugSYzuw4vnSCJmEDPB5mtRd6",
         "/dns/westmint.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWNjKeaANaeZxBAPctmx8jugSYzuw4vnSCJmEDPB5mtRd6"
       ],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/westmint-boot-ng.dwellir.com/tcp/30345/p2p/12D3KooWFZ9xqApB1wnFYkbe1qJ5Jqwxe2f3i8W25F3tKNXy59ux",
+        "/dns/westmint-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWFZ9xqApB1wnFYkbe1qJ5Jqwxe2f3i8W25F3tKNXy59ux"
+      ],
       "gatotech": [
         "/dns/boot-wnd-westmint-cr.gatotech.network/tcp/31335/p2p/12D3KooWMSW6hr8KcNBhGFN1bg8kYC76o67PnuDEbxRhxacW6dui",
         "/dns/boot-wnd-westmint-cr.gatotech.network/tcp/31435/ws/p2p/12D3KooWMSW6hr8KcNBhGFN1bg8kYC76o67PnuDEbxRhxacW6dui",
