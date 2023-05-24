@@ -299,15 +299,5 @@
         "/dns/encointer-kusama-bootnode.turboflakes.io/tcp/30725/wss/p2p/12D3KooWCXoAM2ucUEhMhLkZVWJ6hMCHqV2K4sjVM27t5ZGv4XU6"
       ]
     }
-  },
-  "encointer-polkadot": {
-    "commandId": "encointer",
-    "members": {
-    }
-  },
-  "encointer-westend": {
-    "commandId": "encointer",
-    "members": {
-    }
   }
 }
