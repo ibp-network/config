@@ -177,7 +177,21 @@
 				"6": "1672549200",
 				"7": "1672549200"
 			},
-			"services_address": "190.124.251.100",
+			"services_address": "138.59.133.248",
+			"endpoints": {
+				"polkadot": "wss://rpc-cr.gatotech.network/polkadot",
+				"kusama": "wss://rpc-cr.gatotech.network/kusama",
+				"westend": "wss://rpc-cr.gatotech.network/westend",
+				"statemint": "wss://sys-cr.gatotech.network/statemint",
+				"statemine": "wss://sys-cr.gatotech.network/statemine",
+				"westmint": "wss://sys-cr.gatotech.network/westmint",
+				"collectives-polkadot": "wss://sys-cr.gatotech.network/collectives-polkadot",
+				"encointer-kusama": "wss://sys-cr.gatotech.network/encointer-kusama",
+				"collectives-westend": "wss://sys-cr.gatotech.network/collectives-westend",
+				"bridgehub-polkadot": "wss://sys-cr.gatotech.network/bridgehub-polkadot",
+				"bridgehub-kusama": "wss://sys-cr.gatotech.network/bridgehub-kusama",
+				"bridgehub-westend": "wss://sys-cr.gatotech.network/bridgehub-westend"
+			},
 			"region": "central_america",
 			"latitude": "9.9333",
 			"longitude": "-84.0845",
@@ -223,7 +237,7 @@
 				"bridgehub-kusama": "wss://ibp-rpc.metaspan.io/kusama-bridgehub",
 				"statemint": "wss://ibp-rpc.metaspan.io/polkadot-statemint",
 				"collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives"
-      },
+			},
 			"region": "europe",
 			"latitude": "51.4964",
 			"longitude": "-0.1224",
@@ -269,7 +283,7 @@
 				"bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
 				"statemint": "wss://sys.turboflakes.io/bridgehub-kusama",
 				"collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot"
-      },
+			},
 			"region": "europe",
 			"latitude": "38.7057",
 			"longitude": "-9.1359",
@@ -383,7 +397,7 @@
 				"bridgehub-kusama": "wss://kusama-bridge-hub-rpc-ng.dwellir.com",
 				"statemint": "wss://statemint-rpc-ng.dwellir.com",
 				"collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
-      },
+			},
 			"region": "africa",
 			"latitude": "6.4541",
 			"longitude": "3.3947",
