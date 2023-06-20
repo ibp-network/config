@@ -303,7 +303,7 @@
 		"rotko": {
 			"name": "Rotko Networks",
 			"website": "https://rotko.net",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png",
 			"membership": "professional",
 			"current_level": "0",
 			"active": "0",
@@ -319,8 +319,8 @@
 			},
 			"services_address": "",
 			"region": "asia",
-			"latitude": "",
-			"longitude": "",
+                  	"latitude": "13.7563",
+            		"longitude": "100.5018",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
