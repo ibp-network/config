@@ -49,7 +49,7 @@
 		"amforc": {
 			"name": "Amforc",
 			"website": "https://amforc.com",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/amforc.png",
 			"membership": "professional",
 			"current_level": "7",
 			"active": "1",
