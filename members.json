@@ -30,6 +30,7 @@
 				"statemint": "wss://sys.stake.plus/bridgehub-kusama",
 				"collectives-polkadot": "wss://sys.stake.plus/collectives-polkadot"
 			},
+			"monitor_url": "https://monitor.dotters.network",
 			"region": "north_america",
 			"latitude": "38.7777",
 			"longitude": "-77.5474",
@@ -64,6 +65,7 @@
 				"7": "1672549200"
 			},
 			"services_address": "213.167.226.188",
+			"monitor_url": "",
 			"region": "europe",
 			"latitude": "47.1449",
 			"longitude": "8.1551",
@@ -110,6 +112,7 @@
 				"statemint": "wss://sys.helikon.io/bridgehub-kusama",
 				"collectives-polkadot": "wss://sys.helikon.io/collectives-polkadot"
 			},
+			"monitor_url": "https://ibp-monitor.helikon.io",
 			"region": "middle_east",
 			"latitude": "41.0551",
 			"longitude": "28.9347",
@@ -144,6 +147,7 @@
 				"7": ""
 			},
 			"services_address": "",
+			"monitor_url": "",
 			"region": "europe",
 			"latitude": "",
 			"longitude": "",
@@ -192,6 +196,7 @@
 				"bridgehub-kusama": "wss://sys-cr.gatotech.network/bridgehub-kusama",
 				"bridgehub-westend": "wss://sys-cr.gatotech.network/bridgehub-westend"
 			},
+			"monitor_url": "https://ibp-monitor.gatotech.network",
 			"region": "central_america",
 			"latitude": "9.9333",
 			"longitude": "-84.0845",
@@ -238,6 +243,7 @@
 				"statemint": "wss://ibp-rpc.metaspan.io/polkadot-statemint",
 				"collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives"
 			},
+			"monitor_url": "https://ibp-monitor.metaspan.io",
 			"region": "europe",
 			"latitude": "51.4964",
 			"longitude": "-0.1224",
@@ -284,6 +290,7 @@
 				"statemint": "wss://sys.turboflakes.io/bridgehub-kusama",
 				"collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot"
 			},
+			"monitor_url": "https://ibp-monitor.turboflakes.io",
 			"region": "europe",
 			"latitude": "38.7057",
 			"longitude": "-9.1359",
@@ -318,6 +325,7 @@
 				"7": ""
 			},
 			"services_address": "",
+			"monitor_url": "",
 			"region": "asia",
 			"latitude": "",
 			"longitude": "",
@@ -352,6 +360,7 @@
 				"7": ""
 			},
 			"services_address": "",
+			"monitor_url": "",
 			"region": "oceania",
 			"latitude": "",
 			"longitude": "",
@@ -398,6 +407,7 @@
 				"statemint": "wss://statemint-rpc-ng.dwellir.com",
 				"collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
 			},
+			"monitor_url": "",
 			"region": "africa",
 			"latitude": "6.4541",
 			"longitude": "3.3947",
