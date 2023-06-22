@@ -129,9 +129,9 @@
 				}
 			}
 		},
-		"crifferent": {
-			"name": "Crifferent",
-			"website": "https://crifferent.de",
+		"luckyfriday": {
+			"name": "Lucky Friday",
+			"website": "https://luckyfriday.io",
 			"logo": "",
 			"membership": "professional",
 			"current_level": "0",
@@ -310,7 +310,7 @@
 		"rotko": {
 			"name": "Rotko Networks",
 			"website": "https://rotko.net",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png",
 			"membership": "professional",
 			"current_level": "0",
 			"active": "0",
@@ -327,8 +327,8 @@
 			"services_address": "",
 			"monitor_url": "",
 			"region": "asia",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "13.7563",
+			"longitude": "100.5018",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
