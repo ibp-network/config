@@ -437,7 +437,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.aperturemining.com",
-			"region": "",
+			"region": null,
 			"latitude": "",
 			"longitude": "",
 			"payments": {}
@@ -455,7 +455,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.dozenodes.com",
-			"region": "",
+			"region": null,
 			"latitude": "",
 			"longitude": "",
 			"payments": {}
@@ -473,7 +473,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.stkd.io",
-			"region": "",
+			"region": null,
 			"latitude": "",
 			"longitude": "",
 			"payments": {}
@@ -491,7 +491,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.math-crypto.com",
-			"region": "",
+			"region": null,
 			"latitude": "",
 			"longitude": "",
 			"payments": {}
@@ -508,7 +508,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "",
-			"region": "",
+			"region": null,
 			"latitude": "",
 			"longitude": "",
 			"payments": {}
