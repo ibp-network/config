@@ -427,6 +427,7 @@
 		"aperturemining": {
 			"name": "Aperture Mining",
 			"website": "https://aperturemining.com",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/aperturemining.png",
 			"membership": "hobbyist",
 			"active": "1",
 			"current_level": "1",
@@ -437,10 +438,21 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.aperturemining.com",
-			"region": null,
-			"latitude": "",
-			"longitude": "",
-			"payments": {}
+			"region": "north_america",
+			"latitude": "39.951061",
+			"longitude": "-75.165619",
+			"payments": {
+				"kusama": {
+					"validator_address": "FJcnsNkMjY8tgJrDVeq5CKoB1b4Au2xGQjaMv8Ax5QAiV6p",
+					"payment_address": "FJcnsNkMjY8tgJrDVeq5CKoB1b4Au2xGQjaMv8Ax5QAiV6p",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "145SvVXoAwR5ufJynYWDeNXzfyxbf5VkCqkHu3Jt7FSdYBE2",
+					"payment_address": "145SvVXoAwR5ufJynYWDeNXzfyxbf5VkCqkHu3Jt7FSdYBE2",
+					"signature": ""
+				}
+			}
 		},
 		"dozenodes": {
 			"name": "Dozenodes",
