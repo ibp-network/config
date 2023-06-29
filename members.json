@@ -362,8 +362,8 @@
 			"services_address": "",
 			"monitor_url": "",
 			"region": "oceania",
-			"latitude": "",
-			"longitude": "",
+			"latitude": "0",
+			"longitude": "0",
 			"payments": {
 				"kusama": {
 					"validator_address": "",
@@ -468,8 +468,8 @@
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.dozenodes.com",
 			"region": null,
-			"latitude": "",
-			"longitude": "",
+			"latitude": "0",
+			"longitude": "0",
 			"payments": {}
 		},
 		"stkd": {
@@ -486,8 +486,8 @@
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.stkd.io",
 			"region": null,
-			"latitude": "",
-			"longitude": "",
+			"latitude": "0",
+			"longitude": "0",
 			"payments": {}
 		},
 		"mathcrypto": {
@@ -504,8 +504,8 @@
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.math-crypto.com",
 			"region": null,
-			"latitude": "",
-			"longitude": "",
+			"latitude": "0",
+			"longitude": "0",
 			"payments": {}
 		},
 		"paradox": {
@@ -521,8 +521,8 @@
 			"endpoints": [],
 			"monitor_url": "",
 			"region": null,
-			"latitude": "",
-			"longitude": "",
+			"latitude": "0",
+			"longitude": "0",
 			"payments": {}
 		}
 	}
