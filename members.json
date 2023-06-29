@@ -467,7 +467,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.dozenodes.com",
-			"region": null,
+			"region": "",
 			"latitude": "0",
 			"longitude": "0",
 			"payments": {}
@@ -485,7 +485,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.stkd.io",
-			"region": null,
+			"region": "",
 			"latitude": "0",
 			"longitude": "0",
 			"payments": {}
@@ -503,7 +503,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.math-crypto.com",
-			"region": null,
+			"region": "",
 			"latitude": "0",
 			"longitude": "0",
 			"payments": {}
@@ -520,7 +520,7 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "",
-			"region": null,
+			"region": "",
 			"latitude": "0",
 			"longitude": "0",
 			"payments": {}
