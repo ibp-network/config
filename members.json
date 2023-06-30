@@ -457,6 +457,7 @@
 		"dozenodes": {
 			"name": "Dozenodes",
 			"website": "https://dozenodes.com",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dozenodes.png",
 			"membership": "hobbyist",
 			"active": "1",
 			"current_level": "1",
@@ -467,10 +468,21 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.dozenodes.com",
-			"region": "",
-			"latitude": "0",
-			"longitude": "0",
-			"payments": {}
+			"region": "europe",
+			"latitude": "50.054604",
+			"longitude": "19.936940",
+			"payments": {
+				"kusama": {
+					"validator_address": "HnGgDUuyT97UcSpHhPaxY1h2MPFAjE1qiS9oKRMx5md6464",
+					"payment_address": "HnGgDUuyT97UcSpHhPaxY1h2MPFAjE1qiS9oKRMx5md6464",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "167ShbHu769mP5jbtt7AHayJhzEied6s8M5kN5nBSAQewnRz",
+					"payment_address": "167ShbHu769mP5jbtt7AHayJhzEied6s8M5kN5nBSAQewnRz",
+					"signature": ""
+				}
+			}
 		},
 		"stkd": {
 			"name": "STKD",
