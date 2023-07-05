@@ -505,6 +505,7 @@
 		"mathcrypto": {
 			"name": "MathCrypto",
 			"website": "https://math-crypto.com",
+			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/mathcrypto.png",
 			"membership": "hobbyist",
 			"active": "1",
 			"current_level": "1",
@@ -515,10 +516,21 @@
 			"services_address": "",
 			"endpoints": [],
 			"monitor_url": "https://ibp-monitor.math-crypto.com",
-			"region": "",
-			"latitude": "0",
-			"longitude": "0",
-			"payments": {}
+			"region": "europe",
+			"latitude": "48.858093",
+			"longitude": "2.294694",			
+			"payments": {
+				"kusama": {
+					"validator_address": "Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S",
+					"payment_address": "CjATftfPqymi39KwFCw3sZLgTUA1ueGa4uYv2v9N6oBnjG9",
+					"signature": ""
+				},
+				"polkadot": {
+					"validator_address": "1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A",
+					"payment_address": "16CxXYoq9joofWE13zWuWBfd4tx3kQhXJECLLkhMLgWjYyHG",
+					"signature": ""
+				}
+			}
 		},
 		"paradox": {
 			"name": "Paradox",
