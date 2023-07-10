@@ -1,553 +1,555 @@
 {
-	"members": {
-		"stakeplus": {
-			"name": "Stake Plus",
-			"website": "https://stake.plus",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/stakeplus.png",
-			"membership": "professional",
-			"current_level": "7",
-			"active": "1",
-			"level_timestamp": {
-				"0": "1672549200",
-				"1": "1672549200",
-				"2": "1672549200",
-				"3": "1672549200",
-				"4": "1672549200",
-				"5": "1672549200",
-				"6": "1672549200",
-				"7": "1672549200"
-			},
-			"services_address": "192.96.202.175",
-			"endpoints": {
-				"westend": "wss://rpc.stake.plus/westend",
-				"kusama": "wss://rpc.stake.plus/kusama",
-				"polkadot": "wss://rpc.stake.plus/polkadot",
-				"westmint": "wss://sys.stake.plus/westmint",
-				"collectives-westend": "wss://sys.stake.plus/collectives-westend",
-				"statemine": "wss://sys.stake.plus/statemine",
-				"encointer-kusama": "wss://sys.stake.plus/encointer-kusama",
-				"bridgehub-kusama": "wss://sys.stake.plus/bridgehub-kusama",
-				"statemint": "wss://sys.stake.plus/bridgehub-kusama",
-				"collectives-polkadot": "wss://sys.stake.plus/collectives-polkadot"
-			},
-			"monitor_url": "https://monitor.dotters.network",
-			"region": "north_america",
-			"latitude": "38.7777",
-			"longitude": "-77.5474",
-			"payments": {
-				"kusama": {
-					"validator_address": "F8FswEGD1quEyNciuR9KwsragUmqnk7mFLqmAdRdnY9Sdwx",
-					"payment_address": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
-					"signature": "0x52df0775a054197b56d1a6bdf1fdf2365b09f1b6dc784ab5118e36c2bfa7a23f02c782d3c24b3056b82e74cf5550db22d0d457d4dc7f249d5aac2526d7f76681"
-				},
-				"polkadot": {
-					"validator_address": "152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq",
-					"payment_address": "1EHRUR7YL8aeqeCT4LGFq9qrTpEiH1dCikh3n2j1CSbL2c8",
-					"signature": "0x6432c58975e69d5956e7baf0d3b0b5f3c21792138d60adc2b4e48e9420092d6b74743520ba93ca7b956e9446e8c68f7b9390b4ce6545a5790bed874e48e8f688"
-				}
-			}
-		},
-		"amforc": {
-			"name": "Amforc",
-			"website": "https://amforc.com",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/amforc.png",
-			"membership": "professional",
-			"current_level": "7",
-			"active": "1",
-			"level_timestamp": {
-				"0": "1672549200",
-				"1": "1672549200",
-				"2": "1672549200",
-				"3": "1672549200",
-				"4": "1672549200",
-				"5": "1672549200",
-				"6": "1672549200",
-				"7": "1672549200"
-			},
-			"services_address": "213.167.226.188",
-			"monitor_url": "https://monitor.rpc.amforc.com",
-			"region": "europe",
-			"latitude": "47.1449",
-			"longitude": "8.1551",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"helikon": {
-			"name": "Helikon",
-			"website": "https://helikon.io",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/helikon.png",
-			"membership": "professional",
-			"current_level": "7",
-			"active": "1",
-			"level_timestamp": {
-				"0": "1672549200",
-				"1": "1672549200",
-				"2": "1672549200",
-				"3": "1672549200",
-				"4": "1672549200",
-				"5": "1672549200",
-				"6": "1672549200",
-				"7": "1672549200"
-			},
-			"services_address": "77.92.101.227",
-			"endpoints": {
-				"westend": "wss://rpc.helikon.io/westend",
-				"kusama": "wss://rpc.helikon.io/kusama",
-				"polkadot": "wss://rpc.helikon.io/polkadot",
-				"westmint": "wss://sys.helikon.io/westmint",
-				"collectives-westend": "wss://sys.helikon.io/collectives-westend",
-				"statemine": "wss://sys.helikon.io/statemine",
-				"encointer-kusama": "wss://sys.helikon.io/encointer-kusama",
-				"bridgehub-kusama": "wss://sys.helikon.io/bridgehub-kusama",
-				"statemint": "wss://sys.helikon.io/bridgehub-kusama",
-				"collectives-polkadot": "wss://sys.helikon.io/collectives-polkadot"
-			},
-			"monitor_url": "https://ibp-monitor.helikon.io",
-			"region": "middle_east",
-			"latitude": "41.0551",
-			"longitude": "28.9347",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"luckyfriday": {
-			"name": "Lucky Friday",
-			"website": "https://luckyfriday.io",
-			"logo": "",
-			"membership": "professional",
-			"current_level": "0",
-			"active": "0",
-			"level_timestamp": {
-				"0": "1672549200",
-				"1": "",
-				"2": "",
-				"3": "",
-				"4": "",
-				"5": "",
-				"6": "",
-				"7": ""
-			},
-			"services_address": "",
-			"monitor_url": "",
-			"region": "europe",
-			"latitude": "",
-			"longitude": "",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"gatotech": {
-			"name": "Gatotech",
-			"website": "https://gatotech.uk",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/gatotech.png",
-			"membership": "professional",
-			"current_level": "7",
-			"active": "1",
-			"level_timestamp": {
-				"0": "1672549200",
-				"1": "1672549200",
-				"2": "1672549200",
-				"3": "1672549200",
-				"4": "1672549200",
-				"5": "1672549200",
-				"6": "1672549200",
-				"7": "1672549200"
-			},
-			"services_address": "138.59.133.248",
-			"endpoints": {
-				"polkadot": "wss://rpc-cr.gatotech.network/polkadot",
-				"kusama": "wss://rpc-cr.gatotech.network/kusama",
-				"westend": "wss://rpc-cr.gatotech.network/westend",
-				"statemint": "wss://sys-cr.gatotech.network/statemint",
-				"statemine": "wss://sys-cr.gatotech.network/statemine",
-				"westmint": "wss://sys-cr.gatotech.network/westmint",
-				"collectives-polkadot": "wss://sys-cr.gatotech.network/collectives-polkadot",
-				"encointer-kusama": "wss://sys-cr.gatotech.network/encointer-kusama",
-				"collectives-westend": "wss://sys-cr.gatotech.network/collectives-westend",
-				"bridgehub-polkadot": "wss://sys-cr.gatotech.network/bridgehub-polkadot",
-				"bridgehub-kusama": "wss://sys-cr.gatotech.network/bridgehub-kusama",
-				"bridgehub-westend": "wss://sys-cr.gatotech.network/bridgehub-westend"
-			},
-			"monitor_url": "https://ibp-monitor.gatotech.network",
-			"region": "central_america",
-			"latitude": "9.9333",
-			"longitude": "-84.0845",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"metaspan": {
-			"name": "🌐 metaspan",
-			"website": "https://metaspan.io",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/metaspan.png",
-			"membership": "professional",
-			"current_level": "7",
-			"active": "1",
-			"level_timestamp": {
-				"0": "1672549200",
-				"1": "1672549200",
-				"2": "1672549200",
-				"3": "1672549200",
-				"4": "1672549200",
-				"5": "1672549200",
-				"6": "1672549200",
-				"7": "1672549200"
-			},
-			"services_address": "195.144.22.130",
-			"endpoints": {
-				"westend": "wss://ibp-rpc.metaspan.io/westend",
-				"kusama": "wss://ibp-rpc.metaspan.io/kusama",
-				"polkadot": "wss://ibp-rpc.metaspan.io/polkadot",
-				"westmint": "wss://ibp-rpc.metaspan.io/westend-westmint",
-				"collectives-westend": "wss://ibp-rpc.metaspan.io/westend-collectives",
-				"statemine": "wss://ibp-rpc.metaspan.io/kusama-statemine",
-				"encointer-kusama": "wss://ibp-rpc.metaspan.io/kusama-encointer",
-				"bridgehub-kusama": "wss://ibp-rpc.metaspan.io/kusama-bridgehub",
-				"statemint": "wss://ibp-rpc.metaspan.io/polkadot-statemint",
-				"collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives"
-			},
-			"monitor_url": "https://ibp-monitor.metaspan.io",
-			"region": "europe",
-			"latitude": "51.4964",
-			"longitude": "-0.1224",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"turboflakes": {
-			"name": "Turboflakes",
-			"website": "https://turboflakes.io",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/turboflakes.png",
-			"membership": "professional",
-			"current_level": "7",
-			"active": "1",
-			"level_timestamp": {
-				"0": "1672549200",
-				"1": "1672549200",
-				"2": "1672549200",
-				"3": "1672549200",
-				"4": "1672549200",
-				"5": "1680148800",
-				"6": "1680148800",
-				"7": "1680148800"
-			},
-			"services_address": "188.93.234.134",
-			"endpoints": {
-				"westend": "wss://rpc.turboflakes.io/westend",
-				"kusama": "wss://rpc.turboflakes.io/kusama",
-				"polkadot": "wss://rpc.turboflakes.io/polkadot",
-				"westmint": "wss://sys.turboflakes.io/westmint",
-				"collectives-westend": "wss://sys.turboflakes.io/collectives-westend",
-				"statemine": "wss://sys.turboflakes.io/statemine",
-				"encointer-kusama": "wss://sys.turboflakes.io/encointer-kusama",
-				"bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
-				"statemint": "wss://sys.turboflakes.io/bridgehub-kusama",
-				"collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot"
-			},
-			"monitor_url": "https://ibp-monitor.turboflakes.io",
-			"region": "europe",
-			"latitude": "38.7057",
-			"longitude": "-9.1359",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"rotko": {
-			"name": "Rotko Networks",
-			"website": "https://rotko.net",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png",
-			"membership": "professional",
-			"current_level": "0",
-			"active": "0",
-			"level_timestamp": {
-				"0": "1678165200",
-				"1": "",
-				"2": "",
-				"3": "",
-				"4": "",
-				"5": "",
-				"6": "",
-				"7": ""
-			},
-			"services_address": "",
-			"monitor_url": "",
-			"region": "asia",
-			"latitude": "13.7563",
-			"longitude": "100.5018",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"polkadotters": {
-			"name": "Polkadotters",
-			"website": "",
-			"logo": "",
-			"membership": "professional",
-			"current_level": "0",
-			"active": "0",
-			"level_timestamp": {
-				"0": "1678165200",
-				"1": "",
-				"2": "",
-				"3": "",
-				"4": "",
-				"5": "",
-				"6": "",
-				"7": ""
-			},
-			"services_address": "",
-			"monitor_url": "",
-			"region": "oceania",
-			"latitude": "0",
-			"longitude": "0",
-			"payments": {
-				"kusama": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "",
-					"payment_address": "",
-					"signature": ""
-				}
-			}
-		},
-		"dwellir": {
-			"name": "Dwellir",
-			"website": "https://dwellir.com",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dwellir.png",
-			"membership": "professional",
-			"current_level": "7",
-			"active": "1",
-			"level_timestamp": {
-				"0": "1681916382",
-				"1": "1681916382",
-				"2": "1681916382",
-				"3": "1681916382",
-				"4": "1681916382",
-				"5": "1681916382",
-				"6": "1681916382",
-				"7": "1681916382"
-			},
-			"services_address": "102.69.242.203",
-			"endpoints": {
-				"westend": "wss://westend-rpc-ng-1.dwellir.com",
-				"kusama": "wss://kusama-rpc-ng-1.dwellir.com",
-				"polkadot": "wss://polkadot-rpc-ng-1.dwellir.com",
-				"westmint": "wss://westmint-rpc-ng.dwellir.com",
-				"collectives-westend": "wss://westend-collectives-rpc-ng.dwellir.com",
-				"statemine": "wss://statemine-rpc-ng.dwellir.com",
-				"encointer-kusama": "wss://kusama-encointer-rpc-ng.dwellir.com",
-				"bridgehub-kusama": "wss://kusama-bridge-hub-rpc-ng.dwellir.com",
-				"statemint": "wss://statemint-rpc-ng.dwellir.com",
-				"collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
-			},
-			"monitor_url": "",
-			"region": "africa",
-			"latitude": "6.4541",
-			"longitude": "3.3947",
-			"payments": {
-				"kusama": {
-					"validator_address": "DuLr6CeLXezrfumF6EkqLeAx9paMcADYU6zHpSZVB8gvjht",
-					"payment_address": "DuLr6CeLXezrfumF6EkqLeAx9paMcADYU6zHpSZVB8gvjht",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "1MrurrNb4VTrRJUXT6fGxHFdmwwscqHZUFkMistMsP8k5Nk",
-					"payment_address": "1MrurrNb4VTrRJUXT6fGxHFdmwwscqHZUFkMistMsP8k5Nk",
-					"signature": ""
-				}
-			}
-		},
-		"aperturemining": {
-			"name": "Aperture Mining",
-			"website": "https://aperturemining.com",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/aperturemining.png",
-			"membership": "hobbyist",
-			"active": "1",
-			"current_level": "1",
-			"level_timestamp": {
-				"0": "1684191600",
-				"1": "1685574000"
-			},
-			"services_address": "",
-			"endpoints": [],
-			"monitor_url": "https://ibp-monitor.aperturemining.com",
-			"region": "north_america",
-			"latitude": "39.951061",
-			"longitude": "-75.165619",
-			"payments": {
-				"kusama": {
-					"validator_address": "FJcnsNkMjY8tgJrDVeq5CKoB1b4Au2xGQjaMv8Ax5QAiV6p",
-					"payment_address": "FJcnsNkMjY8tgJrDVeq5CKoB1b4Au2xGQjaMv8Ax5QAiV6p",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "145SvVXoAwR5ufJynYWDeNXzfyxbf5VkCqkHu3Jt7FSdYBE2",
-					"payment_address": "145SvVXoAwR5ufJynYWDeNXzfyxbf5VkCqkHu3Jt7FSdYBE2",
-					"signature": ""
-				}
-			}
-		},
-		"dozenodes": {
-			"name": "Dozenodes",
-			"website": "https://dozenodes.com",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dozenodes.png",
-			"membership": "hobbyist",
-			"active": "1",
-			"current_level": "1",
-			"level_timestamp": {
-				"0": "1684191600",
-				"1": "1685574000"
-			},
-			"services_address": "",
-			"endpoints": [],
-			"monitor_url": "https://ibp-monitor.dozenodes.com",
-			"region": "europe",
-			"latitude": "50.054604",
-			"longitude": "19.936940",
-			"payments": {
-				"kusama": {
-					"validator_address": "HnGgDUuyT97UcSpHhPaxY1h2MPFAjE1qiS9oKRMx5md6464",
-					"payment_address": "HnGgDUuyT97UcSpHhPaxY1h2MPFAjE1qiS9oKRMx5md6464",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "167ShbHu769mP5jbtt7AHayJhzEied6s8M5kN5nBSAQewnRz",
-					"payment_address": "167ShbHu769mP5jbtt7AHayJhzEied6s8M5kN5nBSAQewnRz",
-					"signature": ""
-				}
-			}
-		},
-		"stkd": {
-			"name": "STKD",
-			"website": "https://stkd.io",
-			"membership": "hobbyist",
-			"active": "1",
-			"current_level": "1",
-			"level_timestamp": {
-				"0": "1684191600",
-				"1": "1685574000"
-			},
-			"services_address": "",
-			"endpoints": [],
-			"monitor_url": "https://ibp-monitor.stkd.io",
-			"region": "",
-			"latitude": "0",
-			"longitude": "0",
-			"payments": {}
-		},
-		"mathcrypto": {
-			"name": "MathCrypto",
-			"website": "https://math-crypto.com",
-			"logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/mathcrypto.png",
-			"membership": "hobbyist",
-			"active": "1",
-			"current_level": "1",
-			"level_timestamp": {
-				"0": "1684191600",
-				"1": "1685574000"
-			},
-			"services_address": "",
-			"endpoints": [],
-			"monitor_url": "https://ibp-monitor.math-crypto.com",
-			"region": "europe",
-			"latitude": "48.858093",
-			"longitude": "2.294694",			
-			"payments": {
-				"kusama": {
-					"validator_address": "Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S",
-					"payment_address": "CjATftfPqymi39KwFCw3sZLgTUA1ueGa4uYv2v9N6oBnjG9",
-					"signature": ""
-				},
-				"polkadot": {
-					"validator_address": "1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A",
-					"payment_address": "16CxXYoq9joofWE13zWuWBfd4tx3kQhXJECLLkhMLgWjYyHG",
-					"signature": ""
-				}
-			}
-		},
-		"paradox": {
-			"name": "Paradox",
-			"website": "https://paranodes.io",
-			"membership": "hobbyist",
-			"active": "1",
-			"current_level": "0",
-			"level_timestamp": {
-				"0": "1684191600"
-			},
-			"services_address": "",
-			"endpoints": [],
-			"monitor_url": "",
-			"region": "",
-			"latitude": "0",
-			"longitude": "0",
-			"payments": {}
-		}
-	}
+  "members": {
+    "stakeplus": {
+      "name": "Stake Plus",
+      "website": "https://stake.plus",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/stakeplus.png",
+      "membership": "professional",
+      "current_level": "7",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1672549200",
+        "1": "1672549200",
+        "2": "1672549200",
+        "3": "1672549200",
+        "4": "1672549200",
+        "5": "1672549200",
+        "6": "1672549200",
+        "7": "1672549200"
+      },
+      "services_address": "192.96.202.175",
+      "endpoints": {
+        "westend": "wss://rpc.stake.plus/westend",
+        "kusama": "wss://rpc.stake.plus/kusama",
+        "polkadot": "wss://rpc.stake.plus/polkadot",
+        "westmint": "wss://sys.stake.plus/westmint",
+        "collectives-westend": "wss://sys.stake.plus/collectives-westend",
+        "statemine": "wss://sys.stake.plus/statemine",
+        "encointer-kusama": "wss://sys.stake.plus/encointer-kusama",
+        "bridgehub-kusama": "wss://sys.stake.plus/bridgehub-kusama",
+        "statemint": "wss://sys.stake.plus/bridgehub-kusama",
+        "collectives-polkadot": "wss://sys.stake.plus/collectives-polkadot"
+      },
+      "monitor_url": "https://monitor.dotters.network",
+      "region": "north_america",
+      "latitude": "38.7777",
+      "longitude": "-77.5474",
+      "payments": {
+        "kusama": {
+          "validator_address": "F8FswEGD1quEyNciuR9KwsragUmqnk7mFLqmAdRdnY9Sdwx",
+          "payment_address": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+          "signature": "0x52df0775a054197b56d1a6bdf1fdf2365b09f1b6dc784ab5118e36c2bfa7a23f02c782d3c24b3056b82e74cf5550db22d0d457d4dc7f249d5aac2526d7f76681"
+        },
+        "polkadot": {
+          "validator_address": "152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq",
+          "payment_address": "1EHRUR7YL8aeqeCT4LGFq9qrTpEiH1dCikh3n2j1CSbL2c8",
+          "signature": "0x6432c58975e69d5956e7baf0d3b0b5f3c21792138d60adc2b4e48e9420092d6b74743520ba93ca7b956e9446e8c68f7b9390b4ce6545a5790bed874e48e8f688"
+        }
+      }
+    },
+    "amforc": {
+      "name": "Amforc",
+      "website": "https://amforc.com",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/amforc.png",
+      "membership": "professional",
+      "current_level": "7",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1672549200",
+        "1": "1672549200",
+        "2": "1672549200",
+        "3": "1672549200",
+        "4": "1672549200",
+        "5": "1672549200",
+        "6": "1672549200",
+        "7": "1672549200"
+      },
+      "services_address": "213.167.226.188",
+      "monitor_url": "https://monitor.rpc.amforc.com",
+      "region": "europe",
+      "latitude": "47.1449",
+      "longitude": "8.1551",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "helikon": {
+      "name": "Helikon",
+      "website": "https://helikon.io",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/helikon.png",
+      "membership": "professional",
+      "current_level": "7",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1672549200",
+        "1": "1672549200",
+        "2": "1672549200",
+        "3": "1672549200",
+        "4": "1672549200",
+        "5": "1672549200",
+        "6": "1672549200",
+        "7": "1672549200"
+      },
+      "services_address": "77.92.101.227",
+      "endpoints": {
+        "westend": "wss://rpc.helikon.io/westend",
+        "kusama": "wss://rpc.helikon.io/kusama",
+        "polkadot": "wss://rpc.helikon.io/polkadot",
+        "westmint": "wss://sys.helikon.io/westmint",
+        "collectives-westend": "wss://sys.helikon.io/collectives-westend",
+        "bridgehub-westend": "wss://sys.helikon.io/bridgehub-westend",
+        "statemine": "wss://sys.helikon.io/statemine",
+        "encointer-kusama": "wss://sys.helikon.io/encointer-kusama",
+        "bridgehub-kusama": "wss://sys.helikon.io/bridgehub-kusama",
+        "statemint": "wss://sys.helikon.io/statemint",
+        "collectives-polkadot": "wss://sys.helikon.io/collectives-polkadot",
+        "bridgehub-polkadot": "wss://sys.helikon.io/bridgehub-polkadot"
+      },
+      "monitor_url": "https://ibp-monitor.helikon.io",
+      "region": "middle_east",
+      "latitude": "41.0551",
+      "longitude": "28.9347",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "luckyfriday": {
+      "name": "Lucky Friday",
+      "website": "https://luckyfriday.io",
+      "logo": "",
+      "membership": "professional",
+      "current_level": "0",
+      "active": "0",
+      "level_timestamp": {
+        "0": "1672549200",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": ""
+      },
+      "services_address": "",
+      "monitor_url": "",
+      "region": "europe",
+      "latitude": "",
+      "longitude": "",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "gatotech": {
+      "name": "Gatotech",
+      "website": "https://gatotech.uk",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/gatotech.png",
+      "membership": "professional",
+      "current_level": "7",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1672549200",
+        "1": "1672549200",
+        "2": "1672549200",
+        "3": "1672549200",
+        "4": "1672549200",
+        "5": "1672549200",
+        "6": "1672549200",
+        "7": "1672549200"
+      },
+      "services_address": "138.59.133.248",
+      "endpoints": {
+        "polkadot": "wss://rpc-cr.gatotech.network/polkadot",
+        "kusama": "wss://rpc-cr.gatotech.network/kusama",
+        "westend": "wss://rpc-cr.gatotech.network/westend",
+        "statemint": "wss://sys-cr.gatotech.network/statemint",
+        "statemine": "wss://sys-cr.gatotech.network/statemine",
+        "westmint": "wss://sys-cr.gatotech.network/westmint",
+        "collectives-polkadot": "wss://sys-cr.gatotech.network/collectives-polkadot",
+        "encointer-kusama": "wss://sys-cr.gatotech.network/encointer-kusama",
+        "collectives-westend": "wss://sys-cr.gatotech.network/collectives-westend",
+        "bridgehub-polkadot": "wss://sys-cr.gatotech.network/bridgehub-polkadot",
+        "bridgehub-kusama": "wss://sys-cr.gatotech.network/bridgehub-kusama",
+        "bridgehub-westend": "wss://sys-cr.gatotech.network/bridgehub-westend"
+      },
+      "monitor_url": "https://ibp-monitor.gatotech.network",
+      "region": "central_america",
+      "latitude": "9.9333",
+      "longitude": "-84.0845",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "metaspan": {
+      "name": "🌐 metaspan",
+      "website": "https://metaspan.io",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/metaspan.png",
+      "membership": "professional",
+      "current_level": "7",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1672549200",
+        "1": "1672549200",
+        "2": "1672549200",
+        "3": "1672549200",
+        "4": "1672549200",
+        "5": "1672549200",
+        "6": "1672549200",
+        "7": "1672549200"
+      },
+      "services_address": "195.144.22.130",
+      "endpoints": {
+        "westend": "wss://ibp-rpc.metaspan.io/westend",
+        "kusama": "wss://ibp-rpc.metaspan.io/kusama",
+        "polkadot": "wss://ibp-rpc.metaspan.io/polkadot",
+        "westmint": "wss://ibp-rpc.metaspan.io/westend-westmint",
+        "collectives-westend": "wss://ibp-rpc.metaspan.io/westend-collectives",
+        "statemine": "wss://ibp-rpc.metaspan.io/kusama-statemine",
+        "encointer-kusama": "wss://ibp-rpc.metaspan.io/kusama-encointer",
+        "bridgehub-kusama": "wss://ibp-rpc.metaspan.io/kusama-bridgehub",
+        "statemint": "wss://ibp-rpc.metaspan.io/polkadot-statemint",
+        "collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives"
+      },
+      "monitor_url": "https://ibp-monitor.metaspan.io",
+      "region": "europe",
+      "latitude": "51.4964",
+      "longitude": "-0.1224",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "turboflakes": {
+      "name": "Turboflakes",
+      "website": "https://turboflakes.io",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/turboflakes.png",
+      "membership": "professional",
+      "current_level": "7",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1672549200",
+        "1": "1672549200",
+        "2": "1672549200",
+        "3": "1672549200",
+        "4": "1672549200",
+        "5": "1680148800",
+        "6": "1680148800",
+        "7": "1680148800"
+      },
+      "services_address": "188.93.234.134",
+      "endpoints": {
+        "westend": "wss://rpc.turboflakes.io/westend",
+        "kusama": "wss://rpc.turboflakes.io/kusama",
+        "polkadot": "wss://rpc.turboflakes.io/polkadot",
+        "westmint": "wss://sys.turboflakes.io/westmint",
+        "collectives-westend": "wss://sys.turboflakes.io/collectives-westend",
+        "statemine": "wss://sys.turboflakes.io/statemine",
+        "encointer-kusama": "wss://sys.turboflakes.io/encointer-kusama",
+        "bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
+        "statemint": "wss://sys.turboflakes.io/bridgehub-kusama",
+        "collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot"
+      },
+      "monitor_url": "https://ibp-monitor.turboflakes.io",
+      "region": "europe",
+      "latitude": "38.7057",
+      "longitude": "-9.1359",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "rotko": {
+      "name": "Rotko Networks",
+      "website": "https://rotko.net",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png",
+      "membership": "professional",
+      "current_level": "0",
+      "active": "0",
+      "level_timestamp": {
+        "0": "1678165200",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": ""
+      },
+      "services_address": "",
+      "monitor_url": "",
+      "region": "asia",
+      "latitude": "13.7563",
+      "longitude": "100.5018",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "polkadotters": {
+      "name": "Polkadotters",
+      "website": "",
+      "logo": "",
+      "membership": "professional",
+      "current_level": "0",
+      "active": "0",
+      "level_timestamp": {
+        "0": "1678165200",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": ""
+      },
+      "services_address": "",
+      "monitor_url": "",
+      "region": "oceania",
+      "latitude": "0",
+      "longitude": "0",
+      "payments": {
+        "kusama": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "",
+          "payment_address": "",
+          "signature": ""
+        }
+      }
+    },
+    "dwellir": {
+      "name": "Dwellir",
+      "website": "https://dwellir.com",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dwellir.png",
+      "membership": "professional",
+      "current_level": "7",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1681916382",
+        "1": "1681916382",
+        "2": "1681916382",
+        "3": "1681916382",
+        "4": "1681916382",
+        "5": "1681916382",
+        "6": "1681916382",
+        "7": "1681916382"
+      },
+      "services_address": "102.69.242.203",
+      "endpoints": {
+        "westend": "wss://westend-rpc-ng-1.dwellir.com",
+        "kusama": "wss://kusama-rpc-ng-1.dwellir.com",
+        "polkadot": "wss://polkadot-rpc-ng-1.dwellir.com",
+        "westmint": "wss://westmint-rpc-ng.dwellir.com",
+        "collectives-westend": "wss://westend-collectives-rpc-ng.dwellir.com",
+        "statemine": "wss://statemine-rpc-ng.dwellir.com",
+        "encointer-kusama": "wss://kusama-encointer-rpc-ng.dwellir.com",
+        "bridgehub-kusama": "wss://kusama-bridge-hub-rpc-ng.dwellir.com",
+        "statemint": "wss://statemint-rpc-ng.dwellir.com",
+        "collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
+      },
+      "monitor_url": "",
+      "region": "africa",
+      "latitude": "6.4541",
+      "longitude": "3.3947",
+      "payments": {
+        "kusama": {
+          "validator_address": "DuLr6CeLXezrfumF6EkqLeAx9paMcADYU6zHpSZVB8gvjht",
+          "payment_address": "DuLr6CeLXezrfumF6EkqLeAx9paMcADYU6zHpSZVB8gvjht",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "1MrurrNb4VTrRJUXT6fGxHFdmwwscqHZUFkMistMsP8k5Nk",
+          "payment_address": "1MrurrNb4VTrRJUXT6fGxHFdmwwscqHZUFkMistMsP8k5Nk",
+          "signature": ""
+        }
+      }
+    },
+    "aperturemining": {
+      "name": "Aperture Mining",
+      "website": "https://aperturemining.com",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/aperturemining.png",
+      "membership": "hobbyist",
+      "active": "1",
+      "current_level": "1",
+      "level_timestamp": {
+        "0": "1684191600",
+        "1": "1685574000"
+      },
+      "services_address": "",
+      "endpoints": [],
+      "monitor_url": "https://ibp-monitor.aperturemining.com",
+      "region": "north_america",
+      "latitude": "39.951061",
+      "longitude": "-75.165619",
+      "payments": {
+        "kusama": {
+          "validator_address": "FJcnsNkMjY8tgJrDVeq5CKoB1b4Au2xGQjaMv8Ax5QAiV6p",
+          "payment_address": "FJcnsNkMjY8tgJrDVeq5CKoB1b4Au2xGQjaMv8Ax5QAiV6p",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "145SvVXoAwR5ufJynYWDeNXzfyxbf5VkCqkHu3Jt7FSdYBE2",
+          "payment_address": "145SvVXoAwR5ufJynYWDeNXzfyxbf5VkCqkHu3Jt7FSdYBE2",
+          "signature": ""
+        }
+      }
+    },
+    "dozenodes": {
+      "name": "Dozenodes",
+      "website": "https://dozenodes.com",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dozenodes.png",
+      "membership": "hobbyist",
+      "active": "1",
+      "current_level": "1",
+      "level_timestamp": {
+        "0": "1684191600",
+        "1": "1685574000"
+      },
+      "services_address": "",
+      "endpoints": [],
+      "monitor_url": "https://ibp-monitor.dozenodes.com",
+      "region": "europe",
+      "latitude": "50.054604",
+      "longitude": "19.936940",
+      "payments": {
+        "kusama": {
+          "validator_address": "HnGgDUuyT97UcSpHhPaxY1h2MPFAjE1qiS9oKRMx5md6464",
+          "payment_address": "HnGgDUuyT97UcSpHhPaxY1h2MPFAjE1qiS9oKRMx5md6464",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "167ShbHu769mP5jbtt7AHayJhzEied6s8M5kN5nBSAQewnRz",
+          "payment_address": "167ShbHu769mP5jbtt7AHayJhzEied6s8M5kN5nBSAQewnRz",
+          "signature": ""
+        }
+      }
+    },
+    "stkd": {
+      "name": "STKD",
+      "website": "https://stkd.io",
+      "membership": "hobbyist",
+      "active": "1",
+      "current_level": "1",
+      "level_timestamp": {
+        "0": "1684191600",
+        "1": "1685574000"
+      },
+      "services_address": "",
+      "endpoints": [],
+      "monitor_url": "https://ibp-monitor.stkd.io",
+      "region": "",
+      "latitude": "0",
+      "longitude": "0",
+      "payments": {}
+    },
+    "mathcrypto": {
+      "name": "MathCrypto",
+      "website": "https://math-crypto.com",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/mathcrypto.png",
+      "membership": "hobbyist",
+      "active": "1",
+      "current_level": "1",
+      "level_timestamp": {
+        "0": "1684191600",
+        "1": "1685574000"
+      },
+      "services_address": "",
+      "endpoints": [],
+      "monitor_url": "https://ibp-monitor.math-crypto.com",
+      "region": "europe",
+      "latitude": "48.858093",
+      "longitude": "2.294694",
+      "payments": {
+        "kusama": {
+          "validator_address": "Dek7ze8nGoTWpuperdvx6nmyZtb41CQN97ypX9enfT9jM5S",
+          "payment_address": "CjATftfPqymi39KwFCw3sZLgTUA1ueGa4uYv2v9N6oBnjG9",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "1bjtWMjjq4GLDQhaWT9Y2wDcWqcQ83gYbfdvECQF5WDA23A",
+          "payment_address": "16CxXYoq9joofWE13zWuWBfd4tx3kQhXJECLLkhMLgWjYyHG",
+          "signature": ""
+        }
+      }
+    },
+    "paradox": {
+      "name": "Paradox",
+      "website": "https://paranodes.io",
+      "membership": "hobbyist",
+      "active": "1",
+      "current_level": "0",
+      "level_timestamp": {
+        "0": "1684191600"
+      },
+      "services_address": "",
+      "endpoints": [],
+      "monitor_url": "",
+      "region": "",
+      "latitude": "0",
+      "longitude": "0",
+      "payments": {}
+    }
+  }
 }
