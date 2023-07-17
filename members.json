@@ -27,6 +27,8 @@
         "statemine": "wss://sys.stake.plus/statemine",
         "encointer-kusama": "wss://sys.stake.plus/encointer-kusama",
         "bridgehub-kusama": "wss://sys.stake.plus/bridgehub-kusama",
+        "bridgehub-westend": "wss://sys.stake.plus/bridgehub-westend",
+        "bridgehub-polkadot": "wss://sys.stake.plus/bridgehub-polkadot",
         "statemint": "wss://sys.stake.plus/bridgehub-kusama",
         "collectives-polkadot": "wss://sys.stake.plus/collectives-polkadot"
       },
@@ -242,6 +244,8 @@
         "statemine": "wss://ibp-rpc.metaspan.io/kusama-statemine",
         "encointer-kusama": "wss://ibp-rpc.metaspan.io/kusama-encointer",
         "bridgehub-kusama": "wss://ibp-rpc.metaspan.io/kusama-bridgehub",
+        "bridgehub-westend": "wss://ibp-rpc.metaspan.io/kusama-westend",
+        "bridgehub-polkadot": "wss://ibp-rpc.metaspan.io/kusama-polkadot",
         "statemint": "wss://ibp-rpc.metaspan.io/polkadot-statemint",
         "collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives"
       },
