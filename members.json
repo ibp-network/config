@@ -330,20 +330,20 @@
         "6": "",
         "7": ""
       },
-      "services_address": "",
-      "monitor_url": "",
+      "services_address": "27.131.160.106",
+      "monitor_url": "https://monitor.rotko.net",
       "region": "asia",
       "latitude": "13.7563",
       "longitude": "100.5018",
       "payments": {
         "kusama": {
-          "validator_address": "",
-          "payment_address": "",
+          "validator_address": "DKKax6uZkiNPfd2ATd8cJhyi3c1KZD24VDdoWG9CfTmwgSp",
+          "payment_address": "DKKax6uZkiNPfd2ATd8cJhyi3c1KZD24VDdoWG9CfTmwgSp",
           "signature": ""
         },
         "polkadot": {
-          "validator_address": "",
-          "payment_address": "",
+          "validator_address": "1ArdZJtNUrZsfidfn1t69xHaSWwzf6PQNdLEUpcnVmbkZc5",
+          "payment_address": "1ArdZJtNUrZsfidfn1t69xHaSWwzf6PQNdLEUpcnVmbkZc5",
           "signature": ""
         }
       }
