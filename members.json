@@ -433,14 +433,14 @@
     "RadiumBlock": {
       "name": "RadiumBlock",
       "website": "https://radiumblock.com/",
-      "logo": "https://radiumblock.com/img/RB-Logo.svg",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg",
       "membership": "professional",
       "current_level": "3",
       "active": "1",
       "level_timestamp": {
-        "0": "",
-        "1": "",
-        "2": "",
+        "0": "1684123200",
+        "1": "1686801600",
+        "2": "1697774400",
         "3": "",
         "4": "",
         "5": "",
