@@ -430,6 +430,46 @@
         }
       }
     },
+    "RadiumBlock": {
+      "name": "RadiumBlock",
+      "website": "https://radiumblock.com/",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg",
+      "membership": "professional",
+      "current_level": "3",
+      "active": "1",
+      "level_timestamp": {
+        "0": "1684123200",
+        "1": "1686801600",
+        "2": "1697774400",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": ""
+      },
+      "services_address": "103.240.197.6",
+      "endpoints": {
+        "westend": "wss://westend.ibp.radiumblock.co/westend",
+        "kusama": "wss://kusama.ibp.radiumblock.co/kusama",
+        "polkadot": "wss://polkadot.ibp.radiumblock.co/polkadot"
+      },
+      "monitor_url": "",
+      "region": "Asia",
+      "latitude": "19.076090",
+      "longitude": "72.877426",
+      "payments": {
+        "kusama": {
+          "validator_address": "EwR2jzx7gZSjxCXbkVZRm39W2fWGJtwXYYftQYdVfcJjtt4",
+          "payment_address": "EwR2jzx7gZSjxCXbkVZRm39W2fWGJtwXYYftQYdVfcJjtt4",
+          "signature": ""
+        },
+        "polkadot": {
+          "validator_address": "13GtCixw3EZARj52CVbKLrsAzyc7dmmYhDV6quS5yeVCfnh1",
+          "payment_address": "13GtCixw3EZARj52CVbKLrsAzyc7dmmYhDV6quS5yeVCfnh1",
+          "signature": ""
+        }
+      }
+    },
     "aperturemining": {
       "name": "Aperture Mining",
       "website": "https://aperturemining.com",
