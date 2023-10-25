@@ -413,7 +413,7 @@
         "statemint": "wss://statemint-rpc-ng.dwellir.com",
         "collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
       },
-      "monitor_url": "",
+      "monitor_url": "https://ibp-monitor-ng.dwellir.com",
       "region": "africa",
       "latitude": "6.4541",
       "longitude": "3.3947",
