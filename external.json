@@ -1,0 +1,11 @@
+{
+  "providers": {
+    "parity": {
+      "active": "1",
+      "endpoints": {
+        "polkadot": "wss://rpc.polkadot.io",
+        "kusama": "wss://kusama-rpc.polkadot.io"
+      }
+    }
+  }
+}
