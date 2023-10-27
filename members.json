@@ -334,7 +334,7 @@
       "endpoints": {
         "westend": "wss://rpc.rotko.net/westend",
         "kusama": "wss://rpc.rotko.net/kusama",
-        "polkadot": "wss://rpc.rotko.net/polkadot",
+        "polkadot": "wss://rpc.rotko.net/polkadot"
       },
       "monitor_url": "https://ibp.rotko.net",
       "region": "asia",
