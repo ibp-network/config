@@ -152,9 +152,9 @@
       },
       "services_address": "",
       "monitor_url": "",
-      "region": "europe",
-      "latitude": "",
-      "longitude": "",
+      "region": "north_america",
+      "latitude": "47.59",
+      "longitude": "-122.3",
       "payments": {
         "kusama": {
           "validator_address": "",
@@ -185,25 +185,25 @@
         "6": "1672549200",
         "7": "1672549200"
       },
-      "services_address": "138.59.133.248",
+      "services_address": "138.59.133.242",
       "endpoints": {
-        "polkadot": "wss://rpc-cr.gatotech.network/polkadot",
-        "kusama": "wss://rpc-cr.gatotech.network/kusama",
-        "westend": "wss://rpc-cr.gatotech.network/westend",
-        "statemint": "wss://sys-cr.gatotech.network/statemint",
-        "statemine": "wss://sys-cr.gatotech.network/statemine",
-        "westmint": "wss://sys-cr.gatotech.network/westmint",
-        "collectives-polkadot": "wss://sys-cr.gatotech.network/collectives-polkadot",
-        "encointer-kusama": "wss://sys-cr.gatotech.network/encointer-kusama",
-        "collectives-westend": "wss://sys-cr.gatotech.network/collectives-westend",
-        "bridgehub-polkadot": "wss://sys-cr.gatotech.network/bridgehub-polkadot",
-        "bridgehub-kusama": "wss://sys-cr.gatotech.network/bridgehub-kusama",
-        "bridgehub-westend": "wss://sys-cr.gatotech.network/bridgehub-westend"
+        "polkadot": "wss://rpc.gatotech.network/polkadot",
+        "kusama": "wss://rpc.gatotech.network/kusama",
+        "westend": "wss://rpc.gatotech.network/westend",
+        "statemint": "wss://rpc.gatotech.network/asset-hub-polkadot",
+        "statemine": "wss://rpc.gatotech.network/asset-hub-kusama",
+        "westmint": "wss://rpc.gatotech.network/asset-hub-westend",
+        "collectives-polkadot": "wss://rpc.gatotech.network/collectives-polkadot",
+        "encointer-kusama": "wss://rpc.gatotech.network/encointer-kusama",
+        "collectives-westend": "wss://rpc.gatotech.network/collectives-westend",
+        "bridgehub-polkadot": "wss://rpc.gatotech.network/bridgehub-polkadot",
+        "bridgehub-kusama": "wss://rpc.gatotech.network/bridgehub-kusama",
+        "bridgehub-westend": "wss://rpc.gatotech.network/bridgehub-westend"
       },
-      "monitor_url": "https://ibp-monitor.gatotech.network",
+      "monitor_url": "https://monitor.gatotech.network",
       "region": "central_america",
-      "latitude": "9.9333",
-      "longitude": "-84.0845",
+      "latitude": "9.936",
+      "longitude": "-84.0965",
       "payments": {
         "kusama": {
           "validator_address": "",
@@ -373,8 +373,8 @@
       "services_address": "",
       "monitor_url": "",
       "region": "oceania",
-      "latitude": "0",
-      "longitude": "0",
+      "latitude": "-43.49",
+      "longitude": "172.56",
       "payments": {
         "kusama": {
           "validator_address": "",
