@@ -355,8 +355,8 @@
     },
     "polkadotters": {
       "name": "Polkadotters",
-      "website": "",
-      "logo": "",
+      "website": "https://polkadotters.com",
+      "logo": "https://github.com/polkadotters/media-kit/blob/main/profile01.png",
       "membership": "professional",
       "current_level": "0",
       "active": "0",
@@ -371,7 +371,7 @@
         "7": ""
       },
       "services_address": "",
-      "monitor_url": "",
+      "monitor_url": "https://ibp-monitor.polkadotters.com",
       "region": "oceania",
       "latitude": "-43.49",
       "longitude": "172.56",
