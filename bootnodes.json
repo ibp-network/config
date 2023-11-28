@@ -129,6 +129,10 @@
         "/dns/boot.metaspan.io/tcp/26032/p2p/12D3KooWKfuSaZrLNz43PDgM4inMALXRHTSh2WBuqQtZRq8zmT1Z",
         "/dns/boot.metaspan.io/tcp/26036/wss/p2p/12D3KooWKfuSaZrLNz43PDgM4inMALXRHTSh2WBuqQtZRq8zmT1Z"
       ],
+      "rotko": [
+        "/dns/kbr13.rotko.net/tcp/33553/p2p/12D3KooWAmBp54mUEYtvsk2kxNEsDbAvdUMcaghxKXgUQxmPEQ66",
+        "/dns/kbr13.rotko.net/tcp/35553/wss/p2p/12D3KooWAmBp54mUEYtvsk2kxNEsDbAvdUMcaghxKXgUQxmPEQ66"
+      ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/41333/p2p/12D3KooWBzbs2jsXjG5dipktGPKaUm9XWvkmeJFsEAGkVt946Aa7",
         "/dns/boot.stake.plus/tcp/41334/wss/p2p/12D3KooWBzbs2jsXjG5dipktGPKaUm9XWvkmeJFsEAGkVt946Aa7"
@@ -149,6 +153,10 @@
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33130/p2p/12D3KooWCnFzfEdd7MwUNrrDv66FuS2DM5MGuiaB4y48XS7qNjF6",
         "/dns/boot.gatotech.network/tcp/35130/wss/p2p/12D3KooWCnFzfEdd7MwUNrrDv66FuS2DM5MGuiaB4y48XS7qNjF6"
+      ],
+      "rotko": [
+        "/dns/pbr13.rotko.net/tcp/33543/p2p/12D3KooWMxZY7tDc2Rh454VaJJ7RexKAXVS6xSBEvTnXSGCnuGDw",
+        "/dns/pbr13.rotko.net/tcp/35543/wss/p2p/12D3KooWMxZY7tDc2Rh454VaJJ7RexKAXVS6xSBEvTnXSGCnuGDw"
       ]
     }
   },
@@ -162,6 +170,10 @@
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33330/p2p/12D3KooWJHG6qznPzTSEbuujHNcvyzBZcR9zNRPFcXWUaoVWZBEw",
         "/dns/boot.gatotech.network/tcp/35330/wss/p2p/12D3KooWJHG6qznPzTSEbuujHNcvyzBZcR9zNRPFcXWUaoVWZBEw"
+      ],
+      "rotko": [
+        "/dns/wbr13.rotko.net/tcp/33563/p2p/12D3KooWJyeRHpxZZbfBCNEgeUFzmRC5AMSAs2tJhjJS1k5hULkD",
+        "/dns/wbr13.rotko.net/tcp/35563/wss/p2p/12D3KooWJyeRHpxZZbfBCNEgeUFzmRC5AMSAs2tJhjJS1k5hULkD"
       ]
     }
   },
@@ -187,6 +199,10 @@
       "metaspan": [
         "/dns/boot.metaspan.io/tcp/16072/p2p/12D3KooWJWTTu2t2yg5bFRH6tjEpfzKwZir5R9JRRjQpgFPXdDfp",
         "/dns/boot.metaspan.io/tcp/16076/wss/p2p/12D3KooWJWTTu2t2yg5bFRH6tjEpfzKwZir5R9JRRjQpgFPXdDfp"
+      ],
+      "rotko": [
+        "/dns/pch13.rotko.net/tcp/33573/wss/p2p/12D3KooWRXudHoazPZ9osMfdY38e8CBxQLD4RhrVeHpRSNNpcDtH",
+        "/dns/pch13.rotko.net/tcp/35573/p2p/12D3KooWRXudHoazPZ9osMfdY38e8CBxQLD4RhrVeHpRSNNpcDtH"
       ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/38333/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ",
@@ -221,6 +237,10 @@
         "/dns/boot.metaspan.io/tcp/36072/p2p/12D3KooWEf2QXWq5pAbFJLfbnexA7KYtRRDSPkqTP64n1KtdsdV2",
         "/dns/boot.metaspan.io/tcp/36076/wss/p2p/12D3KooWEf2QXWq5pAbFJLfbnexA7KYtRRDSPkqTP64n1KtdsdV2"
       ],
+      "rotko": [
+        "/dns/wch13.rotko.net/tcp/33593/p2p/12D3KooWPG85zhuSRoyptjLkFD4iJFistjiBmc15JgQ96B4fdXYr",
+        "/dns/wch13.rotko.net/tcp/35593/wss/p2p/12D3KooWPG85zhuSRoyptjLkFD4iJFistjiBmc15JgQ96B4fdXYr"
+      ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/38333/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ",
         "/dns/boot.stake.plus/tcp/38334/wss/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ"
@@ -253,6 +273,10 @@
       "metaspan": [
         "/dns/boot.metaspan.io/tcp/26052/p2p/12D3KooW9z9hKqe3mqYAp5UJMhZiCqhkTHyiR43fegnGmTJ3JAba",
         "/dns/boot.metaspan.io/tcp/26056/wss/p2p/12D3KooW9z9hKqe3mqYAp5UJMhZiCqhkTHyiR43fegnGmTJ3JAba"
+      ],
+      "rotko":[
+        "/dns/mine14.rotko.net/tcp/33524/p2p/12D3KooWJUFnjR2PNbsJhudwPVaWCoZy1acPGKjM2cSuGj345BBu",
+        "/dns/mine14.rotko.net/tcp/35524/wss/p2p/12D3KooWJUFnjR2PNbsJhudwPVaWCoZy1acPGKjM2cSuGj345BBu"
       ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/34333/p2p/12D3KooWAzSSZ7jLqMw1WPomYEKCYANQaKemXQ8BKoFvNEvfmdqR",
@@ -287,6 +311,10 @@
         "/dns/boot.metaspan.io/tcp/16052/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651",
         "/dns/boot.metaspan.io/tcp/16056/wss/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651"
       ],
+      "rotko":[
+        "/dns/mint14.rotko.net/tcp/33514/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW",
+        "/dns/mint14.rotko.net/tcp/35514/wss/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW"
+      ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/35333/p2p/12D3KooWFrQjYaPZSSLLxEVmoaHFcrF6VoY4awG4KRSLaqy3JCdQ",
         "/dns/boot.stake.plus/tcp/35334/wss/p2p/12D3KooWFrQjYaPZSSLLxEVmoaHFcrF6VoY4awG4KRSLaqy3JCdQ"
@@ -320,6 +348,10 @@
         "/dns/boot.metaspan.io/tcp/36052/p2p/12D3KooWBCqfNb6Y39DXTr4UBWXyjuS3hcZM1qTbHhDXxF6HkAJJ",
         "/dns/boot.metaspan.io/tcp/36056/wss/p2p/12D3KooWBCqfNb6Y39DXTr4UBWXyjuS3hcZM1qTbHhDXxF6HkAJJ"
       ],
+      "rotko":[
+        "/dns/wmint14.rotko.net/tcp/33534/p2p/12D3KooWE4UDXqgtTcMCyUQ8S4uvaT8VMzzTBA6NWmKuYwTacWuN",
+        "/dns/wmint14.rotko.net/tcp/35534/wss/p2p/12D3KooWE4UDXqgtTcMCyUQ8S4uvaT8VMzzTBA6NWmKuYwTacWuN"
+      ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/33333/p2p/12D3KooWNiB27rpXX7EYongoWWUeRKzLQxWGms6MQU2B9LX7Ztzo",
         "/dns/boot.stake.plus/tcp/33334/wss/p2p/12D3KooWNiB27rpXX7EYongoWWUeRKzLQxWGms6MQU2B9LX7Ztzo"
@@ -349,6 +381,10 @@
       "metaspan": [
         "/dns/boot.metaspan.io/tcp/26072/p2p/12D3KooWPtjFu99oadjbtbK33iir1jdYVdkEEs3GYV6nswJzwx8W",
         "/dns/boot.metaspan.io/tcp/26076/wss/p2p/12D3KooWPtjFu99oadjbtbK33iir1jdYVdkEEs3GYV6nswJzwx8W"
+      ],
+      "rotko": [
+        "/dns/enc14.rotko.net/tcp/33504/p2p/12D3KooWJ3327ZoZcR96pToGsXa8Xbehh8z25daxYseYXF46UDCZ",
+        "/dns/enc14.rotko.net/tcp/35504/wss/p2p/12D3KooWJ3327ZoZcR96pToGsXa8Xbehh8z25daxYseYXF46UDCZ"
       ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/36333/p2p/12D3KooWNFFdJFV21haDiSdPJ1EnGmv6pa2TgB81Cvu7Y96hjTAu",
