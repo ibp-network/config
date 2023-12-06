@@ -292,7 +292,9 @@
         "collectives-westend": "wss://sys.turboflakes.io/collectives-westend",
         "statemine": "wss://sys.turboflakes.io/statemine",
         "encointer-kusama": "wss://sys.turboflakes.io/encointer-kusama",
-        "bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
+        "bridgehub-westend": "wss://sys.turboflakes.io/bridgehub-westend",
+		"bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
+		"bridgehub-polkadot": "wss://sys.turboflakes.io/bridgehub-polkadot",
         "statemint": "wss://sys.turboflakes.io/bridgehub-kusama",
         "collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot"
       },
