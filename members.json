@@ -457,7 +457,7 @@
         "westend": "wss://westend.ibp.radiumblock.co/westend",
         "kusama": "wss://kusama.ibp.radiumblock.co/kusama",
         "polkadot": "wss://polkadot.ibp.radiumblock.co/polkadot",
-	      "westmint": "wss://westmint.ibp.radiumblock.co/westmint",
+	"westmint": "wss://westmint.ibp.radiumblock.co/westmint",
         "statemine": "wss://statemine.ibp.radiumblock.co/statemine",
         "statemint": "wss://statemint.ibp.radiumblock.co/statemint",
         "encointer-kusama": "wss://encointer-kusama.ibp.radiumblock.co/encointer-kusama",
