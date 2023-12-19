@@ -464,7 +464,8 @@
         "bridgehub-kusama": "wss://bridgehub-kusama.ibp.radiumblock.co/bridgehub-kusama",
         "bridgehub-westend": "wss://bridgehub-westend.ibp.radiumblock.co/bridgehub-westend",
         "bridgehub-polkadot": "wss://bridgehub-polkadot.ibp.radiumblock.co/bridgehub-polkadot",
-        "collectives-polkadot": "wss://collectives-polkadot.ibp.radiumblock.co/collectives-polkadot"
+        "collectives-polkadot": "wss://collectives-polkadot.ibp.radiumblock.co/collectives-polkadot",
+	"collectives-westend":  "wss://collectives-westend.ibp.radiumblock.co/collectives-westend" 
       },
       "monitor_url": "",
       "region": "Asia",
