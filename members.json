@@ -157,6 +157,7 @@
         "statemint": "wss://ibp-rpc-polkadot-assethub.luckyfriday.io",
         "statemine": "wss://ibp-rpc-kusama-assethub.luckyfriday.io",
         "westmint": "wss://ibp-rpc-westend-assethub.luckyfriday.io",
+        "encointer-kusama": "wss://ibp-rpc-encointer.luckyfriday.io",
         "collectives-polkadot": "wss://ibp-rpc-polkadot.luckyfriday.io",
         "collectives-westend": "wss://ibp-rpc-westend-collectives.luckyfriday.io",
         "bridgehub-polkadot": "wss://ibp-rpc-polkadot-bridgehub.luckyfriday.io",
