@@ -150,6 +150,19 @@
         "6": "",
         "7": ""
       },
+      "endpoints": {
+        "polkadot": "wss://ibp-rpc-polkadot.luckyfriday.io",
+        "kusama": "wss://ibp-rpc-kusama.luckyfriday.io",
+        "westend": "wss://ibp-rpc-westend.luckyfriday.io",
+        "statemint": "wss://ibp-rpc-polkadot-assethub.luckyfriday.io",
+        "statemine": "wss://ibp-rpc-kusama-assethub.luckyfriday.io",
+        "westmint": "wss://ibp-rpc-westend-assethub.luckyfriday.io",
+        "collectives-polkadot": "wss://ibp-rpc-polkadot.luckyfriday.io",
+        "collectives-westend": "wss://ibp-rpc-westend-collectives.luckyfriday.io",
+        "bridgehub-polkadot": "wss://ibp-rpc-polkadot-bridgehub.luckyfriday.io",
+        "bridgehub-kusama": "wss://ibp-rpc-kusama-bridgehub.luckyfriday.io",
+        "bridgehub-westend": "wss://ibp-rpc-westend-bridgehub.luckyfriday.io"
+      },
       "services_address": "",
       "monitor_url": "",
       "region": "north_america",
