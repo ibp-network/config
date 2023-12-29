@@ -440,15 +440,15 @@
       "website": "https://radiumblock.com/",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg",
       "membership": "professional",
-      "current_level": "3",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1684123200",
         "1": "1686801600",
         "2": "1697774400",
-        "3": "",
-        "4": "",
-        "5": "",
+        "3": "1698756669",
+        "4": "1699879869",
+        "5": "1700916669",
         "6": "",
         "7": ""
       },
@@ -456,7 +456,16 @@
       "endpoints": {
         "westend": "wss://westend.ibp.radiumblock.co/westend",
         "kusama": "wss://kusama.ibp.radiumblock.co/kusama",
-        "polkadot": "wss://polkadot.ibp.radiumblock.co/polkadot"
+        "polkadot": "wss://polkadot.ibp.radiumblock.co/polkadot",
+	"westmint": "wss://westmint.ibp.radiumblock.co/westmint",
+        "statemine": "wss://statemine.ibp.radiumblock.co/statemine",
+        "statemint": "wss://statemint.ibp.radiumblock.co/statemint",
+        "encointer-kusama": "wss://encointer-kusama.ibp.radiumblock.co/encointer-kusama",
+        "bridgehub-kusama": "wss://bridgehub-kusama.ibp.radiumblock.co/bridgehub-kusama",
+        "bridgehub-westend": "wss://bridgehub-westend.ibp.radiumblock.co/bridgehub-westend",
+        "bridgehub-polkadot": "wss://bridgehub-polkadot.ibp.radiumblock.co/bridgehub-polkadot",
+        "collectives-polkadot": "wss://collectives-polkadot.ibp.radiumblock.co/collectives-polkadot",
+	"collectives-westend":  "wss://collectives-westend.ibp.radiumblock.co/collectives-westend" 
       },
       "monitor_url": "",
       "region": "Asia",
