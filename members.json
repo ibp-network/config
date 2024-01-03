@@ -139,7 +139,7 @@
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/luckyfriday.png",
       "membership": "professional",
       "current_level": "3",
-      "active": "0",
+      "active": "1",
       "level_timestamp": {
         "0": "1672549200",
         "1": "1704289537",
