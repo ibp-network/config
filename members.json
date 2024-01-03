@@ -136,7 +136,7 @@
     "luckyfriday": {
       "name": "Lucky Friday",
       "website": "https://luckyfriday.io",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/luckyfriday.png",
       "membership": "professional",
       "current_level": "0",
       "active": "0",
@@ -164,11 +164,11 @@
         "bridgehub-kusama": "wss://ibp-rpc-kusama-bridgehub.luckyfriday.io",
         "bridgehub-westend": "wss://ibp-rpc-westend-bridgehub.luckyfriday.io"
       },
-      "services_address": "",
+      "services_address": "64.62.224.18",
       "monitor_url": "",
       "region": "north_america",
-      "latitude": "47.59",
-      "longitude": "-122.3",
+      "latitude": "33.4484",
+      "longitude": "-112.0740",
       "payments": {
         "kusama": {
           "validator_address": "",
