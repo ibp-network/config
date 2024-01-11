@@ -3,6 +3,7 @@
     "service_type": "rpc-endpoints",
     "level_required": "3",
     "endpoints": {
+      "paseo": "wss://rpc.dotters.network/paseo",
       "westend": "wss://rpc.dotters.network/westend",
       "kusama": "wss://rpc.dotters.network/kusama",
       "polkadot": "wss://rpc.dotters.network/polkadot"
@@ -41,6 +42,7 @@
     "service_type": "rpc-endpoints",
     "level_required": "3",
     "endpoints": {
+      "paseo": "wss://rpc.ibp.network/paseo",
       "westend": "wss://rpc.ibp.network/westend",
       "kusama": "wss://rpc.ibp.network/kusama",
       "polkadot": "wss://rpc.ibp.network/polkadot"

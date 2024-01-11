@@ -70,6 +70,7 @@
       "polkadotters": [
        "/dns/kusama-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWHB5rTeNkQdXNJ9ynvGz8Lpnmsctt7Tvp7mrYv6bcwbPG",
        "/dns/kusama-bootnode.polkadotters.com/tcp/30334/wss/p2p/12D3KooWHB5rTeNkQdXNJ9ynvGz8Lpnmsctt7Tvp7mrYv6bcwbPG"
+      ]
     }
   },
   "westend": {
@@ -78,7 +79,9 @@
       "amforc": [
         "/dns/westend.bootnode.amforc.com/tcp/30333/p2p/12D3KooWJ5y9ZgVepBQNW4aabrxgmnrApdVnscqgKWiUu4BNJbC8"
       ],
-      "dwellir": [],
+      "dwellir": [
+        
+      ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33300/p2p/12D3KooWQGR1vUhoy6mvQorFp3bZFn6NNezhQZ6NWnVV7tpFgoPd",
         "/dns/boot.gatotech.network/tcp/35300/wss/p2p/12D3KooWQGR1vUhoy6mvQorFp3bZFn6NNezhQZ6NWnVV7tpFgoPd"
@@ -104,7 +107,41 @@
       "polkadotters": [
        "/dns/westend-bootnode.polkadotters.com/tcp/30333/p2p/12D3KooWHPHb64jXMtSRJDrYFATWeLnvChL8NtWVttY67DCH1eC5",
        "/dns/westend-bootnode.polkadotters.com/tcp/30334/wss/p2p/12D3KooWHPHb64jXMtSRJDrYFATWeLnvChL8NtWVttY67DCH1eC5"
+      ]
     }
+  },
+  "paseo": {
+    "commandId": "polkadot",
+    "members": {
+      "amforc": [
+
+      ],
+      "dwellir": [
+
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33400/p2p/12D3KooWEvz5Ygv3MhCUNTVQbUTVhzhvf4KKcNoe5M5YbVLPBeeW",
+        "/dns/boot.gatotech.network/tcp/35400/wss/p2p/12D3KooWEvz5Ygv3MhCUNTVQbUTVhzhvf4KKcNoe5M5YbVLPBeeW"
+      ],
+      "helikon": [
+
+      ],
+      "metaspan": [
+
+      ],
+      "rotko": [
+
+      ],
+      "stakeplus": [
+
+      ],
+      "turboflakes": [
+
+      ],
+      "polkadotters": [
+
+      ]
+      }
   },
   "bridge-hub-kusama": {
     "commandId": "parachain",
