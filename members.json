@@ -204,6 +204,7 @@
         "polkadot": "wss://rpc.gatotech.network/polkadot",
         "kusama": "wss://rpc.gatotech.network/kusama",
         "westend": "wss://rpc.gatotech.network/westend",
+        "paseo": "wss://rpc.gatotech.network/paseo",
         "statemint": "wss://rpc.gatotech.network/asset-hub-polkadot",
         "statemine": "wss://rpc.gatotech.network/asset-hub-kusama",
         "westmint": "wss://rpc.gatotech.network/asset-hub-westend",
@@ -214,7 +215,7 @@
         "bridgehub-kusama": "wss://rpc.gatotech.network/bridgehub-kusama",
         "bridgehub-westend": "wss://rpc.gatotech.network/bridgehub-westend"
       },
-      "monitor_url": "https://monitor.gatotech.network",
+      "monitor_url": "https://ibp-monitor.gatotech.network",
       "region": "central_america",
       "latitude": "9.936",
       "longitude": "-84.0965",
@@ -372,7 +373,7 @@
     "polkadotters": {
       "name": "Polkadotters",
       "website": "https://polkadotters.com",
-      "logo": "https://github.com/polkadotters/media-kit/blob/main/profile01.png",
+      "logo": "https://github.com/polkadotters/media-kit/blob/main/polkadotters.png",
       "membership": "professional",
       "current_level": "0",
       "active": "0",
