@@ -343,7 +343,7 @@
         "2": "1698258549",
         "3": "1698258549",
         "4": "1701212772",
-        "5": "",
+        "5": "1707184705",
         "6": "",
         "7": ""
       },
@@ -351,7 +351,17 @@
       "endpoints": {
         "westend": "wss://rpc.rotko.net/westend",
         "kusama": "wss://rpc.rotko.net/kusama",
-        "polkadot": "wss://rpc.rotko.net/polkadot"
+        "polkadot": "wss://rpc.rotko.net/polkadot",
+        "paseo": "wss://rpc.rotko.net/paseo",
+        "statemint": "wss://rpc.rotko.net/asset-hub-polkadot",
+        "statemine": "wss://rpc.rotko.net/asset-hub-kusama",
+        "westmint": "wss://rpc.rotko.net/asset-hub-westend",
+        "collectives-polkadot": "wss://rpc.rotko.net/collectives-polkadot",
+        "encointer-kusama": "wss://rpc.rotko.net/encointer-kusama",
+        "collectives-westend": "wss://rpc.rotko.net/collectives-westend",
+        "bridgehub-polkadot": "wss://rpc.rotko.net/bridgehub-polkadot",
+        "bridgehub-kusama": "wss://rpc.rotko.net/bridgehub-kusama",
+        "bridgehub-westend": "wss://rpc.rotko.net/bridgehub-westend"
       },
       "monitor_url": "https://ibp.rotko.net",
       "region": "asia",
