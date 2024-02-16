@@ -385,14 +385,14 @@
       "website": "https://polkadotters.com",
       "logo": "https://github.com/polkadotters/media-kit/blob/main/polkadotters.png",
       "membership": "professional",
-      "current_level": "3",
+      "current_level": "4",
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
         "1": "1708098805",
         "2": "1708098805",
         "3": "1708098805",
-        "4": "",
+        "4": "1708098805",
         "5": "",
         "6": "",
         "7": ""
