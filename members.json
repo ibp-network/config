@@ -383,7 +383,7 @@
     "polkadotters": {
       "name": "Polkadotters",
       "website": "https://polkadotters.com",
-      "logo": "https://github.com/ibp-network/config/blob/main/logos/polkadotters.png",
+      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/polkadotters.png",
       "membership": "professional",
       "current_level": "4",
       "active": "1",
