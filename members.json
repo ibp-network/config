@@ -389,28 +389,34 @@
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
-        "1": "1708098805",
-        "2": "1708098805",
-        "3": "1708098805",
-        "4": "1708098805",
+        "1": "1697663236",
+        "2": "1697663236",
+        "3": "1708297667",
+        "4": "1708297667",
         "5": "",
         "6": "",
         "7": ""
       },
       "services_address": "202.37.148.99",
+      "endpoints": {
+        "westend": "wss://rpc.polkadotters.com/westend",
+        "kusama": "wss://rpc.polkadotters.com/kusama",
+        "polkadot": "wss://rpc.polkadotters.com/polkadot",
+        "paseo": "wss://rpc.polkadotters.com/paseo"
+      },
       "monitor_url": "https://ibp-monitor.polkadotters.com",
       "region": "oceania",
       "latitude": "-43.49",
       "longitude": "172.56",
       "payments": {
         "kusama": {
-          "validator_address": "",
-          "payment_address": "",
+          "validator_address": "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
+          "payment_address": "EPGHRDFaBbQz4uF8DgnuScxYp4rvvtpL5MTed7VvGprNQmm",
           "signature": ""
         },
         "polkadot": {
-          "validator_address": "",
-          "payment_address": "",
+          "validator_address": "16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
+          "payment_address": "12owmS8Sobqxfx6KK9vk9e67FqnGpZdmxCFCRFptzZdsoujC",
           "signature": ""
         }
       }
