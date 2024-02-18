@@ -335,7 +335,7 @@
       "website": "https://rotko.net",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "4",
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
@@ -344,8 +344,8 @@
         "3": "1698258549",
         "4": "1701212772",
         "5": "1707184705",
-        "6": "1707184705",
-        "7": "1707184705"
+        "6": "",
+        "7": ""
       },
       "services_address": "27.131.160.109",
       "endpoints": {
@@ -383,34 +383,40 @@
     "polkadotters": {
       "name": "Polkadotters",
       "website": "https://polkadotters.com",
-      "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/polkadotters.png",
+      "logo": "https://github.com/polkadotters/media-kit/blob/main/polkadotters.png",
       "membership": "professional",
       "current_level": "4",
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
-        "1": "1708098805",
-        "2": "1708098805",
-        "3": "1708098805",
-        "4": "1708098805",
+        "1": "1697663236",
+        "2": "1697663236",
+        "3": "1708297667",
+        "4": "1708297667",
         "5": "",
         "6": "",
         "7": ""
       },
       "services_address": "202.37.148.99",
+      "endpoints": {
+        "westend": "wss://rpc.polkadotters.com/westend",
+        "kusama": "wss://rpc.polkadotters.com/kusama",
+        "polkadot": "wss://rpc.polkadotters.com/polkadot",
+        "paseo": "wss://rpc.polkadotters.com/paseo"
+      },
       "monitor_url": "https://ibp-monitor.polkadotters.com",
       "region": "oceania",
       "latitude": "-43.49",
       "longitude": "172.56",
       "payments": {
         "kusama": {
-          "validator_address": "",
-          "payment_address": "",
+          "validator_address": "FVAFUJhJy9tj1X4PaEXX3tDzjaBEVsVunABAdsDMD4ZYmWA",
+          "payment_address": "EPGHRDFaBbQz4uF8DgnuScxYp4rvvtpL5MTed7VvGprNQmm",
           "signature": ""
         },
         "polkadot": {
-          "validator_address": "",
-          "payment_address": "",
+          "validator_address": "16A4n4UQqgxw5ndeehPjUAobDNmuX2bBoPXVKj4xTe16ktRN",
+          "payment_address": "12owmS8Sobqxfx6KK9vk9e67FqnGpZdmxCFCRFptzZdsoujC",
           "signature": ""
         }
       }
@@ -467,7 +473,7 @@
       "website": "https://radiumblock.com/",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1684123200",
@@ -476,8 +482,8 @@
         "3": "1698756669",
         "4": "1699879869",
         "5": "1700916669",
-        "6": "1700916669",
-        "7": "1700916669"
+        "6": "",
+        "7": ""
       },
       "services_address": "103.240.197.6",
       "endpoints": {
