@@ -385,7 +385,7 @@
       "website": "https://polkadotters.com",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/polkadotters.png",
       "membership": "professional",
-      "current_level": "4",
+      "current_level": "7",
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
@@ -393,9 +393,9 @@
         "2": "1697663236",
         "3": "1708297667",
         "4": "1708297667",
-        "5": "",
-        "6": "",
-        "7": ""
+        "5": "1710006529",
+        "6": "1710006529",
+        "7": "1710006529"
       },
       "services_address": "202.37.148.99",
       "endpoints": {
