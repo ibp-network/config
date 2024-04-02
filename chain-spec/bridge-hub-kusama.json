@@ -2,8 +2,7 @@
   "name": "Kusama BridgeHub",
   "id": "bridge-hub-kusama",
   "chainType": "Live",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": {

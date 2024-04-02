@@ -2,8 +2,7 @@
   "name": "Collectives",
   "id": "collectives_polkadot",
   "chainType": "Live",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": {
