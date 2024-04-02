@@ -2,8 +2,7 @@
   "name": "Westend Collectives",
   "id": "collectives_westend",
   "chainType": "Live",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": {

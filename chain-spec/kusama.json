@@ -1,8 +1,7 @@
 {
   "name": "Kusama",
   "id": "ksmcc3",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": [
     [
       "wss://telemetry.polkadot.io/submit/",

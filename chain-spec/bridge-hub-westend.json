@@ -2,8 +2,7 @@
   "name": "Westend BridgeHub",
   "id": "bridge-hub-westend",
   "chainType": "Live",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": {

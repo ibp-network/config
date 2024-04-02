@@ -2,8 +2,7 @@
   "name": "Polkadot BridgeHub",
   "id": "bridge-hub-polkadot",
   "chainType": "Live",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": {

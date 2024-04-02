@@ -1,8 +1,7 @@
 {
   "name": "Westend",
   "id": "westend2",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": [
     [
       "wss://telemetry.polkadot.io/submit/",
