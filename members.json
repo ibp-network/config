@@ -101,7 +101,7 @@
         "6": "1672549200",
         "7": "1672549200"
       },
-      "services_address": "77.92.101.227",
+      "services_address": "104.247.178.10",
       "endpoints": {
         "westend": "wss://rpc.helikon.io/westend",
         "kusama": "wss://rpc.helikon.io/kusama",
