@@ -435,6 +435,81 @@
       ]
     }
   },
+  "coretime-westend": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+      ],
+      "dwellir": [
+      ],
+      "gatotech": [
+      ],
+      "helikon": [
+      ],
+      "metaspan": [
+      ],
+      "rotko":[
+        "/dns/wcore16.rotko.net/tcp/33736/12D3KooWFmGg7EGzxGDawuJ9EfyEznCrZfMJgGa4eHpMWjcJmg85",
+        "/dns/wcore16.rotko.net/tcp/35736/wss/12D3KooWFmGg7EGzxGDawuJ9EfyEznCrZfMJgGa4eHpMWjcJmg85"
+      ],
+      "stakeplus": [
+      ],
+      "turboflakes": [
+      ],
+      "polkadotters": [
+      ]
+    }
+  },
+  "people-westend": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+      ],
+      "dwellir": [
+      ],
+      "gatotech": [
+      ],
+      "helikon": [
+      ],
+      "metaspan": [
+      ],
+      "rotko":[
+        "/dns/wppl16.rotko.net/tcp/33766/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS",
+        "/dns/wppl16.rotko.net/tcp/35766/wss/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS"
+      ],
+      "stakeplus": [
+      ],
+      "turboflakes": [
+      ],
+      "polkadotters": [
+      ]
+    }
+  },
+  "asset-hub-paseo": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+      ],
+      "dwellir": [
+      ],
+      "gatotech": [
+      ],
+      "helikon": [
+      ],
+      "metaspan": [
+      ],
+      "rotko":[
+        "/dns/pmint16.rotko.net/tcp/33946/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS",
+        "/dns/pmint16.rotko.net/tcp/35946/wss/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS"
+      ],
+      "stakeplus": [
+      ],
+      "turboflakes": [
+      ],
+      "polkadotters": [
+      ]
+    }
+  },
   "encointer-kusama": {
     "commandId": "encointer",
     "comment": "wss not supported in encointer yet",
