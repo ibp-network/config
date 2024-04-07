@@ -15,27 +15,42 @@
       "gatotech",
       "metaspan",
       "rotko",
-      "turboflakes"
+      "radiumblock",
+      "turboflakes",
+      "luckyfriday",
+      "dwellir",
+      "polkadotters"
     ]
   },
   "sys.dotters.network": {
     "service_type": "rpc-endpoints",
     "level_required": "5",
     "endpoints": {
+      "asset-hub-paseo": "wss://sys.dotters.network/asset-hub-paseo",
       "westmint": "wss://sys.dotters.network/westmint",
       "collectives-westend": "wss://sys.dotters.network/collectives-westend",
       "statemine": "wss://sys.dotters.network/statemine",
       "encointer-kusama": "wss://sys.dotters.network/encointer-kusama",
       "bridgehub-kusama": "wss://sys.dotters.network/bridgehub-kusama",
       "statemint": "wss://sys.dotters.network/statemint",
-      "collectives-polkadot": "wss://sys.dotters.network/collectives-polkadot"
+      "bridgehub-polkadot": "wss://sys.dotters.network/bridgehub-polkadot",
+      "collectives-polkadot": "wss://sys.dotters.network/collectives-polkadot",
+      "bridgehub-westend": "wss://sys.ibp.network/bridgehub-westend",
+      "coretime-westend": "wss://sys.dotters.network/coretime-westend",
+      "people-westend": "wss://sys.dotters.network/people-westend"
     },
     "members": [
       "stakeplus",
       "amforc",
       "helikon",
       "gatotech",
-      "metaspan"
+      "metaspan",
+      "rotko",
+      "radiumblock",
+      "turboflakes",
+      "luckyfriday",
+      "dwellir",
+      "polkadotters"
     ]
   },
   "rpc.ibp.network": {
@@ -54,27 +69,42 @@
       "gatotech",
       "metaspan",
       "rotko",
-      "turboflakes"
+      "turboflakes",
+      "radiumblock",
+      "luckyfriday",
+      "dwellir",
+      "polkadotters"
     ]
   },
   "sys.ibp.network": {
     "service_type": "rpc-endpoints",
     "level_required": "5",
     "endpoints": {
+      "asset-hub-paseo": "wss://sys.ibp.network/asset-hub-paseo",
       "westmint": "wss://sys.ibp.network/westmint",
       "collectives-westend": "wss://sys.ibp.network/collectives-westend",
       "statemine": "wss://sys.ibp.network/statemine",
       "encointer-kusama": "wss://sys.ibp.network/encointer-kusama",
       "bridgehub-kusama": "wss://sys.ibp.network/bridgehub-kusama",
       "statemint": "wss://sys.ibp.network/statemint",
-      "collectives-polkadot": "wss://sys.ibp.network/collectives-polkadot"
+      "bridgehub-polkadot": "wss://sys.ibp.network/bridgehub-polkadot",
+      "collectives-polkadot": "wss://sys.ibp.network/collectives-polkadot",
+      "bridgehub-westend": "wss://sys.ibp.network/bridgehub-westend",
+      "coretime-westend": "wss://sys.ibp.network/coretime-westend",
+      "people-westend": "wss://sys.ibp.network/people-westend"
     },
     "members": [
       "stakeplus",
       "amforc",
       "helikon",
       "gatotech",
-      "metaspan"
+      "metaspan",
+      "rotko",
+      "turboflakes",
+      "radiumblock",
+      "luckyfriday",
+      "dwellir",
+      "polkadotters"
     ]
   }
 }

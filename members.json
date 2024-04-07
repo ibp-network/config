@@ -5,7 +5,7 @@
       "website": "https://stake.plus",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/stakeplus.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1672549200",
@@ -14,8 +14,8 @@
         "3": "1672549200",
         "4": "1672549200",
         "5": "1672549200",
-        "6": "1672549200",
-        "7": "1672549200"
+        "6": "",
+        "7": ""
       },
       "services_address": "192.96.202.175",
       "endpoints": {
@@ -54,7 +54,7 @@
       "website": "https://amforc.com",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/amforc.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1672549200",
@@ -63,8 +63,8 @@
         "3": "1672549200",
         "4": "1672549200",
         "5": "1672549200",
-        "6": "1672549200",
-        "7": "1672549200"
+        "6": "",
+        "7": ""
       },
       "services_address": "213.167.226.188",
       "monitor_url": "https://monitor.rpc.amforc.com",
@@ -89,7 +89,7 @@
       "website": "https://helikon.io",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/helikon.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1672549200",
@@ -98,8 +98,8 @@
         "3": "1672549200",
         "4": "1672549200",
         "5": "1672549200",
-        "6": "1672549200",
-        "7": "1672549200"
+        "6": "",
+        "7": ""
       },
       "services_address": "104.247.178.10",
       "endpoints": {
@@ -138,15 +138,15 @@
       "website": "https://luckyfriday.io",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/luckyfriday.png",
       "membership": "professional",
-      "current_level": "3",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1672549200",
         "1": "1704289537",
         "2": "1704289537",
         "3": "1704289537",
-        "4": "",
-        "5": "",
+        "4": "1706745600",
+        "5": "1706745600",
         "6": "",
         "7": ""
       },
@@ -187,7 +187,7 @@
       "website": "https://gatotech.uk",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/gatotech.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1672549200",
@@ -196,8 +196,8 @@
         "3": "1672549200",
         "4": "1672549200",
         "5": "1672549200",
-        "6": "1672549200",
-        "7": "1672549200"
+        "6": "",
+        "7": ""
       },
       "services_address": "138.59.133.242",
       "endpoints": {
@@ -240,7 +240,7 @@
       "website": "https://metaspan.io",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/metaspan.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1672549200",
@@ -249,8 +249,8 @@
         "3": "1672549200",
         "4": "1672549200",
         "5": "1672549200",
-        "6": "1672549200",
-        "7": "1672549200"
+        "6": "",
+        "7": ""
       },
       "services_address": "195.144.22.130",
       "endpoints": {
@@ -289,7 +289,7 @@
       "website": "https://turboflakes.io",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/turboflakes.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1672549200",
@@ -298,8 +298,8 @@
         "3": "1672549200",
         "4": "1672549200",
         "5": "1680148800",
-        "6": "1680148800",
-        "7": "1680148800"
+        "6": "",
+        "7": ""
       },
       "services_address": "188.93.234.134",
       "endpoints": {
@@ -338,7 +338,7 @@
       "website": "https://rotko.net",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
@@ -347,8 +347,8 @@
         "3": "1698258549",
         "4": "1701212772",
         "5": "1707184705",
-        "6": "1707184705",
-        "7": "1707184705"
+        "6": "",
+        "7": ""
       },
       "services_address": "27.131.160.109",
       "endpoints": {
@@ -359,12 +359,15 @@
         "assethub-polkadot": "wss://rpc.rotko.net/asset-hub-polkadot",
         "assethub-kusama": "wss://rpc.rotko.net/asset-hub-kusama",
         "assethub-westend": "wss://rpc.rotko.net/asset-hub-westend",
+        "assethub-paseo": "wss://rpc.rotko.net/asset-hub-paseo",
         "collectives-polkadot": "wss://rpc.rotko.net/collectives-polkadot",
         "encointer-kusama": "wss://rpc.rotko.net/encointer-kusama",
         "collectives-westend": "wss://rpc.rotko.net/collectives-westend",
         "bridgehub-polkadot": "wss://rpc.rotko.net/bridgehub-polkadot",
         "bridgehub-kusama": "wss://rpc.rotko.net/bridgehub-kusama",
-        "bridgehub-westend": "wss://rpc.rotko.net/bridgehub-westend"
+        "bridgehub-westend": "wss://rpc.rotko.net/bridgehub-westend",
+        "coretime-westend": "wss://rpc.rotko.net/coretime-westend",
+        "people-westend": "wss://rpc.rotko.net/people-westend"
       },
       "monitor_url": "https://ibp.rotko.net",
       "region": "asia",
@@ -388,7 +391,7 @@
       "website": "https://polkadotters.com",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/polkadotters.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
@@ -397,8 +400,8 @@
         "3": "1708297667",
         "4": "1708297667",
         "5": "1710006529",
-        "6": "1710006529",
-        "7": "1710006529"
+        "6": "",
+        "7": ""
       },
       "services_address": "202.37.148.99",
       "endpoints": {
@@ -429,7 +432,7 @@
       "website": "https://dwellir.com",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dwellir.png",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1681916382",
@@ -438,8 +441,8 @@
         "3": "1681916382",
         "4": "1681916382",
         "5": "1681916382",
-        "6": "1681916382",
-        "7": "1681916382"
+        "6": "",
+        "7": ""
       },
       "services_address": "102.69.242.203",
       "endpoints": {
@@ -476,7 +479,7 @@
       "website": "https://radiumblock.com/",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg",
       "membership": "professional",
-      "current_level": "7",
+      "current_level": "5",
       "active": "1",
       "level_timestamp": {
         "0": "1684123200",
@@ -485,8 +488,8 @@
         "3": "1698756669",
         "4": "1699879869",
         "5": "1700916669",
-        "6": "1700916669",
-        "7": "1700916669"
+        "6": "",
+        "7": ""
       },
       "services_address": "103.240.197.6",
       "endpoints": {
