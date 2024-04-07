@@ -445,8 +445,11 @@
       "gatotech": [
       ],
       "helikon": [
+        "/dns/boot-node.helikon.io/tcp/9420/p2p/12D3KooWFBPartM873MNm1AmVK3etUz34cAE9A9rwPztPno2epQ3",
+        "/dns/boot-node.helikon.io/tcp/9422/wss/p2p/12D3KooWFBPartM873MNm1AmVK3etUz34cAE9A9rwPztPno2epQ3"
       ],
       "metaspan": [
+        "/dns/boot.metaspan.io/tcp/33019/p2p/12D3KooWCa1uNnEZqiqJY9jkKNQxwSLGPeZ5MjWHhjQMGwga9JMM"
       ],
       "rotko":[
         "/dns/wcore16.rotko.net/tcp/33736/p2p/12D3KooWFmGg7EGzxGDawuJ9EfyEznCrZfMJgGa4eHpMWjcJmg85",
