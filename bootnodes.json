@@ -232,7 +232,10 @@
         "/dns/bridge-hub-kusama.bootnodes.polkadotters.com/tcp/30520/p2p/12D3KooWH3pucezRRS5esoYyzZsUkKWcPSByQxEvmM819QL1HPLV",
         "/dns/bridge-hub-kusama.bootnodes.polkadotters.com/tcp/30522/wss/p2p/12D3KooWH3pucezRRS5esoYyzZsUkKWcPSByQxEvmM819QL1HPLV"
       ],
-      "radiumblock": []
+      "radiumblock": [
+        "/dns/bridgehub-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWQMWofXj8v3RroDNnrhv1iURqm8vnaG98AdGnCn2YoDcW",
+        "/dns/bridgehub-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWQMWofXj8v3RroDNnrhv1iURqm8vnaG98AdGnCn2YoDcW"
+      ]
     }
   },
   "bridge-hub-polkadot": {
@@ -255,12 +258,30 @@
         "/dns/bridge-hub-polkadot.bootnodes.polkadotters.com/tcp/30519/wss/p2p/12D3KooWLUNE3LHPDa1WrrZaYT7ArK66CLM1bPv7kKz74UcLnQRB"
       ],
       "amforc": [],
-      "helikon": [],
-      "luckyfriday": [],
-      "metaspan": [],
-      "radiumblock": [],
-      "stakeplus": [],
-      "turboflakes": []
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/8220/p2p/12D3KooWC38TZJA8ZBXZgAYVrceoJ56jNNLJPdpk3ojeFkTAwZVp",
+        "/dns/boot-node.helikon.io/tcp/8222/wss/p2p/12D3KooWC38TZJA8ZBXZgAYVrceoJ56jNNLJPdpk3ojeFkTAwZVp"
+      ],
+      "luckyfriday": [
+        "/dns/boot-polkadot-bridgehub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWKf3mBXHjLbwtPqv1BdbQuwbFNcQQYxASS7iQ25264AXH"
+      ],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/16032/p2p/12D3KooWQTfRnrK3FfbrotpSP5RVJbjBHVBSu8VSzhj9qcvjaqnZ",
+        "/dns/boot.metaspan.io/tcp/16036/wss/p2p/12D3KooWQTfRnrK3FfbrotpSP5RVJbjBHVBSu8VSzhj9qcvjaqnZ"
+      ],
+      "radiumblock": [
+        "/dns/bridgehub-polkadot-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWPNZm78tWUmKbta3SXdkqTPsquRc8ekEbJjZsGGi7YiRi",
+        "/dns/bridgehub-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWPNZm78tWUmKbta3SXdkqTPsquRc8ekEbJjZsGGi7YiRi"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/42333/p2p/12D3KooWEoTCu22Uab6prbfcD1FPpPZmfhkAVeMZQJ3fHnkCVmJz",
+        "/dns/boot.stake.plus/tcp/42334/wss/p2p/12D3KooWEoTCu22Uab6prbfcD1FPpPZmfhkAVeMZQJ3fHnkCVmJz"
+      ],
+      "turboflakes": [
+        "/dns/bridge-hub-polkadot-bootnode.turboflakes.io/tcp/30610/p2p/12D3KooWNEgaQRQHJHvGDh8Rg4RyLmDCCz3yAf2gAdHZZJAUUD8Q",
+        "/dns/bridge-hub-polkadot-bootnode.turboflakes.io/tcp/30710/wss/p2p/12D3KooWNEgaQRQHJHvGDh8Rg4RyLmDCCz3yAf2gAdHZZJAUUD8Q"
+      ]
+
     }
   },
   "bridge-hub-westend": {
@@ -283,12 +304,27 @@
         "/dns/bridge-hub-westend.bootnodes.polkadotters.com/tcp/30525/wss/p2p/12D3KooWPkwgJofp4GeeRwNgXqkp2aFwdLkCWv3qodpBJLwK43Jj"
       ],
       "amforc": [],
-      "helikon": [],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/9220/p2p/12D3KooWK3K1Mu5Jjg96Lt9DUzg84KsWnZo44V4KB7mvhGqi6xnp",
+        "/dns/boot-node.helikon.io/tcp/9222/wss/p2p/12D3KooWK3K1Mu5Jjg96Lt9DUzg84KsWnZo44V4KB7mvhGqi6xnp"
+      ],
       "luckyfriday": [],
-      "metaspan": [],
-      "radiumblock": [],
-      "stakeplus": [],
-      "turboflakes": []
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/36032/p2p/12D3KooWPaLsu3buByBnGFQnp5UP4q1S652dGVft92TFeChizFir",
+        "/dns/boot.metaspan.io/tcp/36036/wss/p2p/12D3KooWPaLsu3buByBnGFQnp5UP4q1S652dGVft92TFeChizFir"
+      ],
+      "radiumblock": [
+        "/dns/bridgehub-westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWBsBArCMxmQyo3feCEqMWuwyhb2LTRK8hmCCJxgrNeMke",
+        "/dns/bridgehub-westend-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWBsBArCMxmQyo3feCEqMWuwyhb2LTRK8hmCCJxgrNeMke"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/40333/p2p/12D3KooWPGMsGPdGJx6HrByiKUyz91wgUHmjG5UXTmkJ9tUphAQn",
+        "/dns/boot.stake.plus/tcp/40334/wss/p2p/12D3KooWPGMsGPdGJx6HrByiKUyz91wgUHmjG5UXTmkJ9tUphAQn"
+      ],
+      "turboflakes": [
+        "/dns/bridge-hub-westend-bootnode.turboflakes.io/tcp/30620/p2p/12D3KooWLeExhPWCDUjcxCdzxTP5TpPbNBVG5t9MPvk1dZUM5naU",
+        "/dns/bridge-hub-westend-bootnode.turboflakes.io/tcp/30720/wss/p2p/12D3KooWLeExhPWCDUjcxCdzxTP5TpPbNBVG5t9MPvk1dZUM5naU"
+      ]
     }
   },
   "collectives-polkadot": {
