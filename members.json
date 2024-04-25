@@ -216,6 +216,7 @@
         "bridgehub-kusama": "wss://rpc.gatotech.network/bridgehub-kusama",
         "bridgehub-westend": "wss://rpc.gatotech.network/bridgehub-westend",
         "people-westend": "wss://rpc.gatotech.network/people-westend",
+        "coretime-kusama": "wss://rpc.gatotech.network/coretime-kusama",
         "coretime-westend": "wss://rpc.gatotech.network/coretime-westend"
       },
       "monitor_url": "https://ibp-monitor.gatotech.network",
