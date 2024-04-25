@@ -366,6 +366,7 @@
         "bridgehub-polkadot": "wss://rpc.rotko.net/bridgehub-polkadot",
         "bridgehub-kusama": "wss://rpc.rotko.net/bridgehub-kusama",
         "bridgehub-westend": "wss://rpc.rotko.net/bridgehub-westend",
+        "coretime-kusama": "wss://rpc.rotko.net/coretime-kusama",
         "coretime-westend": "wss://rpc.rotko.net/coretime-westend",
         "people-westend": "wss://rpc.rotko.net/people-westend"
       },
