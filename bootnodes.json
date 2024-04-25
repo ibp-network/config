@@ -643,7 +643,10 @@
         "/dns/encointer-kusama.bootnode.amforc.com/tcp/30338/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz",
         "/dns/encointer-kusama.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz"
       ],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx",
+        "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx"
+      ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33220/p2p/12D3KooWByfCkLUzuMBJhVqb5SZxTHgGdwPzbJEk3t7gxDUakdi7",
         "/dns/boot.gatotech.network/tcp/35220/wss/p2p/12D3KooWByfCkLUzuMBJhVqb5SZxTHgGdwPzbJEk3t7gxDUakdi7"
@@ -673,7 +676,10 @@
         "/dns/encointer-kusama.bootnodes.polkadotters.com/tcp/30537/wss/p2p/12D3KooWNRWrCQJ2HKHhJr7hkqdYQKsUCTUrugXKmv4fk6Ee19mg"
       ],
       "luckyfriday": [],
-      "radiumblock": []
+      "radiumblock": [
+        "/dns/encointer-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWQJgWAciHe3z8U7Zi9kmKoKYfFqRdaaLUyDMyNrBynSsJ",
+        "/dns/encointer-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWQJgWAciHe3z8U7Zi9kmKoKYfFqRdaaLUyDMyNrBynSsJ",
+      ]
     }
   }
 }
