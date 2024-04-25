@@ -445,7 +445,10 @@
         "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30511/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU",
         "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30513/wss/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU"
       ],
-      "radiumblock": [],
+      "radiumblock": [
+        "/dns/statemine-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWCKUrE5uaXQ288ko3Ex3zCyozyJLG47KEYTopinnXNtYL",
+        "/dns/statemine-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWCKUrE5uaXQ288ko3Ex3zCyozyJLG47KEYTopinnXNtYL"
+      ],
       "rotko": [
         "/dns/mine14.rotko.net/tcp/33524/p2p/12D3KooWJUFnjR2PNbsJhudwPVaWCoZy1acPGKjM2cSuGj345BBu",
         "/dns/mine14.rotko.net/tcp/35524/wss/p2p/12D3KooWJUFnjR2PNbsJhudwPVaWCoZy1acPGKjM2cSuGj345BBu"
@@ -483,7 +486,10 @@
         "/dns/boot.metaspan.io/tcp/16052/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651",
         "/dns/boot.metaspan.io/tcp/16056/wss/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651"
       ],
-      "radiumblock": [],
+      "radiumblock": [
+        "/dns/statemint-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWLKxHom7f3XawRJqrF8RwiKK5Sj3qZqz5c7hF6eJeXhTx",
+        "/dns/statemint-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWLKxHom7f3XawRJqrF8RwiKK5Sj3qZqz5c7hF6eJeXhTx"
+      ],
       "rotko": [
         "/dns/mint14.rotko.net/tcp/33514/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW",
         "/dns/mint14.rotko.net/tcp/35514/wss/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW"
@@ -500,7 +506,9 @@
         "/dns/asset-hub-polkadot.bootnodes.polkadotters.com/tcp/30508/p2p/12D3KooWKbfY9a9oywxMJKiALmt7yhrdQkjXMtvxhhDDN23vG93R",
         "/dns/asset-hub-polkadot.bootnodes.polkadotters.com/tcp/30510/wss/p2p/12D3KooWKbfY9a9oywxMJKiALmt7yhrdQkjXMtvxhhDDN23vG93R"
       ],
-      "luckyfriday": []
+      "luckyfriday": [
+        "/dns/boot-polkadot-assethub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWDR9M7CjV1xdjCRbRwkFn1E7sjMaL4oYxGyDWxuLrFc2J"
+      ]
     }
   },
   "asset-hub-westend": {
@@ -526,7 +534,10 @@
         "/dns/boot.metaspan.io/tcp/36052/p2p/12D3KooWBCqfNb6Y39DXTr4UBWXyjuS3hcZM1qTbHhDXxF6HkAJJ",
         "/dns/boot.metaspan.io/tcp/36056/wss/p2p/12D3KooWBCqfNb6Y39DXTr4UBWXyjuS3hcZM1qTbHhDXxF6HkAJJ"
       ],
-      "radiumblock": [],
+      "radiumblock": [
+        "/dns/westmint-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWDoq4PVdWm5nzRSvEz3DSSKjVgRhWVUaKyi5JMKwJKYbk",
+        "/dns/westmint-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWDoq4PVdWm5nzRSvEz3DSSKjVgRhWVUaKyi5JMKwJKYbk",
+      ],
       "rotko": [
         "/dns/wmint14.rotko.net/tcp/33534/p2p/12D3KooWE4UDXqgtTcMCyUQ8S4uvaT8VMzzTBA6NWmKuYwTacWuN",
         "/dns/wmint14.rotko.net/tcp/35534/wss/p2p/12D3KooWE4UDXqgtTcMCyUQ8S4uvaT8VMzzTBA6NWmKuYwTacWuN"
