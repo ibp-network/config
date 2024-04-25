@@ -719,7 +719,10 @@
         "/dns/pmint16.rotko.net/tcp/33946/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj",
         "/dns/pmint16.rotko.net/tcp/35946/wss/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj"
       ],
-      "stakeplus": [],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/44333/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo",
+        "/dns/boot.stake.plus/tcp/44333/wss/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo"
+      ],
       "turboflakes": [],
       "polkadotters": []
     }
