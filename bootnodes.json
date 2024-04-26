@@ -645,7 +645,10 @@
       "metaspan": [],
       "polkadotters": [],
       "radiumblock": [],
-      "rotko": [],
+      "rotko": [
+        "/dns/kppl16.rotko.net/tcp/33756/p2p/12D3KooWEbou7S9M1RLtn5Rbif3Rk7gNZUnQDfgv4YhSWYM6x3Qq",
+        "/dns/kppl16.rotko.net/tcp/35756/wss/p2p/12D3KooWEbou7S9M1RLtn5Rbif3Rk7gNZUnQDfgv4YhSWYM6x3Qq"
+      ],
       "stakeplus": [],
       "turboflakes": []
     }
