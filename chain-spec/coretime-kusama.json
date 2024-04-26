@@ -2,8 +2,7 @@
   "name": "Kusama Coretime",
   "id": "coretime-kusama",
   "chainType": "Live",
-  "bootNodes": [
-  ],
+  "bootNodes": [],
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": {
