@@ -704,12 +704,17 @@
         "/dns/boot-node.helikon.io/tcp/10120/p2p/12D3KooWKrg6Qb2HhTc3onfkgsNbRU72RjNDm96Xh2E7sWso5LZT",
         "/dns/boot-node.helikon.io/tcp/10122/wss/p2p/12D3KooWKrg6Qb2HhTc3onfkgsNbRU72RjNDm96Xh2E7sWso5LZT"
       ],
-      "luckyfriday": [],
+      "luckyfriday": [
+        "/dns/boot-kusama-assethub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWSwaeFs6FNgpgh54fdoxSDAA4nJNaPE3PAcse2GRrG7b3"
+      ],
       "metaspan": [
         "/dns/boot.metaspan.io/tcp/36092/p2p/12D3KooWHdtFsjicVWecmiRrc8XLc3A6iLLKKfUwjZXu5mtg1k3w",
         "/dns/boot.metaspan.io/tcp/36096/wss/p2p/12D3KooWHdtFsjicVWecmiRrc8XLc3A6iLLKKfUwjZXu5mtg1k3w"
       ],
-      "polkadotters": [],
+      "polkadotters": [
+        "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30511/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU",
+        "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30513/wss/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU"
+      ],
       "radiumblock": [
         "/dns/assethub-paseo-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWP8aNgAjkYzH1QuwLjYyNqfpWkJkFRgdtUuey9KzEJciq",
         "/dns/assethub-paseo-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWP8aNgAjkYzH1QuwLjYyNqfpWkJkFRgdtUuey9KzEJciq"
