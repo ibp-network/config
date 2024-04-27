@@ -30,7 +30,12 @@
         "bridgehub-westend": "wss://sys.stake.plus/bridgehub-westend",
         "bridgehub-polkadot": "wss://sys.stake.plus/bridgehub-polkadot",
         "assethub-polkadot": "wss://sys.stake.plus/bridgehub-kusama",
-        "collectives-polkadot": "wss://sys.stake.plus/collectives-polkadot"
+        "collectives-polkadot": "wss://sys.stake.plus/collectives-polkadot",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "monitor_url": "https://monitor.dotters.network",
       "region": "north_america",
@@ -82,6 +87,25 @@
           "payment_address": "",
           "signature": ""
         }
+      },
+      "endpoints": {
+        "assethub-kusama": "wss://placeholder/assethub-kusama",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "assethub-polkadot": "wss://placeholder/assethub-polkadot",
+        "assethub-westend": "wss://placeholder/assethub-westend",
+        "bridgehub-kusama": "wss://placeholder/bridgehub-kusama",
+        "bridgehub-polkadot": "wss://placeholder/bridgehub-polkadot",
+        "bridgehub-westend": "wss://placeholder/bridgehub-westend",
+        "collectives-polkadot": "wss://placeholder/collectives-polkadot",
+        "collectives-westend": "wss://placeholder/collectives-westend",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "encointer-kusama": "wss://placeholder/encointer-kusama",
+        "kusama": "wss://placeholder/kusama",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend",
+        "polkadot": "wss://placeholder/polkadot",
+        "westend": "wss://placeholder/westend"
       }
     },
     "helikon": {
@@ -114,7 +138,12 @@
         "bridgehub-kusama": "wss://sys.helikon.io/bridgehub-kusama",
         "assethub-polkadot": "wss://sys.helikon.io/statemint",
         "collectives-polkadot": "wss://sys.helikon.io/collectives-polkadot",
-        "bridgehub-polkadot": "wss://sys.helikon.io/bridgehub-polkadot"
+        "bridgehub-polkadot": "wss://sys.helikon.io/bridgehub-polkadot",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "monitor_url": "https://ibp-monitor.helikon.io",
       "region": "middle_east",
@@ -162,7 +191,12 @@
         "collectives-westend": "wss://ibp-rpc-westend-collectives.luckyfriday.io",
         "bridgehub-polkadot": "wss://ibp-rpc-polkadot-bridgehub.luckyfriday.io",
         "bridgehub-kusama": "wss://ibp-rpc-kusama-bridgehub.luckyfriday.io",
-        "bridgehub-westend": "wss://ibp-rpc-westend-bridgehub.luckyfriday.io"
+        "bridgehub-westend": "wss://ibp-rpc-westend-bridgehub.luckyfriday.io",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "services_address": "64.62.224.18",
       "monitor_url": "",
@@ -235,8 +269,8 @@
           "signature": ""
         }
       }
-  },
-      "metaspan": {
+    },
+    "metaspan": {
       "name": "metaspan",
       "website": "https://metaspan.io",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/metaspan.png",
@@ -266,7 +300,12 @@
         "bridgehub-westend": "wss://ibp-rpc.metaspan.io/kusama-westend",
         "bridgehub-polkadot": "wss://ibp-rpc.metaspan.io/kusama-polkadot",
         "assethub-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-statemint",
-        "collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives"
+        "collectives-polkadot": "wss://ibp-rpc.metaspan.io/polkadot-collectives",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "monitor_url": "https://ibp-monitor.metaspan.io",
       "region": "europe",
@@ -312,10 +351,15 @@
         "assethub-kusama": "wss://sys.turboflakes.io/statemine",
         "encointer-kusama": "wss://sys.turboflakes.io/encointer-kusama",
         "bridgehub-westend": "wss://sys.turboflakes.io/bridgehub-westend",
-		    "bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
-		    "bridgehub-polkadot": "wss://sys.turboflakes.io/bridgehub-polkadot",
+        "bridgehub-kusama": "wss://sys.turboflakes.io/bridgehub-kusama",
+        "bridgehub-polkadot": "wss://sys.turboflakes.io/bridgehub-polkadot",
         "assethub-polkadot": "wss://sys.turboflakes.io/bridgehub-kusama",
-        "collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot"
+        "collectives-polkadot": "wss://sys.turboflakes.io/collectives-polkadot",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "monitor_url": "https://ibp-monitor.turboflakes.io",
       "region": "europe",
@@ -410,7 +454,20 @@
         "westend": "wss://rpc.polkadotters.com/westend",
         "kusama": "wss://rpc.polkadotters.com/kusama",
         "polkadot": "wss://rpc.polkadotters.com/polkadot",
-        "paseo": "wss://rpc.polkadotters.com/paseo"
+        "paseo": "wss://rpc.polkadotters.com/paseo",
+        "assethub-kusama": "wss://placeholder/assethub-kusama",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "assethub-polkadot": "wss://placeholder/assethub-polkadot",
+        "assethub-westend": "wss://placeholder/assethub-westend",
+        "bridgehub-kusama": "wss://placeholder/bridgehub-kusama",
+        "bridgehub-polkadot": "wss://placeholder/bridgehub-polkadot",
+        "bridgehub-westend": "wss://placeholder/bridgehub-westend",
+        "collectives-polkadot": "wss://placeholder/collectives-polkadot",
+        "collectives-westend": "wss://placeholder/collectives-westend",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "encointer-kusama": "wss://placeholder/encointer-kusama",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "monitor_url": "https://ibp-monitor.polkadotters.com",
       "region": "oceania",
@@ -457,7 +514,14 @@
         "encointer-kusama": "wss://kusama-encointer-rpc-ng.dwellir.com",
         "bridgehub-kusama": "wss://kusama-bridge-hub-rpc-ng.dwellir.com",
         "assethub-polkadot": "wss://statemint-rpc-ng.dwellir.com",
-        "collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com"
+        "collectives-polkadot": "wss://polkadot-collectives-rpc-ng.dwellir.com",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "bridgehub-polkadot": "wss://placeholder/bridgehub-polkadot",
+        "bridgehub-westend": "wss://placeholder/bridgehub-westend",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "monitor_url": "https://ibp-monitor-ng.dwellir.com",
       "region": "africa",
@@ -498,7 +562,7 @@
         "westend": "wss://westend.ibp.radiumblock.co/westend",
         "kusama": "wss://kusama.ibp.radiumblock.co/kusama",
         "polkadot": "wss://polkadot.ibp.radiumblock.co/polkadot",
-	      "assethub-westend": "wss://westmint.ibp.radiumblock.co/westmint",
+        "assethub-westend": "wss://westmint.ibp.radiumblock.co/westmint",
         "assethub-kusama": "wss://statemine.ibp.radiumblock.co/statemine",
         "assethub-polkadot": "wss://statemint.ibp.radiumblock.co/statemint",
         "encointer-kusama": "wss://encointer-kusama.ibp.radiumblock.co/encointer-kusama",
@@ -506,7 +570,12 @@
         "bridgehub-westend": "wss://bridgehub-westend.ibp.radiumblock.co/bridgehub-westend",
         "bridgehub-polkadot": "wss://bridgehub-polkadot.ibp.radiumblock.co/bridgehub-polkadot",
         "collectives-polkadot": "wss://collectives-polkadot.ibp.radiumblock.co/collectives-polkadot",
-	"collectives-westend":  "wss://collectives-westend.ibp.radiumblock.co/collectives-westend" 
+        "collectives-westend": "wss://collectives-westend.ibp.radiumblock.co/collectives-westend",
+        "assethub-paseo": "wss://placeholder/assethub-paseo",
+        "coretime-kusama": "wss://placeholder/coretime-kusama",
+        "coretime-westend": "wss://placeholder/coretime-westend",
+        "paseo": "wss://placeholder/paseo",
+        "people-westend": "wss://placeholder/people-westend"
       },
       "monitor_url": "",
       "region": "Asia",
