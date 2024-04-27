@@ -596,7 +596,10 @@
         "/dns/boot.stake.plus/tcp/47333/p2p/12D3KooWKKKoyywqdkkpZzCzVWt5VXEk5PbS9tUm635L5ohyf8bU",
         "/dns/boot.stake.plus/tcp/47334/wss/p2p/12D3KooWKKKoyywqdkkpZzCzVWt5VXEk5PbS9tUm635L5ohyf8bU"
       ],
-      "turboflakes": []
+      "turboflakes": [
+        "/dns/coretime-kusama-bootnode.turboflakes.io/tcp/30660/p2p/12D3KooWHTr9GLvJEnGYKCu3FHC3DwqBiFg9MQUWsjPCP4YH5xyf",
+        "/dns/coretime-kusama-bootnode.turboflakes.io/tcp/30760/wss/p2p/12D3KooWHTr9GLvJEnGYKCu3FHC3DwqBiFg9MQUWsjPCP4YH5xyf"
+      ]
     }
   },
   "coretime-westend": {
