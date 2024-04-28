@@ -26,7 +26,7 @@ fetch_block_data() {
     
     # check if the endpoint is a placeholder, skip fetching
     if [[ "$endpoint" == *"placeholder"* ]]; then
-        echo "{\"network\":\"$network\", \"endpoint\":\"$endpoint\", \"valid\":false}" > "$result_file"
+        echo "{\"id\":\"$operator\", \"network\":\"$network\", \"endpoint\":\"$endpoint\", \"valid\":false}" > "$result_file"
         echo "Skipped fetching data for $operator on $network due to placeholder endpoint."
         update_results "$operator" "$result_file"
         rm "$result_file"
@@ -38,7 +38,7 @@ fetch_block_data() {
 
     # check if an error occurred during fetch
     if [[ "$block_data" == *"Error"* ]]; then
-        echo "{\"network\":\"$network\", \"endpoint\":\"$endpoint\", \"valid\":false}" > "$result_file"
+        echo "{\"id\":\"$operator\", \"network\":\"$network\", \"endpoint\":\"$endpoint\", \"valid\":false}" > "$result_file"
         echo "Failed to fetch data for $operator on $network due to error: $block_data"
         update_results "$operator" "$result_file"
         rm "$result_file"
@@ -46,7 +46,8 @@ fetch_block_data() {
     fi
 
     # process and store fetched block data
-    echo "$block_data" | $jq -c --arg network "$network" --arg endpoint "$endpoint" '{
+    echo "$block_data" | $jq -c --arg operator "$operator" --arg network "$network" --arg endpoint "$endpoint" '{
+        id: $operator,
         network: $network,
         endpoint: $endpoint,
         block_number: .block.header.number,
