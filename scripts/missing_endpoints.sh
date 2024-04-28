@@ -1,18 +1,17 @@
 #!/bin/bash
 
 # Path to the JSON file containing member data
-MEMBERS_JSON="members.json"
+RESULTS_JSON="/tmp/endpoint_tests/results.json"
 
-# Function to identify and list endpoints with placeholders
-find_missing_endpoints() {
-    # Use jq to parse the JSON file and find endpoints with a placeholder URL
-    jq '[
-          .members | to_entries[] | 
-          select(.value.membership == "professional" and .value.endpoints) | 
-          {member: .key, endpoints: .value.endpoints | to_entries | map(select(.value | test("placeholder"))) | from_entries} | 
-          select(.endpoints | length > 0)
-        ]' "$MEMBERS_JSON"
-}
-
-# Call the function and display the output
-find_missing_endpoints
+jq -r 'to_entries | reduce .[] as $member ({}; 
+  if ($member.value | map(select(.valid == false)) | length > 0) then
+    . + {
+      ($member.key): {
+        member: $member.key,
+        endpoints: ($member.value | map(select(.valid == false)) | map({(.network): .endpoint}) | add)
+      }
+    }
+  else
+    .
+  end
+)' $RESULTS_JSON
