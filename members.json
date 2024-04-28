@@ -91,7 +91,7 @@
       "endpoints": {
         "assethub-kusama": "wss://statemine.rpc.amforc.com",
         "assethub-paseo": "wss://asset-hub-paseo.rpc.amforc.com",
-        "assethub-polkadot": "wss://statemint.rpc.amforc.com-polkadot",
+        "assethub-polkadot": "wss://statemint.rpc.amforc.com",
         "assethub-westend": "wss://westmint.rpc.amforc.com",
         "bridgehub-kusama": "wss://bridgehub-kusama.rpc.amforc.com",
         "bridgehub-polkadot": "wss://bridgehub-polkadot.rpc.amforc.com",

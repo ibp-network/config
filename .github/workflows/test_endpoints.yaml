@@ -1,0 +1,48 @@
+name: Daily Report
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at midnight UTC every day
+
+jobs:
+  build_and_run:
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y jq curl sudo
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+        source $HOME/.cargo/env
+
+    - name: Build blockfetch tool
+      run: |
+        cd scripts/blockfetch
+        cargo build --release --locked  #  reproducible builds
+
+    - name: Run add_missing_endpoint_fields script
+      run: bash ./scripts/add_missing_endpoint_fields.sh
+
+    - name: Run test_endpoints script
+      run: bash ./scripts/test_endpoints.sh
+
+    - name: Generate missing endpoints report
+      run: bash ./scripts/missing_endpoints.sh
+
+    - name: Archive and Upload Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: endpoint-test-results
+        path: /tmp/endpoint_tests/results.json
+
+    - name: Archive and Upload Missing Endpoints Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: missing-endpoints-report
+        path: /tmp/endpoint_tests/missing.json
