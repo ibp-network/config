@@ -13,6 +13,77 @@
         "polkadot": "wss://polkadot.api.onfinality.io/public-ws",
         "kusama": "wss://kusama.api.onfinality.io/public-ws"
       }
+    },
+    "luckyfriday": {
+      "active": "0",
+      "endpoints": {
+        "polkadot": "wss://rpc-polkadot.luckyfriday.io",
+        "asset-hub-polkadot": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
+        "bridgehub-polkadot": "wss://rpc-bridge-hub-polkadot.luckyfriday.io",
+        "collectives-polkadot": "wss://rpc-collectives-polkadot.luckyfriday.io",
+        "kusama": "wss://rpc-kusama.luckyfriday.io"
+      }
+    },
+    "rockx": {
+      "active": "0",
+      "endpoints": {
+        "polkadot": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
+        "kusama": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
+      }
+    },
+    "stakeworld": {
+      "active": "0",
+      "endpoints": {
+        "polkadot": "wss://dot-rpc.stakeworld.io",
+        "kusama": "wss://ksm-rpc.stakeworld.io"
+      }
+    },
+    "radiumblock": {
+      "active": "0",
+      "endpoints": {
+        "polkadot": "wss://polkadot.public.curie.radiumblock.co/ws",
+        "kusama": "wss://kusama.public.curie.radiumblock.co/ws",
+        "assethub-polkadot": "wss://statemint.public.curie.radiumblock.co/ws",
+        "bridgehub-polkadot": "wss://bridgehub-polkadot.public.curie.radiumblock.co/ws",
+        "collectives-polkadot": "wss://collectives.public.curie.radiumblock.co/ws",
+        "assethub-kusama": "wss://statemine.public.curie.radiumblock.co/ws",
+        "bridgehub-kusama": "wss://bridgehub-kusama.public.curie.radiumblock.co/ws",
+        "collectives-kusama": "wss://collectives-kusama.public.curie.radiumblock.co/ws"
+      }
+    },
+    "dwellir": {
+      "active": "0",
+      "endpoints": {
+        "polkadot": "wss://polkadot-rpc.dwellir.com",
+        "kusama": "wss://kusama-rpc.dwellir.com",
+        "assethub-polkadot": "wss://statemint-rpc.dwellir.com",
+        "assethub-kusama": "wss://statemint-rpc.dwellir.com",
+        "bridgehub-polkadot": "wss://polkadot-bridge-hub-rpc.dwellir.com",
+        "bridgehub-kusama": "wss://kusama-bridge-hub-rpc.dwellir.com",
+        "collectives-polkadot": "wss://polkadot-collectives-rpc.dwellir.com",
+        "collectives-kusama": "wss://kusama-collectives-rpc.dwellir.com",
+        "encointer-kusama": "wss://encointer-kusama-rpc.dwellir.com"
+      }
+    },
+    "dwellir-tn": {
+      "active": "0",
+      "endpoints": {
+        "polkadot": "wss://polkadot-rpc-tn.dwellir.com",
+        "kusama": "wss://kusama-rpc-tn.dwellir.com",
+        "assethub-polkadot": "wss://statemint-rpc-tn.dwellir.com",
+        "assethub-kusama": "wss://statemint-rpc-tn.dwellir.com",
+        "bridgehub-polkadot": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com",
+        "bridgehub-kusama": "wss://kusama-bridge-hub-rpc-tn.dwellir.com",
+        "collectives-polkadot": "wss://polkadot-collectives-rpc-tn.dwellir.com",
+        "collectives-kusama": "wss://kusama-collectives-rpc-tn.dwellir.com"
+      }
+    },
+    "blockops": {
+      "active": "0",
+      "endpoints": {
+        "polkadot": "wss://polkadot-public-rpc.blockops.network/ws",
+        "kusama": "wss://kusama-public-rpc.blockops.network/ws"
+      }
     }
   }
 }
