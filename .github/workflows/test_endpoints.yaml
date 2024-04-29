@@ -1,8 +1,11 @@
-name: Daily Report
+name: Daily endpoint validity test
 
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs at midnight UTC every day
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build_and_run:
@@ -26,22 +29,19 @@ jobs:
         cd scripts/blockfetch
         cargo build --release --locked  #  reproducible builds
 
-    - name: Run add_missing_endpoint_fields script
-      run: bash ./scripts/add_missing_endpoint_fields.sh
-
-    - name: Run test_endpoints script
+    - name: Generate endpoint raw data
       run: bash ./scripts/test_endpoints.sh
 
-    - name: Generate missing endpoints report
+    - name: Generate missing endpoints from raw data
       run: bash ./scripts/missing_endpoints.sh
 
-    - name: Archive and Upload Results
+    - name: Archive and upload raw data
       uses: actions/upload-artifact@v2
       with:
         name: endpoint-test-results
         path: /tmp/endpoint_tests/results.json
 
-    - name: Archive and Upload Missing Endpoints Report
+    - name: Archive and upload missing endpoints
       uses: actions/upload-artifact@v2
       with:
         name: missing-endpoints-report
