@@ -509,7 +509,7 @@
         "kusama": "wss://kusama-rpc-ng.dwellir.com",
         "polkadot": "wss://polkadot-rpc-ng.dwellir.com",
         "assethub-kusama": "wss://asset-hub-kusama-rpc-ng.dwellir.com",
-        "assethub-paseo": "wss://asset-hub-paseo-rpc.ng.dwellir.com",
+        "assethub-paseo": "wss://asset-hub-paseo-rpc-ng.dwellir.com",
         "assethub-polkadot": "wss://asset-hub-polkadot-rpc-ng.dwellir.com",
         "assethub-westend": "wss://asset-hub-westend-rpc-ng.dwellir.com",
         "collectives-polkadot": "wss://collectives-polkadot-rpc-ng.dwellir.com",
