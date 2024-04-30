@@ -1,4 +1,3 @@
-
 name: Daily check to create PR for missing fields
 
 on:
