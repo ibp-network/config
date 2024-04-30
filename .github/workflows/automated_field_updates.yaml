@@ -2,7 +2,7 @@ name: Daily check to create PR for missing fields
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs at midnight UTC every day
+    - cron: '0 8 * * *'  # Runs at 8 AM UTC every day
 
 permissions:
   contents: write
@@ -14,41 +14,44 @@ jobs:
     container:
       image: ubuntu:latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # Ensure all history is fetched
-    - name: Install dependencies
-      run: |
-        apt-get update
-        apt-get install -y jq curl sudo
-        curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-        apt update
-        apt install gh
-    - name: Run scripts to add missing fields
-      run: |
-        bash ./scripts/add_missing_endpoint_fields.sh
-        bash ./scripts/add_missing_bootnode_fields.sh
-    - name: Setup Git config
-      run: |
-        git config --global user.email "hq@rotko.net"
-        git config --global user.name "Rotko Automation"
-    - name: Commit changes
-      run: |
-        git fetch --all
-        git checkout -b updates-${{ github.run_id }}
-        git add members.json
-        GIT_COMMITTER_DATE="$(date -u)" git commit -m "Update dummy data for endpoints based on daily checks"
-        git add bootnodes.json
-        GIT_COMMITTER_DATE="$(date -u)" git commit -m "Update dummy data for bootnodes based on daily checks"
-        git push origin updates-${{ github.run_id }}
-    - name: Create Pull Request
-      run: |
-        if [[ -z $(git status --porcelain) ]]; then
-          echo "No changes to commit."
-        else
-          gh pr create --base main --head updates-${{ github.run_id }} \
-            --title "Autoupdates for endpoints and bootnodes" \
-            --body "This PR updates endpoints and bootnodes with dummy data based on comparing to member with most entries. See commits for details."
-          echo "PR created."
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ensure all history is fetched
+      
+      - name: Install dependencies
+        run: |
+          apt-get update
+          apt-get install -y jq curl
+
+      - name: Run scripts to add missing fields
+        run: |
+          bash ./scripts/add_missing_endpoint_fields.sh
+          bash ./scripts/add_missing_bootnode_fields.sh
+
+      - name: Setup Git config
+        run: |
+          git config --global user.email "hq@rotko.net"
+          git config --global user.name "Rotko Automation"
+
+      - name: Commit changes
+        run: |
+          git fetch --all
+          git checkout -b updates-${{ github.run_id }}
+          git add members.json bootnodes.json
+          git commit -am "Update dummy data based on daily checks"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: |
+            Autoupdates for endpoints and bootnodes
+            This PR updates endpoints and bootnodes with dummy data based on comparing to member with most entries.
+          title: "Autoupdates for endpoints and bootnodes"
+          body: |
+            This PR updates endpoints and bootnodes with dummy data based on comparing to member with most entries.
+            See commits for details.
+          labels: auto-update, bot
+          assignees: hitchhooker
+          reviewers: hitchhooker
+          delete-branch: true
