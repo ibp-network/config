@@ -1,3 +1,4 @@
+
 name: Daily check to create PR for missing fields
 
 on:
@@ -9,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  update_and_commit:
+  update_fields:
     runs-on: ubuntu-latest
     container:
       image: ubuntu:latest
@@ -20,12 +21,12 @@ jobs:
         fetch-depth: 0  # Ensure all history is fetched
     - name: Install dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y jq curl
+        apt-get update
+        apt-get install -y jq curl sudo
         curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
         echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-        sudo apt update
-        sudo apt install gh
+        apt update
+        apt install gh
     - name: Run scripts to add missing fields
       run: |
         bash ./scripts/add_missing_endpoint_fields.sh
