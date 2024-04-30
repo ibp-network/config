@@ -2,7 +2,7 @@ name: Daily endpoint validity test
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs at midnight UTC every day
+    - cron: '0 8 * * *'  # Runs at 8AM UTC every day
   pull_request:
     branches:
       - main

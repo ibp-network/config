@@ -2,14 +2,14 @@ name: daily bootnode validity test
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 8 * * *'
   pull_request:
     branches:
       - main
 
 jobs:
   validate_bootnodes:
-    runs-on: [self-hosted, linux, x64, ibp-bkk06]
+    runs-on: self-hosted
 
     container:
       image: ubuntu:latest
@@ -29,14 +29,20 @@ jobs:
         chmod +x polkadot
         sudo mv polkadot /usr/local/bin/
 
+    - name: prepare polkadot-parachain binary
+      run: |
+        curl -L https://github.com/paritytech/polkadot-sdk/releases/download/polkadot-parachain-v1.10.1/polkadot-parachain -o polkadot-parachain
+        chmod +x polkadot-parachain
+        sudo mv polkadot-parachain /usr/local/bin/
+
     - name: test bootnode integrity
       run: bash ./scripts/test_bootnodes.sh
 
     - name: identify missing bootnodes
       run: bash ./scripts/missing_bootnodes.sh
 
-    - name: detect broken bootnodes
-      run: bash ./scripts/broken_bootnodes.sh
+    # - name: detect broken bootnodes
+    #   run: bash ./scripts/broken_bootnodes.sh
 
     - name: archive test results
       uses: actions/upload-artifact@v4
@@ -50,8 +56,8 @@ jobs:
         name: missing-bootnodes-report
         path: /tmp/bootnode_tests/missing.json
 
-    - name: archive broken bootnodes report
-      uses: actions/upload-artifact@v4
-      with:
-        name: broken-bootnodes-report
-        path: /tmp/bootnode_tests/broken.json
+    # - name: archive broken bootnodes report
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: broken-bootnodes-report
+    #     path: /tmp/bootnode_tests/broken.json

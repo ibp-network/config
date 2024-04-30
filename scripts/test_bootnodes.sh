@@ -1,102 +1,99 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -euo pipefail
 
-if ! command -v polkadot &> /dev/null; then
-    echo "polkadot is not installed. Exiting..."
-    exit 1
-fi
-echo "using polkadot at /usr/bin/polkadot"
-jq="/usr/bin/jq"
+# Define constants
+readonly POLKADOT_BINARY="/usr/bin/polkadot"
+readonly POLKADOT_PARACHAIN_BINARY="/usr/bin/polkadot-parachain"
+readonly JQ_BINARY="/usr/bin/jq"
+readonly OUTPUT_DIR="/tmp/bootnode_tests"
+readonly OUTPUT_FILE="$OUTPUT_DIR/results.json"
+readonly BOOTNODES_JSON="bootnodes.json"
+readonly LOG_FILE="$OUTPUT_DIR/log.txt"
 
-# define the output directory and file
-output_dir="/tmp/bootnode_tests"
-output_file="$output_dir/results.json"
-
-# function to initialize output directory and file
+# Initialize output directory and file
 initialize_output() {
-    mkdir -p "$output_dir"
-    echo '{}' > "$output_file"
+    mkdir -p "$OUTPUT_DIR"
+    echo '{}' > "$OUTPUT_FILE"
 }
 
-fetch_block_data() {
+# Update results in JSON file
+update_results() {
     local operator="$1"
-    local network="$2"
+    local data_file="$2"
+    local tmp_file="${OUTPUT_FILE}.tmp"
+    "$JQ_BINARY" --arg operator "$operator" --slurpfile data "$data_file" '
+        if .[$operator] then
+            .[$operator] += $data[0]
+        else
+            .[$operator] = $data[0]
+        end
+    ' "$OUTPUT_FILE" > "$tmp_file" && mv "$tmp_file" "$OUTPUT_FILE"
+}
+
+test_bootnode() {
+    local operator="$1"
+    local command_id="$2"
     local bootnode="$3"
-    local result_file=$(mktemp)
+    local network
+    local relaychain
 
-    # check if the bootnode is a placeholder, skip fetching
-    if [[ "$bootnode" == *"placeholder"* ]]; then
-        echo "{\"id\":\"$operator\", \"network\":\"$network\", \"bootnode\":\"$bootnode\", \"valid\":false}" > "$result_file"
-        echo "Skipped fetching data for $operator on $network due to placeholder bootnode."
-        update_results "$operator" "$result_file"
-        rm "$result_file"
+    if [[ "$command_id" == "parachain" ]]; then
+        # Assuming 'parachain' commands follow the format: <network>-<relaychain>
+        network="${command_id%-*}"  # Everything before the last hyphen
+        relaychain="${command_id##*-}"  # Everything after the last hyphen
+    else
+        network="$command_id"
+        relaychain=""
+    fi
+
+    local binary_path="$POLKADOT_BINARY"
+    [[ "$command_id" == "parachain" ]] && binary_path="$POLKADOT_PARACHAIN_BINARY"
+
+    local chain_spec_file="./chain-spec/${network}.json"
+    if [ ! -f "$chain_spec_file" ]; then
+        echo "Chain spec file for $network does not exist."
         return
     fi
 
+    local command="$binary_path --no-hardware-benchmarks --no-mdns --chain $chain_spec_file"
+    [[ -n "$relaychain" ]] && command+=" --relay-chain-rpc-urls wss://rpc.ibp.network/$relaychain"
+    command+=" --bootnodes $bootnode"
 
-    # check if an error occurred during fetch
-    if [[ "$block_data" == *"Error"* ]]; then
-        echo "{\"id\":\"$operator\", \"network\":\"$network\", \"bootnode\":\"$bootnode\", \"valid\":false}" > "$result_file"
-        echo "Failed to fetch data for $operator on $network due to error: $block_data"
-        update_results "$operator" "$result_file"
-        rm "$result_file"
-        return
-    fi
+    echo "Executing: $command"
+    timeout 20s $command &> "$LOG_FILE"
 
-    # process and store fetched block data
-    echo "$block_data" | $jq -c --arg operator "$operator" --arg network "$network" --arg bootnode "$bootnode" '{
-        id: $operator,
-        network: $network,
-        bootnode: $bootnode,
-        block_number: .block.header.number,
-        extrinsics_root: .block.header.extrinsicsRoot,
-        parent_hash: .block.header.parentHash,
-        state_root: .block.header.stateRoot,
-        valid: true
-    }' > "$result_file"
+    # Analyze logs for number of peers
+    local peers_line=$(grep 'Syncing,' "$LOG_FILE" | tail -1)  # Fetch the last occurrence
+    local peer_count=$(echo "$peers_line" | grep -oP '(?<=\()\d+')
+    local valid=false
+    [[ "$peer_count" -gt 1 ]] && valid=true
 
-    # print the processed data
+    # Prepare JSON result
+    echo "{\"id\":\"$operator\", \"network\":\"$network\", \"bootnode\":\"$bootnode\", \"valid\":$valid, \"peers\":\"$peer_count\"}" > "$result_file"
     cat "$result_file"
     echo "Data fetched successfully for $operator on $network"
 
-    # update the main results file and clean up
+    # Update the main results file and clean up
     update_results "$operator" "$result_file"
     rm "$result_file"
 }
 
-# function to process all bootnodes for each operator
-process_bootnodes() {
-    local bootnodes_json="bootnodes.json"
-    local operators=$($jq -rc '.members | keys[]' "$members_json")
-    for operator in $operators; do
-        $jq -rc --arg operator "$operator" '.members[$operator].bootnodes | to_entries[] | [.key, .value]' "$members_json" |
-        while IFS= read -r line; do
-            local network=$(echo "$line" | $jq -r '.[0]')
-            local bootnode=$(echo "$line" | $jq -r '.[1]')
-            fetch_block_data "$operator" "$network" "$bootnode"
-        done
-    done
-}
-
-# update results
-update_results() {
-    local operator="$1"
-    local data_file="$2"
-    # append new data to the existing array for the operator
-    jq --arg operator "$operator" --slurpfile data "$data_file" '
-        if .[$operator] then
-            .[$operator] += $data
-        else
-            .[$operator] = $data
-        end
-    ' "$output_file" > "${output_file}.tmp" && mv "${output_file}.tmp" "$output_file"
-}
-
-# main function to run the script
+# Main function to run the script
 main() {
     initialize_output
-    process_bootnodes
-    echo "all data has been fetched and saved."
+
+    if [ ! -f "$BOOTNODES_JSON" ]; then
+        echo "Bootnodes configuration file does not exist."
+        exit 1
+    fi
+
+    # Extract the network names (keys) and their details
+    cat "$BOOTNODES_JSON" | "$JQ_BINARY" -r 'to_entries[] | .key as $network | .value.commandId as $cid | .value.members | to_entries[] | .key as $operator | .value[] | "\($network) \($cid) \($operator) \(.)"' |
+    while IFS=' ' read -r network command_id operator bootnode; do
+        test_bootnode "$operator" "$network" "$bootnode" "$command_id"
+    done
+
+    echo "All data has been fetched and saved."
 }
 
 main
