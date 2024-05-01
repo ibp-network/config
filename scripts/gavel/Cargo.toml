@@ -1,5 +1,5 @@
 [package]
-name = "blockfetch"
+name = "gavel"
 version = "0.1.0"
 edition = "2021"
 
@@ -14,3 +14,4 @@ serde = { version = "^1", features = ["derive"] }
 clap = { version = "^4", features = ["derive"] }
 tokio-tungstenite = { version = "^0.21", features = ["native-tls"] }
 futures-util = "^0.3"
+rand = "^0.8"
