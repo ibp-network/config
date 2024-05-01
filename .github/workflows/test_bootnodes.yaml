@@ -6,9 +6,16 @@ on:
   pull_request:
     branches:
       - main
+    paths:
+      - bootnodes.json
+  push:
+    branches:
+      - main
+    paths:
+      - bootnodes.json
 
 jobs:
-  validate_bootnodes:
+  test_bootnodes:
     runs-on: self-hosted
 
     container:
@@ -20,44 +27,35 @@ jobs:
 
     - name: setup environment
       run: |
-        sudo apt-get update
-        sudo apt-get install -y jq curl sudo
+        apt-get update
+        apt-get install -y jq curl
 
     - name: prepare polkadot binary
       run: |
         curl -L https://github.com/paritytech/polkadot-sdk/releases/download/polkadot-v1.10.0/polkadot -o polkadot
         chmod +x polkadot
-        sudo mv polkadot /usr/local/bin/
+        mv polkadot /usr/local/bin/
 
     - name: prepare polkadot-parachain binary
       run: |
         curl -L https://github.com/paritytech/polkadot-sdk/releases/download/polkadot-parachain-v1.10.1/polkadot-parachain -o polkadot-parachain
         chmod +x polkadot-parachain
-        sudo mv polkadot-parachain /usr/local/bin/
+        mv polkadot-parachain /usr/local/bin/
 
     - name: test bootnode integrity
       run: bash ./scripts/test_bootnodes.sh
 
-    - name: identify missing bootnodes
-      run: bash ./scripts/missing_bootnodes.sh
+    - run: bash ./scripts/missing_bootnodes.sh > /tmp/bootnode_tests/missing_bootnodes.json
+    - run: cat /tmp/bootnode_tests/missing_bootnodes.json
 
-    # - name: detect broken bootnodes
-    #   run: bash ./scripts/broken_bootnodes.sh
+    - run: bash ./scripts/broken_bootnodes.sh > /tmp/bootnode_tests/broken_bootnodes.json
+    - run: cat /tmp/bootnode_tests/broken_bootnodes.json
+
+    - name: tar test results
+      run: tar -czvf /tmp/bootnode_tests/results.tar.gz /tmp/bootnode_tests
 
     - name: archive test results
       uses: actions/upload-artifact@v4
       with:
         name: bootnode-test-results
-        path: /tmp/bootnode_tests/results.json
-
-    - name: archive missing bootnodes report
-      uses: actions/upload-artifact@v4
-      with:
-        name: missing-bootnodes-report
-        path: /tmp/bootnode_tests/missing.json
-
-    # - name: archive broken bootnodes report
-    #   uses: actions/upload-artifact@v4
-    #   with:
-    #     name: broken-bootnodes-report
-    #     path: /tmp/bootnode_tests/broken.json
+        path: /tmp/bootnode_tests/results.tar.gz
