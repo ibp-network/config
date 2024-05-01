@@ -1,2 +1,2 @@
 #!/bin/bash
-touch /tmp/bootnode_tests/broken_bootnodes.sh
+jq '.[] | select(.valid == false)' /tmp/bootnode_tests/results.json

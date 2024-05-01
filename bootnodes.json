@@ -741,7 +741,6 @@
   },
   "encointer-kusama": {
     "commandId": "encointer",
-    "comment": "wss not supported in encointer yet",
     "members": {
       "amforc": [
         "/dns/encointer-kusama.bootnode.amforc.com/tcp/30338/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz",
