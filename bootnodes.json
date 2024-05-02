@@ -365,8 +365,8 @@
         "/dns/pch13.rotko.net/tcp/35573/p2p/12D3KooWRXudHoazPZ9osMfdY38e8CBxQLD4RhrVeHpRSNNpcDtH"
       ],
       "stakeplus": [
-        "/dns/boot.stake.plus/tcp/38333/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ",
-        "/dns/boot.stake.plus/tcp/38334/wss/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ"
+        "/dns/boot.stake.plus/tcp/37333/p2p/12D3KooWRgFfEtwPo3xorKGYALRHRteKNgF37iN9q8xTLPYc34LA",
+        "/dns/boot.stake.plus/tcp/37334/wss/p2p/12D3KooWRgFfEtwPo3xorKGYALRHRteKNgF37iN9q8xTLPYc34LA"
       ],
       "turboflakes": [
         "/dns/collectives-polkadot-bootnode.turboflakes.io/tcp/30605/p2p/12D3KooWPyzM7eX64J4aG8uRfSARakDVtiEtthEM8FUjrLWAg2sC",
