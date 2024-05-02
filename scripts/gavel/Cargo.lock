@@ -326,17 +326,21 @@ dependencies = [
 
 [[package]]
 name = "gavel"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "clap",
  "futures-util",
+ "http",
+ "native-tls",
  "rand",
  "serde",
  "serde_json",
  "tokio",
+ "tokio-native-tls",
  "tokio-tungstenite",
  "tokio-util",
+ "url",
 ]
 
 [[package]]
