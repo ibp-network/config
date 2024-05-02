@@ -1,23 +1,2 @@
 #!/bin/bash
-RESULTS_JSON="/tmp/bootnode_tests/results.json"
-OUTPUT_FILE="/tmp/endpoint_tests/missing.json"
-
-missing=$(jq '
-  . as $root | 
-  to_entries | 
-  map({
-    id: .key,
-    missing_endpoints: [
-      .value | to_entries |
-      map(select(.value.valid == false) | {
-        network: .key,
-        endpoint: .value.bootnode
-      })
-    ]
-  }) | map(select(.missing_endpoints | length > 0))
-' "$RESULTS_JSON")
-
-echo "$missing" | jq . > "$OUTPUT_FILE"
-cat "$OUTPUT_FILE"
-
-
+jq '[. as $root | keys[] as $instance | $root[$instance].members | to_entries | map(select(.value | length == 0) | .key as $provider | {provider: $provider, hub: $instance})] | add | group_by(.provider) | map({(.[0].provider): map(.hub)}) | add' bootnodes.json
