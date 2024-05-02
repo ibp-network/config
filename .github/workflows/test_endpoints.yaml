@@ -1,4 +1,4 @@
-name: Daily endpoint validity test
+name: Endpoint validity test
 
 on:
   schedule:
@@ -36,11 +36,14 @@ jobs:
         cd scripts/gavel
         cargo build --release --locked
 
-    - run: bash ./scripts/test_endpoints.sh
+    - name: Produce /tmp/endpoint_tests/results.json
+      run: bash ./scripts/test_endpoints.sh
 
-    - run: bash ./scripts/missing_endpoints.sh
+    - name: Produce /tmp/endpoint_tests/missing.json
+      run: bash ./scripts/missing_endpoints.sh
 
-    - uses: actions/upload-artifact@v4
+    - name: Create artifact
+      uses: actions/upload-artifact@v4
       with:
         name: endpoint-test-results
-        path: /tmp/endpoint_tests/results.json
+        path: /tmp/endpoint_tests
