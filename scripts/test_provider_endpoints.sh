@@ -8,7 +8,7 @@ gavel="$script_dir/gavel/target/release/gavel"
 jq="/usr/bin/jq"
 members_json="$root_dir/members.json"
 output_dir="/tmp/endpoint_tests"
-output_file="$output_dir/results.json"
+output_file="$output_dir/provider_results.json"
 
 # init
 echo "Using gavel built @ $gavel"
@@ -22,13 +22,15 @@ rand() {
     echo $((RANDOM % (max - min + 1) + min))
 }
 
-
 # fetch block data from network endpoint
 fetch_block_data() {
     local operator="$1"
     local network="$2"
     local endpoint="$3"
     local block_height="$4"
+    local current=$(date +%s) # Current time in seconds since the epoch
+    local triennium=$((21 * 24 * 3600)) # 21 days in seconds
+    local week=$((7 * 24 * 3600)) # 7 days in seconds
 
     echo "Fetching data from $operator at $endpoint for $network"
 
@@ -40,15 +42,15 @@ fetch_block_data() {
     # echo "Debug: block_data received: $block_data" >&2
     # echo "Debug: mmr_data received: $mmr_data" >&2
 
-    oci_enabled="false"
+    offchain_indexing=false
 
     if echo "$mmr_data" | jq -e . > /dev/null 2>&1; then
-        oci_enabled=$(echo "$mmr_data" | jq -r 'if .proof != null and .proof != "" then true else false end')
+        offchain_indexing=$(echo "$mmr_data" | jq -r 'if .proof != null and .proof != "" then true else false end')
     fi
 
-    # echo out if block_data fetch succesful and if oci_enabled 
+    # echo out if block_data fetch succesful and if offchain_indexing 
     if echo "$block_data" | jq -e . > /dev/null 2>&1; then
-        echo "fetch succesful && oci enabled: $oci_enabled"
+        echo "fetch succesful. offchain-indexing: $offchain_indexing"
     else
         # ensure the block_data is in JSON format
         echo "$block_data"
@@ -57,27 +59,26 @@ fetch_block_data() {
 
     if echo "$block_data" | jq -e '.error' >/dev/null; then
         local error_message=$(echo "$block_data" | jq -r '.error')
-        result_json=$(jq -n --arg operator "$operator" --arg network "$network" --arg endpoint "$endpoint" --arg error "$error_message" --arg oci_enabled "$oci_enabled" '{
+        result_json=$(jq -n --arg operator "$operator" --arg network "$network" --arg endpoint "$endpoint" --arg error "$error_message" '{
             id: $operator,
             network: $network,
             endpoint: $endpoint,
             valid: false,
             error: $error,
-            oci_enabled: $oci_enabled
         }')
     else
         # Extract specific details from valid block data
-        first_extrinsic_bits=$(echo "$block_data" | jq -r '.block.extrinsics[0] // empty | .[0:8]')
-        result_json=$(jq -n --arg operator "$operator" --arg network "$network" --arg endpoint "$endpoint" --arg first_extrinsic_bits "$first_extrinsic_bits" --arg oci_enabled "$oci_enabled" --argjson block_data "$block_data" '{
+        first_extrinsic_byte=$(echo "$block_data" | jq -r '.block.extrinsics[0] // empty | .[0:8]')
+        result_json=$(jq -n --arg operator "$operator" --arg network "$network" --arg endpoint "$endpoint" --arg first_extrinsic_byte "$first_extrinsic_byte" --argjson offchain_indexing "$offchain_indexing" --argjson block_data "$block_data" '{
             id: $operator,
             network: $network,
             endpoint: $endpoint,
             block_number: ($block_data.block.header.number // null),
             parent_hash: ($block_data.block.header.parentHash // null),
             state_root: ($block_data.block.header.stateRoot // null),
-            valid: true,
-            first_extrinsic_bits: $first_extrinsic_bits,
-            oci_enabled: $oci_enabled
+            first_extrinsic_byte: $first_extrinsic_byte,
+            offchain_indexing: $offchain_indexing,
+            valid: true
         }')
     fi
 
