@@ -3,16 +3,6 @@ name: Bootnode validity test
 on:
   schedule:
     - cron: '0 8 * * *'
-  pull_request:
-    branches:
-      - main
-    paths:
-      - bootnodes.json
-  push:
-    branches:
-      - main
-    paths:
-      - bootnodes.json
 
 jobs:
   test_bootnodes:
