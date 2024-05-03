@@ -1,0 +1,52 @@
+name: Endpoint validity test
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Runs at 8AM UTC every day
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  test_endpoints:
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:latest
+
+    steps:
+    - name: workaround to for Act(https://github.com/nektos/act/issues/107)
+      if: ${{ env.ACT }}
+      run: |
+        apt-get update && apt-get install sudo -y
+
+    - name: Install dependencies
+      run: |
+        apt-get update
+        apt-get install curl jq build-essential pkg-config libssl-dev xxd -y
+        curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+        apt-get install -y nodejs
+
+    - uses: actions/checkout@v4
+    - uses: dtolnay/rust-toolchain@stable
+
+    - run: |
+        cd scripts/gavel
+        cargo build --release --locked
+
+    - name: Produce /tmp/endpoint_tests/syndicate_results.json
+      run: bash ./scripts/test_syndicate_endpoints.sh
+
+    - name: Produce /tmp/endpoint_tests/provider_results.json
+      run: bash ./scripts/test_provider_endpoints.sh
+
+    - name: Produce /tmp/endpoint_tests/provider_missing.json
+      run: bash ./scripts/missing_provider_endpoints.sh
+
+    - name: Create artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: endpoint-test-results
+        path: /tmp/endpoint_tests

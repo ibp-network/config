@@ -540,7 +540,7 @@
         }
       }
     },
-    "RadiumBlock": {
+    "radiumblock": {
       "name": "RadiumBlock",
       "website": "https://radiumblock.com/",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg",
