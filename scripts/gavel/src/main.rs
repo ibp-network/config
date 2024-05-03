@@ -1,12 +1,11 @@
-use std::net::{Ipv4Addr};
 
 use clap::{Parser, Subcommand};
 use serde_json::{json, Value};
 use tokio::main;
+use std::net::Ipv4Addr;
 use http::header::{HeaderValue, HOST};
-use tokio_tungstenite::{tungstenite::protocol::Message};
 use tokio_tungstenite::{connect_async, MaybeTlsStream};
-use tokio_tungstenite::tungstenite::client::IntoClientRequest;
+use tokio_tungstenite::tungstenite::{protocol::Message, client::IntoClientRequest};
 use futures_util::{StreamExt, SinkExt};
 use rand::{Rng, distributions::Alphanumeric};
 use url::Url;
@@ -46,6 +45,10 @@ enum Commands {
         /// Block numbers for which to generate MMR proofs
         #[clap(required = true)]
         block_numbers: Vec<u64>,
+
+        /// Custom resolve the endpoint with IP address
+        #[clap(short, long)]
+        resolve: Option<Ipv4Addr>,
     }
 }
 
@@ -58,8 +61,8 @@ async fn main() {
                 eprintln!("Error: {}", e);
             }
         }
-        Commands::Mmr { endpoint, block_numbers } => {
-            if let Err(e) = get_mmr_proof(&endpoint, block_numbers).await {
+        Commands::Mmr { endpoint, block_numbers, resolve } => {
+            if let Err(e) = get_mmr_proof(&endpoint, block_numbers, resolve.as_ref()).await {
                 eprintln!("Error: {}", e);
             }
         }
@@ -110,29 +113,12 @@ async fn custom_dns_connect(endpoint: &str, dns_override: Option<Ipv4Addr>) -> R
     Ok(socket)
 }
 
-
-// async fn custom_dns_connect(endpoint: &str, dns_override: Option<Ipv4Addr>) -> Result<tokio_tungstenite::WebSocketStream<tokio_tungstenite::MaybeTlsStream<tokio::net::TcpStream>>, Box<dyn std::error::Error>> {
-//     let mut url = Url::parse(endpoint)?;
-//
-//     if let Some(ip) = dns_override {
-//         let port = url.port_or_known_default().ok_or("Unknown port for the URL scheme")?;
-//         url.set_host(Some(&format!("{}", ip))).unwrap();
-//         url.set_port(Some(port)).unwrap();
-//     }
-//
-//     let mut request = url.clone().into_client_request()?;
-//     request.headers_mut().insert(HOST, HeaderValue::from_str(url.host_str().unwrap())?);
-//
-//     let (socket, _) = connect_async(request).await?;
-//     Ok(socket)
-// }
-//
 async fn fetch_block(endpoint: &str, block_number: Option<&str>, ipv4: Option<&Ipv4Addr>) -> Result<(), Box<dyn std::error::Error>> {
     let formatted_block_number = identify_if_hexadecimal_or_decimal(block_number).await?;
 
     let mut socket = if let Some(ip) = ipv4 {
-        let connection = custom_dns_connect(endpoint, Some(*ip)).await?;
-        connection
+        let c = custom_dns_connect(endpoint, Some(*ip)).await?;
+        c
     } else {
         let (socket, _) = connect_async(endpoint).await?;
         socket
@@ -151,8 +137,14 @@ async fn fetch_block(endpoint: &str, block_number: Option<&str>, ipv4: Option<&I
     Ok(())
 }
 
-async fn get_mmr_proof(endpoint: &str, block_numbers: Vec<u64>) -> Result<(), Box<dyn std::error::Error>> {
-    let (mut socket, _) = connect_async(endpoint).await?;
+async fn get_mmr_proof(endpoint: &str, block_numbers: Vec<u64>, ipv4: Option<&Ipv4Addr>) -> Result<(), Box<dyn std::error::Error>> {
+    let mut socket = if let Some(ip) = ipv4 {
+        let c = custom_dns_connect(endpoint, Some(*ip)).await?;
+        c
+    } else {
+        let (socket, _) = connect_async(endpoint).await?;
+        socket
+    };
 
     let params = json!([block_numbers]);
 
