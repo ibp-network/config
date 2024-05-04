@@ -1,0 +1,35 @@
+{
+  "matrix": {
+    "room": "#ibp-alerts:matrix.org",
+    "internal_room": "!YPzviRzYtMExDkFiUr:matrix.org",
+    "members": {
+      "amforc": ["@tugytur:matrix.org"],
+      "dwellir": ["@jocken:matrix.org", "@omgzilla:matrix.org", "@lonroth:matrix.org", "@gustavden3:matrix.org"],
+      "gatotech": ["@gatotech:matrix.org"],
+      "helikon": ["@helikon:matrix.org"],
+      "luckyfriday": ["@paradoxxx:matrix.org"],
+      "metaspan": ["@metaspan:matrix.org"],
+      "polkadotters": ["@pmensik:matrix.org"],
+      "radiumblock": ["@radiumblock:matrix.org"],
+      "rotko": ["@hitchhooker:matrix.org"],
+      "stakeplus": ["@stakeplus:matrix.org"],
+      "turboflakes": ["@turboflakes:matrix.org"]
+    }
+  },
+  "telegram": {
+    "room": "https://t.me/ibp-alerts",
+    "members": {
+      "amforc": [],
+      "dwellir": [],
+      "gatotech": [],
+      "helikon": [],
+      "luckyfriday": [],
+      "metaspan": [],
+      "polkadotters": [],
+      "radiumblock": [],
+      "rotko": [],
+      "stakeplus": [],
+      "turboflakes": []
+    }
+  }
+}
