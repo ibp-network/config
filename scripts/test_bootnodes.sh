@@ -16,19 +16,6 @@ initialize_output() {
     echo "Initialized output directory and JSON file."
 }
 
-# update_results() {
-#     local operator="$1"
-#     local data_file="$2"
-#     local tmp_file="${OUTPUT_FILE}.tmp"
-#     # update results.json with the new data
-#     "$JQ_BINARY" --arg operator "$operator" --slurpfile data "$data_file" '
-#         if .[$operator] then
-#             .[$operator] += $data[0]
-#         else
-#             .[$operator] = $data[0]
-#         end
-#     ' "$OUTPUT_FILE" > "$tmp_file" && mv "$tmp_file" "$OUTPUT_FILE"
-# }
 update_results() {
     local operator="$1"
     local network="$2"
