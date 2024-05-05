@@ -2,7 +2,7 @@ name: Bootnode validity test
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 12 * * *'
   pull_request:
     branches:
       - main
@@ -28,7 +28,13 @@ jobs:
     - name: Setup environment
       run: |
         apt-get update
-        apt-get install -y jq curl
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get install -y jq curl parallel
+
+    - name: Install matrix-commander-rs into path
+      run : |
+        cp ./scripts/binaries/matrix-commander-rs /usr/local/bin/
+        chmod +x /usr/local/bin/matrix-commander-rs
 
     - name: Prepare polkadot binary
       run: |
@@ -42,14 +48,17 @@ jobs:
         chmod +x polkadot-parachain
         mv polkadot-parachain /usr/local/bin/
 
+    - name: Prepare encointer binary
+      run: |
+        curl -L https://github.com/encointer/encointer-parachain/releases/download/1.7.6/encointer-collator -o encointer
+        chmod +x encointer
+        mv encointer /usr/local/bin/
+
     - name: Test bootnode integrity
-      run: bash ./scripts/test_bootnodes.sh
+      run: bash ./scripts/test_bootnodes_parallel.sh
 
-    - run: bash ./scripts/missing_bootnodes.sh > /tmp/bootnode_tests/missing_bootnodes.json
-    - run: cat /tmp/bootnode_tests/missing_bootnodes.json
-
-    - run: bash ./scripts/broken_bootnodes.sh > /tmp/bootnode_tests/broken_bootnodes.json
-    - run: cat /tmp/bootnode_tests/broken_bootnodes.json
+    - name: Alert on bootnode issues
+      run: bash ./scripts/alert_bootnodes.sh
 
     - name: archive test results
       uses: actions/upload-artifact@v4
