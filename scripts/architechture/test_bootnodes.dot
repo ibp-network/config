@@ -1,0 +1,50 @@
+digraph BootnodeTesting {
+    // General style settings
+    graph [fontsize=10 fontname="Verdana" splines=polyline bgcolor="#DEEFEF"]
+    node [shape=box, style="filled, rounded", fontname="Verdana", height=0.5, fontcolor="#000000"] // Change font color to black
+    edge [fontname="Verdana", arrowhead=vee, color="#552BBF"]
+
+    // Define main flow nodes
+    start [label="Start", shape=ellipse, fillcolor="#552BBF"]
+    create_output_dir [label="Create Output Directory", fillcolor="#56F39A"]
+    read_json [label="Read bootnodes.json", fillcolor="#00B2FF"]
+    parse_json [label="Parse bootnodes for targets", fillcolor="#00B2FF"]
+    execute_parallel [label="Execute multiple test_bootnode.sh in GNU parallel", shape=diamond, fillcolor="#E6007A", width=2.0]
+    combine_results [label="Combine Results", fillcolor="#D3FF33"]
+    update_final_results [label="Update Final Results", fillcolor="#D3FF33"]
+    end [label="End", shape=ellipse, fillcolor="#552BBF"]
+
+    // Connect main flow
+    start -> create_output_dir -> read_json -> parse_json -> execute_parallel
+    // parallel connects here
+    combine_results -> update_final_results -> end
+
+    // Parallel execution subgraph
+    subgraph cluster_parallel {
+        label="Parallel Execution"
+        fontcolor="#000000"
+        color="#E6007A"
+        style="filled"
+        fillcolor="#E6007A"
+        fontsize=20
+
+        // Define nodes for each instance
+        node [shape=record, fillcolor="#00B2FF", fontcolor="#000000", style="filled", fontsize=14]
+        
+        instance1 [label="test_bootnode.sh Instance 1:\nExecute binary with single bootnode target\nInitialization and setup\nSleepLoop for stability\nFetch Prometheus Metrics:\n- peers_count\n- num_discovered\n- best_block\nConditional break: 2+ peers\nResult handling: Save/Submit API\nCleanup and resource release\n"]
+        instance2 [label="test_bootnode.sh Instance ..:\nHandles 1..n parallel jobs.."]
+        instance3 [label="test_bootnode.sh Instance n:\nExecute binary with single bootnode target\nInitialization and setup\nSleepLoop for stability\nFetch Prometheus Metrics:\n- peers_count\n- num_discovered\n- best_block\nConditional break: 2+ peers\nResult handling: Save/Submit API\nCleanup and resource release\n"]
+
+        // Align instances horizontally
+        edge [style=invis]
+        rank=same; instance1 instance2 instance3
+    }
+
+    // Edges connecting the main flow to the parallel cluster
+    execute_parallel -> instance1 [lhead=cluster_parallel, style=dashed, color="#552BBF"]
+    execute_parallel -> instance2 [lhead=cluster_parallel, style=dashed, color="#552BBF"]
+    execute_parallel -> instance3 [lhead=cluster_parallel, style=dashed, color="#552BBF"]
+    instance1 -> combine_results [ltail=cluster_parallel, style=dashed, color="#552BBF"]
+    instance2 -> combine_results [ltail=cluster_parallel, style=dashed, color="#552BBF"]
+    instance3 -> combine_results [ltail=cluster_parallel, style=dashed, color="#552BBF"]
+}
