@@ -784,5 +784,14 @@
         "/dns/encointer-kusama-bootnode.turboflakes.io/tcp/30725/wss/p2p/12D3KooWCXoAM2ucUEhMhLkZVWJ6hMCHqV2K4sjVM27t5ZGv4XU6"
       ]
     }
+  },
+    "people-kusama": {
+    "commandId": "parachain",
+    "members": {
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/48333/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb",
+        "/dns/boot.stake.plus/tcp/48334/wss/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb"
+      ]
+    }
   }
 }
