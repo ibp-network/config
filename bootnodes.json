@@ -785,7 +785,7 @@
       ]
     }
   },
-    "people-kusama": {
+  "people-kusama": {
     "commandId": "parachain",
     "members": {
       "stakeplus": [
