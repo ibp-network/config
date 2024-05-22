@@ -24,13 +24,14 @@ rand() {
 }
 
 check_ssl_certificate() {
-  local domain="$1"
+  local endpoint_url="$1"
   local provider_ip="$2"
   local port="${3:-443}"  # Default to port 443 if not specified
   local cmd_output
   local expiration_str
   local expiration
   local current
+  local domain=$(echo "$endpoint_url" | sed -e 's|^wss://||' -e 's|^https://||' -e 's|^http://||' -e 's|/.*$||') # strip domain
 
     # Perform the SSL fetch safely, capturing both output and errors
     cmd_output=$(echo | openssl s_client -servername "$domain" -connect "$provider_ip:$port" -showcerts 2>&1 | openssl x509 -noout -enddate)
