@@ -26,41 +26,49 @@ rand() {
 # Function to check SSL certificate expiration
 check_ssl_certificate() {
   local domain="$1"
-  local provider_ip="$2"
-  local port="${3:-443}"  # Default to port 443 if not specified
-  local timeout_period=5  # Timeout period in seconds
-  local current=$(date +%s) # Current time in seconds since the epoch
-  local triennium=$((21 * 24 * 3600)) # 21 days in seconds
-  local week=$((7 * 24 * 3600)) # 7 days in seconds
+  local ip="$2"
+  local port="${3:-443}"
+  local timeout=5
+  local current=$(date +%s)
 
-  local cmd_output
-  if ! cmd_output=$(timeout $timeout_period sh -c "echo | openssl s_client -connect \"$provider_ip:$port\" -servername \"$domain\" -showcerts 2>/dev/null | openssl x509 -noout -enddate"); then
-    echo "Error fetching certificate for $domain at IP $provider_ip on port $port - ERR:timeout after $timeout_period s" >&2
+  domain=$(echo "$domain" | sed -e 's|^wss://||')
+  # Fetch the certificate details using curl
+  local output
+  output=$(timeout $timeout curl -v --insecure --resolve "$domain:$port:$ip" "https://$domain:$port" 2>&1)
+  echo "$output"  # Debug output
+
+  # Extract the expiration date from the curl output
+  local expiration
+  expiration=$(echo "$output" | grep -oP '(?<=expire date: )\w{3} \d{2} \d{2}:\d{2}:\d{2} \d{4}' | head -1)
+  if [[ -z "$expiration" ]]; then
+    echo "Error: Could not find expiration date in the output for $domain at IP $ip on port $port" >&2
     return 1
   fi
 
-  local expiration_str=$(echo "$cmd_output" | cut -d= -f2)
-  if [[ -z "$expiration_str" ]]; then
-    echo "Error parsing expiration date for $domain. Command output: $cmd_output" >&2
-    return 1
-  fi
-
-  local expiration=$(date -d "$expiration_str" +%s 2>/dev/null)
+  # Convert the expiration date to epoch time
+  local exp_epoch
+  exp_epoch=$(date -d "$expiration" +%s)
   if [[ $? -ne 0 ]]; then
-    echo "Error converting expiration date to epoch for $domain. Received date: $expiration_str" >&2
+    echo "Error: Could not convert expiration date to epoch for $domain. Received date: $expiration" >&2
     return 1
   fi
 
-  local cert_expiration_str=$(date -d "@$expiration" "+%Y-%m-%d %H:%M:%S")
-  if [[ $((expiration - current)) -le $week ]]; then
-      echo "🔴 Red Alert: $provider_ip ($domain) certificate expires very soon: $cert_expiration_str"
-  elif [[ $((expiration - current)) -le $triennium ]]; then
-      echo "⚠️ Alert: $provider_ip ($domain) certificate expires soon: $cert_expiration_str"
-  else
-      echo "✅ $provider_ip ($domain) certificate is valid until: $cert_expiration_str"
-  fi
+  # Format the expiration date
+  local exp_str
+  exp_str=$(date -d "@$exp_epoch" "+%Y-%m-%d %H:%M:%S")
 
-  echo "$expiration"
+  # Determine the certificate status
+  local week=$((7 * 24 * 3600))
+  local triennium=$((21 * 24 * 3600))
+
+  if ((exp_epoch - current <= week)); then
+    echo "🔴 $ip ($domain) certificate expires very soon: $exp_str"
+  elif ((exp_epoch - current <= triennium)); then
+    echo "⚠️ $ip ($domain) certificate expires soon: $exp_str"
+  else
+    echo "✅ $ip ($domain) certificate is valid until: $exp_str"
+  fi
+  echo "$exp_epoch"
 }
 
 # Function to fetch data using gavel
