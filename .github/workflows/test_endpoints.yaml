@@ -25,16 +25,15 @@ jobs:
     - name: Install dependencies
       run: |
         apt-get update
-        apt-get install curl jq build-essential pkg-config libssl-dev xxd -y
-        curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+        apt-get install -y curl jq build-essential pkg-config libssl-dev xxd
+        curl -fsSL https://deb.nodesource.com/setup_current.x | bash -
         apt-get install -y nodejs
 
     - uses: actions/checkout@v4
     - uses: dtolnay/rust-toolchain@stable
 
     - run: |
-        cd scripts/gavel
-        cargo build --release --locked
+        curl https://github.com/rotkonetworks/gavel/releases/download/0.4.0/gavel -L -o /usr/local/bin/gavel && chmod +x /usr/local/bin/gavel
 
     - name: Produce /tmp/endpoint_tests/syndicate_results.json
       run: bash ./scripts/test_syndicate_endpoints.sh
