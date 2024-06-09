@@ -1,5 +1,8 @@
 #!/bin/bash
-set -euo pipefail
+set -uo pipefail
+
+# Trap SIGPIPE and handle it
+trap 'echo "SIGPIPE received, continuing..."; exit 0' SIGPIPE
 
 # Define paths for scripts and tools
 script_dir="$(dirname "$(realpath "$0")")"
@@ -173,7 +176,10 @@ fetch_and_process_block_data() {
 
   local provider_ip=$(jq --arg member "$member" -r '.members[$member].services_address // "127.0.0.1"' "$members_json")
 
-  local cert_expiration=$(check_ssl_certificate "$endpoint" "$provider_ip" | tail -n1)
+  local cert_expiration
+  if ! cert_expiration=$(check_ssl_certificate "$endpoint" "$provider_ip" | tail -n1); then
+    cert_expiration="null"
+  fi
   echo "Fetching data from $member/$network: $endpoint($provider_ip)"
 
   local block_data=$(fetch_gavel_data "fetch" "$endpoint" "$provider_ip" "$block_height")
