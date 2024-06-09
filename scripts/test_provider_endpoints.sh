@@ -4,7 +4,7 @@ set -euo pipefail
 # define paths for scripts and tools
 script_dir="$(dirname "$(realpath "$0")")"
 root_dir="$(dirname "$script_dir")"
-gavel="$script_dir/gavel/target/release/gavel"
+gavel="/usr/local/bin/gavel"
 jq="/usr/bin/jq"
 members_json="$root_dir/members.json"
 output_dir="/tmp/endpoint_tests"
@@ -35,9 +35,9 @@ fetch_block_data() {
     echo "Fetching data from $operator at $endpoint for $network"
 
     # attempt to fetch block and MMR data
-    block_data=$("$gavel" fetch "$endpoint" -b "$block_height" 2>&1 || echo '{"error":"Failed to fetch block data"}')
+    block_data=$("$gavel" fetch "$endpoint" "$block_height" 2>&1 || echo '{"error":"Failed to fetch block data"}')
 
-    mmr_data=$("$gavel" mmr "$endpoint" "$block_height" 2>&1 || echo '{"proof":null}')
+    mmr_data=$("$gavel" mmr "$endpoint" 2>&1 || echo '{"proof":null}')
 
     # echo "Debug: block_data received: $block_data" >&2
     # echo "Debug: mmr_data received: $mmr_data" >&2
@@ -50,7 +50,7 @@ fetch_block_data() {
 
     # echo out if block_data fetch succesful and if offchain_indexing 
     if echo "$block_data" | jq -e . > /dev/null 2>&1; then
-        echo "fetch succesful. offchain-indexing: $offchain_indexing"
+        echo "offchain-indexing: $offchain_indexing"
     else
         # ensure the block_data is in JSON format
         echo "$block_data"
