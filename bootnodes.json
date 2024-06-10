@@ -788,9 +788,40 @@
   "people-kusama": {
     "commandId": "parachain",
     "members": {
+      "amforc": [
+        "/dns/people-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA",
+        "/dns/people-kusama.bootnode.amforc.com/tcp/30004/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA"
+      ],
+      "dwellir": [
+        "/dns/people-kusama-boot-ng.dwellir.com/tcp/30359/p2p/12D3KooWM6T8MMibxLZhhpq6F612CZ4FgnfDSJSkWDMiVUDe1aGb",
+        "/dns/people-kusama-boot-ng.dwellir.com/tcp/433/wss/p2p/12D3KooWM6T8MMibxLZhhpq6F612CZ4FgnfDSJSkWDMiVUDe1aGb"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33240/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX",
+        "/dns/boot.gatotech.network/tcp/35240/wss/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX"
+      ],
+      "helikon": [
+      ],
+      "luckyfriday": [],
+      "metaspan": [
+      ],
+      "polkadotters": [
+      ],
+      "radiumblock": [
+        "/dns/people-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj",
+        "/dns/people-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj"
+      ],
+      "rotko": [
+        "/dns/kppl16.rotko.net/tcp/33756/p2p/12D3KooWSKQwgoydfbN6mNN2aNwdqfkR2ExAnTRs8mmdrPQTtDLo",
+        "/dns/kppl16.rotko.net/tcp/35756/wss/p2p/12D3KooWSKQwgoydfbN6mNN2aNwdqfkR2ExAnTRs8mmdrPQTtDLo"
+      ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/48333/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb",
         "/dns/boot.stake.plus/tcp/48334/wss/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb"
+      ],
+      "turboflakes": [
+        "/dns/people-kusama-bootnode.turboflakes.io/tcp/30645/p2p/12D3KooWCR2Q8J2NFFfuofDak4zSgWkuBq7orP96HFaxLgAoDUBV",
+        "/dns/people-kusama-bootnode.turboflakes.io/tcp/30745/wss/p2p/12D3KooWCR2Q8J2NFFfuofDak4zSgWkuBq7orP96HFaxLgAoDUBV"
       ]
     }
   }
