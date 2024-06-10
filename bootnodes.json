@@ -800,7 +800,10 @@
         "/dns/boot.gatotech.network/tcp/33240/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX",
         "/dns/boot.gatotech.network/tcp/35240/wss/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX"
       ],
-      "helikon": [],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/7510/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv",
+        "/dns/boot-node.helikon.io/tcp/7512/wss/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv"
+      ],
       "luckyfriday": [],
       "metaspan": [],
       "polkadotters": [],
