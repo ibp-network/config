@@ -16,19 +16,6 @@ initialize_output() {
     echo "Initialized output directory and JSON file."
 }
 
-# update_results() {
-#     local operator="$1"
-#     local data_file="$2"
-#     local tmp_file="${OUTPUT_FILE}.tmp"
-#     # update results.json with the new data
-#     "$JQ_BINARY" --arg operator "$operator" --slurpfile data "$data_file" '
-#         if .[$operator] then
-#             .[$operator] += $data[0]
-#         else
-#             .[$operator] = $data[0]
-#         end
-#     ' "$OUTPUT_FILE" > "$tmp_file" && mv "$tmp_file" "$OUTPUT_FILE"
-# }
 update_results() {
     local operator="$1"
     local network="$2"
@@ -106,8 +93,8 @@ main() {
     # looping through each bootnode address
     while IFS=' ' read -r network command_id operator bootnode; do
         test_bootnode "$operator" "$network" "$bootnode" "$command_id"
+        rm -rf "$DATA_DIR"
     done
-    rm -rf "$DATA_DIR"
     echo "All data has been fetched and saved."
 }
 
