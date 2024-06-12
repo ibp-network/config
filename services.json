@@ -55,6 +55,26 @@
       "turboflakes"
     ]
   },
+  "paras.dotters.network": {
+    "service_type": "rpc-endpoints",
+    "level_required": "6",
+    "endpoints": {
+      "hydration": "wss://hydradx.paras.dotters.network"
+    },
+    "members": [
+      "amforc",
+      "dwellir",
+      "gatotech",
+      "helikon",
+      "luckyfriday",
+      "metaspan",
+      "polkadotters",
+      "radiumblock",
+      "rotko",
+      "stakeplus",
+      "turboflakes"
+    ]
+  },
   "rpc.ibp.network": {
     "service_type": "rpc-endpoints",
     "level_required": "3",
@@ -96,6 +116,26 @@
       "statemine": "wss://sys.ibp.network/statemine",
       "statemint": "wss://sys.ibp.network/statemint",
       "westmint": "wss://sys.ibp.network/westmint"
+    },
+    "members": [
+      "amforc",
+      "dwellir",
+      "gatotech",
+      "helikon",
+      "luckyfriday",
+      "metaspan",
+      "polkadotters",
+      "radiumblock",
+      "rotko",
+      "stakeplus",
+      "turboflakes"
+    ]
+  },
+  "paras.ibp.network": {
+    "service_type": "rpc-endpoints",
+    "level_required": "6",
+    "endpoints": {
+      "hydration": "wss://hydradx.paras.ibp.network"
     },
     "members": [
       "amforc",
