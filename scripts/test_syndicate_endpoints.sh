@@ -105,6 +105,10 @@ validate_and_process_data() {
   local member="$5"
   local network="$6"
   local endpoint="$7"
+  local chain="$8"
+  local client="$9"
+  local version="${10}"
+  local health="${11}"
 
   # Handle empty inputs
   if [[ -z "$block_data" ]]; then
@@ -139,7 +143,7 @@ validate_and_process_data() {
   # Construct result JSON
   local result_json
   if jq -e '.error' <<<"$block_data" >/dev/null 2>&1; then
-    result_json=$(jq -n --arg member "$member" --arg service_name "$service_name" --arg network "$network" --arg endpoint "$endpoint" --arg error "$(jq -r '.error' <<<"$block_data")" '{
+    result_json=$(jq -n --arg member "$member" --arg service_name "$service_name" --arg network "$network" --arg endpoint "$endpoint" --arg error "$(jq -r '.error' <<<"$block_data")" --arg chain "$chain" --arg client "$client" --arg version "$version" --argjson health "$health" '{
       id: $member,
       service: $service_name,
       network: $network,
@@ -148,7 +152,7 @@ validate_and_process_data() {
       valid: false
     }')
   else
-    result_json=$(jq -n --arg member "$member" --arg service_name "$service_name" --arg network "$network" --arg endpoint "$endpoint" --argjson first_extrinsic_bytes "$first_extrinsic_bytes" --argjson block_data "$block_data" --argjson offchain_indexing "$offchain_indexing" --arg cert_expiration "$cert_expiration" '{
+    result_json=$(jq -n --arg member "$member" --arg service_name "$service_name" --arg network "$network" --arg endpoint "$endpoint" --argjson first_extrinsic_bytes "$first_extrinsic_bytes" --argjson block_data "$block_data" --argjson offchain_indexing "$offchain_indexing" --arg cert_expiration "$cert_expiration" --arg chain "$chain" --arg client "$client" --arg version "$version" --argjson health "$health" '{
       id: $member,
       service: $service_name,
       network: $network,
@@ -159,6 +163,10 @@ validate_and_process_data() {
       first_extrinsic_bits: $first_extrinsic_bytes,
       offchain_indexing: $offchain_indexing,
       cert_expiration: $cert_expiration,
+      chain: $chain,
+      client: $client,
+      version: $version,
+      health: $health,
       valid: true
     }')
   fi
@@ -192,7 +200,12 @@ fetch_and_process_block_data() {
     mmr_data='{ "error": "No data fetched" }'
   fi
 
-  validate_and_process_data "$block_data" "$mmr_data" "$cert_expiration" "$service_name" "$member" "$network" "$endpoint"
+  local chain=$(echo "$block_data" | jq -r '.metadata.chain // ""')
+  local client=$(echo "$block_data" | jq -r '.metadata.client // ""')
+  local version=$(echo "$block_data" | jq -r '.metadata.version // ""')
+  local health=$(echo "$block_data" | jq -r '.metadata.health // "{}"')
+
+  validate_and_process_data "$block_data" "$mmr_data" "$cert_expiration" "$service_name" "$member" "$network" "$endpoint" "$chain" "$client" "$version" "$health"
 }
 
 process_endpoints() {
