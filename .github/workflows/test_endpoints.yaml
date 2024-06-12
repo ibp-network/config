@@ -32,7 +32,8 @@ jobs:
     - uses: actions/checkout@v4
     - uses: dtolnay/rust-toolchain@stable
 
-    - run: |
+    - name: Install gavel
+      run: |
         curl https://github.com/rotkonetworks/gavel/releases/download/0.4.0/gavel -L -o /usr/local/bin/gavel && chmod +x /usr/local/bin/gavel
 
     - name: Produce /tmp/endpoint_tests/syndicate_results.json
@@ -41,8 +42,11 @@ jobs:
     - name: Produce /tmp/endpoint_tests/provider_results.json
       run: bash ./scripts/test_provider_endpoints.sh
 
-    - name: Produce /tmp/endpoint_tests/provider_missing.json
-      run: bash ./scripts/missing_provider_endpoints.sh
+    - name: Check invalid endpoints
+      run: bash ./scripts/invalid_endpoints.sh
+
+    # - name: Send alerts to matrix
+    #   run: bash ./scripts/endpoint_alerts.sh
 
     - name: Create artifact
       uses: actions/upload-artifact@v4
