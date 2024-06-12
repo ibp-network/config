@@ -805,8 +805,14 @@
         "/dns/boot-node.helikon.io/tcp/7512/wss/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv"
       ],
       "luckyfriday": [],
-      "metaspan": [],
-      "polkadotters": [],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/25068/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP",
+        "/dns/boot.metaspan.io/tcp/25069/wss/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP"
+      ],
+      "polkadotters": [
+        "/dns/people-kusama.bootnodes.polkadotters.com/tcp/30377/p2p/12D3KooWHy7TAuK6EoVij2tfaeh3KkaEJxhTmumbEom3HfRnSEsp",
+        "/dns/people-kusama.bootnodes.polkadotters.com/tcp/30379/wss/p2p/12D3KooWHy7TAuK6EoVij2tfaeh3KkaEJxhTmumbEom3HfRnSEsp"
+      ],
       "radiumblock": [
         "/dns/people-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj",
         "/dns/people-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj"
