@@ -804,7 +804,10 @@
         "/dns/boot-node.helikon.io/tcp/7510/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv",
         "/dns/boot-node.helikon.io/tcp/7512/wss/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv"
       ],
-      "luckyfriday": [],
+      "luckyfriday": [
+        "/dns/ibp-boot-kusama-people.luckyfriday.io/tcp/30342/p2p/12D3KooWM4bRafMH2StfBEQtyj5cMWfGLYbuikCZmvKv9m1MQVPn",
+        "/dns/ibp-boot-kusama-people.luckyfriday.io/tcp/443/wss/p2p/12D3KooWM4bRafMH2StfBEQtyj5cMWfGLYbuikCZmvKv9m1MQVPn"
+      ],
       "metaspan": [
         "/dns/boot.metaspan.io/tcp/25068/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP",
         "/dns/boot.metaspan.io/tcp/25069/wss/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP"
