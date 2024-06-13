@@ -1,0 +1,48 @@
+name: Bootnode validity test
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+
+jobs:
+  test_bootnodes:
+    runs-on: self-hosted
+
+    container:
+      image: ubuntu:latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup environment
+      run: |
+        apt-get update
+        apt-get install -y jq curl
+
+    - name: Prepare polkadot binary
+      run: |
+        curl -L https://github.com/paritytech/polkadot-sdk/releases/download/polkadot-v1.10.0/polkadot -o polkadot
+        chmod +x polkadot
+        mv polkadot /usr/local/bin/
+
+    - name: Prepare polkadot-parachain binary
+      run: |
+        curl -L https://github.com/paritytech/polkadot-sdk/releases/download/polkadot-parachain-v1.10.1/polkadot-parachain -o polkadot-parachain
+        chmod +x polkadot-parachain
+        mv polkadot-parachain /usr/local/bin/
+
+    - name: Test bootnode integrity
+      run: bash ./scripts/test_bootnodes.sh
+
+    - run: bash ./scripts/missing_bootnodes.sh > /tmp/bootnode_tests/missing_bootnodes.json
+    - run: cat /tmp/bootnode_tests/missing_bootnodes.json
+
+    - run: bash ./scripts/broken_bootnodes.sh > /tmp/bootnode_tests/broken_bootnodes.json
+    - run: cat /tmp/bootnode_tests/broken_bootnodes.json
+
+    - name: archive test results
+      uses: actions/upload-artifact@v4
+      with:
+        name: bootnode-test-results
+        path: /tmp/bootnode_tests

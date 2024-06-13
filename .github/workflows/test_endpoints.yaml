@@ -1,0 +1,55 @@
+name: Endpoint validity test
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Runs at 8AM UTC every day
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  test_endpoints:
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:latest
+
+    steps:
+    - name: workaround to for Act(https://github.com/nektos/act/issues/107)
+      if: ${{ env.ACT }}
+      run: |
+        apt-get update && apt-get install sudo -y
+
+    - name: Install dependencies
+      run: |
+        apt-get update
+        apt-get install -y curl jq build-essential pkg-config libssl-dev xxd
+        curl -fsSL https://deb.nodesource.com/setup_current.x | bash -
+        apt-get install -y nodejs
+
+    - uses: actions/checkout@v4
+    - uses: dtolnay/rust-toolchain@stable
+
+    - name: Install gavel
+      run: |
+        curl https://github.com/rotkonetworks/gavel/releases/download/0.4.0/gavel -L -o /usr/local/bin/gavel && chmod +x /usr/local/bin/gavel
+
+    - name: Produce /tmp/endpoint_tests/syndicate_results.json
+      run: bash ./scripts/test_syndicate_endpoints.sh
+
+    - name: Produce /tmp/endpoint_tests/provider_results.json
+      run: bash ./scripts/test_provider_endpoints.sh
+
+    - name: Check invalid endpoints
+      run: bash ./scripts/invalid_endpoints.sh
+
+    # - name: Send alerts to matrix
+    #   run: bash ./scripts/endpoint_alerts.sh
+
+    - name: Create artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: endpoint-test-results
+        path: /tmp/endpoint_tests
