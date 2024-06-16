@@ -1,1 +1,84 @@
-
+{
+  "aperturemining": {
+    "name": "Aperture Mining",
+    "website": "https://aperturemining.com",
+    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/aperturemining.png",
+    "membership": "hobbyist",
+    "active": "1",
+    "current_level": "1",
+    "level_timestamp": {
+      "0": "1684191600",
+      "1": "1685574000"
+    },
+    "services_address": "",
+    "monitor_url": "https://ibp-monitor.aperturemining.com",
+    "region": "north_america",
+    "latitude": "39.951061",
+    "longitude": "-75.165619"
+  },
+  "dozenodes": {
+    "name": "Dozenodes",
+    "website": "https://dozenodes.com",
+    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dozenodes.png",
+    "membership": "hobbyist",
+    "active": "1",
+    "current_level": "1",
+    "level_timestamp": {
+      "0": "1684191600",
+      "1": "1685574000"
+    },
+    "services_address": "",
+    "monitor_url": "https://ibp-monitor.dozenodes.com",
+    "region": "europe",
+    "latitude": "50.054604",
+    "longitude": "19.936940"
+  },
+  "stkd": {
+    "name": "STKD",
+    "website": "https://stkd.io",
+    "membership": "hobbyist",
+    "active": "1",
+    "current_level": "1",
+    "level_timestamp": {
+      "0": "1684191600",
+      "1": "1685574000"
+    },
+    "services_address": "",
+    "monitor_url": "https://ibp-monitor.stkd.io",
+    "region": "",
+    "latitude": "0",
+    "longitude": "0"
+  },
+  "mathcrypto": {
+    "name": "MathCrypto",
+    "website": "https://math-crypto.com",
+    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/mathcrypto.png",
+    "membership": "hobbyist",
+    "active": "1",
+    "current_level": "1",
+    "level_timestamp": {
+      "0": "1684191600",
+      "1": "1685574000"
+    },
+    "services_address": "",
+    "monitor_url": "https://ibp-monitor.math-crypto.com",
+    "region": "europe",
+    "latitude": "48.858093",
+    "longitude": "2.294694"
+  },
+  "paradox": {
+    "name": "Paradox",
+    "website": "https://paranodes.io",
+    "membership": "hobbyist",
+    "active": "1",
+    "current_level": "0",
+    "level_timestamp": {
+      "0": "1684191600"
+    },
+    "services_address": "",
+    "monitor_url": "",
+    "region": "",
+    "latitude": "0",
+    "longitude": "0"
+  }
+}
