@@ -1,34 +1,29 @@
 {
-  "kusama": {
-    "display_name": "Kusama",
-    "chain_name": "ksmcc3",
-    "rpc_endpoints": [
-      "wss://rpc.ibp.network/kusama",
-      "wss://rpc.dotters.network/kusama"
-    ]
-  },
-  "polkadot": {
-    "display_name": "Polkadot",
-    "chain_name": "dotcc1",
-    "rpc_endpoints": [
-      "wss://rpc.ibp.network/polkadot",
-      "wss://rpc.dotters.network/polkadot"
-    ]
-  },
-  "westend": {
-    "display_name": "Westend",
-    "chain_name": "westend2",
-    "rpc_endpoints": [
-      "wss://rpc.ibp.network/westend",
-      "wss://rpc.dotters.network/westend"
-    ]
-  },
-  "paseo": {
-    "display_name": "Paseo",
-    "chain_name": "paseo1",
-    "rpc_endpoints": [
-      "wss://rpc.ibp.network/paseo",
-      "wss://rpc.dotters.network/paseo"
-    ]
+  "Kusama": {
+    "ServiceType": "RPC",
+    "IBPLevelReq": "3",
+    "NetworkName": "",
+    "Providers": {
+      "dotters": {
+        "url": "wss://rpc.dotters.network/kusama"
+      },
+      "IBP": {
+        "url": "wss://rpc.ibp.network/kusama"
+      }
+    },
+    "Members": {
+      "amforc": {},
+      "dwellir": {},
+      "gatotech": {},
+      "helikon": {},
+      "luckyfriday": {},
+      "metaspan": {},
+      "polkadotters": {},
+      "radiumblock": {},
+      "rotko": {},
+      "stakeplus": {},
+      "turboflakes": {}
+    }
   }
 }
+
