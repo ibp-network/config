@@ -1,0 +1,9 @@
+{
+  "Kusama": {
+    "Configuration": {"ServiceType": "RPC", "Active": true, "LevelRequired": "3", "NetworkName": "Kusama"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://rpc.dotters.network/kusama", "wss://kusama.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://rpc.ibp.network/kusama", "wss://kusama.ibp.network"]}
+    }
+  }
+}
