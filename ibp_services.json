@@ -2,13 +2,13 @@
   "Kusama": {
     "ServiceType": "RPC",
     "IBPLevelReq": "3",
-    "NetworkName": "",
+    "NetworkName": "Kusama",
     "Providers": {
       "dotters": {
-        "url": "wss://rpc.dotters.network/kusama"
+        "urls": ["wss://rpc.dotters.network/kusama", "wss://kusama.dotters.network"]
       },
       "IBP": {
-        "url": "wss://rpc.ibp.network/kusama"
+        "urls": ["wss://rpc.ibp.network/kusama", "wss://kusama.ibp.network"]
       }
     },
     "Members": {
