@@ -2,7 +2,7 @@
   "stakeplus": {
     "Details": {"Name": "Stake Plus", "Website": "https://stake.plus", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/stakeplus.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1672549200},
-    "Service": {"Active": 1, "ServiceIPv4": "192.96.202.175", "ServiceIPv6": "", "monitor_url": "https://monitor.dotters.network"},
+    "Service": {"Active": 1, "ServiceIPv4": "192.96.202.175", "ServiceIPv6": "", "MonitorUrl": "https://monitor.dotters.network"},
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -14,7 +14,7 @@
   "amforc": {
     "Details": {"Name": "Amforc", "Website": "https://amforc.com", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/amforc.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1672549200},
-    "Service": {"Active": 1, "ServiceIPv4": "91.90.166.200", "ServiceIPv6": "", "monitor_url": "https://monitor.rpc.amforc.com"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "91.90.166.200", "ServiceIPv6": "", "MonitorUrl": "https://monitor.rpc.amforc.com"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -26,7 +26,7 @@
   "helikon": {
     "Details": {"Name": "Helikon", "Website": "https://helikon.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/helikon.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1672549200},
-    "Service": {"Active": 1, "ServiceIPv4": "104.247.178.10", "ServiceIPv6": "", "monitor_url": "https://ibp-monitor.helikon.io"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "104.247.178.10", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.helikon.io"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -38,7 +38,7 @@
   "luckyfriday": {
     "Details": {"Name": "Lucky Friday", "Website": "https://luckyfriday.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/luckyfriday.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1706745600},
-    "Service": {"Active": 1, "ServiceIPv4": "64.62.224.18", "ServiceIPv6": "", "monitor_url": ""}, 
+    "Service": {"Active": 1, "ServiceIPv4": "64.62.224.18", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -50,7 +50,7 @@
   "gatotech": {
     "Details": {"Name": "Gatotech", "Website": "https://gatotech.uk", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/gatotech.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1672549200},
-    "Service": {"Active": 1, "ServiceIPv4": "138.59.133.242", "ServiceIPv6": "", "monitor_url": "https://ibp-monitor.gatotech.network"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "138.59.133.242", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.gatotech.network"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -62,7 +62,7 @@
   "metaspan": {
     "Details": {"Name": "Metaspan", "Website": "https://metaspan.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/metaspan.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1672549200},
-    "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "monitor_url": "https://ibp-monitor.metaspan.io"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -74,7 +74,7 @@
   "turboflakes": {
     "Details": {"Name": "Turboflakes", "Website": "https://turboflakes.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/turboflakes.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1680148800},
-    "Service": {"Active": 1, "ServiceIPv4": "188.93.234.134", "ServiceIPv6": "", "monitor_url": "https://ibp-monitor.turboflakes.io"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "188.93.234.134", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.turboflakes.io"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -86,7 +86,7 @@
   "rotko": {
     "Details": {"Name": "Rotko Networks", "Website": "https://rotko.net", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1707184705},
-    "Service": {"Active": 1, "ServiceIPv4": "27.131.160.109", "ServiceIPv6": "", "monitor_url": "https://ibp.rotko.net"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "27.131.160.109", "ServiceIPv6": "", "MonitorUrl": "https://ibp.rotko.net"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -98,7 +98,7 @@
   "polkadotters": {
     "Details": {"Name": "Polkadotters", "Website": "https://polkadotters.com", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/polkadotters.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1710006529},
-    "Service": {"Active": 1, "ServiceIPv4": "202.37.148.99", "ServiceIPv6": "", "monitor_url": "https://ibp-monitor.polkadotters.com"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "202.37.148.99", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.polkadotters.com"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -110,7 +110,7 @@
   "dwellir": {
     "Details": {"Name": "Dwellir", "Website": "https://dwellir.com", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dwellir.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1681916382, "LastRankup": 1681916382},
-    "Service": {"Active": 1, "ServiceIPv4": "102.69.242.203", "ServiceIPv6": "", "monitor_url": "https://ibp-monitor-ng.dwellir.com"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "102.69.242.203", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -122,7 +122,7 @@
   "radiumblock": {
     "Details": {"Name": "RadiumBlock", "Website": "https://radiumblock.com/", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg"},
     "Membership": {"MemberLevel": 5, "Joined": 1684123200, "LastRankup": 1700916669},
-    "Service": {"Active": 1, "ServiceIPv4": "103.240.197.6", "ServiceIPv6": "", "monitor_url": ""}, 
+    "Service": {"Active": 1, "ServiceIPv4": "103.240.197.6", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -132,3 +132,4 @@
     "Location": {"Region": "Asia", "Latitude": 19.076090, "Longitude": 72.877426}
   }
 }
+
