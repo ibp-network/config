@@ -1,9 +1,142 @@
 {
+  "Paseo": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 3, "NetworkName": "Paseo"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://rpc.dotters.network/paseo", "wss://paseo.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://rpc.ibp.network/paseo", "wss://paseo.ibp.network"]}
+    }
+  },
+  "Asset-Hub-Paseo": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Paseo Asset Hub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/asset-hub-paseo", "wss://asset-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/asset-hub-paseo", "wss://asset-hub-paseo.ibp.network"]}
+    }
+  },
+  "Westend": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 3, "NetworkName": "Westend"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://rpc.dotters.network/westend", "wss://westend.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://rpc.ibp.network/westend", "wss://westend.ibp.network"]}
+    }
+  },
+  "Asset-Hub-Westend": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend Asset Hub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/asset-hub-westend", "wss://sys.dotters.network/westmint", "wss://asset-hub-westend.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/asset-hub-westend", "wss://sys.ibp.network/westmint", "wss://asset-hub-westend.ibp.network"]}
+    }
+  },
+  "Bridge-Hub-Westend": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend Bridge Hub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridge-hub-westend", "wss://bridge-hub-westend.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridge-hub-westend", "wss://bridge-hub-westend.ibp.network"]}
+    }
+  },
+  "Collectives-Westend": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend Collectives"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/collectives-westend", "wss://collectives-westend.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/collectives-westend", "wss://collectives-westend.ibp.network"]}
+    }
+  },
+  "Coretime-Westend": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend Coretime"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/coretime-westend", "wss://coretime-westend.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/coretime-westend", "wss://coretime-westend.ibp.network"]}
+    }
+  },
+  "People-Westend": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend People"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/people-westend", "wss://people-westend.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/people-westend", "wss://people-westend.ibp.network"]}
+    }
+  },
   "Kusama": {
-    "Configuration": {"ServiceType": "RPC", "Active": true, "LevelRequired": "3", "NetworkName": "Kusama"},
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 3, "NetworkName": "Kusama"},
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://rpc.dotters.network/kusama", "wss://kusama.dotters.network"]},
       "Ibp": {"RpcUrls": ["wss://rpc.ibp.network/kusama", "wss://kusama.ibp.network"]}
+    }
+  },
+  "Asset-Hub-Kusama": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama Asset Hub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/asset-hub-kusama", "wss://sys.dotters.network/statemine", "wss://asset-hub-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/asset-hub-kusama", "wss://sys.ibp.network/statemine", "wss://asset-hub-kusama.ibp.network"]}
+    }
+  },
+  "Bridge-Hub-Kusama": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama Bridge Hub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridge-hub-kusama", "wss://bridge-hub-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridge-hub-kusama", "wss://bridge-hub-kusama.ibp.network"]}
+    }
+  },
+  "Collectives-Kusama": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama Collectives"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/collectives-kusama", "wss://collectives-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/collectives-kusama", "wss://collectives-kusama.ibp.network"]}
+    }
+  },
+  "Coretime-Kusama": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama Coretime"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/coretime-kusama", "wss://coretime-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/coretime-kusama", "wss://coretime-kusama.ibp.network"]}
+    }
+  },
+  "People-Kusama": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama People"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/people-kusama", "wss://people-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/people-kusama", "wss://people-kusama.ibp.network"]}
+    }
+  },
+  "Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 3, "NetworkName": "Polkadot"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://rpc.dotters.network/polkadot", "wss://polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://rpc.ibp.network/polkadot", "wss://polkadot.ibp.network"]}
+    }
+  },
+  "Asset-Hub-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot Asset Hub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/asset-hub-polkadot", "wss://sys.dotters.network/statemint", "wss://asset-hub-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/asset-hub-polkadot", "wss://sys.ibp.network/statemint", "wss://asset-hub-polkadot.ibp.network"]}
+    }
+  },
+  "Bridge-Hub-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot Bridge Hub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridge-hub-polkadot", "wss://bridge-hub-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridge-hub-polkadot", "wss://bridge-hub-polkadot.ibp.network"]}
+    }
+  },
+  "Collectives-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot Collectives"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/collectives-polkadot", "wss://collectives-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/collectives-polkadot", "wss://collectives-polkadot.ibp.network"]}
+    }
+  },
+  "Coretime-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot Coretime"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/coretime-polkadot", "wss://coretime-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/coretime-polkadot", "wss://coretime-polkadot.ibp.network"]}
+    }
+  },
+  "People-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot People"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/people-polkadot", "wss://people-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/people-polkadot", "wss://people-polkadot.ibp.network"]}
     }
   }
 }
