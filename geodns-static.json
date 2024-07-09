@@ -1,5 +1,10 @@
 [
     {
+        "domain": "dotters.network",
+        "type": "A",
+        "content": "34.70.40.38"
+    },
+    {
         "domain": "www.dotters.network",
         "type": "A",
         "content": "34.70.40.38"
