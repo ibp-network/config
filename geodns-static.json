@@ -2,26 +2,31 @@
     {
         "qname": "dotters.network",
         "qtype": "A",
-        "content": "34.70.40.38"
+        "content": "34.70.40.38",
+        "ttl": "3600"
     },
     {
         "qname": "www.dotters.network",
         "qtype": "A",
-        "content": "34.70.40.38"
+        "content": "34.70.40.38",
+        "ttl": "3600"
     },
     {
         "qname": "dotters.network",
         "qtype": "A",
-        "content": "34.70.40.38"
+        "content": "34.70.40.38",
+        "ttl": "3600"
     },
     {
         "qname": "wiki.dotters.network",
         "qtype": "A",
-        "content": "34.70.40.38"
+        "content": "34.70.40.38",
+        "ttl": "3600"
     },
     {
         "qname": "monitor.dotters.network",
         "qtype": "A",
-        "content": "192.96.202.175"
+        "content": "192.96.202.175",
+        "ttl": "3600"
     }
 ]
