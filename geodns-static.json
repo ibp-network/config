@@ -18,5 +18,10 @@
         "domain": "wiki.dotters.network",
         "type": "A",
         "content": "34.70.40.38"
+    },
+    {
+        "domain": "monitor.dotters.network",
+        "type": "A",
+        "content": "192.96.202.175"
     }
 ]
