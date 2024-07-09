@@ -3,10 +3,10 @@
     { "qname": "www.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "wiki.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "monitor.dotters.network", "qtype": "A", "content": "192.96.202.175", "ttl": 3600, "auth": true, "domain_id": 0 },
-    { "qname": "_acme-challenge.dotters.network", "qtype": "TXT", "content": "https://192.96.202.186/acme-challenge", "ttl": 0, "auth": true, "domain_id": 0 },
+    { "qname": "_acme-challenge.dotters.network", "qtype": "TXT", "content": "http://192.96.202.186/acme-challenge", "ttl": 0, "auth": true, "domain_id": 0 },
     { "qname": "ibp.network", "qtype": "A", "content": "138.59.133.242", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "www.ibp.network", "qtype": "A", "content": "138.59.133.242", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "wiki.ibp.network", "qtype": "A", "content": "138.59.133.242", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "monitoring.ibp.network", "qtype": "A", "content": "91.90.166.133", "ttl": 3600, "auth": true, "domain_id": 0 },
-    { "qname": "_acme-challenge.ibp.network", "qtype": "TXT", "content": "https://192.96.202.186/acme-challenge", "ttl": 0, "auth": true, "domain_id": 0 }
+    { "qname": "_acme-challenge.ibp.network", "qtype": "TXT", "content": "http://192.96.202.186/acme-challenge", "ttl": 0, "auth": true, "domain_id": 0 }
 ]
