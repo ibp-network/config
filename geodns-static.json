@@ -1,0 +1,17 @@
+[
+    {
+        "domain": "www.dotters.network",
+        "type": "A",
+        "content": "34.70.40.38"
+    },
+    {
+        "domain": "dotters.network",
+        "type": "A",
+        "content": "34.70.40.38"
+    },
+    {
+        "domain": "wiki.dotters.network",
+        "type": "A",
+        "content": "34.70.40.38"
+    }
+]
