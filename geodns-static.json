@@ -1,6 +1,6 @@
 [
-    { "qname": "dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": 1},
-    { "qname": "www.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": 1 },
-    { "qname": "wiki.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": 1 },
-    { "qname": "monitor.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": 1 }
+    { "qname": "dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true },
+    { "qname": "www.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true },
+    { "qname": "wiki.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true },
+    { "qname": "monitor.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true }
 ]
