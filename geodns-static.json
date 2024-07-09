@@ -1,27 +1,27 @@
 [
     {
-        "domain": "dotters.network",
-        "type": "A",
+        "qname": "dotters.network",
+        "qtype": "A",
         "content": "34.70.40.38"
     },
     {
-        "domain": "www.dotters.network",
-        "type": "A",
+        "qname": "www.dotters.network",
+        "qtype": "A",
         "content": "34.70.40.38"
     },
     {
-        "domain": "dotters.network",
-        "type": "A",
+        "qname": "dotters.network",
+        "qtype": "A",
         "content": "34.70.40.38"
     },
     {
-        "domain": "wiki.dotters.network",
-        "type": "A",
+        "qname": "wiki.dotters.network",
+        "qtype": "A",
         "content": "34.70.40.38"
     },
     {
-        "domain": "monitor.dotters.network",
-        "type": "A",
+        "qname": "monitor.dotters.network",
+        "qtype": "A",
         "content": "192.96.202.175"
     }
 ]
