@@ -1,5 +1,13 @@
 [
     { "qname": "dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "dotters.network", "qtype": "NS", "content": "ns1.dotters.network", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "dotters.network", "qtype": "NS", "content": "ns2.dotters.network", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "dotters.network", "qtype": "NS", "content": "ns3.dotters.network", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "dotters.network", "qtype": "NS", "content": "ns4.dotters.network", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "ns1.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "ns2.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "ns3.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "ns4.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "www.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "wiki.dotters.network", "qtype": "A", "content": "34.70.40.38", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "monitor.dotters.network", "qtype": "A", "content": "192.96.202.175", "ttl": 3600, "auth": true, "domain_id": 0 },
