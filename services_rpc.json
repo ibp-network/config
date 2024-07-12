@@ -125,6 +125,13 @@
       "Ibp": {"RpcUrls": ["wss://sys.ibp.network/collectives-polkadot", "wss://collectives-polkadot.ibp.network"]}
     }
   },
+  "People-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot People"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://people-polkadot.dotters.network", "wss://sys.dotters.network/people-polkadot"]},
+      "Ibp": {"RpcUrls": ["wss://people-polkadot.ibp.network", "wss://sys.ibp.network/people-polkadot"]}
+    }
+  },
   "Ajuna": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Ajuna Polkadot"},
     "Providers": {
