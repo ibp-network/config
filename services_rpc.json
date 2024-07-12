@@ -187,5 +187,5 @@
       "Dotters": {"RpcUrls": ["wss://unique.dotters.network"]},
       "Ibp": {"RpcUrls": ["wss://unique.ibp.network"]}
     }
-  },
+  }
 }
