@@ -124,5 +124,61 @@
       "Dotters": {"RpcUrls": ["wss://sys.dotters.network/collectives-polkadot", "wss://collectives-polkadot.dotters.network"]},
       "Ibp": {"RpcUrls": ["wss://sys.ibp.network/collectives-polkadot", "wss://collectives-polkadot.ibp.network"]}
     }
-  }
+  },
+  "Ajuna": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Ajuna Polkadot"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://ajuna.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://ajuna.ibp.network"]}
+    }
+  },
+  "Bifrost-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Bifrost Polkadot"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://bifrost-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://bifrost-polkadot.ibp.network"]}
+    }
+  },
+  "Hydration": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "HydraDX"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://hydration.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://hydration.ibp.network"]}
+    }
+  },
+  "Nexus": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Hyperbridge (Nexus)"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://nexus.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://nexus.ibp.network"]}
+    }
+  },
+  "Kilt": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "KILT Spiritnet"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://kilt.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://kilt.ibp.network"]}
+    }
+  },
+  "Moonbeam": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Moonbeam"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://moonbeam.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://moonbeam.ibp.network"]}
+    }
+  },
+  "Polimec": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Polimec Polkadot"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://polimec.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://polimec.ibp.network"]}
+    }
+  },
+  "Unique": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "UNIQUE"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://unique.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://unique.ibp.network"]}
+    }
+  },
 }
