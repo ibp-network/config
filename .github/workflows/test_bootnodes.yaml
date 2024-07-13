@@ -6,7 +6,8 @@ on:
 
 jobs:
   test_bootnodes:
-    runs-on: self-hosted
+ #   runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     container:
       image: ubuntu:latest
