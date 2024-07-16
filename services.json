@@ -32,7 +32,6 @@
       "asset-hub-westend": "wss://sys.dotters.network/asset-hub-westend",
       "bridgehub-kusama": "wss://sys.dotters.network/bridgehub-kusama",
       "bridgehub-polkadot": "wss://sys.dotters.network/bridgehub-polkadot",
-      "bridgehub-paseo": "wss://sys.dotters.network/bridgehub-paseo",
       "bridgehub-westend": "wss://sys.ibp.network/bridgehub-westend",
       "collectives-polkadot": "wss://sys.dotters.network/collectives-polkadot",
       "collectives-westend": "wss://sys.dotters.network/collectives-westend",
@@ -107,8 +106,8 @@
     "service_type": "rpc-endpoints",
     "level_required": "5",
     "endpoints": {
-      "asset-hub-paseo": "wss://sys.ibp.network/asset-hub-paseo",
       "asset-hub-kusama": "wss://sys.ibp.network/asset-hub-kusama",
+      "asset-hub-paseo": "wss://sys.ibp.network/asset-hub-paseo",
       "asset-hub-polkadot": "wss://sys.ibp.network/asset-hub-polkadot",
       "asset-hub-westend": "wss://sys.ibp.network/asset-hub-westend",
       "bridgehub-kusama": "wss://sys.ibp.network/bridgehub-kusama",
