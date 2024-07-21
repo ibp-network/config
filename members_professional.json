@@ -65,7 +65,7 @@
   "Metaspan": {
     "Details": {"Name": "Metaspan", "Website": "https://metaspan.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/metaspan.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1672549200},
-    "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io"}, 
+    "Service": {"Active": 0, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -89,7 +89,7 @@
   "Rotko": {
     "Details": {"Name": "Rotko Networks", "Website": "https://rotko.net", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1707184705},
-    "Service": {"Active": 1, "ServiceIPv4": "27.131.160.109", "ServiceIPv6": "", "MonitorUrl": "https://ibp.rotko.net"}, 
+    "Service": {"Active": 0, "ServiceIPv4": "27.131.160.109", "ServiceIPv6": "", "MonitorUrl": "https://ibp.rotko.net"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
@@ -113,7 +113,7 @@
   "Dwellir": {
     "Details": {"Name": "Dwellir", "Website": "https://dwellir.com", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dwellir.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1681916382, "LastRankup": 1681916382},
-    "Service": {"Active": 1, "ServiceIPv4": "102.69.242.203", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com"}, 
+    "Service": {"Active": 0, "ServiceIPv4": "102.69.242.203", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
