@@ -65,7 +65,7 @@
   "Metaspan": {
     "Details": {"Name": "Metaspan", "Website": "https://metaspan.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/metaspan.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1672549200},
-    "Service": {"Active": 0, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
