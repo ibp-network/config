@@ -834,7 +834,7 @@
       ]
     }
   },
-    "people-polkadot": {
+  "people-polkadot": {
     "commandId": "parachain",
     "members": {
       "amforc": [],
@@ -852,4 +852,5 @@
       "stakeplus": [],
       "turboflakes": []
     }
+  }
 }
