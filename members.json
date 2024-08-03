@@ -396,7 +396,7 @@
         "6": "",
         "7": ""
       },
-      "services_address": "27.131.160.109",
+      "services_address": "160.22.181.181",
       "endpoints": {
         "westend": "wss://rpc.rotko.net/westend",
         "kusama": "wss://rpc.rotko.net/kusama",
