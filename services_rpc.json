@@ -37,8 +37,8 @@
   "Bridge-Hub-Westend": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend BridgeHub"},
     "Providers": {
-      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridgehub-westend", "wss://bridgehub-westend.dotters.network"]},
-      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridgehub-westend", "wss://bridgehub-westend.ibp.network"]}
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridgehub-westend", "wss://bridge-hub-westend.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridgehub-westend", "wss://bridge-hub-westend.ibp.network"]}
     }
   },
   "Collectives-Westend": {
@@ -79,8 +79,8 @@
   "Bridge-Hub-Kusama": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama BridgeHub"},
     "Providers": {
-      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridgehub-kusama", "wss://bridgehub-kusama.dotters.network"]},
-      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridgehub-kusama", "wss://bridgehub-kusama.ibp.network"]}
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridgehub-kusama", "wss://bridge-hub-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridgehub-kusama", "wss://bridge-hub-kusama.ibp.network"]}
     }
   },
   "Coretime-Kusama": {
