@@ -13,6 +13,13 @@
       "Ibp": {"RpcUrls": ["wss://sys.ibp.network/asset-hub-paseo", "wss://asset-hub-paseo.ibp.network"]}
     }
   },
+  "Bridge-Hub-Paseo": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Paseo BridgeHub"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridge-hub-paseo", "wss://bridge-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridge-hub-paseo", "wss://bridge-hub-paseo.ibp.network"]}
+    }
+  },
   "Westend": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 3, "NetworkName": "Westend"},
     "Providers": {
@@ -123,6 +130,13 @@
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://sys.dotters.network/collectives-polkadot", "wss://collectives-polkadot.dotters.network"]},
       "Ibp": {"RpcUrls": ["wss://sys.ibp.network/collectives-polkadot", "wss://collectives-polkadot.ibp.network"]}
+    }
+  },
+  "Coretime-Polkadot": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot Coretime"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/coretime-polkadot", "wss://coretime-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/coretime-polkadot", "wss://coretime-polkadot.ibp.network"]}
     }
   },
   "People-Polkadot": {
