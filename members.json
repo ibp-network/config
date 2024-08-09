@@ -516,6 +516,7 @@
         "collectives-polkadot": "wss://collectives-polkadot-rpc-ng.dwellir.com",
         "collectives-westend": "wss://collectives-westend-rpc-ng.dwellir.com",
         "encointer-kusama": "wss://encointer-kusama-rpc-ng.dwellir.com",
+        "bridgehub-paseo": "wss://bridge-hub-paseo-rpc-ng.dwellir.com",
         "bridgehub-polkadot": "wss://bridge-hub-polkadot-rpc-ng.dwellir.com",
         "bridgehub-kusama": "wss://bridge-hub-kusama-rpc-ng.dwellir.com",
         "bridgehub-westend": "wss://bridge-hub-westend-rpc-ng.dwellir.com",
