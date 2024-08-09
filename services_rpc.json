@@ -161,7 +161,7 @@
     }
   },
   "Hydration": {
-    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "HydraDX"},
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Hydration"},
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://hydration.dotters.network", "wss://hydradx.paras.dotters.network"]},
       "Ibp": {"RpcUrls": ["wss://hydration.ibp.network", "wss://hydradx.ibp.network"]}
