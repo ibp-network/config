@@ -14,7 +14,7 @@
     }
   },
   "Bridge-Hub-Paseo": {
-    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Paseo BridgeHub"},
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Paseo Bridge Hub"},
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridge-hub-paseo", "wss://bridge-hub-paseo.dotters.network"]},
       "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridge-hub-paseo", "wss://bridge-hub-paseo.ibp.network"]}
