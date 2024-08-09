@@ -121,8 +121,8 @@
   "Bridge-Hub-Polkadot": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot BridgeHub"},
     "Providers": {
-      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridgehub-polkadot", "wss://bridgehub-polkadot.dotters.network"]},
-      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridgehub-polkadot", "wss://bridgehub-polkadot.ibp.network"]}
+      "Dotters": {"RpcUrls": ["wss://sys.dotters.network/bridgehub-polkadot", "wss://bridge-hub-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://sys.ibp.network/bridgehub-polkadot", "wss://bridge-hub-polkadot.ibp.network"]}
     }
   },
   "Collectives-Polkadot": {
