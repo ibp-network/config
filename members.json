@@ -522,6 +522,7 @@
         "bridgehub-westend": "wss://bridge-hub-westend-rpc-ng.dwellir.com",
         "coretime-kusama": "wss://coretime-kusama-rpc-ng.dwellir.com",
         "coretime-westend": "wss://coretime-westend-rpc-ng.dwellir.com",
+        "coretime-polkadot": "wss://coretime-polkadot-rpc-ng.dwellir.com",
         "paseo": "wss://paseo-rpc-ng.dwellir.com",
         "people-westend": "wss://people-westend-rpc-ng.dwellir.com",
         "people-kusama": "wss://people-kusama-rpc-ng.dwellir.com",
