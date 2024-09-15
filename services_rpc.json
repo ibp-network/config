@@ -16,8 +16,8 @@
   "Bridge-Hub-Paseo": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Paseo Bridge Hub"},
     "Providers": {
-      "Dotters": {"RpcUrls": ["wss://bridge-hub-paseo.dotters.network", "wss://sys.dotters.network/bridge-hub-paseo"]},
-      "Ibp": {"RpcUrls": ["wss://bridge-hub-paseo.ibp.network", "wss://sys.ibp.network/bridge-hub-paseo"]}
+      "Dotters": {"RpcUrls": ["wss://bridgehub-paseo.dotters.network", "wss://sys.dotters.network/bridgehub-paseo"]},
+      "Ibp": {"RpcUrls": ["wss://bridgehub-paseo.ibp.network", "wss://sys.ibp.network/bridgehub-paseo"]}
     }
   },
   "Westend": {
@@ -37,8 +37,8 @@
   "Bridge-Hub-Westend": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend BridgeHub"},
     "Providers": {
-      "Dotters": {"RpcUrls": ["wss://bridge-hub-westend.dotters.network", "wss://sys.dotters.network/bridgehub-westend"]},
-      "Ibp": {"RpcUrls": ["wss://bridge-hub-westend.ibp.network", "wss://sys.ibp.network/bridgehub-westend"]}
+      "Dotters": {"RpcUrls": ["wss://bridgehub-westend.dotters.network", "wss://sys.dotters.network/bridgehub-westend"]},
+      "Ibp": {"RpcUrls": ["wss://bridgehub-westend.ibp.network", "wss://sys.ibp.network/bridgehub-westend"]}
     }
   },
   "Collectives-Westend": {
@@ -79,8 +79,8 @@
   "Bridge-Hub-Kusama": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama BridgeHub"},
     "Providers": {
-      "Dotters": {"RpcUrls": ["wss://bridge-hub-kusama.dotters.network", "wss://sys.dotters.network/bridgehub-kusama"]},
-      "Ibp": {"RpcUrls": ["wss://bridge-hub-kusama.ibp.network", "wss://sys.ibp.network/bridgehub-kusama"]}
+      "Dotters": {"RpcUrls": ["wss://bridgehub-kusama.dotters.network", "wss://sys.dotters.network/bridgehub-kusama"]},
+      "Ibp": {"RpcUrls": ["wss://bridgehub-kusama.ibp.network", "wss://sys.ibp.network/bridgehub-kusama"]}
     }
   },
   "Coretime-Kusama": {
@@ -121,8 +121,8 @@
   "Bridge-Hub-Polkadot": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot BridgeHub"},
     "Providers": {
-      "Dotters": {"RpcUrls": ["wss://bridge-hub-polkadot.dotters.network", "wss://sys.dotters.network/bridgehub-polkadot"]},
-      "Ibp": {"RpcUrls": ["wss://bridge-hub-polkadot.ibp.network", "wss://sys.ibp.network/bridgehub-polkadot"]}
+      "Dotters": {"RpcUrls": ["wss://bridgehub-polkadot.dotters.network", "wss://sys.dotters.network/bridgehub-polkadot"]},
+      "Ibp": {"RpcUrls": ["wss://bridgehub-polkadot.ibp.network", "wss://sys.ibp.network/bridgehub-polkadot"]}
     }
   },
   "Collectives-Polkadot": {
