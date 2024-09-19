@@ -396,7 +396,7 @@
         "6": "",
         "7": ""
       },
-      "services_address": "27.131.160.109",
+      "services_address": "160.22.181.181",
       "endpoints": {
         "westend": "wss://rpc.rotko.net/westend",
         "kusama": "wss://rpc.rotko.net/kusama",
@@ -522,7 +522,9 @@
         "coretime-kusama": "wss://coretime-kusama-rpc-ng.dwellir.com",
         "coretime-westend": "wss://coretime-westend-rpc-ng.dwellir.com",
         "paseo": "wss://paseo-rpc-ng.dwellir.com",
-        "people-westend": "wss://people-westend-rpc-ng.dwellir.com"
+        "people-westend": "wss://people-westend-rpc-ng.dwellir.com",
+        "people-kusama": "wss://people-kusama-rpc-ng.dwellir.com",
+        "people-polkadot": "wss://people-polkadot-rpc-ng.dwellir.com"
       },
       "monitor_url": "https://ibp-monitor-ng.dwellir.com",
       "region": "africa",

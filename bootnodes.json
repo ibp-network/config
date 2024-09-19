@@ -833,5 +833,24 @@
         "/dns/people-kusama-bootnode.turboflakes.io/tcp/30745/wss/p2p/12D3KooWCR2Q8J2NFFfuofDak4zSgWkuBq7orP96HFaxLgAoDUBV"
       ]
     }
+  },
+  "people-polkadot": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [],
+      "dwellir": [
+        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30346/p2p/12D3KooWLVCw68epXsdXhMH1sDhrwkxi5DGZ5J77dCoCBd2HFafq",
+        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30333/wss/p2p/12D3KooWLVCw68epXsdXhMH1sDhrwkxi5DGZ5J77dCoCBd2HFafq"
+      ],
+      "gatotech": [],
+      "helikon": [],
+      "luckyfriday": [],
+      "metaspan": [],
+      "polkadotters": [],
+      "radiumblock": [],
+      "rotko": [],
+      "stakeplus": [],
+      "turboflakes": []
+    }
   }
 }
