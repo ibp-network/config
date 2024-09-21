@@ -190,6 +190,7 @@
         "encointer-kusama": "wss://ibp-rpc-encointer.luckyfriday.io",
         "collectives-polkadot": "wss://ibp-rpc-polkadot-collectives.luckyfriday.io",
         "collectives-westend": "wss://ibp-rpc-westend-collectives.luckyfriday.io",
+        "bridgehub-paseo": "wss://ibp-rpc-bridgehub-paseo.luckyfriday.io",
         "bridgehub-polkadot": "wss://ibp-rpc-polkadot-bridgehub.luckyfriday.io",
         "bridgehub-kusama": "wss://ibp-rpc-kusama-bridgehub.luckyfriday.io",
         "bridgehub-westend": "wss://ibp-rpc-westend-bridgehub.luckyfriday.io",
