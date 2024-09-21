@@ -71,7 +71,8 @@
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
-      "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"]
+      "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
+      "Level6": ["Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Polimec", "Unique"]
     },
     "Location": {"Region": "Europe", "Latitude": 51.4964, "Longitude": -0.1224}
   },
