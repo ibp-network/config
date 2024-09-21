@@ -190,233 +190,51 @@
       ]
     }
   },
-  "bridge-hub-kusama": {
+  "asset-hub-polkadot": {
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/30337/p2p/12D3KooWGNeQJ5rXnEJkVUuQqwHd8aV5GkTAheaRoCaK8ZwW94id",
-        "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWGNeQJ5rXnEJkVUuQqwHd8aV5GkTAheaRoCaK8ZwW94id"
+        "/dns/statemint.bootnode.amforc.com/tcp/30341/p2p/12D3KooWByohP9FXn7ao8syS167qJsbFdpa7fY2Y24xbKtt3r7Ls",
+        "/dns/statemint.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWByohP9FXn7ao8syS167qJsbFdpa7fY2Y24xbKtt3r7Ls"
       ],
       "dwellir": [
-        "/dns/kusama-bridge-hub-boot-ng.dwellir.com/tcp/30337/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5",
-        "/dns/kusama-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5"
+        "/dns/statemint-boot-ng.dwellir.com/tcp/30344/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr",
+        "/dns/statemint-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr"
       ],
       "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33230/p2p/12D3KooWFQFmg8UqAYLDNc2onySB6o5LLvpbx3eXZVqz9YFxAmXs",
-        "/dns/boot.gatotech.network/tcp/35230/wss/p2p/12D3KooWFQFmg8UqAYLDNc2onySB6o5LLvpbx3eXZVqz9YFxAmXs"
+        "/dns/boot.gatotech.network/tcp/33110/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm",
+        "/dns/boot.gatotech.network/tcp/35110/wss/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm"
       ],
       "helikon": [
-        "/dns/boot-node.helikon.io/tcp/10250/p2p/12D3KooWDJLkhqQdXcVKWX7CqJHnpAY6PzrPc4ZG2CUWnARbmguy",
-        "/dns/boot-node.helikon.io/tcp/10252/wss/p2p/12D3KooWDJLkhqQdXcVKWX7CqJHnpAY6PzrPc4ZG2CUWnARbmguy"
+        "/dns/boot-node.helikon.io/tcp/10220/p2p/12D3KooW9uybhguhDjVJc3U3kgZC3i8rWmAnSpbnJkmuR7C6ZsRW",
+        "/dns/boot-node.helikon.io/tcp/10222/wss/p2p/12D3KooW9uybhguhDjVJc3U3kgZC3i8rWmAnSpbnJkmuR7C6ZsRW"
       ],
       "luckyfriday": [
-        "/dns/boot-polkadot-bridgehub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWKf3mBXHjLbwtPqv1BdbQuwbFNcQQYxASS7iQ25264AXH"
+        "/dns/boot-polkadot-assethub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWDR9M7CjV1xdjCRbRwkFn1E7sjMaL4oYxGyDWxuLrFc2J"
       ],
       "metaspan": [
-        "/dns/boot.metaspan.io/tcp/26032/p2p/12D3KooWKfuSaZrLNz43PDgM4inMALXRHTSh2WBuqQtZRq8zmT1Z",
-        "/dns/boot.metaspan.io/tcp/26036/wss/p2p/12D3KooWKfuSaZrLNz43PDgM4inMALXRHTSh2WBuqQtZRq8zmT1Z"
+        "/dns/boot.metaspan.io/tcp/16052/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651",
+        "/dns/boot.metaspan.io/tcp/16056/wss/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651"
       ],
       "polkadotters": [
-        "/dns/bridge-hub-kusama.bootnodes.polkadotters.com/tcp/30520/p2p/12D3KooWH3pucezRRS5esoYyzZsUkKWcPSByQxEvmM819QL1HPLV",
-        "/dns/bridge-hub-kusama.bootnodes.polkadotters.com/tcp/30522/wss/p2p/12D3KooWH3pucezRRS5esoYyzZsUkKWcPSByQxEvmM819QL1HPLV"
+        "/dns/asset-hub-polkadot.bootnodes.polkadotters.com/tcp/30508/p2p/12D3KooWKbfY9a9oywxMJKiALmt7yhrdQkjXMtvxhhDDN23vG93R",
+        "/dns/asset-hub-polkadot.bootnodes.polkadotters.com/tcp/30510/wss/p2p/12D3KooWKbfY9a9oywxMJKiALmt7yhrdQkjXMtvxhhDDN23vG93R"
       ],
       "radiumblock": [
-        "/dns/bridgehub-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWQMWofXj8v3RroDNnrhv1iURqm8vnaG98AdGnCn2YoDcW",
-        "/dns/bridgehub-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWQMWofXj8v3RroDNnrhv1iURqm8vnaG98AdGnCn2YoDcW"
+        "/dns/statemint-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWLKxHom7f3XawRJqrF8RwiKK5Sj3qZqz5c7hF6eJeXhTx",
+        "/dns/statemint-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWLKxHom7f3XawRJqrF8RwiKK5Sj3qZqz5c7hF6eJeXhTx"
       ],
       "rotko": [
-        "/dns/kbr13.rotko.net/tcp/33553/p2p/12D3KooWAmBp54mUEYtvsk2kxNEsDbAvdUMcaghxKXgUQxmPEQ66",
-        "/dns/kbr13.rotko.net/tcp/35553/wss/p2p/12D3KooWAmBp54mUEYtvsk2kxNEsDbAvdUMcaghxKXgUQxmPEQ66"
+        "/dns/mint14.rotko.net/tcp/33514/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW",
+        "/dns/mint14.rotko.net/tcp/35514/wss/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW"
       ],
       "stakeplus": [
-        "/dns/boot.stake.plus/tcp/41333/p2p/12D3KooWBzbs2jsXjG5dipktGPKaUm9XWvkmeJFsEAGkVt946Aa7",
-        "/dns/boot.stake.plus/tcp/41334/wss/p2p/12D3KooWBzbs2jsXjG5dipktGPKaUm9XWvkmeJFsEAGkVt946Aa7"
+        "/dns/boot.stake.plus/tcp/35333/p2p/12D3KooWFrQjYaPZSSLLxEVmoaHFcrF6VoY4awG4KRSLaqy3JCdQ",
+        "/dns/boot.stake.plus/tcp/35334/wss/p2p/12D3KooWFrQjYaPZSSLLxEVmoaHFcrF6VoY4awG4KRSLaqy3JCdQ"
       ],
       "turboflakes": [
-        "/dns/bridge-hub-kusama-bootnode.turboflakes.io/tcp/30615/p2p/12D3KooWE3dJXbwA5SQqbDNxHfj7BXJRcy2KiXWjJY4VUMKoa7S2",
-        "/dns/bridge-hub-kusama-bootnode.turboflakes.io/tcp/30715/wss/p2p/12D3KooWE3dJXbwA5SQqbDNxHfj7BXJRcy2KiXWjJY4VUMKoa7S2"
-      ]
-    }
-  },
-  "bridge-hub-polkadot": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [],
-      "dwellir": [
-        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com/tcp/30339/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV",
-        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33130/p2p/12D3KooWCnFzfEdd7MwUNrrDv66FuS2DM5MGuiaB4y48XS7qNjF6",
-        "/dns/boot.gatotech.network/tcp/35130/wss/p2p/12D3KooWCnFzfEdd7MwUNrrDv66FuS2DM5MGuiaB4y48XS7qNjF6"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/8220/p2p/12D3KooWC38TZJA8ZBXZgAYVrceoJ56jNNLJPdpk3ojeFkTAwZVp",
-        "/dns/boot-node.helikon.io/tcp/8222/wss/p2p/12D3KooWC38TZJA8ZBXZgAYVrceoJ56jNNLJPdpk3ojeFkTAwZVp"
-      ],
-      "luckyfriday": [
-        "/dns/boot-polkadot-bridgehub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWKf3mBXHjLbwtPqv1BdbQuwbFNcQQYxASS7iQ25264AXH"
-      ],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/16032/p2p/12D3KooWQTfRnrK3FfbrotpSP5RVJbjBHVBSu8VSzhj9qcvjaqnZ",
-        "/dns/boot.metaspan.io/tcp/16036/wss/p2p/12D3KooWQTfRnrK3FfbrotpSP5RVJbjBHVBSu8VSzhj9qcvjaqnZ"
-      ],
-      "polkadotters": [
-        "/dns/bridge-hub-polkadot.bootnodes.polkadotters.com/tcp/30517/p2p/12D3KooWLUNE3LHPDa1WrrZaYT7ArK66CLM1bPv7kKz74UcLnQRB",
-        "/dns/bridge-hub-polkadot.bootnodes.polkadotters.com/tcp/30519/wss/p2p/12D3KooWLUNE3LHPDa1WrrZaYT7ArK66CLM1bPv7kKz74UcLnQRB"
-      ],
-      "radiumblock": [
-        "/dns/bridgehub-polkadot-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWPNZm78tWUmKbta3SXdkqTPsquRc8ekEbJjZsGGi7YiRi",
-        "/dns/bridgehub-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWPNZm78tWUmKbta3SXdkqTPsquRc8ekEbJjZsGGi7YiRi"
-      ],
-      "rotko": [
-        "/dns/pbr13.rotko.net/tcp/33543/p2p/12D3KooWMxZY7tDc2Rh454VaJJ7RexKAXVS6xSBEvTnXSGCnuGDw",
-        "/dns/pbr13.rotko.net/tcp/35543/wss/p2p/12D3KooWMxZY7tDc2Rh454VaJJ7RexKAXVS6xSBEvTnXSGCnuGDw"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/42333/p2p/12D3KooWEoTCu22Uab6prbfcD1FPpPZmfhkAVeMZQJ3fHnkCVmJz",
-        "/dns/boot.stake.plus/tcp/42334/wss/p2p/12D3KooWEoTCu22Uab6prbfcD1FPpPZmfhkAVeMZQJ3fHnkCVmJz"
-      ],
-      "turboflakes": [
-        "/dns/bridge-hub-polkadot-bootnode.turboflakes.io/tcp/30610/p2p/12D3KooWNEgaQRQHJHvGDh8Rg4RyLmDCCz3yAf2gAdHZZJAUUD8Q",
-        "/dns/bridge-hub-polkadot-bootnode.turboflakes.io/tcp/30710/wss/p2p/12D3KooWNEgaQRQHJHvGDh8Rg4RyLmDCCz3yAf2gAdHZZJAUUD8Q"
-      ]
-    }
-  },
-  "bridge-hub-westend": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [],
-      "dwellir": [
-        "/dns/westend-bridge-hub-boot-ng.dwellir.com/tcp/30338/p2p/12D3KooWJWWRYTAwBLqYkh7iMBGDr5ouJ3MHj7M3fZ7zWS4zEk6F",
-        "/dns/westend-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWJWWRYTAwBLqYkh7iMBGDr5ouJ3MHj7M3fZ7zWS4zEk6F"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33330/p2p/12D3KooWJHG6qznPzTSEbuujHNcvyzBZcR9zNRPFcXWUaoVWZBEw",
-        "/dns/boot.gatotech.network/tcp/35330/wss/p2p/12D3KooWJHG6qznPzTSEbuujHNcvyzBZcR9zNRPFcXWUaoVWZBEw"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/9220/p2p/12D3KooWK3K1Mu5Jjg96Lt9DUzg84KsWnZo44V4KB7mvhGqi6xnp",
-        "/dns/boot-node.helikon.io/tcp/9222/wss/p2p/12D3KooWK3K1Mu5Jjg96Lt9DUzg84KsWnZo44V4KB7mvhGqi6xnp"
-      ],
-      "luckyfriday": [],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/36032/p2p/12D3KooWPaLsu3buByBnGFQnp5UP4q1S652dGVft92TFeChizFir",
-        "/dns/boot.metaspan.io/tcp/36036/wss/p2p/12D3KooWPaLsu3buByBnGFQnp5UP4q1S652dGVft92TFeChizFir"
-      ],
-      "polkadotters": [
-        "/dns/bridge-hub-westend.bootnodes.polkadotters.com/tcp/30523/p2p/12D3KooWPkwgJofp4GeeRwNgXqkp2aFwdLkCWv3qodpBJLwK43Jj",
-        "/dns/bridge-hub-westend.bootnodes.polkadotters.com/tcp/30525/wss/p2p/12D3KooWPkwgJofp4GeeRwNgXqkp2aFwdLkCWv3qodpBJLwK43Jj"
-      ],
-      "radiumblock": [
-        "/dns/bridgehub-westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWBsBArCMxmQyo3feCEqMWuwyhb2LTRK8hmCCJxgrNeMke",
-        "/dns/bridgehub-westend-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWBsBArCMxmQyo3feCEqMWuwyhb2LTRK8hmCCJxgrNeMke"
-      ],
-      "rotko": [
-        "/dns/wbr13.rotko.net/tcp/33563/p2p/12D3KooWJyeRHpxZZbfBCNEgeUFzmRC5AMSAs2tJhjJS1k5hULkD",
-        "/dns/wbr13.rotko.net/tcp/35563/wss/p2p/12D3KooWJyeRHpxZZbfBCNEgeUFzmRC5AMSAs2tJhjJS1k5hULkD"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/40333/p2p/12D3KooWPGMsGPdGJx6HrByiKUyz91wgUHmjG5UXTmkJ9tUphAQn",
-        "/dns/boot.stake.plus/tcp/40334/wss/p2p/12D3KooWPGMsGPdGJx6HrByiKUyz91wgUHmjG5UXTmkJ9tUphAQn"
-      ],
-      "turboflakes": [
-        "/dns/bridge-hub-westend-bootnode.turboflakes.io/tcp/30620/p2p/12D3KooWLeExhPWCDUjcxCdzxTP5TpPbNBVG5t9MPvk1dZUM5naU",
-        "/dns/bridge-hub-westend-bootnode.turboflakes.io/tcp/30720/wss/p2p/12D3KooWLeExhPWCDUjcxCdzxTP5TpPbNBVG5t9MPvk1dZUM5naU"
-      ]
-    }
-  },
-  "collectives-polkadot": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [
-        "/dns/collectives-polkadot.bootnode.amforc.com/tcp/30335/p2p/12D3KooWQeAjDnGkrPe5vtpfnB6ydZfWyMxyrXLkBFmA6o4k9aiU",
-        "/dns/collectives-polkadot.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWQeAjDnGkrPe5vtpfnB6ydZfWyMxyrXLkBFmA6o4k9aiU"
-      ],
-      "dwellir": [
-        "/dns/polkadot-collectives-boot-ng.dwellir.com/tcp/30341/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc",
-        "/dns/polkadot-collectives-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33120/p2p/12D3KooWGZsa9tSeLQ1VeC996e1YsCPuyRYMipHQuXikPjcKcpVQ",
-        "/dns/boot.gatotech.network/tcp/35120/wss/p2p/12D3KooWGZsa9tSeLQ1VeC996e1YsCPuyRYMipHQuXikPjcKcpVQ"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/10230/p2p/12D3KooWS8CBz4P5CBny9aBy2EQUvAExFo9PUVT57X8r3zWMFkXT",
-        "/dns/boot-node.helikon.io/tcp/10232/wss/p2p/12D3KooWS8CBz4P5CBny9aBy2EQUvAExFo9PUVT57X8r3zWMFkXT"
-      ],
-      "luckyfriday": [
-        "/dns/boot-polkadot-collectives.luckyfriday.io/tcp/443/wss/p2p/12D3KooWCzifnPooTt4kvTnXT7FTKTymVL7xn7DURQLsS2AKpf6w"
-      ],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/16072/p2p/12D3KooWJWTTu2t2yg5bFRH6tjEpfzKwZir5R9JRRjQpgFPXdDfp",
-        "/dns/boot.metaspan.io/tcp/16076/wss/p2p/12D3KooWJWTTu2t2yg5bFRH6tjEpfzKwZir5R9JRRjQpgFPXdDfp"
-      ],
-      "polkadotters": [
-        "/dns/collectives-polkadot.bootnodes.polkadotters.com/tcp/30526/p2p/12D3KooWNohUjvJtGKUa8Vhy8C1ZBB5N8JATB6e7rdLVCioeb3ff",
-        "/dns/collectives-polkadot.bootnodes.polkadotters.com/tcp/30528/wss/p2p/12D3KooWNohUjvJtGKUa8Vhy8C1ZBB5N8JATB6e7rdLVCioeb3ff"
-      ],
-      "radiumblock": [
-        "/dns/collectives-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWDumvnNwPbBg5inBEapgjKU7ECdMHHgwfYeGWUkzYUE1c",
-        "/dns/collectives-polkadot-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWDumvnNwPbBg5inBEapgjKU7ECdMHHgwfYeGWUkzYUE1c"
-      ],
-      "rotko": [
-        "/dns/pch16.rotko.net/tcp/33576/p2p/12D3KooWKrm3XmuGzJH17Wcn4HRDGsEjLZGDgN77q3ZhwnnQP7y1",
-        "/dns/pch16.rotko.net/tcp/35576/wss/p2p/12D3KooWKrm3XmuGzJH17Wcn4HRDGsEjLZGDgN77q3ZhwnnQP7y1"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/37333/p2p/12D3KooWRgFfEtwPo3xorKGYALRHRteKNgF37iN9q8xTLPYc34LA",
-        "/dns/boot.stake.plus/tcp/37334/wss/p2p/12D3KooWRgFfEtwPo3xorKGYALRHRteKNgF37iN9q8xTLPYc34LA"
-      ],
-      "turboflakes": [
-        "/dns/collectives-polkadot-bootnode.turboflakes.io/tcp/30605/p2p/12D3KooWPyzM7eX64J4aG8uRfSARakDVtiEtthEM8FUjrLWAg2sC",
-        "/dns/collectives-polkadot-bootnode.turboflakes.io/tcp/30705/wss/p2p/12D3KooWPyzM7eX64J4aG8uRfSARakDVtiEtthEM8FUjrLWAg2sC"
-      ]
-    }
-  },
-  "collectives-westend": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [
-        "/dns/collectives-westend.bootnode.amforc.com/tcp/30340/p2p/12D3KooWERPzUhHau6o2XZRUi3tn7544rYiaHL418Nw5t8fYWP1F",
-        "/dns/collectives-westend.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWERPzUhHau6o2XZRUi3tn7544rYiaHL418Nw5t8fYWP1F"
-      ],
-      "dwellir": [
-        "/dns/westend-collectives-boot-ng.dwellir.com/tcp/30340/p2p/12D3KooWPFM93jgm4pgxx8PM8WJKAJF49qia8jRB95uciUQwYh7m",
-        "/dns/westend-collectives-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWPFM93jgm4pgxx8PM8WJKAJF49qia8jRB95uciUQwYh7m"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33320/p2p/12D3KooWMedtdBGiSn7HLZusHwafXkZAdmWD18ciGQBfS4X1fv9K",
-        "/dns/boot.gatotech.network/tcp/35320/wss/p2p/12D3KooWMedtdBGiSn7HLZusHwafXkZAdmWD18ciGQBfS4X1fv9K"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/10260/p2p/12D3KooWMzfnt29VAmrJHQcJU6Vfn4RsMbqPqgyWHqt9VTTAbSrL",
-        "/dns/boot-node.helikon.io/tcp/10262/wss/p2p/12D3KooWMzfnt29VAmrJHQcJU6Vfn4RsMbqPqgyWHqt9VTTAbSrL"
-      ],
-      "luckyfriday": [],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/36072/p2p/12D3KooWEf2QXWq5pAbFJLfbnexA7KYtRRDSPkqTP64n1KtdsdV2",
-        "/dns/boot.metaspan.io/tcp/36076/wss/p2p/12D3KooWEf2QXWq5pAbFJLfbnexA7KYtRRDSPkqTP64n1KtdsdV2"
-      ],
-      "polkadotters": [
-        "/dns/collectives-westend.bootnodes.polkadotters.com/tcp/30529/p2p/12D3KooWAFkXNSBfyPduZVgfS7pj5NuVpbU8Ee5gHeF8wvos7Yqn",
-        "/dns/collectives-westend.bootnodes.polkadotters.com/tcp/30531/wss/p2p/12D3KooWAFkXNSBfyPduZVgfS7pj5NuVpbU8Ee5gHeF8wvos7Yqn"
-      ],
-      "radiumblock": [
-        "/dns/collectives-westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWMAgVm1PnsLVfxoDLCbYv1DgnN6tjcRQbrq8xhbwo4whE",
-        "/dns/collectives-westend-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWMAgVm1PnsLVfxoDLCbYv1DgnN6tjcRQbrq8xhbwo4whE"
-      ],
-      "rotko": [
-        "/dns/wch13.rotko.net/tcp/33593/p2p/12D3KooWPG85zhuSRoyptjLkFD4iJFistjiBmc15JgQ96B4fdXYr",
-        "/dns/wch13.rotko.net/tcp/35593/wss/p2p/12D3KooWPG85zhuSRoyptjLkFD4iJFistjiBmc15JgQ96B4fdXYr"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/38333/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ",
-        "/dns/boot.stake.plus/tcp/38334/wss/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ"
-      ],
-      "turboflakes": [
-        "/dns/collectives-westend-bootnode.turboflakes.io/tcp/30600/p2p/12D3KooWAe9CFXp6je3TAPQJE135KRemTLSqEqQBZMFwJontrThZ",
-        "/dns/collectives-westend-bootnode.turboflakes.io/tcp/30700/wss/p2p/12D3KooWAe9CFXp6je3TAPQJE135KRemTLSqEqQBZMFwJontrThZ"
+        "/dns/statemint-bootnode.turboflakes.io/tcp/30315/p2p/12D3KooWL8CyLww3m3pRySQGGYGNJhWDMqko3j5xi67ckP7hDUvo",
+        "/dns/statemint-bootnode.turboflakes.io/tcp/30415/wss/p2p/12D3KooWL8CyLww3m3pRySQGGYGNJhWDMqko3j5xi67ckP7hDUvo"
       ]
     }
   },
@@ -468,54 +286,6 @@
       ]
     }
   },
-  "asset-hub-polkadot": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [
-        "/dns/statemint.bootnode.amforc.com/tcp/30341/p2p/12D3KooWByohP9FXn7ao8syS167qJsbFdpa7fY2Y24xbKtt3r7Ls",
-        "/dns/statemint.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWByohP9FXn7ao8syS167qJsbFdpa7fY2Y24xbKtt3r7Ls"
-      ],
-      "dwellir": [
-        "/dns/statemint-boot-ng.dwellir.com/tcp/30344/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr",
-        "/dns/statemint-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33110/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm",
-        "/dns/boot.gatotech.network/tcp/35110/wss/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/10220/p2p/12D3KooW9uybhguhDjVJc3U3kgZC3i8rWmAnSpbnJkmuR7C6ZsRW",
-        "/dns/boot-node.helikon.io/tcp/10222/wss/p2p/12D3KooW9uybhguhDjVJc3U3kgZC3i8rWmAnSpbnJkmuR7C6ZsRW"
-      ],
-      "luckyfriday": [
-        "/dns/boot-polkadot-assethub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWDR9M7CjV1xdjCRbRwkFn1E7sjMaL4oYxGyDWxuLrFc2J"
-      ],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/16052/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651",
-        "/dns/boot.metaspan.io/tcp/16056/wss/p2p/12D3KooWLwiJuvqQUB4kYaSjLenFKH9dWZhGZ4qi7pSb3sUYU651"
-      ],
-      "polkadotters": [
-        "/dns/asset-hub-polkadot.bootnodes.polkadotters.com/tcp/30508/p2p/12D3KooWKbfY9a9oywxMJKiALmt7yhrdQkjXMtvxhhDDN23vG93R",
-        "/dns/asset-hub-polkadot.bootnodes.polkadotters.com/tcp/30510/wss/p2p/12D3KooWKbfY9a9oywxMJKiALmt7yhrdQkjXMtvxhhDDN23vG93R"
-      ],
-      "radiumblock": [
-        "/dns/statemint-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWLKxHom7f3XawRJqrF8RwiKK5Sj3qZqz5c7hF6eJeXhTx",
-        "/dns/statemint-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWLKxHom7f3XawRJqrF8RwiKK5Sj3qZqz5c7hF6eJeXhTx"
-      ],
-      "rotko": [
-        "/dns/mint14.rotko.net/tcp/33514/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW",
-        "/dns/mint14.rotko.net/tcp/35514/wss/p2p/12D3KooWKkzLjYF6M5eEs7nYiqEtRqY8SGVouoCwo3nCWsRnThDW"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/35333/p2p/12D3KooWFrQjYaPZSSLLxEVmoaHFcrF6VoY4awG4KRSLaqy3JCdQ",
-        "/dns/boot.stake.plus/tcp/35334/wss/p2p/12D3KooWFrQjYaPZSSLLxEVmoaHFcrF6VoY4awG4KRSLaqy3JCdQ"
-      ],
-      "turboflakes": [
-        "/dns/statemint-bootnode.turboflakes.io/tcp/30315/p2p/12D3KooWL8CyLww3m3pRySQGGYGNJhWDMqko3j5xi67ckP7hDUvo",
-        "/dns/statemint-bootnode.turboflakes.io/tcp/30415/wss/p2p/12D3KooWL8CyLww3m3pRySQGGYGNJhWDMqko3j5xi67ckP7hDUvo"
-      ]
-    }
-  },
   "asset-hub-westend": {
     "commandId": "parachain",
     "members": {
@@ -560,6 +330,504 @@
         "/dns/westmint-bootnode.turboflakes.io/tcp/30325/p2p/12D3KooWHU4qqSyqKdbXdrCTMXUJxxueaZjqpqSaQqYiFPw6XqEx",
         "/dns/westmint-bootnode.turboflakes.io/tcp/30425/wss/p2p/12D3KooWHU4qqSyqKdbXdrCTMXUJxxueaZjqpqSaQqYiFPw6XqEx"
       ]
+    }
+  },
+  "asset-hub-paseo": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+        "/dns/asset-hub-paseo.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWERfFUg8UFPCakzTFkktdRYeG2cD3A9ga1DfynbPdYqGL",
+        "/dns/asset-hub-paseo.bootnode.amforc.com/tcp/30345/p2p/12D3KooWERfFUg8UFPCakzTFkktdRYeG2cD3A9ga1DfynbPdYqGL"
+      ],
+      "dwellir": [
+        "/dns/asset-hub-paseo-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWGoC9CdpY8T5bgf6PqKgry2DjCxaqQS7R9WdQ8rVMeEMg",
+        "/dns/asset-hub-paseo-boot-ng.dwellir.com/tcp/30357/p2p/12D3KooWGoC9CdpY8T5bgf6PqKgry2DjCxaqQS7R9WdQ8rVMeEMg"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33410/p2p/12D3KooWS94imuEGq76dNBJb11hDKhx4UrJ8gG7hrgaeDRzDEcGG",
+        "/dns/boot.gatotech.network/tcp/35410/wss/p2p/12D3KooWS94imuEGq76dNBJb11hDKhx4UrJ8gG7hrgaeDRzDEcGG"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/10120/p2p/12D3KooWKrg6Qb2HhTc3onfkgsNbRU72RjNDm96Xh2E7sWso5LZT",
+        "/dns/boot-node.helikon.io/tcp/10122/wss/p2p/12D3KooWKrg6Qb2HhTc3onfkgsNbRU72RjNDm96Xh2E7sWso5LZT"
+      ],
+      "luckyfriday": [
+        "/dns/boot-kusama-assethub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWSwaeFs6FNgpgh54fdoxSDAA4nJNaPE3PAcse2GRrG7b3"
+      ],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/36092/p2p/12D3KooWHdtFsjicVWecmiRrc8XLc3A6iLLKKfUwjZXu5mtg1k3w",
+        "/dns/boot.metaspan.io/tcp/36096/wss/p2p/12D3KooWHdtFsjicVWecmiRrc8XLc3A6iLLKKfUwjZXu5mtg1k3w"
+      ],
+      "polkadotters": [
+        "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30511/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU",
+        "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30513/wss/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU"
+      ],
+      "radiumblock": [
+        "/dns/assethub-paseo-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWP8aNgAjkYzH1QuwLjYyNqfpWkJkFRgdtUuey9KzEJciq",
+        "/dns/assethub-paseo-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWP8aNgAjkYzH1QuwLjYyNqfpWkJkFRgdtUuey9KzEJciq"
+      ],
+      "rotko": [
+        "/dns/pmint16.rotko.net/tcp/33946/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj",
+        "/dns/pmint16.rotko.net/tcp/35946/wss/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/44333/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo",
+        "/dns/boot.stake.plus/tcp/44333/wss/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo"
+      ],
+      "turboflakes": [
+        "/dns/asset-hub-paseo-bootnode.turboflakes.io/tcp/30330/p2p/12D3KooWJzfVkdDnKfn2hQ1c3ysrbmReTjVKrEBHkdwgZThbB1BM",
+        "/dns/asset-hub-paseo-bootnode.turboflakes.io/tcp/30430/wss/p2p/12D3KooWJzfVkdDnKfn2hQ1c3ysrbmReTjVKrEBHkdwgZThbB1BM"
+      ]
+    }
+  },
+  "bridge-hub-polkadot": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [],
+      "dwellir": [
+        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com/tcp/30339/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV",
+        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33130/p2p/12D3KooWCnFzfEdd7MwUNrrDv66FuS2DM5MGuiaB4y48XS7qNjF6",
+        "/dns/boot.gatotech.network/tcp/35130/wss/p2p/12D3KooWCnFzfEdd7MwUNrrDv66FuS2DM5MGuiaB4y48XS7qNjF6"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/8220/p2p/12D3KooWC38TZJA8ZBXZgAYVrceoJ56jNNLJPdpk3ojeFkTAwZVp",
+        "/dns/boot-node.helikon.io/tcp/8222/wss/p2p/12D3KooWC38TZJA8ZBXZgAYVrceoJ56jNNLJPdpk3ojeFkTAwZVp"
+      ],
+      "luckyfriday": [
+        "/dns/boot-polkadot-bridgehub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWKf3mBXHjLbwtPqv1BdbQuwbFNcQQYxASS7iQ25264AXH"
+      ],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/16032/p2p/12D3KooWQTfRnrK3FfbrotpSP5RVJbjBHVBSu8VSzhj9qcvjaqnZ",
+        "/dns/boot.metaspan.io/tcp/16036/wss/p2p/12D3KooWQTfRnrK3FfbrotpSP5RVJbjBHVBSu8VSzhj9qcvjaqnZ"
+      ],
+      "polkadotters": [
+        "/dns/bridge-hub-polkadot.bootnodes.polkadotters.com/tcp/30517/p2p/12D3KooWLUNE3LHPDa1WrrZaYT7ArK66CLM1bPv7kKz74UcLnQRB",
+        "/dns/bridge-hub-polkadot.bootnodes.polkadotters.com/tcp/30519/wss/p2p/12D3KooWLUNE3LHPDa1WrrZaYT7ArK66CLM1bPv7kKz74UcLnQRB"
+      ],
+      "radiumblock": [
+        "/dns/bridgehub-polkadot-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWPNZm78tWUmKbta3SXdkqTPsquRc8ekEbJjZsGGi7YiRi",
+        "/dns/bridgehub-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWPNZm78tWUmKbta3SXdkqTPsquRc8ekEbJjZsGGi7YiRi"
+      ],
+      "rotko": [
+        "/dns/pbr13.rotko.net/tcp/33543/p2p/12D3KooWMxZY7tDc2Rh454VaJJ7RexKAXVS6xSBEvTnXSGCnuGDw",
+        "/dns/pbr13.rotko.net/tcp/35543/wss/p2p/12D3KooWMxZY7tDc2Rh454VaJJ7RexKAXVS6xSBEvTnXSGCnuGDw"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/42333/p2p/12D3KooWEoTCu22Uab6prbfcD1FPpPZmfhkAVeMZQJ3fHnkCVmJz",
+        "/dns/boot.stake.plus/tcp/42334/wss/p2p/12D3KooWEoTCu22Uab6prbfcD1FPpPZmfhkAVeMZQJ3fHnkCVmJz"
+      ],
+      "turboflakes": [
+        "/dns/bridge-hub-polkadot-bootnode.turboflakes.io/tcp/30610/p2p/12D3KooWNEgaQRQHJHvGDh8Rg4RyLmDCCz3yAf2gAdHZZJAUUD8Q",
+        "/dns/bridge-hub-polkadot-bootnode.turboflakes.io/tcp/30710/wss/p2p/12D3KooWNEgaQRQHJHvGDh8Rg4RyLmDCCz3yAf2gAdHZZJAUUD8Q"
+      ]
+    }
+  },
+  "bridge-hub-kusama": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+        "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/30337/p2p/12D3KooWGNeQJ5rXnEJkVUuQqwHd8aV5GkTAheaRoCaK8ZwW94id",
+        "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWGNeQJ5rXnEJkVUuQqwHd8aV5GkTAheaRoCaK8ZwW94id"
+      ],
+      "dwellir": [
+        "/dns/kusama-bridge-hub-boot-ng.dwellir.com/tcp/30337/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5",
+        "/dns/kusama-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33230/p2p/12D3KooWFQFmg8UqAYLDNc2onySB6o5LLvpbx3eXZVqz9YFxAmXs",
+        "/dns/boot.gatotech.network/tcp/35230/wss/p2p/12D3KooWFQFmg8UqAYLDNc2onySB6o5LLvpbx3eXZVqz9YFxAmXs"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/10250/p2p/12D3KooWDJLkhqQdXcVKWX7CqJHnpAY6PzrPc4ZG2CUWnARbmguy",
+        "/dns/boot-node.helikon.io/tcp/10252/wss/p2p/12D3KooWDJLkhqQdXcVKWX7CqJHnpAY6PzrPc4ZG2CUWnARbmguy"
+      ],
+      "luckyfriday": [
+        "/dns/boot-polkadot-bridgehub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWKf3mBXHjLbwtPqv1BdbQuwbFNcQQYxASS7iQ25264AXH"
+      ],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/26032/p2p/12D3KooWKfuSaZrLNz43PDgM4inMALXRHTSh2WBuqQtZRq8zmT1Z",
+        "/dns/boot.metaspan.io/tcp/26036/wss/p2p/12D3KooWKfuSaZrLNz43PDgM4inMALXRHTSh2WBuqQtZRq8zmT1Z"
+      ],
+      "polkadotters": [
+        "/dns/bridge-hub-kusama.bootnodes.polkadotters.com/tcp/30520/p2p/12D3KooWH3pucezRRS5esoYyzZsUkKWcPSByQxEvmM819QL1HPLV",
+        "/dns/bridge-hub-kusama.bootnodes.polkadotters.com/tcp/30522/wss/p2p/12D3KooWH3pucezRRS5esoYyzZsUkKWcPSByQxEvmM819QL1HPLV"
+      ],
+      "radiumblock": [
+        "/dns/bridgehub-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWQMWofXj8v3RroDNnrhv1iURqm8vnaG98AdGnCn2YoDcW",
+        "/dns/bridgehub-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWQMWofXj8v3RroDNnrhv1iURqm8vnaG98AdGnCn2YoDcW"
+      ],
+      "rotko": [
+        "/dns/kbr13.rotko.net/tcp/33553/p2p/12D3KooWAmBp54mUEYtvsk2kxNEsDbAvdUMcaghxKXgUQxmPEQ66",
+        "/dns/kbr13.rotko.net/tcp/35553/wss/p2p/12D3KooWAmBp54mUEYtvsk2kxNEsDbAvdUMcaghxKXgUQxmPEQ66"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/41333/p2p/12D3KooWBzbs2jsXjG5dipktGPKaUm9XWvkmeJFsEAGkVt946Aa7",
+        "/dns/boot.stake.plus/tcp/41334/wss/p2p/12D3KooWBzbs2jsXjG5dipktGPKaUm9XWvkmeJFsEAGkVt946Aa7"
+      ],
+      "turboflakes": [
+        "/dns/bridge-hub-kusama-bootnode.turboflakes.io/tcp/30615/p2p/12D3KooWE3dJXbwA5SQqbDNxHfj7BXJRcy2KiXWjJY4VUMKoa7S2",
+        "/dns/bridge-hub-kusama-bootnode.turboflakes.io/tcp/30715/wss/p2p/12D3KooWE3dJXbwA5SQqbDNxHfj7BXJRcy2KiXWjJY4VUMKoa7S2"
+      ]
+    }
+  },
+  "bridge-hub-westend": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [],
+      "dwellir": [
+        "/dns/westend-bridge-hub-boot-ng.dwellir.com/tcp/30338/p2p/12D3KooWJWWRYTAwBLqYkh7iMBGDr5ouJ3MHj7M3fZ7zWS4zEk6F",
+        "/dns/westend-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWJWWRYTAwBLqYkh7iMBGDr5ouJ3MHj7M3fZ7zWS4zEk6F"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33330/p2p/12D3KooWJHG6qznPzTSEbuujHNcvyzBZcR9zNRPFcXWUaoVWZBEw",
+        "/dns/boot.gatotech.network/tcp/35330/wss/p2p/12D3KooWJHG6qznPzTSEbuujHNcvyzBZcR9zNRPFcXWUaoVWZBEw"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/9220/p2p/12D3KooWK3K1Mu5Jjg96Lt9DUzg84KsWnZo44V4KB7mvhGqi6xnp",
+        "/dns/boot-node.helikon.io/tcp/9222/wss/p2p/12D3KooWK3K1Mu5Jjg96Lt9DUzg84KsWnZo44V4KB7mvhGqi6xnp"
+      ],
+      "luckyfriday": [],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/36032/p2p/12D3KooWPaLsu3buByBnGFQnp5UP4q1S652dGVft92TFeChizFir",
+        "/dns/boot.metaspan.io/tcp/36036/wss/p2p/12D3KooWPaLsu3buByBnGFQnp5UP4q1S652dGVft92TFeChizFir"
+      ],
+      "polkadotters": [
+        "/dns/bridge-hub-westend.bootnodes.polkadotters.com/tcp/30523/p2p/12D3KooWPkwgJofp4GeeRwNgXqkp2aFwdLkCWv3qodpBJLwK43Jj",
+        "/dns/bridge-hub-westend.bootnodes.polkadotters.com/tcp/30525/wss/p2p/12D3KooWPkwgJofp4GeeRwNgXqkp2aFwdLkCWv3qodpBJLwK43Jj"
+      ],
+      "radiumblock": [
+        "/dns/bridgehub-westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWBsBArCMxmQyo3feCEqMWuwyhb2LTRK8hmCCJxgrNeMke",
+        "/dns/bridgehub-westend-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWBsBArCMxmQyo3feCEqMWuwyhb2LTRK8hmCCJxgrNeMke"
+      ],
+      "rotko": [
+        "/dns/wbr13.rotko.net/tcp/33563/p2p/12D3KooWJyeRHpxZZbfBCNEgeUFzmRC5AMSAs2tJhjJS1k5hULkD",
+        "/dns/wbr13.rotko.net/tcp/35563/wss/p2p/12D3KooWJyeRHpxZZbfBCNEgeUFzmRC5AMSAs2tJhjJS1k5hULkD"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/40333/p2p/12D3KooWPGMsGPdGJx6HrByiKUyz91wgUHmjG5UXTmkJ9tUphAQn",
+        "/dns/boot.stake.plus/tcp/40334/wss/p2p/12D3KooWPGMsGPdGJx6HrByiKUyz91wgUHmjG5UXTmkJ9tUphAQn"
+      ],
+      "turboflakes": [
+        "/dns/bridge-hub-westend-bootnode.turboflakes.io/tcp/30620/p2p/12D3KooWLeExhPWCDUjcxCdzxTP5TpPbNBVG5t9MPvk1dZUM5naU",
+        "/dns/bridge-hub-westend-bootnode.turboflakes.io/tcp/30720/wss/p2p/12D3KooWLeExhPWCDUjcxCdzxTP5TpPbNBVG5t9MPvk1dZUM5naU"
+      ]
+    }
+  },
+  "bridge-hub-paseo": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [],
+      "dwellir": [],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33420/p2p/12D3KooWMjKe7HVyRHtKw1aYvN5JEM9YNZtXCw4Te9E8xM3Lus8L",
+        "/dns/boot.gatotech.network/tcp/35420/wss/p2p/12D3KooWMjKe7HVyRHtKw1aYvN5JEM9YNZtXCw4Te9E8xM3Lus8L"
+      ],
+      "helikon": [],
+      "luckyfriday": [],
+      "metaspan": [],
+      "polkadotters": [],
+      "radiumblock": [],
+      "rotko": [],
+      "stakeplus": [],
+      "turboflakes": []
+    }
+  },
+  "collectives-polkadot": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+        "/dns/collectives-polkadot.bootnode.amforc.com/tcp/30335/p2p/12D3KooWQeAjDnGkrPe5vtpfnB6ydZfWyMxyrXLkBFmA6o4k9aiU",
+        "/dns/collectives-polkadot.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWQeAjDnGkrPe5vtpfnB6ydZfWyMxyrXLkBFmA6o4k9aiU"
+      ],
+      "dwellir": [
+        "/dns/polkadot-collectives-boot-ng.dwellir.com/tcp/30341/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc",
+        "/dns/polkadot-collectives-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33120/p2p/12D3KooWGZsa9tSeLQ1VeC996e1YsCPuyRYMipHQuXikPjcKcpVQ",
+        "/dns/boot.gatotech.network/tcp/35120/wss/p2p/12D3KooWGZsa9tSeLQ1VeC996e1YsCPuyRYMipHQuXikPjcKcpVQ"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/10230/p2p/12D3KooWS8CBz4P5CBny9aBy2EQUvAExFo9PUVT57X8r3zWMFkXT",
+        "/dns/boot-node.helikon.io/tcp/10232/wss/p2p/12D3KooWS8CBz4P5CBny9aBy2EQUvAExFo9PUVT57X8r3zWMFkXT"
+      ],
+      "luckyfriday": [
+        "/dns/boot-polkadot-collectives.luckyfriday.io/tcp/443/wss/p2p/12D3KooWCzifnPooTt4kvTnXT7FTKTymVL7xn7DURQLsS2AKpf6w"
+      ],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/16072/p2p/12D3KooWJWTTu2t2yg5bFRH6tjEpfzKwZir5R9JRRjQpgFPXdDfp",
+        "/dns/boot.metaspan.io/tcp/16076/wss/p2p/12D3KooWJWTTu2t2yg5bFRH6tjEpfzKwZir5R9JRRjQpgFPXdDfp"
+      ],
+      "polkadotters": [
+        "/dns/collectives-polkadot.bootnodes.polkadotters.com/tcp/30526/p2p/12D3KooWNohUjvJtGKUa8Vhy8C1ZBB5N8JATB6e7rdLVCioeb3ff",
+        "/dns/collectives-polkadot.bootnodes.polkadotters.com/tcp/30528/wss/p2p/12D3KooWNohUjvJtGKUa8Vhy8C1ZBB5N8JATB6e7rdLVCioeb3ff"
+      ],
+      "radiumblock": [
+        "/dns/collectives-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWDumvnNwPbBg5inBEapgjKU7ECdMHHgwfYeGWUkzYUE1c",
+        "/dns/collectives-polkadot-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWDumvnNwPbBg5inBEapgjKU7ECdMHHgwfYeGWUkzYUE1c"
+      ],
+      "rotko": [
+        "/dns/pch16.rotko.net/tcp/33576/p2p/12D3KooWKrm3XmuGzJH17Wcn4HRDGsEjLZGDgN77q3ZhwnnQP7y1",
+        "/dns/pch16.rotko.net/tcp/35576/wss/p2p/12D3KooWKrm3XmuGzJH17Wcn4HRDGsEjLZGDgN77q3ZhwnnQP7y1"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/37333/p2p/12D3KooWRgFfEtwPo3xorKGYALRHRteKNgF37iN9q8xTLPYc34LA",
+        "/dns/boot.stake.plus/tcp/37334/wss/p2p/12D3KooWRgFfEtwPo3xorKGYALRHRteKNgF37iN9q8xTLPYc34LA"
+      ],
+      "turboflakes": [
+        "/dns/collectives-polkadot-bootnode.turboflakes.io/tcp/30605/p2p/12D3KooWPyzM7eX64J4aG8uRfSARakDVtiEtthEM8FUjrLWAg2sC",
+        "/dns/collectives-polkadot-bootnode.turboflakes.io/tcp/30705/wss/p2p/12D3KooWPyzM7eX64J4aG8uRfSARakDVtiEtthEM8FUjrLWAg2sC"
+      ]
+    }
+  },
+  "encointer-kusama": {
+    "commandId": "encointer",
+    "members": {
+      "amforc": [
+        "/dns/encointer-kusama.bootnode.amforc.com/tcp/30338/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz",
+        "/dns/encointer-kusama.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz"
+      ],
+      "dwellir": [
+        "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx",
+        "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33220/p2p/12D3KooWByfCkLUzuMBJhVqb5SZxTHgGdwPzbJEk3t7gxDUakdi7",
+        "/dns/boot.gatotech.network/tcp/35220/wss/p2p/12D3KooWByfCkLUzuMBJhVqb5SZxTHgGdwPzbJEk3t7gxDUakdi7"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/10240/p2p/12D3KooWA911RYTs2DdsA1EkxviUo12DdAdJ9Zsaf8S5PpQzeRGA",
+        "/dns/boot-node.helikon.io/tcp/10242/wss/p2p/12D3KooWA911RYTs2DdsA1EkxviUo12DdAdJ9Zsaf8S5PpQzeRGA"
+      ],
+      "luckyfriday": [],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/26072/p2p/12D3KooWPtjFu99oadjbtbK33iir1jdYVdkEEs3GYV6nswJzwx8W",
+        "/dns/boot.metaspan.io/tcp/26076/wss/p2p/12D3KooWPtjFu99oadjbtbK33iir1jdYVdkEEs3GYV6nswJzwx8W"
+      ],
+      "polkadotters": [
+        "/dns/encointer-kusama.bootnodes.polkadotters.com/tcp/30535/p2p/12D3KooWNRWrCQJ2HKHhJr7hkqdYQKsUCTUrugXKmv4fk6Ee19mg",
+        "/dns/encointer-kusama.bootnodes.polkadotters.com/tcp/30537/wss/p2p/12D3KooWNRWrCQJ2HKHhJr7hkqdYQKsUCTUrugXKmv4fk6Ee19mg"
+      ],
+      "radiumblock": [
+        "/dns/encointer-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWQJgWAciHe3z8U7Zi9kmKoKYfFqRdaaLUyDMyNrBynSsJ",
+        "/dns/encointer-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWQJgWAciHe3z8U7Zi9kmKoKYfFqRdaaLUyDMyNrBynSsJ"
+      ],
+      "rotko": [
+        "/dns/enc14.rotko.net/tcp/33504/p2p/12D3KooWJ3327ZoZcR96pToGsXa8Xbehh8z25daxYseYXF46UDCZ",
+        "/dns/enc14.rotko.net/tcp/35504/wss/p2p/12D3KooWJ3327ZoZcR96pToGsXa8Xbehh8z25daxYseYXF46UDCZ"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/36333/p2p/12D3KooWNFFdJFV21haDiSdPJ1EnGmv6pa2TgB81Cvu7Y96hjTAu",
+        "/dns/boot.stake.plus/tcp/36334/wss/p2p/12D3KooWNFFdJFV21haDiSdPJ1EnGmv6pa2TgB81Cvu7Y96hjTAu"
+      ],
+      "turboflakes": [
+        "/dns/encointer-kusama-bootnode.turboflakes.io/tcp/30625/p2p/12D3KooWCXoAM2ucUEhMhLkZVWJ6hMCHqV2K4sjVM27t5ZGv4XU6",
+        "/dns/encointer-kusama-bootnode.turboflakes.io/tcp/30725/wss/p2p/12D3KooWCXoAM2ucUEhMhLkZVWJ6hMCHqV2K4sjVM27t5ZGv4XU6"
+      ]
+    }
+  },
+  "collectives-westend": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+        "/dns/collectives-westend.bootnode.amforc.com/tcp/30340/p2p/12D3KooWERPzUhHau6o2XZRUi3tn7544rYiaHL418Nw5t8fYWP1F",
+        "/dns/collectives-westend.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWERPzUhHau6o2XZRUi3tn7544rYiaHL418Nw5t8fYWP1F"
+      ],
+      "dwellir": [
+        "/dns/westend-collectives-boot-ng.dwellir.com/tcp/30340/p2p/12D3KooWPFM93jgm4pgxx8PM8WJKAJF49qia8jRB95uciUQwYh7m",
+        "/dns/westend-collectives-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWPFM93jgm4pgxx8PM8WJKAJF49qia8jRB95uciUQwYh7m"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33320/p2p/12D3KooWMedtdBGiSn7HLZusHwafXkZAdmWD18ciGQBfS4X1fv9K",
+        "/dns/boot.gatotech.network/tcp/35320/wss/p2p/12D3KooWMedtdBGiSn7HLZusHwafXkZAdmWD18ciGQBfS4X1fv9K"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/10260/p2p/12D3KooWMzfnt29VAmrJHQcJU6Vfn4RsMbqPqgyWHqt9VTTAbSrL",
+        "/dns/boot-node.helikon.io/tcp/10262/wss/p2p/12D3KooWMzfnt29VAmrJHQcJU6Vfn4RsMbqPqgyWHqt9VTTAbSrL"
+      ],
+      "luckyfriday": [],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/36072/p2p/12D3KooWEf2QXWq5pAbFJLfbnexA7KYtRRDSPkqTP64n1KtdsdV2",
+        "/dns/boot.metaspan.io/tcp/36076/wss/p2p/12D3KooWEf2QXWq5pAbFJLfbnexA7KYtRRDSPkqTP64n1KtdsdV2"
+      ],
+      "polkadotters": [
+        "/dns/collectives-westend.bootnodes.polkadotters.com/tcp/30529/p2p/12D3KooWAFkXNSBfyPduZVgfS7pj5NuVpbU8Ee5gHeF8wvos7Yqn",
+        "/dns/collectives-westend.bootnodes.polkadotters.com/tcp/30531/wss/p2p/12D3KooWAFkXNSBfyPduZVgfS7pj5NuVpbU8Ee5gHeF8wvos7Yqn"
+      ],
+      "radiumblock": [
+        "/dns/collectives-westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWMAgVm1PnsLVfxoDLCbYv1DgnN6tjcRQbrq8xhbwo4whE",
+        "/dns/collectives-westend-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWMAgVm1PnsLVfxoDLCbYv1DgnN6tjcRQbrq8xhbwo4whE"
+      ],
+      "rotko": [
+        "/dns/wch13.rotko.net/tcp/33593/p2p/12D3KooWPG85zhuSRoyptjLkFD4iJFistjiBmc15JgQ96B4fdXYr",
+        "/dns/wch13.rotko.net/tcp/35593/wss/p2p/12D3KooWPG85zhuSRoyptjLkFD4iJFistjiBmc15JgQ96B4fdXYr"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/38333/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ",
+        "/dns/boot.stake.plus/tcp/38334/wss/p2p/12D3KooWQoVsFCfgu21iu6kdtQsU9T6dPn1wsyLn1U34yPerR6zQ"
+      ],
+      "turboflakes": [
+        "/dns/collectives-westend-bootnode.turboflakes.io/tcp/30600/p2p/12D3KooWAe9CFXp6je3TAPQJE135KRemTLSqEqQBZMFwJontrThZ",
+        "/dns/collectives-westend-bootnode.turboflakes.io/tcp/30700/wss/p2p/12D3KooWAe9CFXp6je3TAPQJE135KRemTLSqEqQBZMFwJontrThZ"
+      ]
+    }
+  },
+  "people-polkadot": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [],
+      "dwellir": [
+        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30346/p2p/12D3KooWLVCw68epXsdXhMH1sDhrwkxi5DGZ5J77dCoCBd2HFafq",
+        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30333/wss/p2p/12D3KooWLVCw68epXsdXhMH1sDhrwkxi5DGZ5J77dCoCBd2HFafq"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33140/p2p/12D3KooWAucQAcMyCKN3VU3HBn8mgqyYbvu3L7b6857ezr5g6TQQ",
+        "/dns/boot.gatotech.network/tcp/35140/wss/p2p/12D3KooWAucQAcMyCKN3VU3HBn8mgqyYbvu3L7b6857ezr5g6TQQ"
+      ],
+      "helikon": [],
+      "luckyfriday": [],
+      "metaspan": [],
+      "polkadotters": [],
+      "radiumblock": [],
+      "rotko": [],
+      "stakeplus": [],
+      "turboflakes": []
+    }
+  },
+  "people-kusama": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+        "/dns/people-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA",
+        "/dns/people-kusama.bootnode.amforc.com/tcp/30004/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA"
+      ],
+      "dwellir": [
+        "/dns/people-kusama-boot-ng.dwellir.com/tcp/30359/p2p/12D3KooWM6T8MMibxLZhhpq6F612CZ4FgnfDSJSkWDMiVUDe1aGb",
+        "/dns/people-kusama-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWM6T8MMibxLZhhpq6F612CZ4FgnfDSJSkWDMiVUDe1aGb"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33240/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX",
+        "/dns/boot.gatotech.network/tcp/35240/wss/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/7510/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv",
+        "/dns/boot-node.helikon.io/tcp/7512/wss/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv"
+      ],
+      "luckyfriday": [
+        "/dns/ibp-boot-kusama-people.luckyfriday.io/tcp/30342/p2p/12D3KooWM4bRafMH2StfBEQtyj5cMWfGLYbuikCZmvKv9m1MQVPn",
+        "/dns/ibp-boot-kusama-people.luckyfriday.io/tcp/443/wss/p2p/12D3KooWM4bRafMH2StfBEQtyj5cMWfGLYbuikCZmvKv9m1MQVPn"
+      ],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/25068/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP",
+        "/dns/boot.metaspan.io/tcp/25069/wss/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP"
+      ],
+      "polkadotters": [
+        "/dns/people-kusama.bootnodes.polkadotters.com/tcp/30377/p2p/12D3KooWHy7TAuK6EoVij2tfaeh3KkaEJxhTmumbEom3HfRnSEsp",
+        "/dns/people-kusama.bootnodes.polkadotters.com/tcp/30379/wss/p2p/12D3KooWHy7TAuK6EoVij2tfaeh3KkaEJxhTmumbEom3HfRnSEsp"
+      ],
+      "radiumblock": [
+        "/dns/people-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj",
+        "/dns/people-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj"
+      ],
+      "rotko": [
+        "/dns/kppl16.rotko.net/tcp/33756/p2p/12D3KooWSKQwgoydfbN6mNN2aNwdqfkR2ExAnTRs8mmdrPQTtDLo",
+        "/dns/kppl16.rotko.net/tcp/35756/wss/p2p/12D3KooWSKQwgoydfbN6mNN2aNwdqfkR2ExAnTRs8mmdrPQTtDLo"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/48333/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb",
+        "/dns/boot.stake.plus/tcp/48334/wss/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb"
+      ],
+      "turboflakes": [
+        "/dns/people-kusama-bootnode.turboflakes.io/tcp/30645/p2p/12D3KooWCR2Q8J2NFFfuofDak4zSgWkuBq7orP96HFaxLgAoDUBV",
+        "/dns/people-kusama-bootnode.turboflakes.io/tcp/30745/wss/p2p/12D3KooWCR2Q8J2NFFfuofDak4zSgWkuBq7orP96HFaxLgAoDUBV"
+      ]
+    }
+  },
+  "people-westend": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [
+        "/dns/people-westend.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWQrMQFAXxJJJCtVr8nViBR6EDsuT1RyqU3eoCMebRQxTf",
+        "/dns/people-westend.bootnode.amforc.com/tcp/30346/p2p/12D3KooWQrMQFAXxJJJCtVr8nViBR6EDsuT1RyqU3eoCMebRQxTf"
+      ],
+      "dwellir": [
+        "/dns/people-westend-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWBdCpCabhgBpLn67LWcXE2JJCCTMhuJHrfDNiTiCCr3KX",
+        "/dns/people-westend-boot-ng.dwellir.com/tcp/30355/p2p/12D3KooWBdCpCabhgBpLn67LWcXE2JJCCTMhuJHrfDNiTiCCr3KX"
+      ],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33340/p2p/12D3KooWHwURYtEHpexfrZa8k8hVgVi5FTFr4N8HBnn9kPDsWfgA",
+        "/dns/boot.gatotech.network/tcp/35340/wss/p2p/12D3KooWHwURYtEHpexfrZa8k8hVgVi5FTFr4N8HBnn9kPDsWfgA"
+      ],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/9520/p2p/12D3KooWHhZk21Wzvsd3Un1Cp63diXqr6idbG1MEiUWaitUZuX4c",
+        "/dns/boot-node.helikon.io/tcp/9522/wss/p2p/12D3KooWHhZk21Wzvsd3Un1Cp63diXqr6idbG1MEiUWaitUZuX4c"
+      ],
+      "luckyfriday": [],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/35068/p2p/12D3KooWAtw8ybFXNmNdTUsvt2gfKwtuea9wDQT2b8FpbVNKYGwc",
+        "/dns/boot.metaspan.io/tcp/35069/wss/p2p/12D3KooWAtw8ybFXNmNdTUsvt2gfKwtuea9wDQT2b8FpbVNKYGwc"
+      ],
+      "polkadotters": [
+        "/dns/identity-westend.bootnodes.polkadotters.com/tcp/30532/p2p/12D3KooWKr9San6KTM7REJ95cBaDoiciGcWnW8TTftEJgxGF5Ehb",
+        "/dns/identity-westend.bootnodes.polkadotters.com/tcp/30534/wss/p2p/12D3KooWKr9San6KTM7REJ95cBaDoiciGcWnW8TTftEJgxGF5Ehb"
+      ],
+      "radiumblock": [
+        "/dns/people-westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWHb7bp7fvxCwR1i6m8xn4j1ZSVZ6a49TVYbrWSC2sJhn4",
+        "/dns/people-westend-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWHb7bp7fvxCwR1i6m8xn4j1ZSVZ6a49TVYbrWSC2sJhn4"
+      ],
+      "rotko": [
+        "/dns/wppl16.rotko.net/tcp/33766/p2p/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS",
+        "/dns/wppl16.rotko.net/tcp/35766/wss/p2p/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS"
+      ],
+      "stakeplus": [
+        "/dns/boot.stake.plus/tcp/46333/p2p/12D3KooWLNWUF4H5WE3dy2rPB56gVcR48XY2rHwEaZ6pGTK6HYFi",
+        "/dns/boot.stake.plus/tcp/46334/wss/p2p/12D3KooWLNWUF4H5WE3dy2rPB56gVcR48XY2rHwEaZ6pGTK6HYFi"
+      ],
+      "turboflakes": [
+        "/dns/people-westend-bootnode.turboflakes.io/tcp/30650/p2p/12D3KooWQEhmZg3uMkuxVUx3jbsD84zEX4dUKtvHfmCoBWMhybKW",
+        "/dns/people-westend-bootnode.turboflakes.io/tcp/30750/wss/p2p/12D3KooWQEhmZg3uMkuxVUx3jbsD84zEX4dUKtvHfmCoBWMhybKW"
+      ]
+    }
+  },
+  "people-paseo": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [],
+      "dwellir": [],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33430/p2p/12D3KooWNJ54rBWhZbGV8o444exrc7NLmuGEr1LK3CRk546W5b7k",
+        "/dns/boot.gatotech.network/tcp/35430/wss/p2p/12D3KooWNJ54rBWhZbGV8o444exrc7NLmuGEr1LK3CRk546W5b7k"
+      ],
+      "helikon": [],
+      "luckyfriday": [],
+      "metaspan": [],
+      "polkadotters": [],
+      "radiumblock": [],
+      "rotko": [],
+      "stakeplus": [],
+      "turboflakes": []
+    }
+  },
+  "coretime-polkadot": {
+    "commandId": "parachain",
+    "members": {
+      "amforc": [],
+      "dwellir": [],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33150/p2p/12D3KooWPsqkyzSzNVb6zQGVocJdgBn8fVKgKP5rmWAfwT2P4GnL",
+        "/dns/boot.gatotech.network/tcp/35150/wss/p2p/12D3KooWPsqkyzSzNVb6zQGVocJdgBn8fVKgKP5rmWAfwT2P4GnL"
+      ],
+      "helikon": [],
+      "luckyfriday": [],
+      "metaspan": [],
+      "polkadotters": [],
+      "radiumblock": [],
+      "rotko": [],
+      "stakeplus": [],
+      "turboflakes": []
     }
   },
   "coretime-kusama": {
@@ -645,204 +913,15 @@
       "turboflakes": []
     }
   },
-  "people-westend": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [
-        "/dns/people-westend.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWQrMQFAXxJJJCtVr8nViBR6EDsuT1RyqU3eoCMebRQxTf",
-        "/dns/people-westend.bootnode.amforc.com/tcp/30346/p2p/12D3KooWQrMQFAXxJJJCtVr8nViBR6EDsuT1RyqU3eoCMebRQxTf"
-      ],
-      "dwellir": [
-        "/dns/people-westend-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWBdCpCabhgBpLn67LWcXE2JJCCTMhuJHrfDNiTiCCr3KX",
-        "/dns/people-westend-boot-ng.dwellir.com/tcp/30355/p2p/12D3KooWBdCpCabhgBpLn67LWcXE2JJCCTMhuJHrfDNiTiCCr3KX"
-      ],
-      "gatotech": [
-        "/dns/boot.metaspan.io/tcp/35068/p2p/12D3KooWAtw8ybFXNmNdTUsvt2gfKwtuea9wDQT2b8FpbVNKYGwc",
-        "/dns/boot.metaspan.io/tcp/35069/wss/p2p/12D3KooWAtw8ybFXNmNdTUsvt2gfKwtuea9wDQT2b8FpbVNKYGwc"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/9520/p2p/12D3KooWHhZk21Wzvsd3Un1Cp63diXqr6idbG1MEiUWaitUZuX4c",
-        "/dns/boot-node.helikon.io/tcp/9522/wss/p2p/12D3KooWHhZk21Wzvsd3Un1Cp63diXqr6idbG1MEiUWaitUZuX4c"
-      ],
-      "luckyfriday": [],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/35068/p2p/12D3KooWAtw8ybFXNmNdTUsvt2gfKwtuea9wDQT2b8FpbVNKYGwc",
-        "/dns/boot.metaspan.io/tcp/35069/wss/p2p/12D3KooWAtw8ybFXNmNdTUsvt2gfKwtuea9wDQT2b8FpbVNKYGwc"
-      ],
-      "polkadotters": [
-        "/dns/identity-westend.bootnodes.polkadotters.com/tcp/30532/p2p/12D3KooWKr9San6KTM7REJ95cBaDoiciGcWnW8TTftEJgxGF5Ehb",
-        "/dns/identity-westend.bootnodes.polkadotters.com/tcp/30534/wss/p2p/12D3KooWKr9San6KTM7REJ95cBaDoiciGcWnW8TTftEJgxGF5Ehb"
-      ],
-      "radiumblock": [
-        "/dns/people-westend-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWHb7bp7fvxCwR1i6m8xn4j1ZSVZ6a49TVYbrWSC2sJhn4",
-        "/dns/people-westend-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWHb7bp7fvxCwR1i6m8xn4j1ZSVZ6a49TVYbrWSC2sJhn4"
-      ],
-      "rotko": [
-        "/dns/wppl16.rotko.net/tcp/33766/p2p/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS",
-        "/dns/wppl16.rotko.net/tcp/35766/wss/p2p/12D3KooWHwUXBUo2WRMUBwPLC2ttVbnEk1KvDyESYAeKcNoCn7WS"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/46333/p2p/12D3KooWLNWUF4H5WE3dy2rPB56gVcR48XY2rHwEaZ6pGTK6HYFi",
-        "/dns/boot.stake.plus/tcp/46334/wss/p2p/12D3KooWLNWUF4H5WE3dy2rPB56gVcR48XY2rHwEaZ6pGTK6HYFi"
-      ],
-      "turboflakes": [
-        "/dns/people-westend-bootnode.turboflakes.io/tcp/30650/p2p/12D3KooWQEhmZg3uMkuxVUx3jbsD84zEX4dUKtvHfmCoBWMhybKW",
-        "/dns/people-westend-bootnode.turboflakes.io/tcp/30750/wss/p2p/12D3KooWQEhmZg3uMkuxVUx3jbsD84zEX4dUKtvHfmCoBWMhybKW"
-      ]
-    }
-  },
-  "asset-hub-paseo": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [
-        "/dns/asset-hub-paseo.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWERfFUg8UFPCakzTFkktdRYeG2cD3A9ga1DfynbPdYqGL",
-        "/dns/asset-hub-paseo.bootnode.amforc.com/tcp/30345/p2p/12D3KooWERfFUg8UFPCakzTFkktdRYeG2cD3A9ga1DfynbPdYqGL"
-      ],
-      "dwellir": [
-        "/dns/asset-hub-paseo-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWGoC9CdpY8T5bgf6PqKgry2DjCxaqQS7R9WdQ8rVMeEMg",
-        "/dns/asset-hub-paseo-boot-ng.dwellir.com/tcp/30357/p2p/12D3KooWGoC9CdpY8T5bgf6PqKgry2DjCxaqQS7R9WdQ8rVMeEMg"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33410/p2p/12D3KooWS94imuEGq76dNBJb11hDKhx4UrJ8gG7hrgaeDRzDEcGG",
-        "/dns/boot.gatotech.network/tcp/35410/wss/p2p/12D3KooWS94imuEGq76dNBJb11hDKhx4UrJ8gG7hrgaeDRzDEcGG"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/10120/p2p/12D3KooWKrg6Qb2HhTc3onfkgsNbRU72RjNDm96Xh2E7sWso5LZT",
-        "/dns/boot-node.helikon.io/tcp/10122/wss/p2p/12D3KooWKrg6Qb2HhTc3onfkgsNbRU72RjNDm96Xh2E7sWso5LZT"
-      ],
-      "luckyfriday": [
-        "/dns/boot-kusama-assethub.luckyfriday.io/tcp/443/wss/p2p/12D3KooWSwaeFs6FNgpgh54fdoxSDAA4nJNaPE3PAcse2GRrG7b3"
-      ],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/36092/p2p/12D3KooWHdtFsjicVWecmiRrc8XLc3A6iLLKKfUwjZXu5mtg1k3w",
-        "/dns/boot.metaspan.io/tcp/36096/wss/p2p/12D3KooWHdtFsjicVWecmiRrc8XLc3A6iLLKKfUwjZXu5mtg1k3w"
-      ],
-      "polkadotters": [
-        "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30511/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU",
-        "/dns/asset-hub-kusama.bootnodes.polkadotters.com/tcp/30513/wss/p2p/12D3KooWDpk7wVH7RgjErEvbvAZ2kY5VeaAwRJP5ojmn1e8b8UbU"
-      ],
-      "radiumblock": [
-        "/dns/assethub-paseo-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWP8aNgAjkYzH1QuwLjYyNqfpWkJkFRgdtUuey9KzEJciq",
-        "/dns/assethub-paseo-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWP8aNgAjkYzH1QuwLjYyNqfpWkJkFRgdtUuey9KzEJciq"
-      ],
-      "rotko": [
-        "/dns/pmint16.rotko.net/tcp/33946/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj",
-        "/dns/pmint16.rotko.net/tcp/35946/wss/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/44333/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo",
-        "/dns/boot.stake.plus/tcp/44333/wss/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo"
-      ],
-      "turboflakes": [
-        "/dns/asset-hub-paseo-bootnode.turboflakes.io/tcp/30330/p2p/12D3KooWJzfVkdDnKfn2hQ1c3ysrbmReTjVKrEBHkdwgZThbB1BM",
-        "/dns/asset-hub-paseo-bootnode.turboflakes.io/tcp/30430/wss/p2p/12D3KooWJzfVkdDnKfn2hQ1c3ysrbmReTjVKrEBHkdwgZThbB1BM"
-      ]
-    }
-  },
-  "encointer-kusama": {
-    "commandId": "encointer",
-    "members": {
-      "amforc": [
-        "/dns/encointer-kusama.bootnode.amforc.com/tcp/30338/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz",
-        "/dns/encointer-kusama.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz"
-      ],
-      "dwellir": [
-        "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx",
-        "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33220/p2p/12D3KooWByfCkLUzuMBJhVqb5SZxTHgGdwPzbJEk3t7gxDUakdi7",
-        "/dns/boot.gatotech.network/tcp/35220/wss/p2p/12D3KooWByfCkLUzuMBJhVqb5SZxTHgGdwPzbJEk3t7gxDUakdi7"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/10240/p2p/12D3KooWA911RYTs2DdsA1EkxviUo12DdAdJ9Zsaf8S5PpQzeRGA",
-        "/dns/boot-node.helikon.io/tcp/10242/wss/p2p/12D3KooWA911RYTs2DdsA1EkxviUo12DdAdJ9Zsaf8S5PpQzeRGA"
-      ],
-      "luckyfriday": [],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/26072/p2p/12D3KooWPtjFu99oadjbtbK33iir1jdYVdkEEs3GYV6nswJzwx8W",
-        "/dns/boot.metaspan.io/tcp/26076/wss/p2p/12D3KooWPtjFu99oadjbtbK33iir1jdYVdkEEs3GYV6nswJzwx8W"
-      ],
-      "polkadotters": [
-        "/dns/encointer-kusama.bootnodes.polkadotters.com/tcp/30535/p2p/12D3KooWNRWrCQJ2HKHhJr7hkqdYQKsUCTUrugXKmv4fk6Ee19mg",
-        "/dns/encointer-kusama.bootnodes.polkadotters.com/tcp/30537/wss/p2p/12D3KooWNRWrCQJ2HKHhJr7hkqdYQKsUCTUrugXKmv4fk6Ee19mg"
-      ],
-      "radiumblock": [
-        "/dns/encointer-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWQJgWAciHe3z8U7Zi9kmKoKYfFqRdaaLUyDMyNrBynSsJ",
-        "/dns/encointer-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWQJgWAciHe3z8U7Zi9kmKoKYfFqRdaaLUyDMyNrBynSsJ"
-      ],
-      "rotko": [
-        "/dns/enc14.rotko.net/tcp/33504/p2p/12D3KooWJ3327ZoZcR96pToGsXa8Xbehh8z25daxYseYXF46UDCZ",
-        "/dns/enc14.rotko.net/tcp/35504/wss/p2p/12D3KooWJ3327ZoZcR96pToGsXa8Xbehh8z25daxYseYXF46UDCZ"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/36333/p2p/12D3KooWNFFdJFV21haDiSdPJ1EnGmv6pa2TgB81Cvu7Y96hjTAu",
-        "/dns/boot.stake.plus/tcp/36334/wss/p2p/12D3KooWNFFdJFV21haDiSdPJ1EnGmv6pa2TgB81Cvu7Y96hjTAu"
-      ],
-      "turboflakes": [
-        "/dns/encointer-kusama-bootnode.turboflakes.io/tcp/30625/p2p/12D3KooWCXoAM2ucUEhMhLkZVWJ6hMCHqV2K4sjVM27t5ZGv4XU6",
-        "/dns/encointer-kusama-bootnode.turboflakes.io/tcp/30725/wss/p2p/12D3KooWCXoAM2ucUEhMhLkZVWJ6hMCHqV2K4sjVM27t5ZGv4XU6"
-      ]
-    }
-  },
-  "people-kusama": {
-    "commandId": "parachain",
-    "members": {
-      "amforc": [
-        "/dns/people-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA",
-        "/dns/people-kusama.bootnode.amforc.com/tcp/30004/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA"
-      ],
-      "dwellir": [
-        "/dns/people-kusama-boot-ng.dwellir.com/tcp/30359/p2p/12D3KooWM6T8MMibxLZhhpq6F612CZ4FgnfDSJSkWDMiVUDe1aGb",
-        "/dns/people-kusama-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWM6T8MMibxLZhhpq6F612CZ4FgnfDSJSkWDMiVUDe1aGb"
-      ],
-      "gatotech": [
-        "/dns/boot.gatotech.network/tcp/33240/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX",
-        "/dns/boot.gatotech.network/tcp/35240/wss/p2p/12D3KooWLi9TzaKX4zniJpiM521PnYG4EocpdqjPpJUhXq9QGkRX"
-      ],
-      "helikon": [
-        "/dns/boot-node.helikon.io/tcp/7510/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv",
-        "/dns/boot-node.helikon.io/tcp/7512/wss/p2p/12D3KooWM1X4setrMWjwnV8iDkAtYhqFHNkGozdWdq6sawWh5Yhv"
-      ],
-      "luckyfriday": [
-        "/dns/ibp-boot-kusama-people.luckyfriday.io/tcp/30342/p2p/12D3KooWM4bRafMH2StfBEQtyj5cMWfGLYbuikCZmvKv9m1MQVPn",
-        "/dns/ibp-boot-kusama-people.luckyfriday.io/tcp/443/wss/p2p/12D3KooWM4bRafMH2StfBEQtyj5cMWfGLYbuikCZmvKv9m1MQVPn"
-      ],
-      "metaspan": [
-        "/dns/boot.metaspan.io/tcp/25068/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP",
-        "/dns/boot.metaspan.io/tcp/25069/wss/p2p/12D3KooWDoDLtLvQi8hhFVyubPZhaYuAwSAJrPFtyGWJ2NSfBiyP"
-      ],
-      "polkadotters": [
-        "/dns/people-kusama.bootnodes.polkadotters.com/tcp/30377/p2p/12D3KooWHy7TAuK6EoVij2tfaeh3KkaEJxhTmumbEom3HfRnSEsp",
-        "/dns/people-kusama.bootnodes.polkadotters.com/tcp/30379/wss/p2p/12D3KooWHy7TAuK6EoVij2tfaeh3KkaEJxhTmumbEom3HfRnSEsp"
-      ],
-      "radiumblock": [
-        "/dns/people-kusama-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj",
-        "/dns/people-kusama-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWGP1C9iWTHnZyeaSjYZ7LdK8douXWc1n1dBv25XEASHaj"
-      ],
-      "rotko": [
-        "/dns/kppl16.rotko.net/tcp/33756/p2p/12D3KooWSKQwgoydfbN6mNN2aNwdqfkR2ExAnTRs8mmdrPQTtDLo",
-        "/dns/kppl16.rotko.net/tcp/35756/wss/p2p/12D3KooWSKQwgoydfbN6mNN2aNwdqfkR2ExAnTRs8mmdrPQTtDLo"
-      ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/48333/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb",
-        "/dns/boot.stake.plus/tcp/48334/wss/p2p/12D3KooWSq8Ti77EnEG88UEJEhkVy9KQtApy8TrPs1cfgS5Gudcb"
-      ],
-      "turboflakes": [
-        "/dns/people-kusama-bootnode.turboflakes.io/tcp/30645/p2p/12D3KooWCR2Q8J2NFFfuofDak4zSgWkuBq7orP96HFaxLgAoDUBV",
-        "/dns/people-kusama-bootnode.turboflakes.io/tcp/30745/wss/p2p/12D3KooWCR2Q8J2NFFfuofDak4zSgWkuBq7orP96HFaxLgAoDUBV"
-      ]
-    }
-  },
-  "people-polkadot": {
+  "coretime-paseo": {
     "commandId": "parachain",
     "members": {
       "amforc": [],
-      "dwellir": [
-        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30346/p2p/12D3KooWLVCw68epXsdXhMH1sDhrwkxi5DGZ5J77dCoCBd2HFafq",
-        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30333/wss/p2p/12D3KooWLVCw68epXsdXhMH1sDhrwkxi5DGZ5J77dCoCBd2HFafq"
+      "dwellir": [],
+      "gatotech": [
+        "/dns/boot.gatotech.network/tcp/33440/p2p/12D3KooWAfCSUgexsXsJho7ZpMU1tu59GD6LNUcn4TqBFr88vW1z",
+        "/dns/boot.gatotech.network/tcp/35440/wss/p2p/12D3KooWAfCSUgexsXsJho7ZpMU1tu59GD6LNUcn4TqBFr88vW1z"
       ],
-      "gatotech": [],
       "helikon": [],
       "luckyfriday": [],
       "metaspan": [],

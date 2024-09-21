@@ -20,6 +20,20 @@
       "Ibp": {"RpcUrls": ["wss://bridgehub-paseo.ibp.network", "wss://sys.ibp.network/bridgehub-paseo"]}
     }
   },
+  "Coretime-Paseo": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Paseo Coretime"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://coretime-paseo.dotters.network", "wss://sys.dotters.network/coretime-paseo"]},
+      "Ibp": {"RpcUrls": ["wss://coretime-paseo.ibp.network", "wss://sys.ibp.network/coretime-paseo"]}
+    }
+  },
+  "People-Paseo": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Paseo People"},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://people-paseo.dotters.network", "wss://sys.dotters.network/people-paseo"]},
+      "Ibp": {"RpcUrls": ["wss://people-paseo.ibp.network", "wss://sys.ibp.network/people-paseo"]}
+    }
+  },
   "Westend": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 3, "NetworkName": "Westend"},
     "Providers": {
