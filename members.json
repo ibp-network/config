@@ -681,8 +681,8 @@
       "endpoints": [],
       "monitor_url": "https://ibp-monitor.stkd.io",
       "region": "south_america",
-      "latitude": "19.076090",
-      "longitude": "72.877426",
+      "latitude": "-33.3589",
+      "longitude": "-70.6753",
       "payments": {}
     },
     "mathcrypto": {
