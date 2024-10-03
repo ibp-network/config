@@ -680,7 +680,7 @@
       "services_address": "103.240.197.6",
       "endpoints": [],
       "monitor_url": "https://ibp-monitor.stkd.io",
-      "region": "",
+      "region": "south_america",
       "latitude": "19.076090",
       "longitude": "72.877426",
       "payments": {}
