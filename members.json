@@ -670,17 +670,19 @@
       "website": "https://stkd.io",
       "membership": "hobbyist",
       "active": "1",
-      "current_level": "1",
+      "current_level": "3",
       "level_timestamp": {
         "0": "1684191600",
-        "1": "1685574000"
+        "1": "1685574000",
+        "2": "1726057800",
+        "3": "1726057800"
       },
-      "services_address": "",
+      "services_address": "103.240.197.6",
       "endpoints": [],
       "monitor_url": "https://ibp-monitor.stkd.io",
       "region": "",
-      "latitude": "0",
-      "longitude": "0",
+      "latitude": "19.076090",
+      "longitude": "72.877426",
       "payments": {}
     },
     "mathcrypto": {
