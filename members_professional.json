@@ -140,9 +140,13 @@
   },
   "Stkd": {
     "Details": {"Name": "Stkd.io", "Website": "https://stkd.io/", "Logo": ""},
-    "Membership": {"MemberLevel": 2, "Joined": 1712289600, "LastRankup": 1724817600},
-    "Service": {"Active": 0, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": ""}, 
+    "Membership": {"MemberLevel": 3, "Joined": 1712289600, "LastRankup": 1724817600},
+    "Service": {"Active": 1, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
+      "Paseo": ["Paseo"], 
+      "Westend": ["Westend"],
+      "Kusama": ["Kusama"],
+      "Polkadot": ["Polkadot"]
     },
     "Location": {"Region": "South America", "Latitude": -33.3589, "Longitude": -70.6753}
   }
