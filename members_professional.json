@@ -140,7 +140,7 @@
   },
   "Stkd": {
     "Details": {"Name": "Stkd.io", "Website": "https://stkd.io/", "Logo": ""},
-    "Membership": {"MemberLevel": 3, "Joined": 1712289600, "LastRankup": 1724817600},
+    "Membership": {"MemberLevel": 3, "Joined": 1712289600, "LastRankup": 1731470400},
     "Service": {"Active": 1, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo"], 
