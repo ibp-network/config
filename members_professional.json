@@ -139,7 +139,7 @@
     "Location": {"Region": "Asia", "Latitude": 19.076090, "Longitude": 72.877426}
   },
   "Stkd": {
-    "Details": {"Name": "Stkd.io", "Website": "https://stkd.io/", "Logo": ""},
+    "Details": {"Name": "Stkd.io", "Website": "https://stkd.io/", "Logo": "https://raw.githubusercontent.com/ibp-network/config/blob/main/logos/stkd.png"},
     "Membership": {"MemberLevel": 3, "Joined": 1712289600, "LastRankup": 1731470400},
     "Service": {"Active": 1, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
