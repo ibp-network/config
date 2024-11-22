@@ -57,7 +57,7 @@
   },
   "Bridge-Hub-Westend": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Westend BridgeHub"},
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 192, "bandwidth": 400},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 400},
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://bridge-hub-westend.dotters.network", "wss://sys.dotters.network/bridgehub-westend"]},
       "Ibp": {"RpcUrls": ["wss://bridge-hub-westend.ibp.network", "wss://sys.ibp.network/bridgehub-westend"]}
@@ -105,7 +105,7 @@
   },
   "Bridge-Hub-Kusama": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Kusama BridgeHub"},
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 192, "bandwidth": 600},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://bridge-hub-kusama.dotters.network", "wss://sys.dotters.network/bridgehub-kusama"]},
       "Ibp": {"RpcUrls": ["wss://bridge-hub-kusama.ibp.network", "wss://sys.ibp.network/bridgehub-kusama"]}
