@@ -1,34 +1,312 @@
 {
-  "Ajuna": { 
-    "2024-10": "",
-    "2024-11": ""
+  "Paseo": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Asset-Hub-Paseo": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Bridge-Hub-Paseo": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Coretime-Paseo": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "People-Paseo": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Westend": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Asset-Hub-Westend": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Bridge-Hub-Westend": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Collectives-Westend": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Coretime-Westend": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "People-Westend": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Kusama": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Asset-Hub-Kusama": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Bridge-Hub-Kusama": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Coretime-Kusama": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Encointer-Kusama": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "People-Kusama": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Polkadot": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Asset-Hub-Polkadot": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Bridge-Hub-Polkadot": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Collectives-Polkadot": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Coretime-Polkadot": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "People-Polkadot": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
+  },
+  "Ajuna": {
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   },
   "Bifrost-Polkadot": { 
-    "2024-10": "",
-    "2024-11": ""
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   },
   "Hydration": { 
-    "2024-10": "",
-    "2024-11": ""
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   },
   "Nexus": { 
-    "2024-10": "",
-    "2024-11": ""
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   },
   "Kilt": { 
-    "2024-10": "",
-    "2024-11": ""
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   },
   "Moonbeam": { 
-    "2024-10": "",
-    "2024-11": ""
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   },
   "Polimec": { 
-    "2024-10": "",
-    "2024-11": ""
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   },
   "Unique": { 
-    "2024-10": "",
-    "2024-11": ""
+    "2024-10": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    },
+    "2024-11": {
+      "dns" {"requests": 12345, "uniqueIPs": 12, "uniqueCClass": 12, "uniqueCountries": 12},
+      "wss": {"requests": 1234, "uniqueIPs": 123, "uniqueCClass": 123, "uniqueCountries": 123}
+    }
   }
 }
