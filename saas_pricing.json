@@ -1,1 +1,50 @@
-
+{
+  "Africa": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.170
+  },
+  "Asia": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.120
+  },
+  "Central America": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.154
+  },
+  "Europe": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.105
+  },
+  "Middle East": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.130
+  },
+  "North America": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.105
+  },
+  "Oceania": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.152
+  },
+  "South AMerica": {
+    "core": 14.172,
+    "memory": 1.402,
+    "disk": 0.193,
+    "bandwidth": 0.170
+  }
+}
