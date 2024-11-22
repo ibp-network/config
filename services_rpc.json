@@ -153,7 +153,7 @@
   },
   "Bridge-Hub-Polkadot": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 5, "NetworkName": "Polkadot BridgeHub"},
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 192, "bandwidth": 600},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://bridge-hub-polkadot.dotters.network", "wss://sys.dotters.network/bridgehub-polkadot"]},
       "Ibp": {"RpcUrls": ["wss://bridge-hub-polkadot.ibp.network", "wss://sys.ibp.network/bridgehub-polkadot"]}
