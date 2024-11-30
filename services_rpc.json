@@ -183,6 +183,14 @@
       "Ibp": {"RpcUrls": ["wss://people-polkadot.ibp.network", "wss://sys.ibp.network/people-polkadot"]}
     }
   },
+  "Acala": {
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Acala"},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls": ["wss://acala.dotters.network"]},
+      "Ibp": {"RpcUrls": ["wss://acala.ibp.network"]}
+    }
+  },
   "Ajuna": {
     "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Ajuna Polkadot"},
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 676, "bandwidth": 500},
