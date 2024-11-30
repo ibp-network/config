@@ -216,7 +216,7 @@
     }
   },
   "Invarch": {
-    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "Invarch Network"},
+    "Configuration": {"ServiceType": "RPC", "Active": 1, "LevelRequired": 6, "NetworkName": "InvArch Network"},
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3200, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls": ["wss://invarch.dotters.network"]},
