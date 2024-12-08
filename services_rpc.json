@@ -1,6 +1,7 @@
 {
   "Paseo": {
     "Configuration": {
+      "Name": "Paseo",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 3,
@@ -15,6 +16,7 @@
   },
   "Asset-Hub-Paseo": {
     "Configuration": {
+      "Name": "Asset-Hub-Paseo",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -29,6 +31,7 @@
   },
   "Bridge-Hub-Paseo": {
     "Configuration": {
+      "Name": "Bridge-Hub-Paseo",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -43,6 +46,7 @@
   },
   "Coretime-Paseo": {
     "Configuration": {
+      "Name": "Coretime-Paseo",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -57,6 +61,7 @@
   },
   "People-Paseo": {
     "Configuration": {
+      "Name": "People-Paseo",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -71,6 +76,7 @@
   },
   "Westend": {
     "Configuration": {
+      "Name": "Westend",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 3,
@@ -85,6 +91,7 @@
   },
   "Asset-Hub-Westend": {
     "Configuration": {
+      "Name": "Asset-Hub-Westend",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -99,6 +106,7 @@
   },
   "Bridge-Hub-Westend": {
     "Configuration": {
+      "Name": "Bridge-Hub-Westend",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -113,6 +121,7 @@
   },
   "Collectives-Westend": {
     "Configuration": {
+      "Name": "Collectives-Westend",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -127,6 +136,7 @@
   },
   "Coretime-Westend": {
     "Configuration": {
+      "Name": "Coretime-Westend",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -141,6 +151,7 @@
   },
   "People-Westend": {
     "Configuration": {
+      "Name": "People-Westend",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -155,6 +166,7 @@
   },
   "Kusama": {
     "Configuration": {
+      "Name": "Kusama",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 3,
@@ -169,6 +181,7 @@
   },
   "Asset-Hub-Kusama": {
     "Configuration": {
+      "Name": "Asset-Hub-Kusama",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -183,6 +196,7 @@
   },
   "Bridge-Hub-Kusama": {
     "Configuration": {
+      "Name": "Bridge-Hub-Kusama",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -197,6 +211,7 @@
   },
   "Coretime-Kusama": {
     "Configuration": {
+      "Name": "Coretime-Kusama",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -211,6 +226,7 @@
   },
   "Encointer-Kusama": {
     "Configuration": {
+      "Name": "Encointer-Kusama",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -225,6 +241,7 @@
   },
   "People-Kusama": {
     "Configuration": {
+      "Name": "People-Kusama",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -239,6 +256,7 @@
   },
   "Polkadot": {
     "Configuration": {
+      "Name": "Polkadot",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 3,
@@ -253,6 +271,7 @@
   },
   "Asset-Hub-Polkadot": {
     "Configuration": {
+      "Name": "Asset-Hub-Polkadot",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -267,6 +286,7 @@
   },
   "Bridge-Hub-Polkadot": {
     "Configuration": {
+      "Name": "Bridge-Hub-Polkadot",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -281,6 +301,7 @@
   },
   "Collectives-Polkadot": {
     "Configuration": {
+      "Name": "Collectives-Polkadot",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -295,6 +316,7 @@
   },
   "Coretime-Polkadot": {
     "Configuration": {
+      "Name": "Coretime-Polkadot",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -309,6 +331,7 @@
   },
   "People-Polkadot": {
     "Configuration": {
+      "Name": "People-Polkadot",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 5,
@@ -323,6 +346,7 @@
   },
   "Acala": {
     "Configuration": {
+      "Name": "Acala",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -337,6 +361,7 @@
   },
   "Ajuna": {
     "Configuration": {
+      "Name": "Ajuna",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -351,6 +376,7 @@
   },
   "Bifrost-Polkadot": {
     "Configuration": {
+      "Name": "Bifrost-Polkadot",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -365,6 +391,7 @@
   },
   "Hydration": {
     "Configuration": {
+      "Name": "Hydration",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -379,6 +406,7 @@
   },
   "InvArch": {
     "Configuration": {
+      "Name": "InvArch",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -393,6 +421,7 @@
   },
   "Nexus": {
     "Configuration": {
+      "Name": "Nexus",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -407,6 +436,7 @@
   },
   "Kilt": {
     "Configuration": {
+      "Name": "Kilt",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -421,6 +451,7 @@
   },
   "Moonbeam": {
     "Configuration": {
+      "Name": "Moonbeam",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -435,6 +466,7 @@
   },
   "Polimec": {
     "Configuration": {
+      "Name": "Polimec",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
@@ -449,6 +481,7 @@
   },
   "Unique": {
     "Configuration": {
+      "Name": "Unique",
       "ServiceType": "RPC",
       "Active": 1,
       "LevelRequired": 6,
