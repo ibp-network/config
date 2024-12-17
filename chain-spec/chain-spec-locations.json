@@ -1,0 +1,62 @@
+{
+  "polkadot-sdk": {
+    "paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo.raw.json",
+    "people-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-people.raw.json",
+    "asset-hub-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-asset-hub.json",
+    "bridge-hub-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-bridge-hub.raw.json",
+    "coretime-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-coretime.raw.json",
+    "polkadot": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/polkadot/node/service/chain-specs/polkadot.json",
+    "kusama": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/polkadot/node/service/chain-specs/kusama.json",
+    "westend": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/polkadot/node/service/chain-specs/westend.json",
+    "asset-hub-polkadot": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/asset-hub-polkadot.json",
+    "asset-hub-kusama": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/asset-hub-kusama.json",
+    "asset-hub-westend": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/asset-hub-westend.json",
+    "bridge-hub-polkadot": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/bridge-hub-polkadot.json",
+    "bridge-hub-kusama": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/bridge-hub-kusama.json",
+    "bridge-hub-westend": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/bridge-hub-westend.json",
+    "collectives-polkadot": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/collectives-polkadot.json",
+    "collectives-westend": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/cumulus/parachains/chain-specs/collectives-westend.json"
+  },
+  "kagome": {
+    "polkadot": "https://raw.githubusercontent.com/qdrvm/kagome/master/examples/polkadot/polkadot.json",
+    "kusama": "https://raw.githubusercontent.com/qdrvm/kagome/master/examples/kusama/kusama.json",
+    "westend": "https://raw.githubusercontent.com/qdrvm/kagome/master/examples/westend/westend.json",
+    "paseo": "https://raw.githubusercontent.com/qdrvm/kagome/master/examples/paseo/paseo.json"
+  },
+  "polkadot-api": {
+    "ksmcc3": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/ksmcc3.json",
+    "ksmcc3-asset-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/ksmcc3_asset_hub.json",
+    "ksmcc3-bridge-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/ksmcc3_bridge_hub.json",
+    "ksmcc3-encointer": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/ksmcc3_encointer.json",
+    "ksmcc3-people": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/ksmcc3_people.json",
+    "paseo": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/paseo.json",
+    "paseo-asset-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/paseo_asset_hub.json",
+    "polkadot": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/polkadot.json",
+    "polkadot-asset-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/polkadot_asset_hub.json",
+    "polkadot-bridge-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/polkadot_bridge_hub.json",
+    "polkadot-collectives": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/polkadot_collectives.json",
+    "polkadot-people": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/polkadot_people.json",
+    "rococo-v2-2": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/rococo_v2_2.json",
+    "rococo-v2-2-asset-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/rococo_v2_2_asset_hub.json",
+    "rococo-v2-2-bridge-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/rococo_v2_2_bridge_hub.json",
+    "rococo-v2-2-people": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/rococo_v2_2_people.json",
+    "westend2": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/westend2.json",
+    "westend2-asset-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/westend2_asset_hub.json",
+    "westend2-bridge-hub": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/westend2_bridge_hub.json",
+    "westend2-collectives": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/westend2_collectives.json",
+    "westend2-people": "https://raw.githubusercontent.com/polkadot-api/polkadot-api/refs/heads/main/packages/known-chains/specs/westend2_people.json"
+  },
+  "gossamer": {
+    "kusama": "https://raw.githubusercontent.com/ChainSafe/gossamer/development/chain/kusama/chain-spec-raw.json",
+    "paseo": "https://raw.githubusercontent.com/ChainSafe/gossamer/development/chain/paseo/chain-spec-raw.json",
+    "polkadot": "https://raw.githubusercontent.com/ChainSafe/gossamer/development/chain/polkadot/chain-spec-raw.json",
+    "westend": "https://raw.githubusercontent.com/ChainSafe/gossamer/development/chain/westend/chain-spec-raw.json"
+  },
+  "paseo": {
+    "paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo.raw.json",
+    "asset-hub-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-asset-hub.raw.json",
+    "bridge-hub-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-bridge-hub.raw.json",
+    "coretime-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-coretime.raw.json",
+    "people-paseo": "https://github.com/paseo-network/paseo-chain-specs/raw/refs/heads/main/paseo-people.raw.json"
+  }
+}
