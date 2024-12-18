@@ -173,7 +173,7 @@
       "NetworkName": "Kusama",
       "StateRootHash": "0xb0006203c3a6e6bd2c6a17b1d4ae8ca49a31da0f4579da950b127774b44aef6b"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3136, "bandwidth": 14000},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3576, "bandwidth": 14000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://kusama.dotters.network","wss://rpc.dotters.network/kusama"]},
       "Ibp": {"RpcUrls":["wss://kusama.ibp.network","wss://rpc.ibp.network/kusama"]}
@@ -278,7 +278,7 @@
       "NetworkName": "Polkadot Asset Hub",
       "StateRootHash": "0xc1ef26b567de07159e4ecd415fbbb0340c56a09c4d72c82516d0f3bc2b782c80"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 600},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-polkadot.dotters.network","wss://sys.dotters.network/asset-hub-polkadot","wss://sys.dotters.network/statemint"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-polkadot.ibp.network","wss://sys.ibp.network/asset-hub-polkadot","wss://sys.ibp.network/statemint"]}
