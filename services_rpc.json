@@ -473,7 +473,7 @@
       "NetworkName": "Mythos",
       "StateRootHash": ""
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2112, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 200},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://mythos.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://mythos.ibp.network"]}
