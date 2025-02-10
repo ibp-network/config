@@ -464,6 +464,21 @@
       "Ibp": {"RpcUrls":["wss://moonbeam.ibp.network"]}
     }
   },
+  "Mythos": {
+    "Configuration": {
+      "Name": "Mythos",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 6,
+      "NetworkName": "Mythos",
+      "StateRootHash": ""
+    },
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2112, "bandwidth": 700},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://mythos.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://mythos.ibp.network"]}
+    }
+  },
   "Polimec": {
     "Configuration": {
       "Name": "Polimec",
