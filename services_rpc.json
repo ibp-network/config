@@ -8,7 +8,7 @@
       "NetworkName": "Paseo Testnet",
       "StateRootHash": "0x2b2a8395a8ec27c54d322d3a6602152da0e3bd0c8f4c01f17a572a44a8e36ab6"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 1400},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 1400},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://paseo.dotters.network","wss://rpc.dotters.network/paseo"]},
       "Ibp": {"RpcUrls":["wss://paseo.ibp.network","wss://rpc.ibp.network/paseo"]}
