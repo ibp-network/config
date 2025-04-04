@@ -383,7 +383,7 @@
       "NetworkName": "Bifrost Polkadot",
       "StateRootHash": "0x2a9c5fae68d226bfef7830398114196416ca1799ebb0099fdfa8b7b7ef19adf4"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 500},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bifrost-polkadot.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://bifrost-polkadot.ibp.network"]}
