@@ -5,7 +5,7 @@
     { "qname": "dotters.network", "qtype": "NS", "content": "dns-03.dotters.network.", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "dns-01.dotters.network", "qtype": "A", "content": "34.71.41.195", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "dns-02.dotters.network", "qtype": "A", "content": "34.91.36.164", "ttl": 3600, "auth": true, "domain_id": 0 },
-    { "qname": "dns-03.dotters.network", "qtype": "A", "content": "34.87.119.229", "ttl": 3600, "auth": true, "domain_id": 0 },
+    { "qname": "dns-03.dotters.network", "qtype": "A", "content": "34.79.102.37", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "www.dotters.network", "qtype": "CNAME", "content": "dotters.network.", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "wiki.dotters.network", "qtype": "A", "content": "34.55.71.62", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "monitor.dotters.network", "qtype": "A", "content": "192.96.202.175", "ttl": 3600, "auth": true, "domain_id": 0 },
