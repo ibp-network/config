@@ -508,5 +508,20 @@
       "Dotters": {"RpcUrls":["wss://unique.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://unique.ibp.network"]}
     }
+  },
+  "Xcavate": {
+    "Configuration": {
+      "Name": "Xcavate",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 6,
+      "NetworkName": "Xcavate",
+      "StateRootHash": ""
+    },
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://xcavate.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://xcavate.ibp.network"]}
+    }
   }
 }
