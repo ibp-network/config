@@ -404,21 +404,6 @@
       "Ibp": {"RpcUrls":["wss://hydration.ibp.network","wss://hydradx.ibp.network","wss://hydradx.paras.ibp.network"]}
     }
   },
-  "InvArch": {
-    "Configuration": {
-      "Name": "InvArch",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 6,
-      "NetworkName": "InvArch Network",
-      "StateRootHash": "0x64d77bb0ea342ea5b053fba4fd29248b1c3a5b20a8a9ef0cfc14cf45b0c5a4fb"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 400},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://invarch.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://invarch.ibp.network"]}
-    }
-  },
   "Nexus": {
     "Configuration": {
       "Name": "Nexus",
