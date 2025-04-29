@@ -173,7 +173,7 @@
       "NetworkName": "Kusama",
       "StateRootHash": "0xb0006203c3a6e6bd2c6a17b1d4ae8ca49a31da0f4579da950b127774b44aef6b"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3648, "bandwidth": 14000},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3648, "bandwidth": 1400},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://kusama.dotters.network","wss://rpc.dotters.network/kusama"]},
       "Ibp": {"RpcUrls":["wss://kusama.ibp.network","wss://rpc.ibp.network/kusama"]}
