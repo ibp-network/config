@@ -79,7 +79,7 @@
   "Turboflakes": {
     "Details": {"Name": "Turboflakes", "Website": "https://turboflakes.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/turboflakes.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1680148800},
-    "Service": {"Active": 1, "ServiceIPv4": "188.93.234.134", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.turboflakes.io"}, 
+    "Service": {"Active": 0, "ServiceIPv4": "188.93.234.134", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.turboflakes.io"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
