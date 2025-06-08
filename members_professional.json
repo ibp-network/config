@@ -73,7 +73,7 @@
   "Rotko Networks": {
     "Details": {"Name": "Rotko Networks", "Website": "https://rotko.net", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1707184705},
-    "Service": {"Active": 1, "ServiceIPv4": "160.22.181.181", "ServiceIPv6": "", "MonitorUrl": "https://ibp.rotko.net"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "160.22.181.181", "ServiceIPv6": "2401:a860:1181::", "MonitorUrl": "https://ibp.rotko.net"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
