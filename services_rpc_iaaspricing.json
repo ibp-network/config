@@ -2,49 +2,49 @@
   "Africa": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.062
   },
   "Asia": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.062
   },
   "Central America": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.063
   },
   "Europe": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.042
   },
   "Middle East": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.051
   },
   "North America": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.042
   },
   "Oceania": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.065
   },
   "South America": {
     "cores": 12.00,
     "memory": 1.25,
-    "disk": 0.193,
+    "disk": 0.10,
     "bandwidth": 0.065
   }
 }
