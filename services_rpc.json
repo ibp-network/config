@@ -98,7 +98,7 @@
       "NetworkName": "Westend Asset Hub",
       "StateRootHash": "0x1d0ce8ef6a9eef1685c4715925cf91ed1af635a752eac4f9945b1a1a4e2b6e51"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 0, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-westend.dotters.network","wss://sys.dotters.network/asset-hub-westend","wss://sys.dotters.network/westmint"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-westend.ibp.network","wss://sys.ibp.network/asset-hub-westend","wss://sys.ibp.network/westmint"]}
@@ -113,7 +113,7 @@
       "NetworkName": "Westend BridgeHub",
       "StateRootHash": "0x8d1c5237a15a5e8c04497bf67eaa40c5b660ee75d82b0f1622c68158b7dc719e"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 0, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bridge-hub-westend.dotters.network","wss://sys.dotters.network/bridgehub-westend"]},
       "Ibp": {"RpcUrls":["wss://bridge-hub-westend.ibp.network","wss://sys.ibp.network/bridgehub-westend"]}
@@ -128,7 +128,7 @@
       "NetworkName": "Westend Collectives",
       "StateRootHash": "0x16c6c9fee1e2f89e117f917cb0e25a6cb4ed7fd395e7b6c24cb061b137692599"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 0, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://collectives-westend.dotters.network","wss://sys.dotters.network/collectives-westend"]},
       "Ibp": {"RpcUrls":["wss://collectives-westend.ibp.network","wss://sys.ibp.network/collectives-westend"]}
@@ -143,7 +143,7 @@
       "NetworkName": "Westend Coretime",
       "StateRootHash": "0xea39c45a420a60d841703061eb176af810f3c9004abd1a2224cde9e1e61c9e20"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 0, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://coretime-westend.dotters.network","wss://sys.dotters.network/coretime-westend"]},
       "Ibp": {"RpcUrls":["wss://coretime-westend.ibp.network","wss://sys.ibp.network/coretime-westend"]}
@@ -158,7 +158,7 @@
       "NetworkName": "Westend People",
       "StateRootHash": "0xec27848f8a0ece913132d150b34739e3412dbd10fd869ac8cbeda765c399d973"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 0, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://people-westend.dotters.network","wss://sys.dotters.network/people-westend"]},
       "Ibp": {"RpcUrls":["wss://people-westend.ibp.network","wss://sys.ibp.network/people-westend"]}
