@@ -103,7 +103,7 @@
   "Dwellir": {
     "Details": {"Name": "Dwellir", "Website": "https://dwellir.com", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dwellir.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1681916382, "LastRankup": 1724385600},
-    "Service": {"Active": 1, "ServiceIPv4": "102.69.242.203", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "102.69.240.202", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Westend": ["Westend", "Asset-Hub-Westend", "Bridge-Hub-Westend", "Collectives-Westend", "Coretime-Westend", "People-Westend"],
