@@ -311,7 +311,7 @@
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 800},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://hydration.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://hydration.ibp.network","wss://hydradx.ibp.network","wss://hydradx.paras.ibp.network"]}
+      "Ibp": {"RpcUrls":["wss://hydration.ibp.network"]}
     }
   },
   "Nexus": {
