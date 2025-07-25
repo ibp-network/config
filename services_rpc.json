@@ -29,6 +29,21 @@
       "Ibp": {"RpcUrls":["wss://asset-hub-paseo.ibp.network","wss://sys.ibp.network/asset-hub-paseo"]}
     }
   },
+  "PAsset-Hub-Paseo": {
+    "Configuration": {
+      "Name": "PAsset-Hub-Paseo",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "passet-hub",
+      "StateRootHash": ""
+    },
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://passet-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://passet-hub-paseo.ibp.network","wss://sys.ibp.network/asset-hub-paseo"]}
+    }
+  },
   "Bridge-Hub-Paseo": {
     "Configuration": {
       "Name": "Bridge-Hub-Paseo",
