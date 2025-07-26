@@ -55,8 +55,8 @@
     },
     "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 100},
     "Providers": {
-      "Dotters": {"RpcUrls":["wss://eth-passet-hub-paseo.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://eth-passet-hub-paseo.ibp.network"]}
+      "Dotters": {"RpcUrls":["https://eth-passet-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["https://eth-passet-hub-paseo.ibp.network"]}
     }
   },
   "Bridge-Hub-Paseo": {
