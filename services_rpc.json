@@ -50,7 +50,7 @@
       "ServiceType": "ETHRPC",
       "Active": 1,
       "LevelRequired": 5,
-      "NetworkName": "passet-hub",
+      "NetworkName": "0x190f1b46",
       "StateRootHash": ""
     },
     "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 100},
