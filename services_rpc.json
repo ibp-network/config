@@ -47,7 +47,7 @@
   "ETH-PAsset-Hub-Paseo": {
     "Configuration": {
       "Name": "ETH-PAsset-Hub-Paseo",
-      "ServiceType": "RPC",
+      "ServiceType": "ETHRPC",
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "passet-hub",
