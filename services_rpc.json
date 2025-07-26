@@ -41,7 +41,7 @@
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://passet-hub-paseo.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://passet-hub-paseo.ibp.network","wss://sys.ibp.network/passet-hub-paseo"]}
+      "Ibp": {"RpcUrls":["wss://passet-hub-paseo.ibp.network"]}
     }
   },
   "ETH-PAsset-Hub-Paseo": {
