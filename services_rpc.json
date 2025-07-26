@@ -44,6 +44,21 @@
       "Ibp": {"RpcUrls":["wss://passet-hub-paseo.ibp.network","wss://sys.ibp.network/passet-hub-paseo"]}
     }
   },
+  "ETH-PAsset-Hub-Paseo": {
+    "Configuration": {
+      "Name": "ETH-PAsset-Hub-Paseo",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "passet-hub",
+      "StateRootHash": ""
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 100},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://eth-passet-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://eth-passet-hub-paseo.ibp.network"]}
+    }
+  },
   "Bridge-Hub-Paseo": {
     "Configuration": {
       "Name": "Bridge-Hub-Paseo",
