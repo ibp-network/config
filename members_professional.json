@@ -35,7 +35,7 @@
     },
     "Location": {"Region": "Middle East", "Latitude": 41.0551, "Longitude": 28.9347}
   },
-  "Luckyfriday": {
+  "Lucky Friday": {
     "Details": {"Name": "Lucky Friday", "Website": "https://luckyfriday.io", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/luckyfriday.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1706745600},
     "Service": {"Active": 1, "ServiceIPv4": "64.62.224.18", "ServiceIPv6": "", "MonitorUrl": ""}, 
@@ -104,7 +104,7 @@
     },
     "Location": {"Region": "Africa", "Latitude": 6.4541, "Longitude": 3.3947}
   },
-  "Radiumblock": {
+  "RadiumBlock": {
     "Details": {"Name": "RadiumBlock", "Website": "https://radiumblock.com/", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/radiumblock.svg"},
     "Membership": {"MemberLevel": 6, "Joined": 1684123200, "LastRankup": 1726057800},
     "Service": {"Active": 1, "ServiceIPv4": "103.240.197.6", "ServiceIPv6": "", "MonitorUrl": ""}, 
