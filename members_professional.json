@@ -70,7 +70,7 @@
     },
     "Location": {"Region": "Europe", "Latitude": 51.4964, "Longitude": -0.1224}
   },
-  "Rotko": {
+  "Rotko Networks": {
     "Details": {"Name": "Rotko Networks", "Website": "https://rotko.net", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1707184705},
     "Service": {"Active": 1, "ServiceIPv4": "160.22.181.181", "ServiceIPv6": "", "MonitorUrl": "https://ibp.rotko.net"}, 
