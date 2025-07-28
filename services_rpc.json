@@ -6,6 +6,10 @@
       "Active": 1,
       "LevelRequired": 3,
       "NetworkName": "Paseo Testnet",
+      "DisplayName": "Paseo Network",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://avatars.githubusercontent.com/u/153128947?s=200&v=4",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x2b2a8395a8ec27c54d322d3a6602152da0e3bd0c8f4c01f17a572a44a8e36ab6"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 1400},
@@ -21,6 +25,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo Asset Hub",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xe24abb446f9aa757610fedc53cc631536f3b456a927a1ab1b9018ea2df3c925d"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
@@ -36,7 +44,11 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "passet-hub",
-      "StateRootHash": ""
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
+      "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
@@ -51,7 +63,11 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "0x190f1b46",
-      "StateRootHash": ""
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
+      "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
     },
     "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 100},
     "Providers": {
@@ -66,6 +82,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo Bridge Hub",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x779cb1a37592231ecbce66fc97136f6d5894fb3debb73975a0c6a74eec4758b4"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
@@ -81,6 +101,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo Coretime",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xde1d5a6f99dc479feeed1ef47f3c8a326c5316fe2422771f58c41b219276e56a"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
@@ -96,6 +120,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo People",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x2f6b718c1d9f0a87856807ce2540d4b90e55c5465b55cfdcdf721918a80a5779"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
@@ -111,6 +139,10 @@
       "Active": 1,
       "LevelRequired": 3,
       "NetworkName": "Kusama",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xb0006203c3a6e6bd2c6a17b1d4ae8ca49a31da0f4579da950b127774b44aef6b"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3648, "bandwidth": 14000},
@@ -126,6 +158,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama Asset Hub",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x299ac939ea4722d1fcf7f4873675040ebc83d144620c76206dbeb7468cf30cdf"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 900},
@@ -141,6 +177,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama BridgeHub",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x583af14f9c4b1a687c219bfccc9c6b8e5a6dd24e50e742c2a733f110c5aad03d"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
@@ -156,6 +196,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama Coretime",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xc41865a2a094ef4563f74d248996fe70ed60ec52f78b36e38f55108b7c96889c"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 600},
@@ -171,6 +215,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Encointer on Kusama",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x2a157a245df395890c587e38d8925875aae402a9cac82eb205384806641de46d"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 500},
@@ -186,6 +234,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama People",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xd83cfbf48e85ab66eb53b647aff8cd75954af93b127467b31d07a21dd06cea38"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 700},
@@ -201,6 +253,10 @@
       "Active": 1,
       "LevelRequired": 3,
       "NetworkName": "Polkadot",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x29d0d972cd27cbc511e9589fcb7a4506d5eb6a9e8df205f00472e5ab354a4e17"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3136, "bandwidth": 9000},
@@ -216,6 +272,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot Asset Hub",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xc1ef26b567de07159e4ecd415fbbb0340c56a09c4d72c82516d0f3bc2b782c80"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 600},
@@ -231,6 +291,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot BridgeHub",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x4d33046e761a60b4eb76e14be1fbd9936f40a003bf7eceee4e0874bbcffd1371"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
@@ -246,6 +310,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Collectives",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x034cb60129ef41b444b28dbd93dcf2a2314b6e84d950358de47e6b7831673ba7"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
@@ -261,6 +329,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot Coretime",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x6e2af5f681a0f432c7aaf564dbebe4ddade85822605d510ccb78f1d90710947a"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
@@ -276,6 +348,10 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot People",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x7a62a14ebf9b2e86292593414d58818324acc5701ea369734c0074f7c962bc0f"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 400},
@@ -291,6 +367,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Acala",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x010c5745a5d42bcfbe0a644d5a2a4e22e2ff0fd378d48208ecfacea5b7e05a74"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 700},
@@ -306,6 +386,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Ajuna Polkadot",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x6e666a1df855628a99876f9f876b94d6d20a397fb1b5d92a3747df75e29c61b1"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 500},
@@ -321,6 +405,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Bifrost Polkadot",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x2a9c5fae68d226bfef7830398114196416ca1799ebb0099fdfa8b7b7ef19adf4"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 500},
@@ -336,6 +424,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Hydration",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x33a542156b00e7dd467e2b7704563abd84f888ccbc6afd6f1a1802a55db1d4de"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 800},
@@ -351,6 +443,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Hyperbridge (Nexus)",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xc3656e29e1d8bd322b208e912e4766330c04fec39a5052fcd8e1dd43c639b347"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
@@ -366,6 +462,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "KILT Spiritnet",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x2750d70dc69acb0d15473b719d393e1c30267fc588d96eefbb2b7efa58545bb2"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1200},
@@ -381,6 +481,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Moonbeam",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x74e54bafcf1ecdce51867078fa16f2902751d11473628ac19e89a5be20df3262"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2112, "bandwidth": 700},
@@ -396,7 +500,11 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Mythos",
-      "StateRootHash": ""
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
+      "StateRootHash": "0xebc8c0bc54d21776b5927eb7581d456172daf57aeada4b3dd007fc106ab99b53"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 200},
     "Providers": {
@@ -411,6 +519,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Polimec Polkadot",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0xe83763d6d5c12ae001ada2b31558534cfa4863aa66eaa202dbdb46f325e93a0b"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
@@ -426,6 +538,10 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "UNIQUE",
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
       "StateRootHash": "0x9fd6243a1015e0550a2a8330315bcced1b0c7625b5fea5a11716e20c8c2e4262"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1300},
@@ -441,7 +557,11 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Xcavate",
-      "StateRootHash": ""
+      "DisplayName": "",
+      "WebsiteURL": "",
+      "LogoURL": "",
+      "Description": "",
+      "StateRootHash": "0x18370d7fbfca1509c2c1494b6d2af8d28002b8ec155b45b0b8f61d4a8a7116c1"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 0},
     "Providers": {
