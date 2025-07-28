@@ -503,7 +503,7 @@
       "DisplayName": "Mythos",
       "WebsiteURL": "https://mythos.foundation",
       "LogoURL": "https://parachains.info/images/parachains/1712674184_mythos.png",
-      "Description": "Mythos is a project focused on revolutionizing the gaming industry by creating a decentralized ecosystem called the Mythos Foundation, which aims to reduce barriers for developers and players in web3 gaming. It utilizes a multi-chain approach, unified marketplaces, and decentralized governance mechanisms to build a thriving "play-and-own" economy.",
+      "Description": "Mythos is a project focused on revolutionizing the gaming industry by creating a decentralized ecosystem called the Mythos Foundation, which aims to reduce barriers for developers and players in web3 gaming. It utilizes a multi-chain approach, unified marketplaces, and decentralized governance mechanisms to build a thriving play-and-own economy.",
       "StateRootHash": "0xebc8c0bc54d21776b5927eb7581d456172daf57aeada4b3dd007fc106ab99b53"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 200},
