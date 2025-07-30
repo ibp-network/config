@@ -170,9 +170,9 @@
       "Ibp": {"RpcUrls":["wss://asset-hub-kusama.ibp.network","wss://sys.ibp.network/asset-hub-kusama","wss://sys.ibp.network/statemine"]}
     }
   },
-  "Eth-Asset-Hub-Kusama": {
+  "ETH-Asset-Hub-Kusama": {
     "Configuration": {
-      "Name": "Eth-Asset-Hub-Kusama",
+      "Name": "ETH-Asset-Hub-Kusama",
       "ServiceType": "ETHRPC",
       "Active": 1,
       "LevelRequired": 5,
