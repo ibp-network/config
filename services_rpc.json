@@ -170,6 +170,25 @@
       "Ibp": {"RpcUrls":["wss://asset-hub-kusama.ibp.network","wss://sys.ibp.network/asset-hub-kusama","wss://sys.ibp.network/statemine"]}
     }
   },
+  "Eth-Asset-Hub-Kusama": {
+    "Configuration": {
+      "Name": "Eth-Asset-Hub-Kusama",
+      "ServiceType": "ETHRPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "Kusama Asset Hub",
+      "DisplayName": "Kusama Network - Asset Hub (ETHRPC Revival)",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://kusama.network/images/kusama-logo-canary-white.png",
+      "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
+      "StateRootHash": "0x299ac939ea4722d1fcf7f4873675040ebc83d144620c76206dbeb7468cf30cdf"
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 100},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://eth-asset-hub-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://eth-asset-hub-kusama.ibp.network"]}
+    }
+  },
   "Bridge-Hub-Kusama": {
     "Configuration": {
       "Name": "Bridge-Hub-Kusama",
