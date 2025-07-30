@@ -176,7 +176,7 @@
       "ServiceType": "ETHRPC",
       "Active": 1,
       "LevelRequired": 5,
-      "NetworkName": "Kusama Asset Hub",
+      "NetworkName": "0x190f1b42",
       "DisplayName": "Kusama Network - Asset Hub (ETHRPC Revival)",
       "WebsiteURL": "https://kusama.network",
       "LogoURL": "https://kusama.network/images/kusama-logo-canary-white.png",
