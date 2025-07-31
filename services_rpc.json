@@ -12,7 +12,7 @@
       "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x2b2a8395a8ec27c54d322d3a6602152da0e3bd0c8f4c01f17a572a44a8e36ab6"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 1400},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 2100},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://paseo.dotters.network","wss://rpc.dotters.network/paseo"]},
       "Ibp": {"RpcUrls":["wss://paseo.ibp.network","wss://rpc.ibp.network/paseo"]}
@@ -50,7 +50,7 @@
       "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://passet-hub-paseo.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://passet-hub-paseo.ibp.network"]}
@@ -69,7 +69,7 @@
       "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
     },
-    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 100},
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["https://eth-passet-hub-paseo.dotters.network"]},
       "Ibp": {"RpcUrls":["https://eth-passet-hub-paseo.ibp.network"]}
@@ -145,7 +145,7 @@
       "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0xb0006203c3a6e6bd2c6a17b1d4ae8ca49a31da0f4579da950b127774b44aef6b"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3648, "bandwidth": 14000},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 4160, "bandwidth": 15000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://kusama.dotters.network","wss://rpc.dotters.network/kusama"]},
       "Ibp": {"RpcUrls":["wss://kusama.ibp.network","wss://rpc.ibp.network/kusama"]}
@@ -164,7 +164,7 @@
       "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0x299ac939ea4722d1fcf7f4873675040ebc83d144620c76206dbeb7468cf30cdf"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 900},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-kusama.dotters.network","wss://sys.dotters.network/asset-hub-kusama","wss://sys.dotters.network/statemine"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-kusama.ibp.network","wss://sys.ibp.network/asset-hub-kusama","wss://sys.ibp.network/statemine"]}
@@ -183,7 +183,7 @@
       "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0x299ac939ea4722d1fcf7f4873675040ebc83d144620c76206dbeb7468cf30cdf"
     },
-    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 100},
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://eth-asset-hub-kusama.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://eth-asset-hub-kusama.ibp.network"]}
@@ -240,7 +240,7 @@
       "Description": "Encointer is a blockchain-based platform designed to facilitate the creation and use of local community cryptocurrencies. It aims to empower communities by enabling them to generate their own currencies, distribute them as a form of universal basic income (UBI), and foster economic activity within their locale.",
       "StateRootHash": "0x2a157a245df395890c587e38d8925875aae402a9cac82eb205384806641de46d"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://encointer-kusama.dotters.network","wss://sys.dotters.network/encointer-kusama"]},
       "Ibp": {"RpcUrls":["wss://encointer-kusama.ibp.network","wss://sys.ibp.network/encointer-kusama"]}
@@ -259,7 +259,7 @@
       "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0xd83cfbf48e85ab66eb53b647aff8cd75954af93b127467b31d07a21dd06cea38"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://people-kusama.dotters.network","wss://sys.dotters.network/people-kusama"]},
       "Ibp": {"RpcUrls":["wss://people-kusama.ibp.network","wss://sys.ibp.network/people-kusama"]}
@@ -278,7 +278,7 @@
       "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x29d0d972cd27cbc511e9589fcb7a4506d5eb6a9e8df205f00472e5ab354a4e17"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3136, "bandwidth": 9000},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3648, "bandwidth": 10000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://polkadot.dotters.network","wss://rpc.dotters.network/polkadot"]},
       "Ibp": {"RpcUrls":["wss://polkadot.ibp.network","wss://rpc.ibp.network/polkadot"]}
@@ -297,7 +297,7 @@
       "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0xc1ef26b567de07159e4ecd415fbbb0340c56a09c4d72c82516d0f3bc2b782c80"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 600},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 1000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-polkadot.dotters.network","wss://sys.dotters.network/asset-hub-polkadot","wss://sys.dotters.network/statemint"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-polkadot.ibp.network","wss://sys.ibp.network/asset-hub-polkadot","wss://sys.ibp.network/statemint"]}
@@ -316,7 +316,7 @@
       "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x4d33046e761a60b4eb76e14be1fbd9936f40a003bf7eceee4e0874bbcffd1371"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 1000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bridge-hub-polkadot.dotters.network","wss://sys.dotters.network/bridgehub-polkadot"]},
       "Ibp": {"RpcUrls":["wss://bridge-hub-polkadot.ibp.network","wss://sys.ibp.network/bridgehub-polkadot"]}
@@ -392,7 +392,7 @@
       "Description": "Acala Network is a decentralized finance (DeFi) platform built on the Polkadot ecosystem. It serves as a hub for various DeFi applications, including a decentralized exchange (DEX), a stablecoin protocol, and a liquid staking solution.",
       "StateRootHash": "0x010c5745a5d42bcfbe0a644d5a2a4e22e2ff0fd378d48208ecfacea5b7e05a74"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://acala.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://acala.ibp.network"]}
@@ -411,7 +411,7 @@
       "Description": "Ajuna Network is a decentralized gaming platform built on Substrate, designed to integrate the Polkadot ecosystem with game development engines like Unreal and Unity.",
       "StateRootHash": "0x6e666a1df855628a99876f9f876b94d6d20a397fb1b5d92a3747df75e29c61b1"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 400},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://ajuna.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://ajuna.ibp.network"]}
@@ -430,7 +430,7 @@
       "Description": "Bifrost is a decentralized finance (DeFi) hub and liquid staking platform built on the Polkadot network. It allows users to stake their tokens and receive a liquid staking token (vToken) in return, which can then be used in various DeFi applications, enhancing liquidity and earning staking rewards.",
       "StateRootHash": "0x2a9c5fae68d226bfef7830398114196416ca1799ebb0099fdfa8b7b7ef19adf4"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bifrost-polkadot.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://bifrost-polkadot.ibp.network"]}
@@ -449,7 +449,7 @@
       "Description": "Hydration is a decentralized finance (DeFi) protocol built as a parachain on Polkadot, designed to revolutionize liquidity provisioning and trading in the cryptocurrency space. It utilizes a novel Omnipool, a single liquidity pool for multiple assets, to facilitate efficient and trustless trading.",
       "StateRootHash": "0x33a542156b00e7dd467e2b7704563abd84f888ccbc6afd6f1a1802a55db1d4de"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 800},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 1200},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://hydration.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://hydration.ibp.network"]}
@@ -468,7 +468,7 @@
       "Description": "Hyperbridge, also known as Nexus, is a interoperability protocol within the Polkadot ecosystem that aims to enable secure and efficient communication between different blockchains. It functions as a hyper-scalable bridge utilizing Polkadot's infrastructure to facilitate trustless and scalable cross-chain communication.",
       "StateRootHash": "0xc3656e29e1d8bd322b208e912e4766330c04fec39a5052fcd8e1dd43c639b347"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 400},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://nexus.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://nexus.ibp.network"]}
@@ -487,7 +487,7 @@
       "Description": "KILT Protocol is a decentralized blockchain network designed to manage digital identities and credentials. It enables users to create, claim, and verify digital credentials, giving individuals control over their personal data.",
       "StateRootHash": "0x2750d70dc69acb0d15473b719d393e1c30267fc588d96eefbb2b7efa58545bb2"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1200},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 500},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://kilt.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://kilt.ibp.network"]}
@@ -506,7 +506,7 @@
       "Description": "Moonbeam is an Ethereum-compatible smart contract platform operating as a parachain on the Polkadot network. It enables developers to deploy existing Solidity smart contracts and decentralized application (dApp) frontends with minimal modifications, leveraging Polkadot's shared security and cross-chain capabilities.",
       "StateRootHash": "0x74e54bafcf1ecdce51867078fa16f2902751d11473628ac19e89a5be20df3262"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2112, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2624, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://moonbeam.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://moonbeam.ibp.network"]}
@@ -525,7 +525,7 @@
       "Description": "Mythos is a project focused on revolutionizing the gaming industry by creating a decentralized ecosystem called the Mythos Foundation, which aims to reduce barriers for developers and players in web3 gaming. It utilizes a multi-chain approach, unified marketplaces, and decentralized governance mechanisms to build a thriving play-and-own economy.",
       "StateRootHash": "0xebc8c0bc54d21776b5927eb7581d456172daf57aeada4b3dd007fc106ab99b53"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 200},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://mythos.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://mythos.ibp.network"]}
@@ -563,7 +563,7 @@
       "Description": "Unique Network is a blockchain built on top of Polkadot and Kusama, specializing in non-fungible tokens (NFTs) with advanced features for gaming, art, and fan engagement. It offers unique customization, scalability, and interoperability, making it a leading platform for innovative NFT applications.",
       "StateRootHash": "0x9fd6243a1015e0550a2a8330315bcced1b0c7625b5fea5a11716e20c8c2e4262"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1300},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://unique.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://unique.ibp.network"]}
@@ -582,7 +582,7 @@
       "Description": "Xcavate is a Polkadot-based platform designed to revolutionize real estate investment through tokenization and fractional ownership. It aims to make property investment more accessible and efficient by removing traditional barriers and introducing transparency and automation.",
       "StateRootHash": "0x18370d7fbfca1509c2c1494b6d2af8d28002b8ec155b45b0b8f61d4a8a7116c1"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 0},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://xcavate.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://xcavate.ibp.network"]}
