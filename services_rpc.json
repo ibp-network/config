@@ -449,7 +449,7 @@
       "Description": "Hydration is a decentralized finance (DeFi) protocol built as a parachain on Polkadot, designed to revolutionize liquidity provisioning and trading in the cryptocurrency space. It utilizes a novel Omnipool, a single liquidity pool for multiple assets, to facilitate efficient and trustless trading.",
       "StateRootHash": "0x33a542156b00e7dd467e2b7704563abd84f888ccbc6afd6f1a1802a55db1d4de"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 1200},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 768, "bandwidth": 1200},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://hydration.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://hydration.ibp.network"]}
