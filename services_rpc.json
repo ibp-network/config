@@ -430,7 +430,7 @@
       "Description": "Bifrost is a decentralized finance (DeFi) hub and liquid staking platform built on the Polkadot network. It allows users to stake their tokens and receive a liquid staking token (vToken) in return, which can then be used in various DeFi applications, enhancing liquidity and earning staking rewards.",
       "StateRootHash": "0x2a9c5fae68d226bfef7830398114196416ca1799ebb0099fdfa8b7b7ef19adf4"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bifrost-polkadot.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://bifrost-polkadot.ibp.network"]}
