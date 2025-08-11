@@ -304,7 +304,7 @@
       "NetworkType": "Relay",
       "DisplayName": "Polkadot Network",
       "WebsiteURL": "https://polkadot.network",
-      "LogoURL": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=040",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
       "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x29d0d972cd27cbc511e9589fcb7a4506d5eb6a9e8df205f00472e5ab354a4e17"
     },
