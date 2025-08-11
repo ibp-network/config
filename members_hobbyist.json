@@ -2,7 +2,7 @@
   "aperturemining": {
     "name": "Aperture Mining",
     "website": "https://aperturemining.com",
-    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/aperturemining.png",
+    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/aperturemining.png",
     "membership": "hobbyist",
     "active": "1",
     "current_level": "1",
@@ -19,7 +19,7 @@
   "dozenodes": {
     "name": "Dozenodes",
     "website": "https://dozenodes.com",
-    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/dozenodes.png",
+    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/dozenodes.png",
     "membership": "hobbyist",
     "active": "1",
     "current_level": "1",
@@ -52,7 +52,7 @@
   "mathcrypto": {
     "name": "MathCrypto",
     "website": "https://math-crypto.com",
-    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/mathcrypto.png",
+    "logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/mathcrypto.png",
     "membership": "hobbyist",
     "active": "1",
     "current_level": "1",
