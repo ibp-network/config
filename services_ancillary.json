@@ -1,0 +1,36 @@
+[
+  {
+    "name": "GeoDNS Dotters.Network",
+    "type": "geodns",
+    "domain": "dotters.network",
+    "rate_usd": 600,
+    "operator": "Stake Plus",
+    "member_shares": {
+      "Stake Plus": 1.0
+    }
+  },
+  {
+    "name": "GeoDNS IBP.Network",
+    "type": "geodns",
+    "domain": "ibp.network",
+    "rate_usd": 600,
+    "operator": "Gatotech",
+    "member_shares": {
+      "Gatotech": 1.0
+    }
+  },
+  {
+    "name": "Anycast Amforc",
+    "type": "anycast",
+    "rate_usd": 1200,
+    "operator": "Amforc",
+    "member_shares": {}
+  },
+  {
+    "name": "Anycast Rotko",
+    "type": "anycast",
+    "rate_usd": 1200,
+    "operator": "Rotko",
+    "member_shares": {}
+  }
+]
