@@ -12,7 +12,7 @@
     "Location": {"Region": "North America", "Latitude": 38.7777, "Longitude": -77.5474}
   },
   "Amforc": {
-    "Details": {"Name": "Amforc", "Website": "https://amforc.com", "Twitter": "@amforcag", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/amforc.png"},
+    "Details": {"Name": "Amforc", "Website": "https://amforc.com", "Twitter": "@amforcag", "Element": "@tugytur:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/amforc.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
     "Service": {"Active": 1, "ServiceIPv4": "91.90.166.200", "ServiceIPv6": "", "MonitorUrl": "https://monitor.rpc.amforc.com"}, 
     "ServiceAssignments": {
@@ -24,7 +24,7 @@
     "Location": {"Region": "Europe", "Latitude": 47.1449, "Longitude": 8.1551}
   },
   "Helikon": {
-    "Details": {"Name": "Helikon", "Website": "https://helikon.io", "Twitter": "@helikonlabs", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/helikon.png"},
+    "Details": {"Name": "Helikon", "Website": "https://helikon.io", "Twitter": "@helikonlabs", "Element": "@helikon:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/helikon.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1723208458, "LastRankup": 1672549200},
     "Service": {"Active": 1, "ServiceIPv4": "104.247.178.10", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.helikon.io"}, 
     "ServiceAssignments": {
@@ -36,7 +36,7 @@
     "Location": {"Region": "Middle East", "Latitude": 41.0551, "Longitude": 28.9347}
   },
   "Lucky Friday": {
-    "Details": {"Name": "Lucky Friday", "Website": "https://luckyfriday.io", "Twitter": "@LuckyFridayLabs", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/luckyfriday.png"},
+    "Details": {"Name": "Lucky Friday", "Website": "https://luckyfriday.io", "Twitter": "@LuckyFridayLabs", "Element": "@paradoxxx:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/luckyfriday.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1706745600},
     "Service": {"Active": 1, "ServiceIPv4": "64.62.224.18", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
@@ -47,7 +47,7 @@
     "Location": {"Region": "North America", "Latitude": 33.4484, "Longitude": -112.0740}
   },
   "Gatotech": {
-    "Details": {"Name": "Gatotech", "Website": "https://gatotech.uk", "Twitter": "@gatotech_uk", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/gatotech.png"},
+    "Details": {"Name": "Gatotech", "Website": "https://gatotech.uk", "Twitter": "@gatotech_uk", "Element": "@gatotech:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/gatotech.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
     "Service": {"Active": 1, "ServiceIPv4": "181.174.168.72", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.gatotech.network"}, 
     "ServiceAssignments": {
@@ -59,7 +59,7 @@
     "Location": {"Region": "Central America", "Latitude": 9.936, "Longitude": -84.0965}
   },
   "Interweb": {
-    "Details": {"Name": "Interweb", "Website": "https://interweb-it.com", "Twitter": "@metaspan_io", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/interweb.png"},
+    "Details": {"Name": "Interweb", "Website": "https://interweb-it.com", "Twitter": "@metaspan_io", "Element": "@interweb_:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/interweb.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1726752608},
     "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io"}, 
     "ServiceAssignments": {
@@ -71,7 +71,7 @@
     "Location": {"Region": "Europe", "Latitude": 51.4964, "Longitude": -0.1224}
   },
   "Rotko Networks": {
-    "Details": {"Name": "Rotko Networks", "Website": "https://rotko.net", "Twitter": "@RotkoNetworks", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/rotko.png"},
+    "Details": {"Name": "Rotko Networks", "Website": "https://rotko.net", "Twitter": "@RotkoNetworks", "Element": "@hitchhooker:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/rotko.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1707184705},
     "Service": {"Active": 1, "ServiceIPv4": "160.22.181.181", "ServiceIPv6": "", "MonitorUrl": "https://ibp.rotko.net"}, 
     "ServiceAssignments": {
@@ -82,7 +82,7 @@
     "Location": {"Region": "Asia", "Latitude": 13.7563, "Longitude": 100.5018}
   },
   "Polkadotters": {
-    "Details": {"Name": "Polkadotters", "Website": "https://polkadotters.com", "Twitter": "@Polkadotters1", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/polkadotters.png"},
+    "Details": {"Name": "Polkadotters", "Website": "https://polkadotters.com", "Twitter": "@Polkadotters1", "Element": "@pmensik:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/polkadotters.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1710006529},
     "Service": {"Active": 1, "ServiceIPv4": "202.37.148.99", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.polkadotters.com"}, 
     "ServiceAssignments": {
@@ -93,7 +93,7 @@
     "Location": {"Region": "Oceania", "Latitude": -43.49, "Longitude": 172.56}
   },
   "Dwellir": {
-    "Details": {"Name": "Dwellir", "Website": "https://dwellir.com", "Twitter": "@DwellirOfficial", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/dwellir.png"},
+    "Details": {"Name": "Dwellir", "Website": "https://dwellir.com", "Twitter": "@DwellirOfficial", "Element": "@jonathanudd:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/dwellir.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1681916382, "LastRankup": 1724385600},
     "Service": {"Active": 1, "ServiceIPv4": "102.69.240.202", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com"}, 
     "ServiceAssignments": {
@@ -105,7 +105,7 @@
     "Location": {"Region": "Africa", "Latitude": 6.4541, "Longitude": 3.3947}
   },
   "RadiumBlock": {
-    "Details": {"Name": "RadiumBlock", "Website": "https://radiumblock.com/", "Twitter": "@RadiumBlock", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/radiumblock.png"},
+    "Details": {"Name": "RadiumBlock", "Website": "https://radiumblock.com/", "Twitter": "@RadiumBlock", "Element": "@radiumblock:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/radiumblock.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1684123200, "LastRankup": 1726057800},
     "Service": {"Active": 1, "ServiceIPv4": "103.240.197.6", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
@@ -117,7 +117,7 @@
     "Location": {"Region": "Asia", "Latitude": 19.076090, "Longitude": 72.877426}
   },
   "Stkd.io": {
-    "Details": {"Name": "Stkd.io", "Website": "https://stkd.io/", "Twitter": "@stkd_io", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/stkd.png"},
+    "Details": {"Name": "Stkd.io", "Website": "https://stkd.io/", "Twitter": "@stkd_io", "Element": "@frazzled:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/stkd.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1712289600, "LastRankup": 1754855107},
     "Service": {"Active": 1, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": ""}, 
     "ServiceAssignments": {
@@ -128,7 +128,7 @@
     "Location": {"Region": "South America", "Latitude": -33.3589, "Longitude": -70.6753}
   },
   "Turboflakes": {
-    "Details": {"Name": "Turboflakes", "Website": "https://turboflakes.io", "Twitter": "@turboflakes", "Element": "", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/turboflakes.png"},
+    "Details": {"Name": "Turboflakes", "Website": "https://turboflakes.io", "Twitter": "@turboflakes", "Element": "@turboflakes:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/turboflakes.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1680148800},
     "Service": {"Active": 1, "ServiceIPv4": "193.39.195.54", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.turboflakes.io"}, 
     "ServiceAssignments": {
