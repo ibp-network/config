@@ -1,36 +1,43 @@
 [
   {
-    "name": "GeoDNS Dotters.Network",
-    "type": "geodns",
-    "domain": "dotters.network",
-    "rate_usd": 600,
-    "operator": "Stake Plus",
-    "member_shares": {
+    "Name": "GeoDNS Dotters.Network",
+    "Type": "geodns",
+    "Domain": "dotters.network",
+    "PriceUSD": 600,
+    "Operator": "Stake Plus",
+    "MemberShares": {
       "Stake Plus": 1.0
     }
   },
   {
-    "name": "GeoDNS IBP.Network",
-    "type": "geodns",
-    "domain": "ibp.network",
-    "rate_usd": 600,
-    "operator": "Gatotech",
-    "member_shares": {
+    "Name": "GeoDNS IBP.Network",
+    "Active": 1,
+    "Type": "geodns",
+    "Domain": "ibp.network",
+    "PriceUSD": 600,
+    "Operator": "Gatotech",
+    "MemberShares": {
       "Gatotech": 1.0
     }
   },
   {
-    "name": "Anycast Amforc",
-    "type": "anycast",
-    "rate_usd": 1200,
-    "operator": "Amforc",
-    "member_shares": {}
+    "Name": "Anycast Amforc",
+    "Active": 1,
+    "Type": "anycast",
+    "IPV4Subnet": "",
+    "IPV6Subnet": "",
+    "PriceUSD": 1200,
+    "Operator": "Amforc",
+    "MemberShares": {}
   },
   {
-    "name": "Anycast Rotko",
-    "type": "anycast",
-    "rate_usd": 1200,
-    "operator": "Rotko",
-    "member_shares": {}
+    "Name": "Anycast Rotko",
+    "Active": 1,
+    "Type": "anycast",
+    "IPV4Subnet": "",
+    "IPV6Subnet": "",
+    "PriceUSD": 1200,
+    "Operator": "Rotko",
+    "MemberShares": {}
   }
 ]
