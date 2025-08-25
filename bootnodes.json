@@ -519,15 +519,22 @@
   "bridge-hub-paseo": {
     "commandId": "parachain",
     "members": {
-      "amforc": [],
+      "amforc": [
+        "/dns/bridge-hub-paseo.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWJ2LrEJ6xz2aB35G6RKR8TQWpit9UP83q6mWD6MC6p3cq",
+        "/dns/bridge-hub-paseo.bootnode.amforc.com/tcp/30015/p2p/12D3KooWJ2LrEJ6xz2aB35G6RKR8TQWpit9UP83q6mWD6MC6p3cq"
+      ],
       "dwellir": [],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33420/p2p/12D3KooWMjKe7HVyRHtKw1aYvN5JEM9YNZtXCw4Te9E8xM3Lus8L",
         "/dns/boot.gatotech.network/tcp/35420/wss/p2p/12D3KooWMjKe7HVyRHtKw1aYvN5JEM9YNZtXCw4Te9E8xM3Lus8L"
       ],
-      "helikon": [],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/10330/p2p/12D3KooWAkBY8VvL9uEjUwnrswESCXNN4xU9kaUxbGEUsbQNeqiy"
+      ],
       "luckyfriday": [],
-      "metaspan": [],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/50903/p2p/12D3KooWQWrbHbccL7zDCSiE1jJHqbK3HBfT3k4aWzVDcKq7wLcb"
+      ],
       "polkadotters": [],
       "radiumblock": [],
       "rotko": [
@@ -535,7 +542,10 @@
         "/dns/bridge-hub-paseo.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWS7FsgLf2WE7otd9fizJrJ9C7vsw5kh6BsySfMpziHTkU"
       ],
       "stakeplus": [],
-      "turboflakes": []
+      "turboflakes": [
+        "/dns/bridge-hub-paseo-bootnode.turboflakes.io/tcp/30835/p2p/12D3KooWDoJCJDLsg5saK7NAzWsSt2m91xka23Q719rqKmVrWXos",
+        "/dns/bridge-hub-paseo-bootnode.turboflakes.io/tcp/30435/wss/p2p/12D3KooWDoJCJDLsg5saK7NAzWsSt2m91xka23Q719rqKmVrWXos"
+      ]
     }
   },
   "collectives-polkadot": {
@@ -946,23 +956,36 @@
   "coretime-paseo": {
     "commandId": "parachain",
     "members": {
-      "amforc": [],
+      "amforc": [
+        "/dns/coretime-paseo.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWHuVFHYyVik8AKeNS5YQ711hvxsnXrpKABNkt8R564wQJ",
+        "/dns/coretime-paseo.bootnode.amforc.com/tcp/30008/p2p/12D3KooWHuVFHYyVik8AKeNS5YQ711hvxsnXrpKABNkt8R564wQJ"
+      ],
       "dwellir": [],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33440/p2p/12D3KooWAfCSUgexsXsJho7ZpMU1tu59GD6LNUcn4TqBFr88vW1z",
         "/dns/boot.gatotech.network/tcp/35440/wss/p2p/12D3KooWAfCSUgexsXsJho7ZpMU1tu59GD6LNUcn4TqBFr88vW1z"
       ],
-      "helikon": [],
+      "helikon": [
+        "/dns/boot-node.helikon.io/tcp/10460/p2p/12D3KooWDK4nZtoSPC6mhtdWxymnPcEnGbnszDiTMoMHr94vmbFg"
+      ],
       "luckyfriday": [],
-      "metaspan": [],
+      "metaspan": [
+        "/dns/boot.metaspan.io/tcp/51283/p2p/12D3KooWCTRJcnJ1ouLCo9JH5BV14M5CXKy53XjngYH2YL3X2bVG"
+      ],
       "polkadotters": [],
-      "radiumblock": [],
+      "radiumblock": [
+        "/dns/coretime-paseo-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWL5hnwGCRD8xm1Zosb9R4Dhe32JgYZiA7WqhUvV5JRRQu",
+        "/dns/coretime-paseo-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWL5hnwGCRD8xm1Zosb9R4Dhe32JgYZiA7WqhUvV5JRRQu"
+      ],
       "rotko": [
         "/dns/coretime-paseo.boot.rotko.net/tcp/34051/p2p/12D3KooWELkr2WfNmAB399CUMpujUZ5Wi87JyCivi8cQ8vonYufF",
         "/dns/coretime-paseo.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWELkr2WfNmAB399CUMpujUZ5Wi87JyCivi8cQ8vonYufF"
       ],
       "stakeplus": [],
-      "turboflakes": []
+      "turboflakes": [
+        "/dns/coretime-paseo-bootnode.turboflakes.io/tcp/30845/p2p/12D3KooWJiSNGR24CUg6ht5NoTP88sHDR2CJiPuXFEKENwPNeFab",
+        "/dns/coretime-paseo-bootnode.turboflakes.io/tcp/30445/wss/p2p/12D3KooWJiSNGR24CUg6ht5NoTP88sHDR2CJiPuXFEKENwPNeFab"
+      ]
     }
   }
 }
