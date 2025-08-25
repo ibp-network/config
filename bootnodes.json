@@ -958,8 +958,8 @@
       "polkadotters": [],
       "radiumblock": [],
       "rotko": [
-        "/dns/coretime-westend.boot.rotko.net/tcp/33051/p2p/12D3KooWFmGg7EGzxGDawuJ9EfyEznCrZfMJgGa4eHpMWjcJmg85",
-        "/dns/coretime-westend.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWFmGg7EGzxGDawuJ9EfyEznCrZfMJgGa4eHpMWjcJmg85"
+        "/dns/coretime-paseo.boot.rotko.net/tcp/34051/p2p/12D3KooWELkr2WfNmAB399CUMpujUZ5Wi87JyCivi8cQ8vonYufF",
+        "/dns/coretime-paseo.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWELkr2WfNmAB399CUMpujUZ5Wi87JyCivi8cQ8vonYufF"
       ],
       "stakeplus": [],
       "turboflakes": []
