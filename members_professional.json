@@ -49,7 +49,7 @@
   "Gatotech": {
     "Details": {"Name": "Gatotech", "Website": "https://gatotech.uk", "Twitter": "@gatotech_uk", "Element": "@gatotech:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/gatotech.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
-    "Service": {"Active": 0, "ServiceIPv4": "181.174.168.72", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.gatotech.network"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "181.174.168.72", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.gatotech.network"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
