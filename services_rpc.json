@@ -591,7 +591,7 @@
     "Configuration": {
       "Name": "Polimec",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Polimec Polkadot",
       "RelayNetwork": "Polkadot",
@@ -602,7 +602,7 @@
       "Description": "Polimec is a decentralized, community-driven fundraising protocol built on Polkadot. It facilitates transparent and fair fundraising for Web3 projects by leveraging on-chain credentials and an automated, blockchain-based framework. ",
       "StateRootHash": "0xe83763d6d5c12ae001ada2b31558534cfa4863aa66eaa202dbdb46f325e93a0b"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 0, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://polimec.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://polimec.ibp.network"]}
