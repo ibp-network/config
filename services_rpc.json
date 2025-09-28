@@ -104,6 +104,27 @@
       "Ibp": {"RpcUrls":["wss://bridge-hub-paseo.ibp.network","wss://sys.ibp.network/bridgehub-paseo"]}
     }
   },
+  "Collectives-Paseo": {
+    "Configuration": {
+      "Name": "Collectives-Paseo",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "Paseo Collectives",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "Collectives (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
+      "StateRootHash": "0xde1d5a6f99dc479feeed1ef47f3c8a326c5316fe2422771f58c41b219276e56a"
+    },
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://collectives-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://collectives-paseo.ibp.network","wss://sys.ibp.network/collectives-paseo"]}
+    }
+  },
   "Coretime-Paseo": {
     "Configuration": {
       "Name": "Coretime-Paseo",
