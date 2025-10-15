@@ -2,7 +2,7 @@
   "Stake Plus": {
     "Details": {"Name": "Stake Plus", "Website": "https://stake.plus", "Twitter": "@StakePlusCrypto", "Element": "@stakeplus:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/stakeplus.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
-    "Service": {"Active": 1, "ServiceIPv4": "192.96.202.175", "ServiceIPv6": "", "MonitorUrl": "https://monitor.dotters.network"},
+    "Service": {"Active": 1, "ServiceIPv4": "192.96.202.175", "ServiceIPv6": "", "MonitorUrl": "https://monitor.dotters.network", "PrometheusEndpoint": null},
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -14,7 +14,7 @@
   "Amforc": {
     "Details": {"Name": "Amforc", "Website": "https://amforc.com", "Twitter": "@amforcag", "Element": "@tugytur:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/amforc.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
-    "Service": {"Active": 1, "ServiceIPv4": "91.90.166.200", "ServiceIPv6": "", "MonitorUrl": "https://monitor.rpc.amforc.com"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "91.90.166.200", "ServiceIPv6": "", "MonitorUrl": "https://monitor.rpc.amforc.com", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -26,7 +26,7 @@
   "Helikon": {
     "Details": {"Name": "Helikon", "Website": "https://helikon.io", "Twitter": "@helikonlabs", "Element": "@helikon:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/helikon.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1723208458, "LastRankup": 1672549200},
-    "Service": {"Active": 1, "ServiceIPv4": "104.247.178.10", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.helikon.io"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "104.247.178.10", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.helikon.io", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -38,7 +38,7 @@
   "Lucky Friday": {
     "Details": {"Name": "Lucky Friday", "Website": "https://luckyfriday.io", "Twitter": "@LuckyFridayLabs", "Element": "@paradoxxx:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/luckyfriday.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1706745600},
-    "Service": {"Active": 1, "ServiceIPv4": "64.62.224.18", "ServiceIPv6": "", "MonitorUrl": ""}, 
+    "Service": {"Active": 1, "ServiceIPv4": "64.62.224.18", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -49,7 +49,7 @@
   "Gatotech": {
     "Details": {"Name": "Gatotech", "Website": "https://gatotech.uk", "Twitter": "@gatotech_uk", "Element": "@gatotech:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/gatotech.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
-    "Service": {"Active": 1, "ServiceIPv4": "181.174.168.72", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.gatotech.network"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "181.174.168.72", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.gatotech.network", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -61,7 +61,7 @@
   "Interweb": {
     "Details": {"Name": "Interweb", "Website": "https://interweb-it.com", "Twitter": "@metaspan_io", "Element": "@interweb_:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/interweb.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1726752608},
-    "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -73,7 +73,7 @@
   "Rotko Networks": {
     "Details": {"Name": "Rotko Networks", "Website": "https://rotko.net", "Twitter": "@RotkoNetworks", "Element": "@hitchhooker:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/rotko.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1678165200, "LastRankup": 1757238955},
-    "Service": {"Active": 1, "ServiceIPv4": "160.22.181.181", "ServiceIPv6": "", "MonitorUrl": "https://status.rotko.net"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "160.22.181.181", "ServiceIPv6": "", "MonitorUrl": "https://status.rotko.net", "PrometheusEndpoint": "https://ibp-metrics.rotko.net"}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -85,7 +85,7 @@
   "Polkadotters": {
     "Details": {"Name": "Polkadotters", "Website": "https://polkadotters.com", "Twitter": "@Polkadotters1", "Element": "@pmensik:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/polkadotters.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1710006529},
-    "Service": {"Active": 1, "ServiceIPv4": "202.37.148.99", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.polkadotters.com"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "202.37.148.99", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.polkadotters.com", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -96,7 +96,7 @@
   "Dwellir": {
     "Details": {"Name": "Dwellir", "Website": "https://dwellir.com", "Twitter": "@DwellirOfficial", "Element": "@jonathanudd:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/dwellir.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1681916382, "LastRankup": 1724385600},
-    "Service": {"Active": 1, "ServiceIPv4": "102.69.240.202", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "102.69.240.202", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -108,7 +108,7 @@
   "RadiumBlock": {
     "Details": {"Name": "RadiumBlock", "Website": "https://radiumblock.com/", "Twitter": "@RadiumBlock", "Element": "@radiumblock:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/radiumblock.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1684123200, "LastRankup": 1726057800},
-    "Service": {"Active": 1, "ServiceIPv4": "103.240.197.6", "ServiceIPv6": "", "MonitorUrl": ""}, 
+    "Service": {"Active": 1, "ServiceIPv4": "103.240.197.6", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -120,7 +120,7 @@
   "Stkd.io": {
     "Details": {"Name": "Stkd.io", "Website": "https://stkd.io/", "Twitter": "@stkd_io", "Element": "@frazzled:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/stkd.png"},
     "Membership": {"MemberLevel": 5, "Joined": 1712289600, "LastRankup": 1754855107},
-    "Service": {"Active": 1, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": ""}, 
+    "Service": {"Active": 1, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
@@ -131,7 +131,7 @@
   "Turboflakes": {
     "Details": {"Name": "Turboflakes", "Website": "https://turboflakes.io", "Twitter": "@turboflakes", "Element": "@turboflakes:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/turboflakes.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1758431246},
-    "Service": {"Active": 1, "ServiceIPv4": "193.39.195.54", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.turboflakes.io"}, 
+    "Service": {"Active": 1, "ServiceIPv4": "193.39.195.54", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.turboflakes.io", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
