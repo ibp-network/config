@@ -108,7 +108,7 @@
   "RadiumBlock": {
     "Details": {"Name": "RadiumBlock", "Website": "https://radiumblock.com/", "Twitter": "@RadiumBlock", "Element": "@radiumblock:matrix.org", "Logo": "https://raw.githubusercontent.com/ibp-network/config/main/assets/member-logos/radiumblock.png"},
     "Membership": {"MemberLevel": 6, "Joined": 1684123200, "LastRankup": 1726057800},
-    "Service": {"Active": 1, "ServiceIPv4": "103.240.197.6", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
+    "Service": {"Active": 1, "ServiceIPv4": "103.67.246.100", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
       "Paseo": ["Paseo", "Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
