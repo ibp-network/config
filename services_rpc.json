@@ -41,6 +41,27 @@
       "Ibp": {"RpcUrls":["wss://asset-hub-paseo.ibp.network","wss://sys.ibp.network/asset-hub-paseo"]}
     }
   },
+  "ETH-Asset-Hub-Paseo": {
+    "Configuration": {
+      "Name": "ETH-Asset-Hub-Paseo",
+      "ServiceType": "ETHRPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "Paseo Asset Hub",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "ETHRPC Asset Hub (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
+      "StateRootHash": "0xe24abb446f9aa757610fedc53cc631536f3b456a927a1ab1b9018ea2df3c925d"
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://eth-asset-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://eth-asset-hub-paseo.ibp.network"]}
+    }
+  },
   "PAsset-Hub-Paseo": {
     "Configuration": {
       "Name": "PAsset-Hub-Paseo",
@@ -77,7 +98,7 @@
       "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
     },
-    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 0},
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["https://eth-passet-hub-paseo.dotters.network"]},
       "Ibp": {"RpcUrls":["https://eth-passet-hub-paseo.ibp.network"]}
@@ -224,7 +245,7 @@
       "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0x299ac939ea4722d1fcf7f4873675040ebc83d144620c76206dbeb7468cf30cdf"
     },
-    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 1, "bandwidth": 0},
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://eth-asset-hub-kusama.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://eth-asset-hub-kusama.ibp.network"]}
@@ -354,6 +375,27 @@
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-polkadot.dotters.network","wss://sys.dotters.network/asset-hub-polkadot","wss://sys.dotters.network/statemint"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-polkadot.ibp.network","wss://sys.ibp.network/asset-hub-polkadot","wss://sys.ibp.network/statemint"]}
+    }
+  },
+  "ETH-Asset-Hub-Polkadot": {
+    "Configuration": {
+      "Name": "ETH-Asset-Hub-Polkadot",
+      "ServiceType": "ETHRPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "Polkadot Asset Hub",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "System",
+      "DisplayName": "ETHRPC Asset Hub (Polkadot)",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
+      "StateRootHash": "0xc1ef26b567de07159e4ecd415fbbb0340c56a09c4d72c82516d0f3bc2b782c80"
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://eth-asset-hub-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://eth-asset-hub-polkadot.ibp.network"]}
     }
   },
   "Bridge-Hub-Polkadot": {
