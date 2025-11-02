@@ -47,7 +47,7 @@
       "ServiceType": "ETHRPC",
       "Active": 1,
       "LevelRequired": 5,
-      "NetworkName": "Paseo Asset Hub",
+      "NetworkName": "0x190f1b41",
       "RelayNetwork": "Paseo",
       "NetworkType": "System",
       "DisplayName": "ETHRPC Asset Hub (Paseo)",
