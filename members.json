@@ -568,7 +568,7 @@
         "6": "",
         "7": ""
       },
-      "services_address": "103.240.197.6",
+      "services_address": "103.67.246.100",
       "endpoints": {
         "westend": "wss://westend.ibp.radiumblock.co/westend",
         "kusama": "wss://kusama.ibp.radiumblock.co/kusama",
