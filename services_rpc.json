@@ -266,7 +266,7 @@
       "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0x583af14f9c4b1a687c219bfccc9c6b8e5a6dd24e50e742c2a733f110c5aad03d"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 512, "bandwidth": 900},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bridge-hub-kusama.dotters.network","wss://sys.dotters.network/bridgehub-kusama"]},
       "Ibp": {"RpcUrls":["wss://bridge-hub-kusama.ibp.network","wss://sys.ibp.network/bridgehub-kusama"]}
