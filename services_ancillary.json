@@ -19,7 +19,7 @@
       "WebsiteURL": "https://github.com/ibp-network/ibp-geodns",
       "Description": "IBP members run geographically distributed authoritative GeoDNS runner nodes to provide resilient anycast-like resolution, ensuring users are directed to the nearest healthy infrastructure provider while maintaining low TTL dynamic routing and shared operational coverage."
     },
-    "Nodes": {"DNSRunner": {"cores": 4, "memory": 12, "disk": 256, "bandwidth": 300}}
+    "Nodes": {"DNSRunner": {"cores": 4, "memory": 16, "disk": 384, "bandwidth": 300}}
   },
   "Bulletin": {
     "Configuration": {
@@ -30,6 +30,6 @@
       "WebsiteURL": "https://github.com/paritytech/polkadot-bulletin-chain",
       "Description": "Polkadot Bulletin Chain is a dedicated BaBE+GRANDPA chain that stores People Chain bridge-authorized transaction data for a rolling retention window (currently ~2 weeks) and serves it via IPFS/Bitswap with proofs of storage."
     },
-    "Nodes": {"Validator": {"cores": 8, "memory": 32, "disk": 256, "bandwidth": 600}}
+    "Nodes": {"Validator": {"cores": 8, "memory": 32, "disk": 384, "bandwidth": 600}}
   }
 }
