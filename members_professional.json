@@ -9,6 +9,11 @@
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
       "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
     },
+    "AncillaryAssignments": {
+      "Fellowship": {"GHRunner": {"nodes": ["152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq"]}, "GHBench": {"nodes": ["152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq"]}},
+      "IBPDNS": {"DNSRunner": {"nodes": ["152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq"]}},
+      "Bulletin": {"Validator": {"nodes": ["152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq"]}}
+    },
     "Location": {"Region": "North America", "Latitude": 38.7777, "Longitude": -77.5474}
   },
   "Amforc": {
