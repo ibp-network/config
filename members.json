@@ -390,7 +390,7 @@
       "website": "https://rotko.net",
       "logo": "https://raw.githubusercontent.com/ibp-network/config/main/logos/rotko.png",
       "membership": "professional",
-      "current_level": "5",
+      "current_level": "6",
       "active": "1",
       "level_timestamp": {
         "0": "1678165200",
@@ -399,10 +399,10 @@
         "3": "1698258549",
         "4": "1701212772",
         "5": "1707184705",
-        "6": "",
+        "6": "1757238955",
         "7": ""
       },
-      "services_address": "160.22.181.181",
+      "services_address": "160.22.181.81",
       "endpoints": {
         "westend": "wss://rpc.rotko.net/westend",
         "kusama": "wss://rpc.rotko.net/kusama",
@@ -568,7 +568,7 @@
         "6": "",
         "7": ""
       },
-      "services_address": "103.240.197.6",
+      "services_address": "103.67.246.100",
       "endpoints": {
         "westend": "wss://westend.ibp.radiumblock.co/westend",
         "kusama": "wss://kusama.ibp.radiumblock.co/kusama",
@@ -677,7 +677,7 @@
         "2": "1726057800",
         "3": "1726057800"
       },
-      "services_address": "103.240.197.6",
+      "services_address": "148.163.222.156",
       "endpoints": [],
       "monitor_url": "https://ibp-monitor.stkd.io",
       "region": "south_america",

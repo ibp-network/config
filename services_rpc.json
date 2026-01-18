@@ -6,9 +6,15 @@
       "Active": 1,
       "LevelRequired": 3,
       "NetworkName": "Paseo Testnet",
+      "RelayNetwork": "",
+      "NetworkType": "Relay",
+      "DisplayName": "Paseo Network",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x2b2a8395a8ec27c54d322d3a6602152da0e3bd0c8f4c01f17a572a44a8e36ab6"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 1400},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1568, "bandwidth": 2500},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://paseo.dotters.network","wss://rpc.dotters.network/paseo"]},
       "Ibp": {"RpcUrls":["wss://paseo.ibp.network","wss://rpc.ibp.network/paseo"]}
@@ -21,12 +27,81 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo Asset Hub",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "Asset Hub (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0xe24abb446f9aa757610fedc53cc631536f3b456a927a1ab1b9018ea2df3c925d"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-paseo.dotters.network","wss://sys.dotters.network/asset-hub-paseo"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-paseo.ibp.network","wss://sys.ibp.network/asset-hub-paseo"]}
+    }
+  },
+  "ETH-Asset-Hub-Paseo": {
+    "Configuration": {
+      "Name": "ETH-Asset-Hub-Paseo",
+      "ServiceType": "ETHRPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "0x190f1b41",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "ETHRPC Asset Hub (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
+      "StateRootHash": "0xe24abb446f9aa757610fedc53cc631536f3b456a927a1ab1b9018ea2df3c925d"
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://eth-asset-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://eth-asset-hub-paseo.ibp.network"]}
+    }
+  },
+  "PAsset-Hub-Paseo": {
+    "Configuration": {
+      "Name": "PAsset-Hub-Paseo",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "passet-hub",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "PAsset Hub (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
+      "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
+    },
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://passet-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://passet-hub-paseo.ibp.network"]}
+    }
+  },
+  "ETH-PAsset-Hub-Paseo": {
+    "Configuration": {
+      "Name": "ETH-PAsset-Hub-Paseo",
+      "ServiceType": "ETHRPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "0x190f1b46",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "ETHRPC PAsset Hub (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
+      "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["https://eth-passet-hub-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["https://eth-passet-hub-paseo.ibp.network"]}
     }
   },
   "Bridge-Hub-Paseo": {
@@ -36,12 +111,39 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo Bridge Hub",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "Bridge Hub (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x779cb1a37592231ecbce66fc97136f6d5894fb3debb73975a0c6a74eec4758b4"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bridge-hub-paseo.dotters.network","wss://sys.dotters.network/bridgehub-paseo"]},
       "Ibp": {"RpcUrls":["wss://bridge-hub-paseo.ibp.network","wss://sys.ibp.network/bridgehub-paseo"]}
+    }
+  },
+  "Collectives-Paseo": {
+    "Configuration": {
+      "Name": "Collectives-Paseo",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "Paseo Collectives",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "Collectives (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
+      "StateRootHash": "0xbddadb0d9cbd5260014da844a1562ccf31dd61237e2de5255c458fed9869f3a9"
+    },
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://collectives-paseo.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://collectives-paseo.ibp.network","wss://sys.ibp.network/collectives-paseo"]}
     }
   },
   "Coretime-Paseo": {
@@ -51,6 +153,12 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo Coretime",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "Coretime (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0xde1d5a6f99dc479feeed1ef47f3c8a326c5316fe2422771f58c41b219276e56a"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
@@ -66,102 +174,18 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Paseo People",
+      "RelayNetwork": "Paseo",
+      "NetworkType": "System",
+      "DisplayName": "People (Paseo)",
+      "WebsiteURL": "https://github.com/paseo-network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
+      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x2f6b718c1d9f0a87856807ce2540d4b90e55c5465b55cfdcdf721918a80a5779"
     },
     "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://people-paseo.dotters.network","wss://sys.dotters.network/people-paseo"]},
       "Ibp": {"RpcUrls":["wss://people-paseo.ibp.network","wss://sys.ibp.network/people-paseo"]}
-    }
-  },
-  "Westend": {
-    "Configuration": {
-      "Name": "Westend",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 3,
-      "NetworkName": "Westend",
-      "StateRootHash": "0x7e92439a94f79671f9cade9dff96a094519b9001a7432244d46ab644bb6f746f"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 600},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://westend.dotters.network","wss://rpc.dotters.network/westend"]},
-      "Ibp": {"RpcUrls":["wss://westend.ibp.network","wss://rpc.ibp.network/westend"]}
-    }
-  },
-  "Asset-Hub-Westend": {
-    "Configuration": {
-      "Name": "Asset-Hub-Westend",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 5,
-      "NetworkName": "Westend Asset Hub",
-      "StateRootHash": "0x1d0ce8ef6a9eef1685c4715925cf91ed1af635a752eac4f9945b1a1a4e2b6e51"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://asset-hub-westend.dotters.network","wss://sys.dotters.network/asset-hub-westend","wss://sys.dotters.network/westmint"]},
-      "Ibp": {"RpcUrls":["wss://asset-hub-westend.ibp.network","wss://sys.ibp.network/asset-hub-westend","wss://sys.ibp.network/westmint"]}
-    }
-  },
-  "Bridge-Hub-Westend": {
-    "Configuration": {
-      "Name": "Bridge-Hub-Westend",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 5,
-      "NetworkName": "Westend BridgeHub",
-      "StateRootHash": "0x8d1c5237a15a5e8c04497bf67eaa40c5b660ee75d82b0f1622c68158b7dc719e"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://bridge-hub-westend.dotters.network","wss://sys.dotters.network/bridgehub-westend"]},
-      "Ibp": {"RpcUrls":["wss://bridge-hub-westend.ibp.network","wss://sys.ibp.network/bridgehub-westend"]}
-    }
-  },
-  "Collectives-Westend": {
-    "Configuration": {
-      "Name": "Collectives-Westend",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 5,
-      "NetworkName": "Westend Collectives",
-      "StateRootHash": "0x16c6c9fee1e2f89e117f917cb0e25a6cb4ed7fd395e7b6c24cb061b137692599"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://collectives-westend.dotters.network","wss://sys.dotters.network/collectives-westend"]},
-      "Ibp": {"RpcUrls":["wss://collectives-westend.ibp.network","wss://sys.ibp.network/collectives-westend"]}
-    }
-  },
-  "Coretime-Westend": {
-    "Configuration": {
-      "Name": "Coretime-Westend",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 5,
-      "NetworkName": "Westend Coretime",
-      "StateRootHash": "0xea39c45a420a60d841703061eb176af810f3c9004abd1a2224cde9e1e61c9e20"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://coretime-westend.dotters.network","wss://sys.dotters.network/coretime-westend"]},
-      "Ibp": {"RpcUrls":["wss://coretime-westend.ibp.network","wss://sys.ibp.network/coretime-westend"]}
-    }
-  },
-  "People-Westend": {
-    "Configuration": {
-      "Name": "People-Westend",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 5,
-      "NetworkName": "Westend People",
-      "StateRootHash": "0xec27848f8a0ece913132d150b34739e3412dbd10fd869ac8cbeda765c399d973"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://people-westend.dotters.network","wss://sys.dotters.network/people-westend"]},
-      "Ibp": {"RpcUrls":["wss://people-westend.ibp.network","wss://sys.ibp.network/people-westend"]}
     }
   },
   "Kusama": {
@@ -171,9 +195,15 @@
       "Active": 1,
       "LevelRequired": 3,
       "NetworkName": "Kusama",
+      "RelayNetwork": "",
+      "NetworkType": "Relay",
+      "DisplayName": "Kusama Network",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kusama.png",
+      "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0xb0006203c3a6e6bd2c6a17b1d4ae8ca49a31da0f4579da950b127774b44aef6b"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3576, "bandwidth": 14000},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 4672, "bandwidth": 17000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://kusama.dotters.network","wss://rpc.dotters.network/kusama"]},
       "Ibp": {"RpcUrls":["wss://kusama.ibp.network","wss://rpc.ibp.network/kusama"]}
@@ -186,12 +216,39 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama Asset Hub",
+      "RelayNetwork": "Kusama",
+      "NetworkType": "System",
+      "DisplayName": "Asset Hub (Kusama)",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kusama.png",
+      "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0x299ac939ea4722d1fcf7f4873675040ebc83d144620c76206dbeb7468cf30cdf"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 900},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 1200},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-kusama.dotters.network","wss://sys.dotters.network/asset-hub-kusama","wss://sys.dotters.network/statemine"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-kusama.ibp.network","wss://sys.ibp.network/asset-hub-kusama","wss://sys.ibp.network/statemine"]}
+    }
+  },
+  "ETH-Asset-Hub-Kusama": {
+    "Configuration": {
+      "Name": "ETH-Asset-Hub-Kusama",
+      "ServiceType": "ETHRPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "0x190f1b42",
+      "RelayNetwork": "Kusama",
+      "NetworkType": "System",
+      "DisplayName": "ETHRPC Asset Hub (Kusama)",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kusama.png",
+      "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
+      "StateRootHash": "0x299ac939ea4722d1fcf7f4873675040ebc83d144620c76206dbeb7468cf30cdf"
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://eth-asset-hub-kusama.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://eth-asset-hub-kusama.ibp.network"]}
     }
   },
   "Bridge-Hub-Kusama": {
@@ -201,9 +258,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama BridgeHub",
+      "RelayNetwork": "Kusama",
+      "NetworkType": "System",
+      "DisplayName": "Bridge Hub (Kusama)",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kusama.png",
+      "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0x583af14f9c4b1a687c219bfccc9c6b8e5a6dd24e50e742c2a733f110c5aad03d"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 1000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bridge-hub-kusama.dotters.network","wss://sys.dotters.network/bridgehub-kusama"]},
       "Ibp": {"RpcUrls":["wss://bridge-hub-kusama.ibp.network","wss://sys.ibp.network/bridgehub-kusama"]}
@@ -216,9 +279,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama Coretime",
+      "RelayNetwork": "Kusama",
+      "NetworkType": "System",
+      "DisplayName": "Coretime (Kusama)",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kusama.png",
+      "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0xc41865a2a094ef4563f74d248996fe70ed60ec52f78b36e38f55108b7c96889c"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 600},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://coretime-kusama.dotters.network","wss://sys.dotters.network/coretime-kusama"]},
       "Ibp": {"RpcUrls":["wss://coretime-kusama.ibp.network","wss://sys.ibp.network/coretime-kusama"]}
@@ -231,9 +300,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Encointer on Kusama",
+      "RelayNetwork": "Kusama",
+      "NetworkType": "System",
+      "DisplayName": "Encointer (Kusama)",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kusama.png",
+      "Description": "Encointer is a blockchain-based platform designed to facilitate the creation and use of local community cryptocurrencies. It aims to empower communities by enabling them to generate their own currencies, distribute them as a form of universal basic income (UBI), and foster economic activity within their locale.",
       "StateRootHash": "0x2a157a245df395890c587e38d8925875aae402a9cac82eb205384806641de46d"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://encointer-kusama.dotters.network","wss://sys.dotters.network/encointer-kusama"]},
       "Ibp": {"RpcUrls":["wss://encointer-kusama.ibp.network","wss://sys.ibp.network/encointer-kusama"]}
@@ -246,9 +321,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Kusama People",
+      "RelayNetwork": "Kusama",
+      "NetworkType": "System",
+      "DisplayName": "People (Kusama)",
+      "WebsiteURL": "https://kusama.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kusama.png",
+      "Description": "Kusama is a scalable, multi-chain network designed as a canary network for Polkadot, meaning it's an experimental, high-risk, and high-reward environment for testing new blockchain technologies and features before they are implemented on Polkadot.",
       "StateRootHash": "0xd83cfbf48e85ab66eb53b647aff8cd75954af93b127467b31d07a21dd06cea38"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://people-kusama.dotters.network","wss://sys.dotters.network/people-kusama"]},
       "Ibp": {"RpcUrls":["wss://people-kusama.ibp.network","wss://sys.ibp.network/people-kusama"]}
@@ -261,9 +342,15 @@
       "Active": 1,
       "LevelRequired": 3,
       "NetworkName": "Polkadot",
+      "RelayNetwork": "",
+      "NetworkType": "Relay",
+      "DisplayName": "Polkadot Network",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x29d0d972cd27cbc511e9589fcb7a4506d5eb6a9e8df205f00472e5ab354a4e17"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2624, "bandwidth": 9000},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 4164, "bandwidth": 11000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://polkadot.dotters.network","wss://rpc.dotters.network/polkadot"]},
       "Ibp": {"RpcUrls":["wss://polkadot.ibp.network","wss://rpc.ibp.network/polkadot"]}
@@ -276,12 +363,39 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot Asset Hub",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "System",
+      "DisplayName": "Asset Hub (Polkadot)",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0xc1ef26b567de07159e4ecd415fbbb0340c56a09c4d72c82516d0f3bc2b782c80"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 600},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 1400},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-polkadot.dotters.network","wss://sys.dotters.network/asset-hub-polkadot","wss://sys.dotters.network/statemint"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-polkadot.ibp.network","wss://sys.ibp.network/asset-hub-polkadot","wss://sys.ibp.network/statemint"]}
+    }
+  },
+  "ETH-Asset-Hub-Polkadot": {
+    "Configuration": {
+      "Name": "ETH-Asset-Hub-Polkadot",
+      "ServiceType": "ETHRPC",
+      "Active": 1,
+      "LevelRequired": 5,
+      "NetworkName": "Polkadot Asset Hub",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "System",
+      "DisplayName": "ETHRPC Asset Hub (Polkadot)",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
+      "StateRootHash": "0xc1ef26b567de07159e4ecd415fbbb0340c56a09c4d72c82516d0f3bc2b782c80"
+    },
+    "Resources": {"nodes": 2, "cores": 1, "memory": 2, "disk": 32, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://eth-asset-hub-polkadot.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://eth-asset-hub-polkadot.ibp.network"]}
     }
   },
   "Bridge-Hub-Polkadot": {
@@ -291,9 +405,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot BridgeHub",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "System",
+      "DisplayName": "Bridge Hub (Polkadot)",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x4d33046e761a60b4eb76e14be1fbd9936f40a003bf7eceee4e0874bbcffd1371"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 900},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 1000},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bridge-hub-polkadot.dotters.network","wss://sys.dotters.network/bridgehub-polkadot"]},
       "Ibp": {"RpcUrls":["wss://bridge-hub-polkadot.ibp.network","wss://sys.ibp.network/bridgehub-polkadot"]}
@@ -306,9 +426,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Collectives",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "System",
+      "DisplayName": "Collectives (Polkadot)",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x034cb60129ef41b444b28dbd93dcf2a2314b6e84d950358de47e6b7831673ba7"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://collectives-polkadot.dotters.network","wss://sys.dotters.network/collectives-polkadot"]},
       "Ibp": {"RpcUrls":["wss://collectives-polkadot.ibp.network","wss://sys.ibp.network/collectives-polkadot"]}
@@ -321,9 +447,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot Coretime",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "System",
+      "DisplayName": "Coretime (Polkadot)",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x6e2af5f681a0f432c7aaf564dbebe4ddade85822605d510ccb78f1d90710947a"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://coretime-polkadot.dotters.network","wss://sys.dotters.network/coretime-polkadot"]},
       "Ibp": {"RpcUrls":["wss://coretime-polkadot.ibp.network","wss://sys.ibp.network/coretime-polkadot"]}
@@ -336,9 +468,15 @@
       "Active": 1,
       "LevelRequired": 5,
       "NetworkName": "Polkadot People",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "System",
+      "DisplayName": "People (Polkadot)",
+      "WebsiteURL": "https://polkadot.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polkadot.png",
+      "Description": "Polkadot is a blockchain platform designed to connect and secure multiple specialized blockchains, enabling them to exchange data and perform transactions with each other without a central authority.",
       "StateRootHash": "0x7a62a14ebf9b2e86292593414d58818324acc5701ea369734c0074f7c962bc0f"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 400},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 700},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://people-polkadot.dotters.network","wss://sys.dotters.network/people-polkadot"]},
       "Ibp": {"RpcUrls":["wss://people-polkadot.ibp.network","wss://sys.ibp.network/people-polkadot"]}
@@ -351,9 +489,15 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Acala",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Acala Network",
+      "WebsiteURL": "https://acala.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/acala.png",
+      "Description": "Acala Network is a decentralized finance (DeFi) platform built on the Polkadot ecosystem. It serves as a hub for various DeFi applications, including a decentralized exchange (DEX), a stablecoin protocol, and a liquid staking solution.",
       "StateRootHash": "0x010c5745a5d42bcfbe0a644d5a2a4e22e2ff0fd378d48208ecfacea5b7e05a74"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 800},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://acala.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://acala.ibp.network"]}
@@ -366,9 +510,15 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Ajuna Polkadot",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Ajuna Network",
+      "WebsiteURL": "https://ajuna.io",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/ajuna.png",
+      "Description": "Ajuna Network is a decentralized gaming platform built on Substrate, designed to integrate the Polkadot ecosystem with game development engines like Unreal and Unity.",
       "StateRootHash": "0x6e666a1df855628a99876f9f876b94d6d20a397fb1b5d92a3747df75e29c61b1"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 676, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 600},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://ajuna.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://ajuna.ibp.network"]}
@@ -381,9 +531,15 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Bifrost Polkadot",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Bifrost",
+      "WebsiteURL": "https://bifrost.io",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/bifrost.png",
+      "Description": "Bifrost is a decentralized finance (DeFi) hub and liquid staking platform built on the Polkadot network. It allows users to stake their tokens and receive a liquid staking token (vToken) in return, which can then be used in various DeFi applications, enhancing liquidity and earning staking rewards.",
       "StateRootHash": "0x2a9c5fae68d226bfef7830398114196416ca1799ebb0099fdfa8b7b7ef19adf4"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 900},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bifrost-polkadot.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://bifrost-polkadot.ibp.network"]}
@@ -396,27 +552,18 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Hydration",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Hydration",
+      "WebsiteURL": "https://hydration.net",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/hydration.png",
+      "Description": "Hydration is a decentralized finance (DeFi) protocol built as a parachain on Polkadot, designed to revolutionize liquidity provisioning and trading in the cryptocurrency space. It utilizes a novel Omnipool, a single liquidity pool for multiple assets, to facilitate efficient and trustless trading.",
       "StateRootHash": "0x33a542156b00e7dd467e2b7704563abd84f888ccbc6afd6f1a1802a55db1d4de"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 800},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 1600},
     "Providers": {
-      "Dotters": {"RpcUrls":["wss://hydration.dotters.network","wss://hydradx.paras.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://hydration.ibp.network","wss://hydradx.ibp.network","wss://hydradx.paras.ibp.network"]}
-    }
-  },
-  "InvArch": {
-    "Configuration": {
-      "Name": "InvArch",
-      "ServiceType": "RPC",
-      "Active": 1,
-      "LevelRequired": 6,
-      "NetworkName": "InvArch Network",
-      "StateRootHash": "0x64d77bb0ea342ea5b053fba4fd29248b1c3a5b20a8a9ef0cfc14cf45b0c5a4fb"
-    },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 400},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://invarch.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://invarch.ibp.network"]}
+      "Dotters": {"RpcUrls":["wss://hydration.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://hydration.ibp.network"]}
     }
   },
   "Nexus": {
@@ -426,9 +573,15 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Hyperbridge (Nexus)",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Hyperbridge - Nexus",
+      "WebsiteURL": "https://hyperbridge.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/hyperbridge.png",
+      "Description": "Hyperbridge, also known as Nexus, is a interoperability protocol within the Polkadot ecosystem that aims to enable secure and efficient communication between different blockchains. It functions as a hyper-scalable bridge utilizing Polkadot's infrastructure to facilitate trustless and scalable cross-chain communication.",
       "StateRootHash": "0xc3656e29e1d8bd322b208e912e4766330c04fec39a5052fcd8e1dd43c639b347"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 2500},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://nexus.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://nexus.ibp.network"]}
@@ -441,9 +594,15 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "KILT Spiritnet",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "KILT",
+      "WebsiteURL": "https://kilt.io",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/kilt.png",
+      "Description": "KILT Protocol is a decentralized blockchain network designed to manage digital identities and credentials. It enables users to create, claim, and verify digital credentials, giving individuals control over their personal data.",
       "StateRootHash": "0x2750d70dc69acb0d15473b719d393e1c30267fc588d96eefbb2b7efa58545bb2"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1200},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 800},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://kilt.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://kilt.ibp.network"]}
@@ -456,24 +615,57 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "Moonbeam",
+      "NetworkType": "Community",
+      "RelayNetwork": "Polkadot",
+      "DisplayName": "Moonbeam Network",
+      "WebsiteURL": "https://moonbeam.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/moonbeam.png",
+      "Description": "Moonbeam is an Ethereum-compatible smart contract platform operating as a parachain on the Polkadot network. It enables developers to deploy existing Solidity smart contracts and decentralized application (dApp) frontends with minimal modifications, leveraging Polkadot's shared security and cross-chain capabilities.",
       "StateRootHash": "0x74e54bafcf1ecdce51867078fa16f2902751d11473628ac19e89a5be20df3262"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2112, "bandwidth": 700},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3136, "bandwidth": 1500},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://moonbeam.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://moonbeam.ibp.network"]}
+    }
+  },
+  "Mythos": {
+    "Configuration": {
+      "Name": "Mythos",
+      "ServiceType": "RPC",
+      "Active": 0,
+      "LevelRequired": 6,
+      "NetworkName": "Mythos",
+      "NetworkType": "Community",
+      "RelayNetwork": "Polkadot",
+      "DisplayName": "Mythos",
+      "WebsiteURL": "https://mythos.foundation",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/mythos.png",
+      "Description": "Mythos is a project focused on revolutionizing the gaming industry by creating a decentralized ecosystem called the Mythos Foundation, which aims to reduce barriers for developers and players in web3 gaming. It utilizes a multi-chain approach, unified marketplaces, and decentralized governance mechanisms to build a thriving play-and-own economy.",
+      "StateRootHash": "0xebc8c0bc54d21776b5927eb7581d456172daf57aeada4b3dd007fc106ab99b53"
+    },
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://mythos.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://mythos.ibp.network"]}
     }
   },
   "Polimec": {
     "Configuration": {
       "Name": "Polimec",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Polimec Polkadot",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Polimec",
+      "WebsiteURL": "https://polimec.org",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polimec.png",
+      "Description": "Polimec is a decentralized, community-driven fundraising protocol built on Polkadot. It facilitates transparent and fair fundraising for Web3 projects by leveraging on-chain credentials and an automated, blockchain-based framework. ",
       "StateRootHash": "0xe83763d6d5c12ae001ada2b31558534cfa4863aa66eaa202dbdb46f325e93a0b"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://polimec.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://polimec.ibp.network"]}
@@ -486,12 +678,39 @@
       "Active": 1,
       "LevelRequired": 6,
       "NetworkName": "UNIQUE",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Unique Network",
+      "WebsiteURL": "https://unique.network",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/unique.png",
+      "Description": "Unique Network is a blockchain built on top of Polkadot and Kusama, specializing in non-fungible tokens (NFTs) with advanced features for gaming, art, and fan engagement. It offers unique customization, scalability, and interoperability, making it a leading platform for innovative NFT applications.",
       "StateRootHash": "0x9fd6243a1015e0550a2a8330315bcced1b0c7625b5fea5a11716e20c8c2e4262"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1300},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 900},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://unique.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://unique.ibp.network"]}
+    }
+  },
+  "Xcavate": {
+    "Configuration": {
+      "Name": "Xcavate",
+      "ServiceType": "RPC",
+      "Active": 1,
+      "LevelRequired": 6,
+      "NetworkName": "Xcavate",
+      "RelayNetwork": "Polkadot",
+      "NetworkType": "Community",
+      "DisplayName": "Xcavate Protocol",
+      "WebsiteURL": "https://xcavate.io",
+      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/xcavate.png",
+      "Description": "Xcavate is a Polkadot-based platform designed to revolutionize real estate investment through tokenization and fractional ownership. It aims to make property investment more accessible and efficient by removing traditional barriers and introducing transparency and automation.",
+      "StateRootHash": "0x18370d7fbfca1509c2c1494b6d2af8d28002b8ec155b45b0b8f61d4a8a7116c1"
+    },
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1000},
+    "Providers": {
+      "Dotters": {"RpcUrls":["wss://xcavate.dotters.network"]},
+      "Ibp": {"RpcUrls":["wss://xcavate.ibp.network"]}
     }
   }
 }
