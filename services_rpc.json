@@ -383,7 +383,7 @@
       "ServiceType": "ETHRPC",
       "Active": 1,
       "LevelRequired": 5,
-      "NetworkName": "Polkadot Asset Hub",
+      "NetworkName": "0x190f1b43",
       "RelayNetwork": "Polkadot",
       "NetworkType": "System",
       "DisplayName": "ETHRPC Asset Hub (Polkadot)",
