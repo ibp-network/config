@@ -9,7 +9,7 @@
     "cores": 14.172,
     "memory": 1.2562398,
     "disk": 0.17875,
-    "bandwidth": 0.085
+    "bandwidth": 0.1285
   },
   "Central America": {
     "cores": 14.172,
@@ -39,7 +39,7 @@
     "cores": 14.172,
     "memory": 1.2562398,
     "disk": 0.17875,
-    "bandwidth": 0.124
+    "bandwidth": 0.1285
   },
   "South America": {
     "cores": 14.172,
