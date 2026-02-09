@@ -14,7 +14,7 @@
       "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0x2b2a8395a8ec27c54d322d3a6602152da0e3bd0c8f4c01f17a572a44a8e36ab6"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1568, "bandwidth": 2500},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 2112, "bandwidth": 2500},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://paseo.dotters.network","wss://rpc.dotters.network/paseo"]},
       "Ibp": {"RpcUrls":["wss://paseo.ibp.network","wss://rpc.ibp.network/paseo"]}
@@ -383,7 +383,7 @@
       "ServiceType": "ETHRPC",
       "Active": 1,
       "LevelRequired": 5,
-      "NetworkName": "Polkadot Asset Hub",
+      "NetworkName": "0x190f1b43",
       "RelayNetwork": "Polkadot",
       "NetworkType": "System",
       "DisplayName": "ETHRPC Asset Hub (Polkadot)",
@@ -591,7 +591,7 @@
     "Configuration": {
       "Name": "Kilt",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "KILT Spiritnet",
       "RelayNetwork": "Polkadot",
@@ -602,7 +602,7 @@
       "Description": "KILT Protocol is a decentralized blockchain network designed to manage digital identities and credentials. It enables users to create, claim, and verify digital credentials, giving individuals control over their personal data.",
       "StateRootHash": "0x2750d70dc69acb0d15473b719d393e1c30267fc588d96eefbb2b7efa58545bb2"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 448, "bandwidth": 800},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://kilt.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://kilt.ibp.network"]}
