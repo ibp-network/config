@@ -696,7 +696,7 @@
     "Configuration": {
       "Name": "Xcavate",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Xcavate",
       "RelayNetwork": "Polkadot",
@@ -707,7 +707,7 @@
       "Description": "Xcavate is a Polkadot-based platform designed to revolutionize real estate investment through tokenization and fractional ownership. It aims to make property investment more accessible and efficient by removing traditional barriers and introducing transparency and automation.",
       "StateRootHash": "0x18370d7fbfca1509c2c1494b6d2af8d28002b8ec155b45b0b8f61d4a8a7116c1"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 1000},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://xcavate.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://xcavate.ibp.network"]}
