@@ -608,27 +608,6 @@
       "Ibp": {"RpcUrls":["wss://moonbeam.ibp.network"]}
     }
   },
-  "Polimec": {
-    "Configuration": {
-      "Name": "Polimec",
-      "ServiceType": "RPC",
-      "Active": 0,
-      "LevelRequired": 6,
-      "NetworkName": "Polimec Polkadot",
-      "RelayNetwork": "Polkadot",
-      "NetworkType": "Community",
-      "DisplayName": "Polimec",
-      "WebsiteURL": "https://polimec.org",
-      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/polimec.png",
-      "Description": "Polimec is a decentralized, community-driven fundraising protocol built on Polkadot. It facilitates transparent and fair fundraising for Web3 projects by leveraging on-chain credentials and an automated, blockchain-based framework. ",
-      "StateRootHash": "0xe83763d6d5c12ae001ada2b31558534cfa4863aa66eaa202dbdb46f325e93a0b"
-    },
-    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://polimec.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://polimec.ibp.network"]}
-    }
-  },
   "Unique": {
     "Configuration": {
       "Name": "Unique",
