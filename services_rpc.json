@@ -62,48 +62,6 @@
       "Ibp": {"RpcUrls":["wss://eth-asset-hub-paseo.ibp.network"]}
     }
   },
-  "PAsset-Hub-Paseo": {
-    "Configuration": {
-      "Name": "PAsset-Hub-Paseo",
-      "ServiceType": "RPC",
-      "Active": 0,
-      "LevelRequired": 5,
-      "NetworkName": "passet-hub",
-      "RelayNetwork": "Paseo",
-      "NetworkType": "System",
-      "DisplayName": "PAsset Hub (Paseo)",
-      "WebsiteURL": "https://github.com/paseo-network",
-      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
-      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
-      "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
-    },
-    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
-    "Providers": {
-      "Dotters": {"RpcUrls":["wss://passet-hub-paseo.dotters.network"]},
-      "Ibp": {"RpcUrls":["wss://passet-hub-paseo.ibp.network"]}
-    }
-  },
-  "ETH-PAsset-Hub-Paseo": {
-    "Configuration": {
-      "Name": "ETH-PAsset-Hub-Paseo",
-      "ServiceType": "ETHRPC",
-      "Active": 0,
-      "LevelRequired": 5,
-      "NetworkName": "0x190f1b46",
-      "RelayNetwork": "Paseo",
-      "NetworkType": "System",
-      "DisplayName": "ETHRPC PAsset Hub (Paseo)",
-      "WebsiteURL": "https://github.com/paseo-network",
-      "LogoURL": "https://raw.githubusercontent.com/ibp-network/config/main/assets/network-logos/paseo.png",
-      "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
-      "StateRootHash": "0x0d37827d2df6e21265f2ec0ee4595f7d0a115bbbb891c1f13575368fc998f9d7"
-    },
-    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
-    "Providers": {
-      "Dotters": {"RpcUrls":["https://eth-passet-hub-paseo.dotters.network"]},
-      "Ibp": {"RpcUrls":["https://eth-passet-hub-paseo.ibp.network"]}
-    }
-  },
   "Bridge-Hub-Paseo": {
     "Configuration": {
       "Name": "Bridge-Hub-Paseo",
