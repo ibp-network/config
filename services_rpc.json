@@ -35,7 +35,7 @@
       "Description": "Paseo is the newest testnet on Polkadot, replacing Rococo as a decentralised, community run, stable testnet for Parachain teams and dapp developers to build on. The below guide will show you how to interact with the testnet as a developer, infrastructure provider and as an end user.",
       "StateRootHash": "0xe24abb446f9aa757610fedc53cc631536f3b456a927a1ab1b9018ea2df3c925d"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 320, "bandwidth": 300},
+    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 300},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://asset-hub-paseo.dotters.network","wss://sys.dotters.network/asset-hub-paseo"]},
       "Ibp": {"RpcUrls":["wss://asset-hub-paseo.ibp.network","wss://sys.ibp.network/asset-hub-paseo"]}
