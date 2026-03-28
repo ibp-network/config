@@ -4,10 +4,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
     "Service": {"Active": 1, "ServiceIPv4": "192.96.202.175", "ServiceIPv6": "", "MonitorUrl": "https://monitor.dotters.network", "PrometheusEndpoint": null},
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "AncillaryAssignments": {
       "Fellowship": {"GHRunner": {"nodes": ["152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq"]}, "GHBench": {"nodes": ["152QidDC4QrtMCyRGiQmvrNyjntvMg2XouCSdoPSeqUNTvsq"]}},
@@ -21,10 +21,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
     "Service": {"Active": 1, "ServiceIPv4": "91.90.166.200", "ServiceIPv6": "", "MonitorUrl": "https://monitor.rpc.amforc.com", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Europe", "Latitude": 47.1449, "Longitude": 8.1551}
   },
@@ -33,10 +33,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1723208458, "LastRankup": 1672549200},
     "Service": {"Active": 1, "ServiceIPv4": "104.247.178.10", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.helikon.io", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Middle East", "Latitude": 41.0551, "Longitude": 28.9347}
   },
@@ -45,7 +45,7 @@
     "Membership": {"MemberLevel": 5, "Joined": 1672549200, "LastRankup": 1706745600},
     "Service": {"Active": 1, "ServiceIPv4": "64.62.224.18", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"]
     },
@@ -56,10 +56,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1721209485},
     "Service": {"Active": 1, "ServiceIPv4": "181.174.168.72", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.gatotech.network", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Central America", "Latitude": 9.936, "Longitude": -84.0965}
   },
@@ -68,10 +68,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1726752608},
     "Service": {"Active": 1, "ServiceIPv4": "195.144.22.130", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.metaspan.io", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Europe", "Latitude": 51.4964, "Longitude": -0.1224}
   },
@@ -80,10 +80,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1678165200, "LastRankup": 1757238955},
     "Service": {"Active": 1, "ServiceIPv4": "160.22.181.81", "ServiceIPv6": "", "MonitorUrl": "https://status.rotko.net", "PrometheusEndpoint": "https://ibp-metrics.rotko.net"}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Asia", "Latitude": 13.7563, "Longitude": 100.5018}
   },
@@ -92,7 +92,7 @@
     "Membership": {"MemberLevel": 5, "Joined": 1678165200, "LastRankup": 1710006529},
     "Service": {"Active": 1, "ServiceIPv4": "202.37.148.99", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.polkadotters.com", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"]
     },
@@ -103,10 +103,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1681916382, "LastRankup": 1724385600},
     "Service": {"Active": 1, "ServiceIPv4": "102.69.240.202", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor-ng.dwellir.com", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Africa", "Latitude": 6.4541, "Longitude": 3.3947}
   },
@@ -115,10 +115,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1684123200, "LastRankup": 1726057800},
     "Service": {"Active": 1, "ServiceIPv4": "103.67.246.100", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Asia", "Latitude": 19.076090, "Longitude": 72.877426}
   },
@@ -127,7 +127,7 @@
     "Membership": {"MemberLevel": 5, "Joined": 1712289600, "LastRankup": 1754855107},
     "Service": {"Active": 1, "ServiceIPv4": "148.163.222.156", "ServiceIPv6": "", "MonitorUrl": "", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"]
     },
@@ -138,10 +138,10 @@
     "Membership": {"MemberLevel": 6, "Joined": 1672549200, "LastRankup": 1758431246},
     "Service": {"Active": 1, "ServiceIPv4": "193.39.195.54", "ServiceIPv6": "", "MonitorUrl": "https://ibp-monitor.turboflakes.io", "PrometheusEndpoint": null}, 
     "ServiceAssignments": {
-      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "PAsset-Hub-Paseo", "ETH-PAsset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
+      "Paseo": ["Paseo", "Asset-Hub-Paseo", "ETH-Asset-Hub-Paseo", "Bridge-Hub-Paseo", "Collectives-Paseo", "Coretime-Paseo", "People-Paseo"], 
       "Kusama": ["Kusama", "Asset-Hub-Kusama", "ETH-Asset-Hub-Kusama", "Bridge-Hub-Kusama", "Coretime-Kusama", "Encointer-Kusama", "People-Kusama"],
       "Polkadot": ["Polkadot", "Asset-Hub-Polkadot", "ETH-Asset-Hub-Polkadot", "Bridge-Hub-Polkadot", "Collectives-Polkadot", "Coretime-Polkadot", "People-Polkadot"],
-      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Kilt", "Moonbeam", "Mythos", "Polimec", "Unique", "Xcavate"]
+      "Level6": ["Acala", "Ajuna", "Bifrost-Polkadot", "Hydration", "Nexus", "Moonbeam", "Unique"]
     },
     "Location": {"Region": "Europe", "Latitude": 38.7057, "Longitude": -9.1359}
   }
