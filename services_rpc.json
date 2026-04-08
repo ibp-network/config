@@ -497,7 +497,7 @@
       "Description": "Acala Network is a decentralized finance (DeFi) platform built on the Polkadot ecosystem. It serves as a hub for various DeFi applications, including a decentralized exchange (DEX), a stablecoin protocol, and a liquid staking solution.",
       "StateRootHash": "0x010c5745a5d42bcfbe0a644d5a2a4e22e2ff0fd378d48208ecfacea5b7e05a74"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 800},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://acala.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://acala.ibp.network"]}
@@ -518,7 +518,7 @@
       "Description": "Ajuna Network is a decentralized gaming platform built on Substrate, designed to integrate the Polkadot ecosystem with game development engines like Unreal and Unity.",
       "StateRootHash": "0x6e666a1df855628a99876f9f876b94d6d20a397fb1b5d92a3747df75e29c61b1"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 600},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://ajuna.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://ajuna.ibp.network"]}
@@ -539,7 +539,7 @@
       "Description": "Bifrost is a decentralized finance (DeFi) hub and liquid staking platform built on the Polkadot network. It allows users to stake their tokens and receive a liquid staking token (vToken) in return, which can then be used in various DeFi applications, enhancing liquidity and earning staking rewards.",
       "StateRootHash": "0x2a9c5fae68d226bfef7830398114196416ca1799ebb0099fdfa8b7b7ef19adf4"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 832, "bandwidth": 900},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://bifrost-polkadot.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://bifrost-polkadot.ibp.network"]}
@@ -581,7 +581,7 @@
       "Description": "Hyperbridge, also known as Nexus, is a interoperability protocol within the Polkadot ecosystem that aims to enable secure and efficient communication between different blockchains. It functions as a hyper-scalable bridge utilizing Polkadot's infrastructure to facilitate trustless and scalable cross-chain communication.",
       "StateRootHash": "0xc3656e29e1d8bd322b208e912e4766330c04fec39a5052fcd8e1dd43c639b347"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 576, "bandwidth": 2500},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://nexus.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://nexus.ibp.network"]}
@@ -623,7 +623,7 @@
       "Description": "Moonbeam is an Ethereum-compatible smart contract platform operating as a parachain on the Polkadot network. It enables developers to deploy existing Solidity smart contracts and decentralized application (dApp) frontends with minimal modifications, leveraging Polkadot's shared security and cross-chain capabilities.",
       "StateRootHash": "0x74e54bafcf1ecdce51867078fa16f2902751d11473628ac19e89a5be20df3262"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 3136, "bandwidth": 1500},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://moonbeam.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://moonbeam.ibp.network"]}
@@ -686,7 +686,7 @@
       "Description": "Unique Network is a blockchain built on top of Polkadot and Kusama, specializing in non-fungible tokens (NFTs) with advanced features for gaming, art, and fan engagement. It offers unique customization, scalability, and interoperability, making it a leading platform for innovative NFT applications.",
       "StateRootHash": "0x9fd6243a1015e0550a2a8330315bcced1b0c7625b5fea5a11716e20c8c2e4262"
     },
-    "Resources": {"nodes": 2, "cores": 4, "memory": 16, "disk": 1088, "bandwidth": 900},
+    "Resources": {"nodes": 0, "cores": 0, "memory": 0, "disk": 0, "bandwidth": 0},
     "Providers": {
       "Dotters": {"RpcUrls":["wss://unique.dotters.network"]},
       "Ibp": {"RpcUrls":["wss://unique.ibp.network"]}
