@@ -14,6 +14,7 @@
     { "qname": "ibdash.dotters.network", "qtype": "A", "content": "192.96.202.185", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "_acme-challenge.dotters.network", "qtype": "TXT", "content": "http://192.96.202.186/acme-challenge", "ttl": 0, "auth": true, "domain_id": 0 },
     { "qname": "_acme-challenge.paras.dotters.network", "qtype": "TXT", "content": "http://192.96.202.186/acme-challenge", "ttl": 0, "auth": true, "domain_id": 0 },
+    { "qname": "_acme-challenge.boot.stake.plus.dotters.network", "qtype": "TXT", "content": "http://192.96.202.186/acme-challenge", "ttl": 0, "auth": true, "domain_id": 0 },
     { "qname": "ibp.network", "qtype": "A", "content": "138.59.133.242", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "www.ibp.network", "qtype": "A", "content": "138.59.133.242", "ttl": 3600, "auth": true, "domain_id": 0 },
     { "qname": "wiki.ibp.network", "qtype": "A", "content": "138.59.133.242", "ttl": 3600, "auth": true, "domain_id": 0 },
