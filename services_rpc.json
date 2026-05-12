@@ -486,7 +486,7 @@
     "Configuration": {
       "Name": "Acala",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Acala",
       "RelayNetwork": "Polkadot",
@@ -507,7 +507,7 @@
     "Configuration": {
       "Name": "Ajuna",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Ajuna Polkadot",
       "RelayNetwork": "Polkadot",
@@ -528,7 +528,7 @@
     "Configuration": {
       "Name": "Bifrost-Polkadot",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Bifrost Polkadot",
       "RelayNetwork": "Polkadot",
@@ -570,7 +570,7 @@
     "Configuration": {
       "Name": "Nexus",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Hyperbridge (Nexus)",
       "RelayNetwork": "Polkadot",
@@ -612,7 +612,7 @@
     "Configuration": {
       "Name": "Moonbeam",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "Moonbeam",
       "NetworkType": "Community",
@@ -675,7 +675,7 @@
     "Configuration": {
       "Name": "Unique",
       "ServiceType": "RPC",
-      "Active": 1,
+      "Active": 0,
       "LevelRequired": 6,
       "NetworkName": "UNIQUE",
       "RelayNetwork": "Polkadot",
