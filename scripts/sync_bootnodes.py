@@ -46,27 +46,23 @@ PASEO = HOME / "rotko" / "paseo-specs"
 # entries pointing at non-existent files are skipped (the script logs them
 # and leaves the corresponding chain's bootnodes untouched).
 SPEC = {
+    # westend discontinued in early 2026 per the cost-saving feedback to
+    # the bounty top-up proposal. paseo is the IBP testnet now.
     "polkadot":              SDK / "polkadot/node/service/chain-specs/polkadot.json",
     "kusama":                SDK / "polkadot/node/service/chain-specs/kusama.json",
-    "westend":               SDK / "polkadot/node/service/chain-specs/westend.json",
     "paseo":                 PASEO / "paseo.raw.json",
     "asset-hub-polkadot":    SDK / "cumulus/parachains/chain-specs/asset-hub-polkadot.json",
     "asset-hub-kusama":      SDK / "cumulus/parachains/chain-specs/asset-hub-kusama.json",
-    "asset-hub-westend":     SDK / "cumulus/parachains/chain-specs/asset-hub-westend.json",
     "asset-hub-paseo":       PASEO / "paseo-asset-hub.smol.json",
     "bridge-hub-polkadot":   SDK / "cumulus/parachains/chain-specs/bridge-hub-polkadot.json",
     "bridge-hub-kusama":     SDK / "cumulus/parachains/chain-specs/bridge-hub-kusama.json",
-    "bridge-hub-westend":    SDK / "cumulus/parachains/chain-specs/bridge-hub-westend.json",
     "bridge-hub-paseo":      PASEO / "paseo-bridge-hub.raw.json",
     "collectives-polkadot":  SDK / "cumulus/parachains/chain-specs/collectives-polkadot.json",
-    "collectives-westend":   SDK / "cumulus/parachains/chain-specs/collectives-westend.json",
     "coretime-polkadot":     SDK / "cumulus/parachains/chain-specs/coretime-polkadot.json",
     "coretime-kusama":       SDK / "cumulus/parachains/chain-specs/coretime-kusama.json",
-    "coretime-westend":      SDK / "cumulus/parachains/chain-specs/coretime-westend.json",
     "coretime-paseo":        PASEO / "paseo-coretime.raw.json",
     "people-polkadot":       SDK / "cumulus/parachains/chain-specs/people-polkadot.json",
     "people-kusama":         SDK / "cumulus/parachains/chain-specs/people-kusama.json",
-    "people-westend":        SDK / "cumulus/parachains/chain-specs/people-westend.json",
     "people-paseo":          PASEO / "paseo-people.raw.json",
 }
 
