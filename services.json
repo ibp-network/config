@@ -64,7 +64,7 @@
     "service_type": "rpc-endpoints",
     "level_required": "6",
     "endpoints": {
-      "hydration": "wss://hydradx.paras.dotters.network"
+      "hydration": "wss://hydration.dotters.network"
     },
     "members": [
       "amforc",
@@ -145,7 +145,7 @@
     "service_type": "rpc-endpoints",
     "level_required": "6",
     "endpoints": {
-      "hydration": "wss://hydradx.paras.ibp.network"
+      "hydration": "wss://hydration.ibp.network"
     },
     "members": [
       "amforc",
