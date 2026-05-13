@@ -430,12 +430,18 @@
     "commandId": "parachain",
     "members": {
       "amforc": [],
-      "dwellir": [],
+      "dwellir": [
+        "/dns/coretime-polkadot-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWGpmytHjdthrkKgkXDZyKm9ABtJ2PtGk9NStJDG4pChy9",
+        "/dns/coretime-polkadot-boot-ng.dwellir.com/tcp/30361/p2p/12D3KooWGpmytHjdthrkKgkXDZyKm9ABtJ2PtGk9NStJDG4pChy9"
+      ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33150/p2p/12D3KooWPsqkyzSzNVb6zQGVocJdgBn8fVKgKP5rmWAfwT2P4GnL",
         "/dns/boot.gatotech.network/tcp/35150/wss/p2p/12D3KooWPsqkyzSzNVb6zQGVocJdgBn8fVKgKP5rmWAfwT2P4GnL"
       ],
-      "radiumblock": [],
+      "radiumblock": [
+        "/dns/coretime-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWFsQphSqvqjVyKcEdR1D7LPcXHqjmy6ASuJrTr5isk9JU",
+        "/dns/coretime-polkadot-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWFsQphSqvqjVyKcEdR1D7LPcXHqjmy6ASuJrTr5isk9JU"
+      ],
       "rotko": [
         "/dns/coretime-polkadot.boot.rotko.net/tcp/31051/p2p/12D3KooWPk5pR5QxWGVJ1YVWnXd4rkVTZ194iay58rAfcSHDpky3",
         "/dns/coretime-polkadot.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWPk5pR5QxWGVJ1YVWnXd4rkVTZ194iay58rAfcSHDpky3"
