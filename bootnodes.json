@@ -101,7 +101,7 @@
       ],
       "dwellir": [
         "/dns/statemint-boot-ng.dwellir.com/tcp/30344/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr",
-        "/dns/statemint-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr"
+        "/dns/statemint-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWEFrNuNk8fPdQS2hf34Gmqi6dGSvrETshGJUrqrvfRDZr"
       ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33110/p2p/12D3KooWKgwQfAeDoJARdtxFNNWfbYmcu6s4yUuSifnNoDgzHZgm",
@@ -133,7 +133,7 @@
       ],
       "dwellir": [
         "/dns/statemine-boot-ng.dwellir.com/tcp/30343/p2p/12D3KooWQNJKBaNfW6Nn7HZDi5pSSEFmHL2Qz7chr9RksQUDR1Wk",
-        "/dns/statemine-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWQNJKBaNfW6Nn7HZDi5pSSEFmHL2Qz7chr9RksQUDR1Wk"
+        "/dns/statemine-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWQNJKBaNfW6Nn7HZDi5pSSEFmHL2Qz7chr9RksQUDR1Wk"
       ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33210/p2p/12D3KooWRMUYeWMPkadDG8baX9j1e95fspfp8MhPGym5BQza7Fm5",
@@ -176,8 +176,8 @@
         "/dns/assethub-paseo-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWP8aNgAjkYzH1QuwLjYyNqfpWkJkFRgdtUuey9KzEJciq"
       ],
       "rotko": [
-        "/dns/asset-hub-paseo.boot.rotko.net/tcp/34011/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj",
-        "/dns/asset-hub-paseo.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWLzC336hvwY7Vyjdwc8VMMMyqnwph1UXMoi1LEbw8RiHj"
+        "/dns/asset-hub-paseo.boot.rotko.net/tcp/34011/p2p/12D3KooWDapKRooNM78tTQEMoQ4yF2XmiC2upuwqUPRAZMYR7nJH",
+        "/dns/asset-hub-paseo.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWDapKRooNM78tTQEMoQ4yF2XmiC2upuwqUPRAZMYR7nJH"
       ],
       "stakeplus": [
         "/dns/boot.stake.plus/tcp/44333/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo"
@@ -197,7 +197,7 @@
       ],
       "dwellir": [
         "/dns/polkadot-bridge-hub-boot-ng.dwellir.com/tcp/30339/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV",
-        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV"
+        "/dns/polkadot-bridge-hub-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV"
       ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33130/p2p/12D3KooWCnFzfEdd7MwUNrrDv66FuS2DM5MGuiaB4y48XS7qNjF6",
@@ -229,7 +229,7 @@
       ],
       "dwellir": [
         "/dns/kusama-bridge-hub-boot-ng.dwellir.com/tcp/30337/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5",
-        "/dns/kusama-bridge-hub-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5"
+        "/dns/kusama-bridge-hub-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWBFskNCQDVjuUeBh6vrszWrUvYMBBhtZRLnoTZDdLYbW5"
       ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33230/p2p/12D3KooWFQFmg8UqAYLDNc2onySB6o5LLvpbx3eXZVqz9YFxAmXs",
@@ -286,7 +286,7 @@
       ],
       "dwellir": [
         "/dns/polkadot-collectives-boot-ng.dwellir.com/tcp/30341/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc",
-        "/dns/polkadot-collectives-boot-ng.dwellir.com//tcp/443/wss/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc"
+        "/dns/polkadot-collectives-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWDMFYCNRAQcSRNV7xu2xv8319goSEbSHW4TnXRz6EpPKc"
       ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33120/p2p/12D3KooWGZsa9tSeLQ1VeC996e1YsCPuyRYMipHQuXikPjcKcpVQ",
@@ -302,7 +302,7 @@
       ],
       "stakeplus": [
         "/dns/collectives-polkadot.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWKLVfjCpW2syecz39UPe4QkJhwME9HUehBvf8oRcT4kot",
-        "/dns/collectives-polkadot.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWBCewTdMPoXNvs1ky1VLidMdS28Jnh8fNbCP81FYiQHn4"
+        "/dns/collectives-polkadot.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWQGy6gckVQXC8skjC4Z9HybvjzxM7Ejc9hC2SHbq1uCv7"
       ],
       "turboflakes": [
         "/dns/collectives-polkadot-bootnode.turboflakes.io/tcp/30605/p2p/12D3KooWPyzM7eX64J4aG8uRfSARakDVtiEtthEM8FUjrLWAg2sC",
@@ -346,7 +346,7 @@
     "members": {
       "amforc": [],
       "dwellir": [
-        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30346/p2p/12D3KooWLVCw68epXsdXhMH1sDhrwkxi5DGZ5J77dCoCBd2HFafq"
+        "/dns/people-polkadot-boot-ng.dwellir.com/tcp/30346/p2p/12D3KooWKMYu1L28TkDf1ooMW8D8PHcztLnjV3bausH9eiVTRUYN"
       ],
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33140/p2p/12D3KooWAucQAcMyCKN3VU3HBn8mgqyYbvu3L7b6857ezr5g6TQQ",
@@ -385,7 +385,7 @@
         "/dns/people-kusama.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWSKQwgoydfbN6mNN2aNwdqfkR2ExAnTRs8mmdrPQTtDLo"
       ],
       "stakeplus": [
-        "/dns4/people-kusama.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWRuKr3ogzXwD8zE2CTWenGdy8vSfViAjYMwGiwvFCsz8n",
+        "/dns4/people-kusama.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWCXp4KET4ujUkhHzbeP7swik6McZ4DewXTMAcx3xvdvxg",
         "/dns/people-kusama.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWFkDKdFxBJFyj9zumuJ4Mmctec2GqdYHcKYq8MTVe8dxf"
       ],
       "turboflakes": [
@@ -416,7 +416,7 @@
         "/dns/people-paseo.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWDVh1Srn7RHsu2wMN6tRjZ1DJACPMbkCcKo2ajvmENi3w"
       ],
       "turboflakes": [
-        "/dns/people-paseo-bootnode.turboflakes.io/tcp/30840/p2p/2D3KooWPHNzviPuVsEsWNQQYL9gvfQ4BATKzYik3bh2p95pqvAJ",
+        "/dns/people-paseo-bootnode.turboflakes.io/tcp/30840/p2p/12D3KooWPHNzviPuVsEsWNQQYL9gvfQ4BATKzYik3bh2p95pqvAJ",
         "/dns/people-paseo-bootnode.turboflakes.io/tcp/30440/wss/p2p/12D3KooWPHNzviPuVsEsWNQQYL9gvfQ4BATKzYik3bh2p95pqvAJ"
       ]
     }
@@ -436,7 +436,7 @@
         "/dns/coretime-polkadot.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWPk5pR5QxWGVJ1YVWnXd4rkVTZ194iay58rAfcSHDpky3"
       ],
       "stakeplus": [
-        "/dns4/coretime-polkadot.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWFJ2yBTKFKYwgKUjfY3F7XfaxHV8hY6fbJu5oMkpP7wZ9",
+        "/dns4/coretime-polkadot.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWQSCbhuSKP9Am37TcGcUY3J155zvLuyYwpVBiLC2viycN",
         "/dns4/coretime-polkadot.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWCy5pToLafcQzPHn5kadxAftmF6Eh8ZJGPXhSeXSUDfjv"
       ],
       "turboflakes": []
@@ -512,8 +512,8 @@
         "/dns/hydration-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWCtrMH4H2p5XkGHkU7K4CcbSmErouNuN3j7Bysj4a8hJX"
       ],
       "stakeplus": [
-        "/dns/hydration.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWGZaDfqPyzVxhA3k1qv72P7xqYTJS8W9U7GWUEdXYhtUU",
-        "/dns/hydration.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWBJMG8LCh6pLYbGapA3SNzjhQWE87ieGux41jKQrrf5js"
+        "/dns/hydration.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWAXMAjUzkvsWqBq6KA2sqaowLjiW5SfpcXUdNzH4zcdDm",
+        "/dns/hydration.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWH4wfLxJ69D3nuob93K77q4GLQ6wfxDGedbkLRBa5JanN"
       ]
     }
   }
