@@ -9,7 +9,7 @@ chainspecs + paseo-network chain-specs cloned in ~/rotko), and:
     where the operator doesn't run a bootnode upstream.
 
   - drops member keys that are not in the current IBP roster. today that
-    means luckyfriday and metaspan; the list `DROP_MEMBERS` below is the
+    means luckyfriday and interweb; the list `DROP_MEMBERS` below is the
     source of truth, edit it when the roster changes.
 
   - optionally probes every /wss multiaddr in the result for a successful
@@ -76,7 +76,7 @@ UPDATE_MEMBERS = {
 # members no longer in the IBP roster — every chain's entry for these keys
 # is dropped. edit this list when the roster changes (the canonical source
 # is members_professional.json; keep them in sync).
-DROP_MEMBERS = ["helikon", "luckyfriday", "metaspan", "polkadotters"]
+DROP_MEMBERS = ["helikon", "luckyfriday", "interweb", "polkadotters"]
 
 DNS_RE = re.compile(r"^/dns[46]?/([^/]+)")
 TCP_PORT_RE = re.compile(r"/tcp/(\d+)")
