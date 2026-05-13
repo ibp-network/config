@@ -3,7 +3,6 @@
     "commandId": "polkadot",
     "members": {
       "amforc": [
-        "/dns/polkadot.bootnode.amforc.com/tcp/30001/p2p/12D3KooWT2HyZx5C6BBeLbCKhYG2SqJYuiu7sLMxGzUcQBko3BMr",
         "/dns/polkadot.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWT2HyZx5C6BBeLbCKhYG2SqJYuiu7sLMxGzUcQBko3BMr"
       ],
       "dwellir": [
@@ -13,10 +12,6 @@
       "gatotech": [
         "/dns/boot.gatotech.network/tcp/33100/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w",
         "/dns/boot.gatotech.network/tcp/35100/wss/p2p/12D3KooWK4E16jKk9nRhvC4RfrDVgcZzExg8Q3Q2G7ABUUitks1w"
-      ],
-      "radiumblock": [
-        "/dns/polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWNwWNRrPrTk4qMah1YszudMjxNw2qag7Kunhw3Ghs9ea5",
-        "/dns/polkadot-bootnode.radiumblock.com/tcp/30335/wss/p2p/12D3KooWNwWNRrPrTk4qMah1YszudMjxNw2qag7Kunhw3Ghs9ea5"
       ],
       "rotko": [
         "/dns/polkadot.boot.rotko.net/tcp/31001/p2p/12D3KooWPyEvPEXghnMC67Gff6PuZiSvfx3fmziKiPZcGStZ5xff",
@@ -36,7 +31,6 @@
     "commandId": "polkadot",
     "members": {
       "amforc": [
-        "/dns/kusama.bootnode.amforc.com/tcp/30001/p2p/12D3KooWKvYf6qKaAF8UUDw3KsTwjHLnvkED23yxHbH3npMe8w4G",
         "/dns/kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWKvYf6qKaAF8UUDw3KsTwjHLnvkED23yxHbH3npMe8w4G"
       ],
       "dwellir": [
@@ -68,7 +62,6 @@
     "commandId": "polkadot",
     "members": {
       "amforc": [
-        "/dns/paseo.bootnode.amforc.com/tcp/30001/p2p/12D3KooWSdf63rZjtGdeWXpQwQwPh8K8c22upcB3B1VmqW8rxrjw",
         "/dns/paseo.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWSdf63rZjtGdeWXpQwQwPh8K8c22upcB3B1VmqW8rxrjw"
       ],
       "dwellir": [
@@ -85,7 +78,6 @@
         "/dns/paseo.boot.rotko.net/tcp/30335/wss/p2p/12D3KooWRH8eBMhw8c7bucy6pJfy94q4dKpLkF3pmeGohHmemdRu"
       ],
       "stakeplus": [
-        "/dns/boot.stake.plus/tcp/43333/p2p/12D3KooWNhgAC3hjZHxaT52EpPFZohkCL1AHFAijqcN8xB9Rwud2",
         "/dns/paseo.boot.stake.plus/tcp/31334/wss/p2p/12D3KooWJ4HjAGR9FUHZhc2jjLQX5Zb2zdJBxPYwrE6Ldpg5jjk4"
       ],
       "turboflakes": [
@@ -98,7 +90,6 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/asset-hub-polkadot.bootnode.amforc.com/tcp/30007/p2p/12D3KooWDLxPXYnSHjNwq9ibqgxuzRni5VViuGNSjNe3ueqVgqE3",
         "/dns/asset-hub-polkadot.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWDLxPXYnSHjNwq9ibqgxuzRni5VViuGNSjNe3ueqVgqE3"
       ],
       "dwellir": [
@@ -130,7 +121,6 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/asset-hub-kusama.bootnode.amforc.com/tcp/30007/p2p/12D3KooWHy1CPndZYphwdVqMb295KPC6LRt17Ae3zNSr7evzeF5a",
         "/dns/asset-hub-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWHy1CPndZYphwdVqMb295KPC6LRt17Ae3zNSr7evzeF5a"
       ],
       "dwellir": [
@@ -162,9 +152,6 @@
   "asset-hub-paseo": {
     "commandId": "parachain",
     "members": {
-      "amforc": [
-        "/dns/asset-hub-paseo.bootnode.amforc.com/tcp/30345/p2p/12D3KooWERfFUg8UFPCakzTFkktdRYeG2cD3A9ga1DfynbPdYqGL"
-      ],
       "dwellir": [
         "/dns/asset-hub-paseo-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWGoC9CdpY8T5bgf6PqKgry2DjCxaqQS7R9WdQ8rVMeEMg",
         "/dns/asset-hub-paseo-boot-ng.dwellir.com/tcp/30357/p2p/12D3KooWGoC9CdpY8T5bgf6PqKgry2DjCxaqQS7R9WdQ8rVMeEMg"
@@ -181,9 +168,6 @@
         "/dns/asset-hub-paseo.boot.rotko.net/tcp/34011/p2p/12D3KooWDapKRooNM78tTQEMoQ4yF2XmiC2upuwqUPRAZMYR7nJH",
         "/dns/asset-hub-paseo.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWDapKRooNM78tTQEMoQ4yF2XmiC2upuwqUPRAZMYR7nJH"
       ],
-      "stakeplus": [
-        "/dns/boot.stake.plus/tcp/44333/p2p/12D3KooWSaDfEuvzA8xFyPvDaptCJn2WYUz1f1QFtTiwk4MpnHVo"
-      ],
       "turboflakes": [
         "/dns/asset-hub-paseo-bootnode.turboflakes.io/tcp/30330/p2p/12D3KooWJzfVkdDnKfn2hQ1c3ysrbmReTjVKrEBHkdwgZThbB1BM",
         "/dns/asset-hub-paseo-bootnode.turboflakes.io/tcp/30430/wss/p2p/12D3KooWJzfVkdDnKfn2hQ1c3ysrbmReTjVKrEBHkdwgZThbB1BM"
@@ -194,8 +178,7 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/bridge-hub-polkadot.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWGT5E56rAHfT5dY1pMLTrpAgV72yfDtD1Y5tPCHaTsifp",
-        "/dns/bridge-hub-polkadot.bootnode.amforc.com/tcp/30010/p2p/12D3KooWGT5E56rAHfT5dY1pMLTrpAgV72yfDtD1Y5tPCHaTsifp"
+        "/dns/bridge-hub-polkadot.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWGT5E56rAHfT5dY1pMLTrpAgV72yfDtD1Y5tPCHaTsifp"
       ],
       "dwellir": [
         "/dns/polkadot-bridge-hub-boot-ng.dwellir.com/tcp/30339/p2p/12D3KooWPZ38PL3PhRVcUVYDNn7nRcZF8MykmWWLBKeDV2yna1vV",
@@ -226,7 +209,6 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/30010/p2p/12D3KooWNyTBwRvCz1Ey2SgC1f3MvymhiAyLEa3cL8kU5gFH3V7Z",
         "/dns/bridge-hub-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWNyTBwRvCz1Ey2SgC1f3MvymhiAyLEa3cL8kU5gFH3V7Z"
       ],
       "dwellir": [
@@ -259,8 +241,7 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/bridge-hub-paseo.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWJ2LrEJ6xz2aB35G6RKR8TQWpit9UP83q6mWD6MC6p3cq",
-        "/dns/bridge-hub-paseo.bootnode.amforc.com/tcp/30015/p2p/12D3KooWJ2LrEJ6xz2aB35G6RKR8TQWpit9UP83q6mWD6MC6p3cq"
+        "/dns/bridge-hub-paseo.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWJ2LrEJ6xz2aB35G6RKR8TQWpit9UP83q6mWD6MC6p3cq"
       ],
       "dwellir": [],
       "gatotech": [
@@ -283,7 +264,6 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/collectives-polkadot.bootnode.amforc.com/tcp/30013/p2p/12D3KooWL6v6FHMtCP5VsiDbMHLRFiW6YBtv37BarpW3hLqnDski",
         "/dns/collectives-polkadot.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWL6v6FHMtCP5VsiDbMHLRFiW6YBtv37BarpW3hLqnDski"
       ],
       "dwellir": [
@@ -315,10 +295,6 @@
   "encointer-kusama": {
     "commandId": "encointer",
     "members": {
-      "amforc": [
-        "/dns/encointer-kusama.bootnode.amforc.com/tcp/30338/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz",
-        "/dns/encointer-kusama.bootnode.amforc.com/tcp/30333/wss/p2p/12D3KooWDBr4sfp9R7t7tA1LAkNzADcGVXW9rX1BryES47mhUMEz"
-      ],
       "dwellir": [
         "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx",
         "/dns/kusama-encointer-boot-ng.dwellir.com/tcp/30342/p2p/12D3KooWMKBdoj1y5yxpPRsuioAuLDeYGyZFJw1aL1dDbBvWMrvx"
@@ -336,7 +312,6 @@
         "/dns/encointer-kusama.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWJ3327ZoZcR96pToGsXa8Xbehh8z25daxYseYXF46UDCZ"
       ],
       "stakeplus": [
-        "/dns/boot.stake.plus/tcp/36333/p2p/12D3KooWNFFdJFV21haDiSdPJ1EnGmv6pa2TgB81Cvu7Y96hjTAu",
         "/dns/encointer-kusama.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWPc12uKhwWNrpxr4H6ezQCfXJDsLP7BkS2xHvbgD1DC9G"
       ],
       "turboflakes": [
@@ -370,8 +345,7 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/people-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA",
-        "/dns/people-kusama.bootnode.amforc.com/tcp/30004/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA"
+        "/dns/people-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWPjzgKZe5jdG6TY4gwcFq8QxyyhqsYbQo6N29pwGePWLA"
       ],
       "dwellir": [
         "/dns/people-kusama-boot-ng.dwellir.com/tcp/30359/p2p/12D3KooWM6T8MMibxLZhhpq6F612CZ4FgnfDSJSkWDMiVUDe1aGb",
@@ -439,8 +413,7 @@
         "/dns/boot.gatotech.network/tcp/35150/wss/p2p/12D3KooWPsqkyzSzNVb6zQGVocJdgBn8fVKgKP5rmWAfwT2P4GnL"
       ],
       "radiumblock": [
-        "/dns/coretime-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWFsQphSqvqjVyKcEdR1D7LPcXHqjmy6ASuJrTr5isk9JU",
-        "/dns/coretime-polkadot-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWFsQphSqvqjVyKcEdR1D7LPcXHqjmy6ASuJrTr5isk9JU"
+        "/dns/coretime-polkadot-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWFsQphSqvqjVyKcEdR1D7LPcXHqjmy6ASuJrTr5isk9JU"
       ],
       "rotko": [
         "/dns/coretime-polkadot.boot.rotko.net/tcp/31051/p2p/12D3KooWPk5pR5QxWGVJ1YVWnXd4rkVTZ194iay58rAfcSHDpky3",
@@ -457,8 +430,7 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/coretime-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWPrgxrrumrANp6Bp2SMEwMQHPHDbPzA1HbcrakZrbFi5P",
-        "/dns/coretime-kusama.bootnode.amforc.com/tcp/30013/p2p/12D3KooWPrgxrrumrANp6Bp2SMEwMQHPHDbPzA1HbcrakZrbFi5P"
+        "/dns/coretime-kusama.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWPrgxrrumrANp6Bp2SMEwMQHPHDbPzA1HbcrakZrbFi5P"
       ],
       "dwellir": [
         "/dns/coretime-kusama-boot-ng.dwellir.com/tcp/30358/p2p/12D3KooWSoPisbYQTAj79Dtsxx1qAiEFTouvXCfNJ1A3SQWQzuct",
@@ -490,8 +462,7 @@
     "commandId": "parachain",
     "members": {
       "amforc": [
-        "/dns/coretime-paseo.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWHuVFHYyVik8AKeNS5YQ711hvxsnXrpKABNkt8R564wQJ",
-        "/dns/coretime-paseo.bootnode.amforc.com/tcp/30008/p2p/12D3KooWHuVFHYyVik8AKeNS5YQ711hvxsnXrpKABNkt8R564wQJ"
+        "/dns/coretime-paseo.bootnode.amforc.com/tcp/29999/wss/p2p/12D3KooWHuVFHYyVik8AKeNS5YQ711hvxsnXrpKABNkt8R564wQJ"
       ],
       "dwellir": [],
       "gatotech": [
@@ -517,12 +488,10 @@
     "commandId": "parachain",
     "members": {
       "dwellir": [
-        "/dns/hydration-boot-ng.dwellir.com/tcp/30366/p2p/12D3KooWMNf1YGh3rxaiWPjzQ1UKQxKq2WSjAKdrSgdcYaFH4ie5",
-        "/dns/hydration-boot-ng.dwellir.com/tcp/443/wss/p2p/12D3KooWMNf1YGh3rxaiWPjzQ1UKQxKq2WSjAKdrSgdcYaFH4ie5"
+        "/dns/hydration-boot-ng.dwellir.com/tcp/30366/p2p/12D3KooWMNf1YGh3rxaiWPjzQ1UKQxKq2WSjAKdrSgdcYaFH4ie5"
       ],
       "radiumblock": [
-        "/dns/hydration-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWCtrMH4H2p5XkGHkU7K4CcbSmErouNuN3j7Bysj4a8hJX",
-        "/dns/hydration-bootnode.radiumblock.com/tcp/30336/wss/p2p/12D3KooWCtrMH4H2p5XkGHkU7K4CcbSmErouNuN3j7Bysj4a8hJX"
+        "/dns/hydration-bootnode.radiumblock.com/tcp/30333/p2p/12D3KooWCtrMH4H2p5XkGHkU7K4CcbSmErouNuN3j7Bysj4a8hJX"
       ],
       "stakeplus": [
         "/dns/hydration.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWAXMAjUzkvsWqBq6KA2sqaowLjiW5SfpcXUdNzH4zcdDm",
