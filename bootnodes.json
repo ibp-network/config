@@ -496,6 +496,10 @@
       "stakeplus": [
         "/dns/hydration.boot.stake.plus/tcp/30332/wss/p2p/12D3KooWAXMAjUzkvsWqBq6KA2sqaowLjiW5SfpcXUdNzH4zcdDm",
         "/dns/hydration.boot.stake.plus/tcp/31332/wss/p2p/12D3KooWH4wfLxJ69D3nuob93K77q4GLQ6wfxDGedbkLRBa5JanN"
+      ],
+      "rotko": [
+        "/dns/hydration.boot.rotko.net/tcp/31252/p2p/12D3KooWKh2MkNcevxVihESaY63GBMS1phnJNRmrx6bY8PMzqu5J",
+        "/dns/hydration.boot.rotko.net/tcp/30435/wss/p2p/12D3KooWKh2MkNcevxVihESaY63GBMS1phnJNRmrx6bY8PMzqu5J"
       ]
     }
   }
